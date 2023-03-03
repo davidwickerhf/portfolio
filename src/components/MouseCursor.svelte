@@ -1,5 +1,6 @@
 <script>
 	import { theme } from '../lib/store/DarkThemeStore';
+	import { hovering } from '../lib/store/CursorHoverStore';
 	import { spring } from 'svelte/motion';
 
 	let coords1 = spring(
@@ -44,7 +45,7 @@
 		stroke-width="1"
 		fill-opacity="0"
 	/>
-	<circle cx={$coords2.x} cy={$coords2.y} r={$size / 4} fill="#fff" />
+	<circle cx={$coords2.x} cy={$coords2.y} r={$hovering ? $size : $size / 4} fill="#fff" />
 </svg>
 
 <style>

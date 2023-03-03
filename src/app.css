@@ -4,3 +4,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button {
+	cursor: none;
+}
+
+button:hover {
+	cursor: none;
+}
