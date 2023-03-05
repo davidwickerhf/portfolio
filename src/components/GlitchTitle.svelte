@@ -2,7 +2,7 @@
 	export let title: string;
 </script>
 
-<div class="wrapper flex w-fit">
+<div class="wrapper flex w-fit z-1">
 	<div class="glitch text-8xl font-serif" data-glitch={title}>
 		{title}
 	</div>
@@ -10,7 +10,7 @@
 
 <style lang="scss">
 	.wrapper {
-		position: relative;
+		position: static;
 	}
 
 	.glitch {

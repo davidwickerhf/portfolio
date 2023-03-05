@@ -2,7 +2,8 @@
   "page": {
     "home": {
       "title": "David Wicker",
-      "title-label": "Mi chiamo"
+      "title-label": "Mi chiamo",
+      "intro": "Studente del liceo, sviluppatore, attivista"
     }
   }
 }

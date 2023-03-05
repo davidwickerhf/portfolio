@@ -2,7 +2,8 @@
   "page": {
     "home": {
       "title": "David Wicker",
-      "title-label": "My name is"
+      "title-label": "My name is",
+      "intro": "High school student, developer, activist"
     }
   }
 }

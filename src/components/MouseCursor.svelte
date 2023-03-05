@@ -36,7 +36,7 @@
 	}}
 />
 
-<svg class="w-full h-full mix-blend-difference z-40">
+<svg class="fixed w-screen h-screen mix-blend-difference z-40">
 	<circle
 		cx={$coords1.x}
 		cy={$coords1.y}
@@ -44,8 +44,15 @@
 		stroke="#fff"
 		stroke-width="1"
 		fill-opacity="0"
+		class="z-50"
 	/>
-	<circle cx={$coords2.x} cy={$coords2.y} r={$hovering ? $size : $size / 4} fill="#fff" />
+	<circle
+		cx={$coords2.x}
+		cy={$coords2.y}
+		r={$hovering ? $size : $size / 4}
+		fill="#fff"
+		class="z-50"
+	/>
 </svg>
 
 <style>
