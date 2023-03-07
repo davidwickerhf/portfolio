@@ -5,7 +5,7 @@
 	import { isHovering, isNotHovering } from '../lib/store/CursorHoverStore';
 </script>
 
-<div class="flex justify-between w-full fixed items-center px-8 py-6">
+<div class="flex justify-between w-full items-center px-8 py-6 z-20">
 	<a href="/" class="cursor-none">
 		<svg
 			width="57"
