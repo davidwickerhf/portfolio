@@ -23,16 +23,18 @@
 			</p>
 		</div>
 	</div>
-	<div class="">
+	<div class="cursor-none hover:cursor-none">
 		<div
-			class="rounded-full border border-dark-one w-11 h-11  transition ease-in-out hover:scale-150 duration-300 flex justify-center items-center text-dark-one dark:text-alabaster-three"
+			class="rounded-full border border-dark-one w-11 h-11  transition ease-in-out hover:scale-150 duration-300 flex justify-center items-center text-dark-one dark:text-alabaster-three cursor-none hover:cursor-none"
 			on:mouseover={isHovering}
 			on:focus={isHovering}
 			on:blur={isNotHovering}
 			on:mouseout={isNotHovering}
 			use:scrollTo={'Academics'}
 		>
-			<span class="material-symbols-outlined font-extralight"> arrow_downward </span>
+			<span class="material-symbols-outlined font-extralight cursor-none hover:cursor-none">
+				arrow_downward
+			</span>
 		</div>
 	</div>
 </section>
