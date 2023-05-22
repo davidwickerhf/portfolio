@@ -1,6 +1,6 @@
 <script>
-	import { theme } from '../lib/store/DarkThemeStore';
-	import { hovering } from '../lib/store/CursorHoverStore';
+	import { theme } from '../../lib/store/DarkThemeStore';
+	import { hovering } from '../../lib/store/CursorHoverStore';
 	import { spring } from 'svelte/motion';
 
 	let coords1 = spring(
