@@ -13,8 +13,8 @@ module.exports = {
 				one: '#519A70',
 				two: '#498B65',
 				three: '#417b5a',
-				four: '3C7354',
-				five: '386A4E'
+				four: '#3C7354',
+				five: '#386A4E'
 			},
 			dark: {
 				one: '#5D5D5D',

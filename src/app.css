@@ -5,10 +5,14 @@
 @tailwind components;
 @tailwind utilities;
 
-button {
+a,
+a:hover,
+button,
+button:hover {
 	cursor: none;
 }
 
-button:hover {
-	cursor: none;
+h2 {
+	font-weight: 600;
+	font-size: 44px;
 }

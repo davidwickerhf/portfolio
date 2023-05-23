@@ -1,9 +1,9 @@
 {
   "page": {
     "home": {
-      "title": "David Wicker",
-      "title-label": "My name is",
-      "intro": "I am a student at the IIS Blaise Pascal in Giaveno, passioante in computer science and involved in climate activism. I speak Italian, English (Cambridge C2) and German (Goethe B1)."
+      "definition-of": "definition of",
+      "proper-noun": "proper noun",
+      "intro": "I am studying applied science the IIS Blaise Pascal high school in Giaveno, I’m passionate in computer science and involved in climate activism. I speak Italian, English (Cambridge C2) and German (Goethe B1). I have chosen to study computer science at Maastricht University next year and in the future I hope to explore ways machine learning can be used to predict extreme weather events."
     }
   }
 }

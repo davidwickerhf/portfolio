@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="flex justify-between h-12 border-dark-three dark:border-alabaster-three border-2  text-alabaster-three dark:text-dark-three align-middle"
+	class="flex justify-between h-12 border-dark-three dark:border-alabaster-three border-2  text-alabaster-two dark:text-dark-three align-middle"
 >
 	{#each $locales as l}
 		<button
@@ -19,8 +19,8 @@
 				0,
 				2
 			) === l
-				? 'bg-dark-three dark:bg-alabaster-three text-alabaster-three dark:border-dark-five dark:text-dark-three'
-				: ' text-dark-three dark:border-alabaster-three dark:text-alabaster-three'} "
+				? 'bg-dark-three dark:bg-alabaster-three text-alabaster-two dark:border-dark-five dark:text-dark-three'
+				: ' text-dark-three dark:border-alabaster-three dark:text-alabaster-two'} "
 		>
 			{l}
 		</button>

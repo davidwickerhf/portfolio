@@ -12,7 +12,7 @@
 	on:focus={isHovering}
 	on:blur={isNotHovering}
 	on:mouseout={isNotHovering}
-	class="w-12 h-12 flex justify-center text-center align-middle items-center cursor-none hover:cursor-none border-2 border-dark-three hover:bg-dark-three hover:text-alabaster-three dark:border-alabaster-three dark:hover:bg-alabaster-three dark:text-alabaster-three dark:hover:text-dark-three"
+	class="w-12 h-12 flex justify-center text-center align-middle items-center cursor-none hover:cursor-none border-2 border-dark-three hover:bg-dark-three hover:text-alabaster-two dark:border-alabaster-three dark:hover:bg-alabaster-three dark:text-alabaster-two dark:hover:text-dark-three"
 >
 	<span class="relative text-xl material-symbols-outlined items-center">
 		{themeData === 'dark' ? 'light_mode' : 'dark_mode'}

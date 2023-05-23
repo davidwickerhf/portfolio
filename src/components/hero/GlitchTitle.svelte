@@ -2,8 +2,8 @@
 	export let title: string;
 </script>
 
-<div class="wrapper flex w-fit z-1">
-	<div class="glitch text-8xl font-serif" data-glitch={title}>
+<div class="wrapper flex w-fit">
+	<div class="glitch text-5xl md:text-7xl lg:text-8xl font-serif" data-glitch={title}>
 		{title}
 	</div>
 </div>
@@ -15,7 +15,6 @@
 
 	.glitch {
 		position: relative;
-		text-align: center;
 
 		&:before,
 		&:after {

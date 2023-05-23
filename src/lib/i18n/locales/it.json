@@ -1,9 +1,5 @@
 {
   "page": {
-    "home": {
-      "title": "David Wicker",
-      "title-label": "Mi chiamo",
-      "intro": "Sono uno studente dell'IIS Blaise Pascal di Giaveno, appassionato di informatica e impegnato socialmente nell'attivismo climatico. Parlo Italiano, Inglese (Cambridge C2) e Tedesco (Goethe B1).  "
-    }
+    "home": {}
   }
 }
