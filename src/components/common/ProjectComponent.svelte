@@ -22,6 +22,6 @@
 			<p class="text-sm font-normal">{description}</p>
 		</div>
 		<!-- Button -->
-		<LinkButton title="read more" {url} />
+		<LinkButton title={'read more'} {url} />
 	</div>
 </div>
