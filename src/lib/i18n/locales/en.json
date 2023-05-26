@@ -3,7 +3,11 @@
     "home": {
       "definition-of": "definition of",
       "proper-noun": "proper noun",
-      "intro": "I am studying applied science the IIS Blaise Pascal high school in Giaveno, I’m passionate in computer science and involved in climate activism. I speak Italian, English (Cambridge C2) and German (Goethe B1). I have chosen to study computer science at Maastricht University next year and in the future I hope to explore ways machine learning can be used to predict extreme weather events."
+      "intro": "I am studying applied science the IIS Blaise Pascal high school in Giaveno, I’m passionate in computer science and involved in climate activism. I speak Italian, English (Cambridge C2) and German (Goethe B1). I have chosen to study computer science at Maastricht University next year and in the future I hope to explore ways machine learning can be used to predict extreme weather events.",
+      "giacomo": "public secondary school giacomo jaqueiro",
+      "pascal": "IIS Blaise Pascal: Applied Sciences High School",
+      "uwcdilijan": "UWC Dilijan College: IB Diploma",
+      "maastricht": "Maastricht University: BSc Computer Science"
     }
   }
 }

@@ -1,7 +1,7 @@
 <script lang="ts">
-	import InstitutionLink from '../components/hero/InstitutionLink.svelte';
+	import ProjectComponent from '../components/common/ProjectComponent.svelte';
 
-	import ComponentLink from '../components/common/ComponentLink.svelte';
+	import InstitutionLink from '../components/hero/InstitutionLink.svelte';
 
 	import { _ } from 'svelte-i18n';
 	import UnderlineLink from '../components/common/UnderlineLink.svelte';
@@ -14,8 +14,8 @@
 
 <MouseCursor />
 <!-- Landing Section -->
-<section class="w-full h-screen flex justify-center items-center px-36 pt-24">
-	<div class="flex m-auto max-w-3xl flex-col gap-4 text-dark-three dark:text-alabaster-two">
+<section class="w-full h-screen flex justify-center items-center px-16 lg:px-36 pt-24">
+	<div class="flex m-auto max-w-4xl flex-col gap-4 text-dark-three dark:text-alabaster-two">
 		<!-- definition of -->
 		<p class="text-dark-one font-medium text-lg">{$_('page.home.definition-of')}</p>
 
@@ -34,7 +34,7 @@
 		<p>{$_('page.home.intro')}</p>
 
 		<!-- action btns -->
-		<div class="flex justify-between mt-4">
+		<div class="flex justify-between mt-4 flex-wrap-reverse gap-8">
 			<TextButton text={'view my curriculum'} url="/curriculum" />
 			<div class="flex gap-8">
 				<UnderlineLink url="https://instagram.com/davidwickerhf">instagram</UnderlineLink>
@@ -60,26 +60,57 @@
 	</div>
 </section>
 
+<!-- Academics widget -->
 <section
 	use:scrollRef={'Academics'}
-	class="w-full h-screen flex justify-center items-center px-36 pt-24"
+	class="w-full h-screen flex justify-center items-center px-16 lg:px-36 pt-24"
 >
-	<div class="flex m-auto max-w-3xl flex-col text-dark-three dark:text-alabaster-two">
+	<div class="flex w-full m-auto max-w-4xl flex-col text-dark-three dark:text-alabaster-two">
 		<!-- Section heading -->
 		<span class="flex">
 			<h2 class="border-b-2 border-alabaster-three dark:border-dark-three">academics</h2>
 		</span>
 
 		<!-- Academics widget -->
-		<div class="flex flex-col border-l-2 border-alabaster-three dark:border-dark-three pt-8 gap-6">
-			<InstitutionLink date="2014 - 2018">public secondary school giacomo jaqueiro</InstitutionLink>
-			<InstitutionLink date="2018 - 2023" current={true}
-				>IIS Blaise Pascal: Applied Sciences High School</InstitutionLink
-			>
-			<InstitutionLink date="2021 - 2022">UWC Dilijan College: IB Diploma</InstitutionLink>
-			<InstitutionLink date="2023 - 2026" last
-				>Maastricht University: BSc Computer Science</InstitutionLink
-			>
+		<div class="border-l-2 border-alabaster-three dark:border-dark-three h-8" />
+		<div class="flex flex-col">
+			<InstitutionLink date="2014 - 2018">{$_('page.home.giacomo')}</InstitutionLink>
+			<div class="border-l-2 border-alabaster-three dark:border-dark-three h-6" />
+			<InstitutionLink date="2018 - 2023" current={true}>{$_('page.home.pascal')}</InstitutionLink>
+			<div class="border-l-2 border-alabaster-three dark:border-dark-three h-6" />
+			<InstitutionLink date="2021 - 2022">{$_('page.home.uwcdilijan')}</InstitutionLink>
+			<div class="border-l-2 border-alabaster-three dark:border-dark-three h-6" />
+			<InstitutionLink date="2023 - 2026" last={true}>{$_('page.home.maastricht')}</InstitutionLink>
+		</div>
+	</div>
+</section>
+
+<!-- Projects widget -->
+<section
+	use:scrollRef={'Projects'}
+	class="w-full h-screen flex justify-center items-center px-16 lg:px-36 pt-24"
+>
+	<div class="w-full flex m-auto max-w-4xl flex-col text-dark-three dark:text-alabaster-two">
+		<h2>projects and extracurriculars</h2>
+
+		<!-- Row of widgets -->
+		<div class="flex flex-col lg:flex-row mt-8 gap-6 justify-between">
+			<!-- Single project widget -->
+			<ProjectComponent
+				title="TedX Youth"
+				description="TedX Youth Conference organized at UWC Dilijan"
+				url="/extracurriculars"
+			/>
+			<ProjectComponent
+				title="TedX Youth"
+				description="TedX Youth Conference organized at UWC Dilijan"
+				url="/extracurriculars"
+			/>
+			<ProjectComponent
+				title="TedX Youth"
+				description="TedX Youth Conference organized at UWC Dilijan"
+				url="/extracurriculars"
+			/>
 		</div>
 	</div>
 </section>

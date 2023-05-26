@@ -5,7 +5,7 @@
 </script>
 
 <!-- style="background-image: url(/{$theme}noise.svg)" -->
-<div class=" w-screen z-0 bg-fixed bg-ghost dark:bg-dark-five">
+<div class="w-screen z-0 bg-fixed bg-ghost dark:bg-dark-five">
 	<Navbar />
 	<slot />
 </div>
