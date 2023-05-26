@@ -18,12 +18,12 @@
 		</dir>
 	</div>
 	<div
-		class="w-screen px-8 sm:px-16 border-t-2 border-dark-five justify-between flex items-center max-h-24"
+		class="w-screen px-8 sm:px-16 border-t-2 border-dark-five justify-between flex items-center max-h-24 text-sm"
 	>
 		<!-- Logo -->
-		<div class="py-6 border-r-2 w-60 border-dark-five text-alabaster-three">
+		<div class="py-6 border-r-2 border-dark-five text-alabaster-three w-32 sm:w-60">
 			<Logo invert />
 		</div>
-		<p class=" font-normal">© 2023 Wicker Life. All rights reserved.</p>
+		<p class=" font-normal ml-6">© 2023 Wicker Life. All rights reserved.</p>
 	</div>
 </footer>
