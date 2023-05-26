@@ -6,6 +6,7 @@
 	export let title: string;
 	export let description: string;
 	export let url: string;
+	export let resource: string;
 </script>
 
 <div
@@ -13,7 +14,7 @@
 >
 	<!-- Image -->
 	<div class="flex md:max-w-xs ">
-		<img src="./src/lib/assets/images/activities/tedx-1.jpg" alt="" />
+		<img src="/images/{resource}" alt="" />
 	</div>
 	<!-- Conttent + Button -->
 	<div class="px-6 py-6 flex flex-col gap-6 justify-between w-full">

@@ -15,7 +15,7 @@
 
 <MouseCursor />
 <!-- Landing Section -->
-<div class="px-16 md:px-24 gap-48 flex flex-col pb-24">
+<div class="gap-48 flex flex-col pb-24">
 	<section class="w-full min-h-screen flex justify-center items-center pt-24">
 		<div class="flex m-auto max-w-4xl   flex-col gap-4 text-dark-three dark:text-alabaster-two">
 			<!-- definition of -->
@@ -104,16 +104,19 @@
 					title="TedX Youth"
 					description="TedX Youth Conference organized at UWC Dilijan"
 					url="/extracurriculars"
+					resource="activities/tedx-1.jpg"
 				/>
 				<ProjectComponent
 					title="TedX Youth"
 					description="TedX Youth Conference organized at UWC Dilijan"
 					url="/extracurriculars"
+					resource="activities/tedx-1.jpg"
 				/>
 				<ProjectComponent
 					title="TedX Youth"
 					description="TedX Youth Conference organized at UWC Dilijan"
 					url="/extracurriculars"
+					resource="activities/tedx-1.jpg"
 				/>
 			</div>
 		</div>
