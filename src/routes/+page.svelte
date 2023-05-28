@@ -1,4 +1,6 @@
 <script lang="ts">
+	import ImageComponent from './ImageComponent.svelte';
+
 	import ProjectComponent from '../components/common/ProjectComponent.svelte';
 
 	import InstitutionLink from '../components/hero/InstitutionLink.svelte';
@@ -11,6 +13,7 @@
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import { scrollRef, scrollTo } from 'svelte-scrolling';
 	import ComponentLink from '../components/common/ComponentLink.svelte';
+	import LinkButton from '../components/common/LinkButton.svelte';
 </script>
 
 <MouseCursor />
@@ -52,7 +55,7 @@
 					on:focus={isHovering}
 					on:blur={isNotHovering}
 					on:mouseout={isNotHovering}
-					use:scrollTo={'Academics'}
+					use:scrollTo={{ ref: 'Academics', offset: -100 }}
 				>
 					<span class="material-symbols-outlined font-extralight cursor-none hover:cursor-none">
 						arrow_downward
@@ -95,7 +98,7 @@
 	<!-- Projects widget -->
 	<section class="w-full flex justify-center items-center">
 		<div class="w-full flex m-auto max-w-4xl flex-col text-dark-three dark:text-alabaster-two">
-			<h2>projects and extracurriculars</h2>
+			<h2>{$_('page.home.projects')}</h2>
 
 			<!-- Row of widgets -->
 			<div class="flex flex-col lg:flex-row mt-6 gap-6 justify-between">
@@ -160,6 +163,43 @@
 	<section class="w-full flex justify-center items-center">
 		<div
 			class="w-full flex flex-col m-auto max-w-4xl text-dark-three dark:text-alabaster-two gap-6"
-		/>
+		>
+			<div class="flex w-full justify-between">
+				<h2>photo gallery</h2>
+				<div>
+					<div />
+				</div>
+			</div>
+
+			<!-- Scrolling gallery -->
+			<div class="flex overflow-x-scroll overflow-y-hidden w-full gap-4">
+				<ImageComponent
+					title="tedx youth conference"
+					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua."
+				/>
+				<ImageComponent
+					title="tedx youth conference"
+					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua."
+					url="/academics"
+				/>
+				<ImageComponent
+					title="tedx youth conference"
+					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua."
+				/>
+				<ImageComponent
+					title="tedx youth conference"
+					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua."
+				/>
+				<!-- Single div -->
+			</div>
+		</div>
 	</section>
+
+	<div class="flex w-full justify-end">
+		<LinkButton title="academics" url={'/academics'} />
+	</div>
 </div>
