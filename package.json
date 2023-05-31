@@ -38,6 +38,7 @@
 		"flowbite": "^1.6.3",
 		"flowbite-svelte": "^0.30.5",
 		"svelte-i18n": "^3.6.0",
+		"svelte-inview": "^4.0.0",
 		"svelte-scrolling": "^1.2.2"
 	}
 }
