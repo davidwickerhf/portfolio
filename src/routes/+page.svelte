@@ -118,6 +118,8 @@
 					>
 				</div>
 			</div>
+		{:else}
+			<div use:scrollRef={'Academics'} class="h-screen" />
 		{/if}
 	</section>
 
