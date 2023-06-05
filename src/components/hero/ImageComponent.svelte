@@ -8,7 +8,7 @@
 
 <a
 	href={url}
-	class="relative min-w-min flex-shrink-0 border-2 border-alabaster-three dark:border-dark-three hover:scale-105 transition-all ease-in-out duration-150"
+	class="block relative min-w-min flex-shrink-0 border-2 border-alabaster-three dark:border-dark-three hover:scale-105 transition-all ease-in-out duration-150"
 	on:click={(e) => {
 		if (!url) e.preventDefault;
 	}}
@@ -23,8 +23,8 @@
 			class="absolute left-0 w-full h-full opacity-0 hover:bg-dark-three/50 hover:opacity-100 transition-all ease-in-out duration-150 p-8 text-alabaster-three flex flex-col justify-between"
 		>
 			<div class="flex flex-col gap-4">
-				<p class="font-medium text-2xl">{title}</p>
-				<p class="">
+				<p class="font-medium text-xl">{title}</p>
+				<p class=" text-sm">
 					{description}
 				</p>
 			</div>
@@ -36,7 +36,7 @@
 				</div>
 			{/if}
 		</div>
-		<img class="h-80 w-auto" src="/images/activities/tedx-1.jpg" alt="" />
+		<img class="" src="/images/activities/tedx-1.jpg" alt="" />
 	</div>
 
 	<div class="p-4 font-medium flex justify-between">

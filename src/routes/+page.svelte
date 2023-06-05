@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ImageComponent from './ImageComponent.svelte';
+	import ImageComponent from '../components/hero/ImageComponent.svelte';
 
 	import ProjectComponent from '../components/common/ProjectComponent.svelte';
 
@@ -8,7 +8,7 @@
 	import { _ } from 'svelte-i18n';
 	import UnderlineLink from '../components/common/UnderlineLink.svelte';
 	import TextButton from '../components/common/TextButton.svelte';
-	import MouseCursor from '../components/common/MouseCursor.svelte';
+
 	import GlitchTitle from '../components/hero/GlitchTitle.svelte';
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import { scrollRef, scrollTo } from 'svelte-scrolling';
@@ -17,6 +17,7 @@
 
 	import { fade } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
+	import { scrolled, toggleScrolled } from '$lib/store/ScrolledStore';
 
 	// Carousel
 	let carousel: HTMLElement;
@@ -28,13 +29,18 @@
 	let civics: boolean;
 	let gallery: boolean;
 	let reachedEnd: boolean = false;
+
+	$: hasReachedEnd(reachedEnd);
+
+	function hasReachedEnd(reachedEnd: boolean) {
+		$scrolled = reachedEnd ?? true;
+	}
 </script>
 
-<MouseCursor />
 <!-- Landing Section -->
 <div class="gap-48 flex flex-col pb-24">
-	<section class="w-full min-h-screen flex justify-center items-center pt-24">
-		<div class="flex m-auto max-w-4xl   flex-col gap-4 text-dark-three dark:text-alabaster-two">
+	<section class="min-h-screen flex justify-center items-center">
+		<div class="flex max-w-4xl flex-col gap-4 text-dark-three dark:text-alabaster-two">
 			<!-- definition of -->
 			<p class="text-dark-one font-medium text-lg">{$_('page.home.definition-of')}</p>
 
@@ -56,13 +62,17 @@
 			<div class="flex justify-between mt-4 flex-wrap-reverse gap-8">
 				<TextButton text={'view my curriculum'} url="/curriculum" />
 				<div class="flex gap-8">
-					<UnderlineLink url="https://instagram.com/davidwickerhf">instagram</UnderlineLink>
-					<UnderlineLink url="https://linkedin.com/in/davidwickerhf">linkedin</UnderlineLink>
-					<UnderlineLink url="https://github.com/davidwickerhf">github</UnderlineLink>
+					<UnderlineLink underline url="https://instagram.com/davidwickerhf"
+						>instagram</UnderlineLink
+					>
+					<UnderlineLink underline url="https://linkedin.com/in/davidwickerhf"
+						>linkedin</UnderlineLink
+					>
+					<UnderlineLink underline url="https://github.com/davidwickerhf">github</UnderlineLink>
 				</div>
 			</div>
 
-			<div class="cursor-none hover:cursor-none flex w-full justify-center mt-12">
+			<div class="cursor-none hover:cursor-none flex  justify-center mt-12">
 				<div
 					class="rounded-full border border-dark-one w-14 h-14  transition ease-in-out hover:scale-150 duration-300 flex justify-center items-center text-dark-one dark:text-alabaster-two cursor-none hover:cursor-none"
 					on:mouseover={isHovering}
@@ -88,31 +98,28 @@
 		}}
 	>
 		{#if academics}
-			<div
-				in:fade
-				class="flex w-full m-auto max-w-4xl flex-col text-dark-three dark:text-alabaster-two"
-			>
+			<div in:fade class="w-full flex max-w-4xl flex-col text-dark-three dark:text-alabaster-two">
 				<!-- Section heading -->
 				<span class="flex">
 					<h2
 						use:scrollRef={'Academics'}
-						class="sm:border-b-2 border-alabaster-three dark:border-dark-three"
+						class="@sm:border-b-2 border-alabaster-three dark:border-dark-three"
 					>
 						academics
 					</h2>
 				</span>
 
 				<!-- Academics widget -->
-				<div class="sm:border-l-2 border-alabaster-three dark:border-dark-three h-8" />
+				<div class="@sm:border-l-2 border-alabaster-three dark:border-dark-three h-8" />
 				<div class="flex flex-col">
 					<InstitutionLink date="2014 - 2018">{$_('page.home.giacomo')}</InstitutionLink>
-					<div class="sm:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
+					<div class="@sm:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
 					<InstitutionLink date="2018 - 2023" current={true}
 						>{$_('page.home.pascal')}</InstitutionLink
 					>
-					<div class="sm:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
+					<div class="@sm:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
 					<InstitutionLink date="2021 - 2022">{$_('page.home.uwcdilijan')}</InstitutionLink>
-					<div class="sm:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
+					<div class="@sm:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
 					<InstitutionLink date="2023 - 2026" last={true}
 						>{$_('page.home.maastricht')}</InstitutionLink
 					>
@@ -132,14 +139,11 @@
 		}}
 	>
 		{#if projects}
-			<div
-				in:fade
-				class="w-full flex m-auto max-w-4xl flex-col text-dark-three dark:text-alabaster-two"
-			>
+			<div in:fade class="w-full flex max-w-4xl flex-col text-dark-three dark:text-alabaster-two">
 				<h2>{$_('page.home.projects')}</h2>
 
 				<!-- Row of widgets -->
-				<div class="flex flex-col lg:flex-row mt-6 gap-6 justify-between">
+				<div class="flex flex-col @lg:flex-row mt-6 gap-6 justify-between">
 					<!-- Single project widget -->
 					<ProjectComponent
 						title="TedX Youth"
@@ -166,17 +170,14 @@
 
 	<!-- Work Experience -->
 	<section
-		class="w-full flex justify-center items-center"
+		class=" flex justify-center items-center"
 		use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
 		on:inview_change={(event) => {
 			work = event.detail.inView;
 		}}
 	>
 		{#if work}
-			<div
-				in:fade
-				class="w-full flex flex-col m-auto max-w-4xl text-dark-three dark:text-alabaster-two gap-6"
-			>
+			<div in:fade class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6">
 				<h2>work experience</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -200,10 +201,7 @@
 		}}
 	>
 		{#if civics}
-			<div
-				in:fade
-				class="w-full flex flex-col m-auto max-w-4xl text-dark-three dark:text-alabaster-two gap-6"
-			>
+			<div in:fade class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6">
 				<h2>civics</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -227,12 +225,9 @@
 		}}
 	>
 		{#if gallery}
-			<div
-				in:fade
-				class="w-full flex flex-col m-auto max-w-4xl text-dark-three dark:text-alabaster-two"
-			>
+			<div in:fade class="w-full flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two">
 				<div
-					class="flex w-full justify-between items-center gap-2 transition-all ease-in-out duration-200"
+					class="flex  justify-between items-center gap-2 transition-all ease-in-out duration-200"
 				>
 					<h2>photo gallery</h2>
 					<div
@@ -260,28 +255,43 @@
 				</div>
 
 				<!-- Scrolling gallery -->
-				<div class="overflow-scroll flex w-full gap-6 py-6" bind:this={carousel}>
+				<div class="w-full gap-6 py-6 grid   grid-cols-1 @sm:grid-cols-2">
 					<ImageComponent
 						title="tedx youth conference"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua."
 					/>
-					<ImageComponent
-						title="tedx youth conference"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua."
-						url="/academics"
-					/>
+
 					<ImageComponent
 						title="tedx youth conference"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua."
 					/>
+
 					<ImageComponent
 						title="tedx youth conference"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua."
 					/>
+
+					<ImageComponent
+						title="tedx youth conference"
+						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua."
+					/>
+
+					<ImageComponent
+						title="tedx youth conference"
+						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua."
+					/>
+
+					<ImageComponent
+						title="tedx youth conference"
+						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua."
+					/>
+
 					<!-- Single div -->
 				</div>
 			</div>
@@ -290,7 +300,18 @@
 		{/if}
 	</section>
 
-	<div class="flex w-full justify-end">
-		<LinkButton title="academics" url={'/academics'} />
-	</div>
+	<section
+		use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
+		on:inview_change={(event) => {
+			reachedEnd = event.detail.inView;
+		}}
+	>
+		{#if reachedEnd}
+			<div in:fade class="flex  justify-end">
+				<LinkButton title="academics" url={'/academics'} />
+			</div>
+		{:else}
+			<div class=" h-[60px]" />
+		{/if}
+	</section>
 </div>

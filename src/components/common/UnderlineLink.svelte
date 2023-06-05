@@ -1,6 +1,10 @@
 <script lang="ts">
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
+
 	export let url: string;
+	export let underline: boolean = false;
+	export let left: boolean = false;
+	export let icon: string | undefined = undefined;
 
 	let height: string;
 	$: height = '2px';
@@ -8,7 +12,11 @@
 
 <div class="px-0">
 	<a
-		class=" bg-gradient-to-r bg-no-repeat bg-bottom from-green-three/50 to-green-three/50 border-b-2 border-green-three/50"
+		class="p-1 m-[-4px] z-1 relative no-underline bg-gradient-to-r bg-no-repeat {left
+			? 'bg-left bg-[length:0%_100%]'
+			: 'bg-bottom bg-[length:100%_0%]'} from-green-three/50 to-green-three/50 hover:bg-[length:100%_100%] border-b-2 {underline
+			? 'border-green-three/50'
+			: 'border-transparent'}  transition-[background-size] ease-in-out duration-300 flex flex-grow-0 gap-4 items-center"
 		href={url}
 		on:mouseover={() => {
 			isHovering();
@@ -21,28 +29,9 @@
 			height = '2px';
 		}}
 	>
+		<span class="material-symbols-outlined text-[16px] {icon ? 'visible' : 'hidden'}">{icon}</span>
 		<span class="">
 			<slot />
 		</span>
 	</a>
 </div>
-
-<style lang="scss">
-	a {
-		text-decoration: none;
-
-		position: relative;
-		z-index: 1;
-		padding: 3px;
-		margin: -3px;
-
-		background-size: 100% 0%;
-
-		transition: all 0.3s, background-position 0s;
-
-		&:hover {
-			background-size: 100% 100%;
-			background-position: top;
-		}
-	}
-</style>

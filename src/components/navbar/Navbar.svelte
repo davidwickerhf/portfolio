@@ -2,7 +2,6 @@
 	import Logo from '../common/Logo.svelte';
 	import LanguageToggle from './LanguageToggle.svelte';
 	import ThemeToggle from './ThemeToggle.svelte';
-	import { theme } from '$lib/store/DarkThemeStore';
 </script>
 
 <!--  style="background-image: url(/{$theme}noise.svg)" -->
