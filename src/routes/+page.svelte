@@ -103,23 +103,23 @@
 				<span class="flex">
 					<h2
 						use:scrollRef={'Academics'}
-						class="@sm:border-b-2 border-alabaster-three dark:border-dark-three"
+						class="@lg/content:border-b-2 border-alabaster-three dark:border-dark-three"
 					>
 						academics
 					</h2>
 				</span>
 
 				<!-- Academics widget -->
-				<div class="@sm:border-l-2 border-alabaster-three dark:border-dark-three h-8" />
+				<div class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-8" />
 				<div class="flex flex-col">
 					<InstitutionLink date="2014 - 2018">{$_('page.home.giacomo')}</InstitutionLink>
-					<div class="@sm:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
+					<div class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
 					<InstitutionLink date="2018 - 2023" current={true}
 						>{$_('page.home.pascal')}</InstitutionLink
 					>
-					<div class="@sm:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
+					<div class="@lg:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
 					<InstitutionLink date="2021 - 2022">{$_('page.home.uwcdilijan')}</InstitutionLink>
-					<div class="@sm:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
+					<div class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
 					<InstitutionLink date="2023 - 2026" last={true}
 						>{$_('page.home.maastricht')}</InstitutionLink
 					>
@@ -143,11 +143,11 @@
 				<h2>{$_('page.home.projects')}</h2>
 
 				<!-- Row of widgets -->
-				<div class="flex flex-col @lg:flex-row mt-6 gap-6 justify-between">
+				<div class="flex flex-col mt-6 gap-6 justify-between overflow-scroll @4xl/content:flex-row">
 					<!-- Single project widget -->
 					<ProjectComponent
 						title="TedX Youth"
-						description="TedX Youth Conference organized at UWC Dilijan"
+						description="TedX You asidjia sidjiajidjis jiajdij si th Conference organized at UWC Dilijan"
 						url="/extracurriculars"
 						resource="activities/tedx-1.jpg"
 					/>
@@ -255,7 +255,7 @@
 				</div>
 
 				<!-- Scrolling gallery -->
-				<div class="w-full gap-6 py-6 grid   grid-cols-1 @sm:grid-cols-2">
+				<div class="w-full gap-6 py-6 grid grid-cols-1 @2xl/content:grid-cols-2">
 					<ImageComponent
 						title="tedx youth conference"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

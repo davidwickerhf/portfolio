@@ -10,14 +10,14 @@
 </script>
 
 <div
-	class="w-full lg:w-[260px] border-2 border-alabaster-three dark:border-dark-three cursor-none flex flex-col md:flex-row lg:flex-col"
+	class="w-full border-2 border-alabaster-three dark:border-dark-three cursor-none flex flex-col @2xl/content:flex-row @4xl/content:flex-col"
 >
 	<!-- Image -->
-	<div class="flex md:max-w-xs ">
-		<img src="/images/{resource}" alt="" />
+	<div class="flex @2xl/content:max-w-[240px] @4xl/content:max-w-none">
+		<img src="/images/{resource}" alt="" class="w-auto h-auto object-cover" />
 	</div>
 	<!-- Conttent + Button -->
-	<div class="px-6 py-6 flex flex-col gap-6 justify-between w-full">
+	<div class="px-6 py-6 flex w-full h-full flex-col gap-6 justify-between">
 		<div>
 			<p class="text-xl font-medium">{title}</p>
 			<p class="text-sm font-normal">{description}</p>

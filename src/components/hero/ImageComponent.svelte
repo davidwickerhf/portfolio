@@ -24,7 +24,7 @@
 		>
 			<div class="flex flex-col gap-4">
 				<p class="font-medium text-xl">{title}</p>
-				<p class=" text-sm">
+				<p class="text-sm whitespace-nowrap overflow-hidden">
 					{description}
 				</p>
 			</div>

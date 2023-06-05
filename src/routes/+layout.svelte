@@ -17,7 +17,7 @@
 	<Sidebar />
 
 	<!-- Content -->
-	<div class="@container w-full overflow-scroll inline-block h-screen pt-24">
+	<div class="@container/content w-full overflow-scroll inline-block h-screen pt-24">
 		<div class="px-8 sm:px-16 md:px-24 z-0 bg-fixed bg-ghost dark:bg-dark-five">
 			<slot />
 		</div>
