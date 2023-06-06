@@ -10,8 +10,8 @@
 <a
 	href={url}
 	class="flex justify-between p-4 {green
-		? 'bg-green-three hover:bg-alabaster-five'
-		: 'bg-dark-three hover:bg-alabaster-five'} text-alabaster-three items-center  hover:text-dark-three transition-all ease-in-out duration-150 cursor-none gap-8 min-w-[150px]"
+		? 'bg-green-three hover:bg-alabaster-five text-alabaster-two'
+		: 'bg-dark-three hover:bg-alabaster-five text-alabaster-three'}  items-center  hover:text-dark-three transition-all ease-in-out duration-150 cursor-none gap-8 min-w-[150px]"
 	on:mouseover={isHovering}
 	on:focus={isHovering}
 	on:blur={isNotHovering}

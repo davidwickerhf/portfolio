@@ -43,7 +43,11 @@
 			{#if currentTab?.id != 1}
 				<div class="w-full flex justify-between mt-8">
 					{#if prevTab}<UppercaseLink left url={prevTab?.url}>{prevTab?.name}</UppercaseLink> {/if}
-					{#if nextTab}<UppercaseLink url={nextTab?.url}>{nextTab?.name}</UppercaseLink>{/if}
+					{#if nextTab}
+						<div class="hidden sm:inline">
+							<UppercaseLink url={nextTab?.url}>{nextTab?.name}</UppercaseLink>
+						</div>
+					{/if}
 				</div>
 			{/if}
 			<slot />
