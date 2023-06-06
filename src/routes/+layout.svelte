@@ -34,7 +34,7 @@
 
 	<!-- Content -->
 	<div
-		class="@container/content w-full overflow-scroll flex flex-col justify-between h-screen pt-24 text-dark-three dark:text-alabaster-three"
+		class="@container/content w-full overflow-scroll flex flex-col justify-between h-[100dvh] pt-24 text-dark-three dark:text-alabaster-three"
 	>
 		<div
 			class="px-6 @xl/content:px-12 @2xl/content:px-16 @4xl/content:px-24 z-0 bg-fixed bg-ghost dark:bg-dark-five flex flex-col gap-4"
