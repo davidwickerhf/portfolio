@@ -36,7 +36,7 @@
 	}}
 />
 
-<svg class="fixed w-screen h-screen mix-blend-difference z-40 hidden sm:visible">
+<svg id="cursor" class="fixed w-screen h-screen mix-blend-difference z-40">
 	<circle
 		cx={$coords1.x}
 		cy={$coords1.y}
@@ -58,6 +58,17 @@
 <style>
 	:global(body) {
 		cursor: none;
+	}
+
+	@media (any-pointer: coarse) {
+		/* do your own styles */
+		:global(body) {
+			cursor: none;
+		}
+
+		#cursor {
+			display: none;
+		}
 	}
 
 	svg {
