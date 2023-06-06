@@ -36,7 +36,7 @@
 	}}
 />
 
-<svg class="fixed w-screen h-screen mix-blend-difference z-40">
+<svg class="fixed w-screen h-screen mix-blend-difference z-40 hidden sm:visible">
 	<circle
 		cx={$coords1.x}
 		cy={$coords1.y}

@@ -5,6 +5,8 @@
 	import Navbar from '../components/navbar/Navbar.svelte';
 	import Logo from '../components/common/Logo.svelte';
 	import MouseCursor from '../components/common/MouseCursor.svelte';
+
+	import { tabs, socials } from '$lib/constants/constants';
 </script>
 
 <!-- style="background-image: url(/{$theme}noise.svg)" -->
@@ -22,9 +24,22 @@
 			<slot />
 		</div>
 		<footer class="bg-dark-three text-alabaster-three">
-			<div class="flex px-6 @xl/content:px-12 @2xl/content:px-16 @4xl/content:px-24 py-6">
+			<div class="flex px-6 @xl/content:px-12 @2xl/content:px-16 @4xl/content:px-24 py-6 gap-12">
+				<div class="">
+					<p class="text-lg font-medium">contents</p>
+					{#each tabs as tab}
+						<li class="list-none mt-2 font-thin text-sm">
+							<a href={tab.url} class="hover:underline">{tab.name}</a>
+						</li>
+					{/each}
+				</div>
 				<div class="">
 					<p>socials</p>
+					{#each socials as social}
+						<li class="list-none mt-2 font-thin text-sm">
+							<a href={social.url} class="hover:underline">{social.name}</a>
+						</li>
+					{/each}
 				</div>
 			</div>
 			<div
