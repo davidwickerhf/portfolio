@@ -31,7 +31,7 @@
 </script>
 
 <!-- Landing Section -->
-<div class="gap-48 flex flex-col pb-24">
+<div class="gap-48 flex flex-col">
 	<section class="min-h-screen flex justify-center items-center">
 		<div class="flex max-w-4xl flex-col gap-4 text-dark-three dark:text-alabaster-two">
 			<!-- definition of -->
@@ -292,21 +292,10 @@
 			<div class="h-screen" />
 		{/if}
 	</section>
-
-	<section
-		use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
-		on:inview_change={(event) => {
-			if (event.detail.inView) setScrolled();
-		}}
-		class="flex items-center justify-between w-full flex-wrap text-dark-three dark:text-alabaster-three gap-4"
-	>
-		<div class="flex gap-2 items-center">
-			<p>Continue on the next page</p>
-			<span class="material-symbols-outlined">chevron_right</span>
-		</div>
-
-		<div in:fade class="flex  justify-end">
-			<LinkButton title="academics" url={'/academics'} />
-		</div>
-	</section>
 </div>
+<div
+	use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
+	on:inview_change={(event) => {
+		if (event.detail.inView) setScrolled();
+	}}
+/>
