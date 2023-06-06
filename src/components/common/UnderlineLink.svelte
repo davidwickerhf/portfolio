@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
+	import { toggleSidebar } from '$lib/store/SidebarStore';
 
 	export let url: string;
 	export let underline: boolean = false;
@@ -27,6 +28,9 @@
 		on:mouseout={() => {
 			isNotHovering();
 			height = '2px';
+		}}
+		on:click={(e) => {
+			toggleSidebar(false);
 		}}
 	>
 		<span class="material-symbols-outlined text-[16px] {icon ? 'visible' : 'hidden'}">{icon}</span>

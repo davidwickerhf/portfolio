@@ -298,7 +298,7 @@
 		on:inview_change={(event) => {
 			if (event.detail.inView) setScrolled();
 		}}
-		class="flex items-center justify-between w-full flex-wrap"
+		class="flex items-center justify-between w-full flex-wrap text-dark-three dark:text-alabaster-three gap-4"
 	>
 		<div class="flex gap-2 items-center">
 			<p>Continue on the next page</p>
