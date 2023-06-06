@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
+	import { toggleSidebar, sidebar } from '$lib/store/SidebarStore';
 	import Logo from '../common/Logo.svelte';
 	import LanguageToggle from './LanguageToggle.svelte';
 	import ThemeToggle from './ThemeToggle.svelte';
@@ -15,10 +17,26 @@
 
 	<!-- Toggles -->
 	<div class="flex gap-3 h-full">
-		<!-- Language toggle -->
-		<LanguageToggle />
+		<div class="gap-3 h-full hidden sm:flex">
+			<!-- Language toggle -->
+			<LanguageToggle />
 
-		<!-- Theme toggle -->
-		<ThemeToggle />
+			<!-- Theme toggle -->
+			<ThemeToggle />
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<div
+			on:mouseover={isHovering}
+			on:focus={isHovering}
+			on:blur={isNotHovering}
+			on:mouseout={isNotHovering}
+			on:click={() => toggleSidebar()}
+			class="w-12 h-12 flex items-center justify-center   border-2 border-dark-three dark:border-alabaster-three hover:bg-dark-three hover:text-alabaster-three dark:text-alabaster-three dark:hover:bg-alabaster-three dark:hover:text-dark-three md:hidden {$sidebar.scrolled
+				? ''
+				: 'hidden'}"
+		>
+			<span class="material-symbols-outlined text-lg">menu</span>
+		</div>
 	</div>
 </div>

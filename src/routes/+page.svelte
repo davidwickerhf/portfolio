@@ -17,7 +17,7 @@
 
 	import { fade } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
-	import { scrolled, toggleScrolled } from '$lib/store/ScrolledStore';
+	import { setScrolled, sidebar } from '$lib/store/SidebarStore';
 
 	// Carousel
 	let carousel: HTMLElement;
@@ -28,13 +28,6 @@
 	let work: boolean;
 	let civics: boolean;
 	let gallery: boolean;
-	let reachedEnd: boolean = false;
-
-	$: hasReachedEnd(reachedEnd);
-
-	function hasReachedEnd(reachedEnd: boolean) {
-		$scrolled = reachedEnd ?? true;
-	}
 </script>
 
 <!-- Landing Section -->
@@ -303,15 +296,17 @@
 	<section
 		use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
 		on:inview_change={(event) => {
-			reachedEnd = event.detail.inView;
+			if (event.detail.inView) setScrolled();
 		}}
+		class="flex items-center justify-between w-full flex-wrap"
 	>
-		{#if reachedEnd}
-			<div in:fade class="flex  justify-end">
-				<LinkButton title="academics" url={'/academics'} />
-			</div>
-		{:else}
-			<div class=" h-[60px]" />
-		{/if}
+		<div class="flex gap-2 items-center">
+			<p>Continue on the next page</p>
+			<span class="material-symbols-outlined">chevron_right</span>
+		</div>
+
+		<div in:fade class="flex  justify-end">
+			<LinkButton title="academics" url={'/academics'} />
+		</div>
 	</section>
 </div>
