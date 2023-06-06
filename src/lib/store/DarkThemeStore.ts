@@ -6,21 +6,9 @@ if (browser && window.localStorage.getItem('color-theme')) {
 	let colortheme = window.localStorage.getItem('color-theme');
 	if (colortheme === 'light') data = 'light';
 	else data = 'dark';
+} else {
+	data = 'light';
 }
-data = 'light';
-
-// const data = browser
-// 	? window.localStorage.getItem('color-theme')
-// 		? window.localStorage.getItem('color-theme') === 'dark'
-// 			? 'dark'
-// 			: !('color-theme' in window.localStorage) &&
-// 			  window.matchMedia('(prefers-color-scheme: dark)').matches
-// 			? 'dark'
-// 			: 'light'
-// 		: window.matchMedia('(prefers-color-scheme: dark)').matches
-// 		? 'light'
-// 		: 'dark'
-// 	: 'light';
 
 export const theme = writable(data);
 

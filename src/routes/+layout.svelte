@@ -12,12 +12,20 @@
 	import LinkButton from '../components/common/LinkButton.svelte';
 
 	$: currentTab = tabs.find((t) => t.url == $page.url.pathname);
-	console.log(currentTab);
 	$: prevTab = currentTab ? tabs.find((t) => t.id === currentTab!.id - 1) : undefined;
 	$: nextTab = currentTab ? tabs.find((t) => t.id === currentTab!.id + 1) : undefined;
 </script>
 
 <!-- style="background-image: url(/{$theme}noise.svg)" -->
+
+<svelte:head>
+	<title
+		>{currentTab?.name
+			? currentTab.name.charAt(0).toUpperCase() + currentTab.name.slice(1)
+			: 'David Wicker'}</title
+	>
+</svelte:head>
+
 <MouseCursor />
 <Navbar />
 <div class="fixed flex h-full overflow-hidden w-screen">
