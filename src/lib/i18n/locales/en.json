@@ -10,5 +10,16 @@
       "maastricht": "Maastricht University: BSc Computer Science",
       "projects": "projects and extracurriculars"
     }
+  },
+  "tabs": {
+    "personal-projects": "personal projects",
+    "welcome": "welcome!",
+    "academics": "academics",
+    "extracurriculars": "extracurriculars",
+    "certifications": "certifications",
+    "work-experience": "work experience",
+    "activism": "activism",
+    "publications": "publications",
+    "photography": "photography"
   }
 }

@@ -250,36 +250,35 @@
 				<!-- Scrolling gallery -->
 				<div class="w-full gap-6 py-6 grid grid-cols-1 @2xl/content:grid-cols-2">
 					<ImageComponent
+						src="activities/tedx-1.jpg"
 						title="tedx youth conference"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua."
 					/>
 
 					<ImageComponent
+						src="activities/tedx-1.jpg"
 						title="tedx youth conference"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua."
 					/>
 
 					<ImageComponent
+						src="activities/tedx-1.jpg"
 						title="tedx youth conference"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua."
 					/>
 
 					<ImageComponent
+						src="activities/tedx-1.jpg"
 						title="tedx youth conference"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua."
 					/>
 
 					<ImageComponent
-						title="tedx youth conference"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua."
-					/>
-
-					<ImageComponent
+						src="activities/tedx-1.jpg"
 						title="tedx youth conference"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua."

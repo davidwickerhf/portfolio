@@ -34,18 +34,27 @@
 
 	<!-- Content -->
 	<div
-		class="@container/content w-full overflow-scroll flex flex-col justify-between h-[100dvh] pt-24 text-dark-three dark:text-alabaster-three"
+		class="@container/content w-full overflow-scroll flex flex-col justify-between h-[100dvh] pt-24 text-dark-three dark:text-alabaster-three overflow-x-hidden"
 	>
 		<div
 			class="px-6 @xl/content:px-12 @2xl/content:px-16 @4xl/content:px-24 z-0 bg-fixed bg-ghost dark:bg-dark-five flex flex-col gap-4"
 		>
 			<!-- Navigation (back and forth) -->
 			{#if currentTab?.id != 1}
-				<div class="w-full flex justify-between mt-8">
+				<div class="w-full justify-between mt-8 hidden @lg/content:flex">
 					{#if prevTab}<UppercaseLink left url={prevTab?.url}>{prevTab?.name}</UppercaseLink> {/if}
 					{#if nextTab}
-						<div class="hidden sm:inline">
+						<div class="">
 							<UppercaseLink url={nextTab?.url}>{nextTab?.name}</UppercaseLink>
+						</div>
+					{/if}
+				</div>
+				<!-- @lg/content:inline -->
+				<div class="w-full flex justify-between mt-8 @lg/content:hidden">
+					{#if prevTab}<UppercaseLink left url={prevTab?.url}>previous</UppercaseLink> {/if}
+					{#if nextTab}
+						<div class="">
+							<UppercaseLink url={nextTab?.url}>next</UppercaseLink>
 						</div>
 					{/if}
 				</div>
@@ -81,7 +90,7 @@
 					{/each}
 				</div>
 				<div class="">
-					<p>socials</p>
+					<p class="text-lg font-medium">socials</p>
 					{#each socials as social}
 						<li class="list-none mt-2 font-thin text-sm">
 							<a href={social.url} class="hover:underline">{social.name}</a>

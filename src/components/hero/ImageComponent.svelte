@@ -4,6 +4,7 @@
 	export let title: string;
 	export let description: string;
 	export let url: string | undefined = undefined;
+	export let src: string;
 </script>
 
 <a
@@ -36,7 +37,7 @@
 				</div>
 			{/if}
 		</div>
-		<img class="" src="/images/activities/tedx-1.jpg" alt="" />
+		<img class="" src="/images/{src}" alt="" />
 	</div>
 
 	<div class="p-4 font-medium flex justify-between">
