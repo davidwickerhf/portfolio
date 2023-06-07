@@ -9,6 +9,7 @@
 	import ThemeToggle from '../navbar/ThemeToggle.svelte';
 
 	import { tabs } from '$lib/constants/constants';
+	import { _ } from 'svelte-i18n';
 </script>
 
 <div
@@ -37,13 +38,13 @@
 		<nav class="px-8 sm:px-12 py-8 flex flex-col gap-8 overflow-scroll">
 			{#each tabs as tab}
 				<UnderlineLink underline={$page.url.pathname == tab.url} left url={tab.url} icon={tab.icon}
-					>{tab.name}</UnderlineLink
+					>{$_(tab.name)}</UnderlineLink
 				>
 			{/each}
 		</nav>
 
 		<div class="px-8 sm:px-12 py-5 border-t-2 border-alabaster-three dark:border-dark-three">
-			<LinkButton title="contact me" url="/contact" green />
+			<LinkButton url="/contact" green>contact me</LinkButton>
 		</div>
 	</div>
 </div>

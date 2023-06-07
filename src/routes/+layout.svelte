@@ -9,6 +9,7 @@
 	import { tabs, socials } from '$lib/constants/constants';
 	import UppercaseLink from '../components/common/UppercaseLink.svelte';
 	import { page } from '$app/stores';
+	import { _ } from 'svelte-i18n';
 	import LinkButton from '../components/common/LinkButton.svelte';
 
 	$: currentTab = tabs.find((t) => t.url == $page.url.pathname);
@@ -42,10 +43,14 @@
 			<!-- Navigation (back and forth) -->
 			{#if currentTab?.id != 1}
 				<div class="w-full justify-between mt-8 hidden @lg/content:flex">
-					{#if prevTab}<UppercaseLink left url={prevTab?.url}>{prevTab?.name}</UppercaseLink> {/if}
+					{#if prevTab}
+						<UppercaseLink left url={prevTab?.url}>
+							{$_(prevTab?.name)}
+						</UppercaseLink>
+					{/if}
 					{#if nextTab}
 						<div class="">
-							<UppercaseLink url={nextTab?.url}>{nextTab?.name}</UppercaseLink>
+							<UppercaseLink url={nextTab?.url}>{$_(nextTab?.name)}</UppercaseLink>
 						</div>
 					{/if}
 				</div>
@@ -74,7 +79,7 @@
 					{/if}
 
 					<div class="flex  justify-end">
-						<LinkButton title={nextTab?.name} url={nextTab?.url} />
+						<LinkButton url={nextTab?.url}>{$_(nextTab?.name)}</LinkButton>
 					</div>
 				</div>
 			{/if}
@@ -85,7 +90,7 @@
 					<p class="text-lg font-medium">contents</p>
 					{#each tabs as tab}
 						<li class="list-none mt-2 font-thin text-sm">
-							<a href={tab.url} class="hover:underline">{tab.name}</a>
+							<a href={tab.url} class="hover:underline">{$_(tab.name)}</a>
 						</li>
 					{/each}
 				</div>

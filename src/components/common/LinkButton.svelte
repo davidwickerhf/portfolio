@@ -2,7 +2,6 @@
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import { _ } from 'svelte-i18n';
 
-	export let title: string;
 	export let url: string;
 	export let green: boolean = false;
 </script>
@@ -17,6 +16,6 @@
 	on:blur={isNotHovering}
 	on:mouseout={isNotHovering}
 >
-	<p class=" whitespace-nowrap">{title}</p>
+	<p class=" whitespace-nowrap"><slot /></p>
 	<span class="material-symbols-outlined text-xl">chevron_right</span>
 </a>

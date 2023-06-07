@@ -1,5 +1,16 @@
 {
   "page": {
     "home": {}
+  },
+  "tabs": {
+    "academics": "educazione",
+    "activism": "attivismo",
+    "certifications": "certificazioni",
+    "extracurriculars": "extracurriculari",
+    "personal-projects": "progetti",
+    "photography": "fotografia",
+    "publications": "pubblicazioni",
+    "welcome": "benvenuti!",
+    "work-experience": "esperienza lavorativa"
   }
 }
