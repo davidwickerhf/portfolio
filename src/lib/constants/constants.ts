@@ -18,6 +18,7 @@ export const socials = [
 	{ name: 'github', url: 'https://github.com/davidwickerhf' }
 ];
 
+// ACADEMICS AND CURRICULAR ACTIVITIES
 export interface Project {
 	id: string;
 	title: string;
@@ -144,3 +145,27 @@ export const academics: School[] = [
 		]
 	}
 ];
+
+// EXTRACURRICULARS
+export enum ActivityArea {
+	computerscience,
+	climate,
+	leadership,
+	community
+}
+
+export interface Activity {
+	id: string;
+	area: ActivityArea;
+	year: number;
+	month: number;
+	role: string;
+	activity: string;
+	institution: string;
+	institutionUrl: string;
+	description: string;
+	images: string[];
+	url: string;
+}
+
+export const activities: Activity[] = [];

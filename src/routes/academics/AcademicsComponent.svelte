@@ -8,7 +8,7 @@
 	export let border: boolean = true;
 </script>
 
-<div class="relative flex flex-col w-full">
+<div class="relative flex flex-col w-full" id={data.id}>
 	{#if border}
 		<div
 			class="absolute w-[150%] border-t-2 border-alabaster-three dark:border-dark-three left-[-20%]"
@@ -49,10 +49,10 @@
 	{#if data.examsubjects && data.examsubjects.length > 0}
 		<h3 class="uppercase font-medium mt-6 mb-2 ">Exam subjects</h3>
 		<div class="flex flex-wrap gap-6 justify-between">
-			<ol class="list-disc list-inside columns-2 w-full">
+			<ol class="list-disc list-inside grid auto-cols-min w-full">
 				{#each data.examsubjects as subject}
 					<!-- content here -->
-					<li>{$_(subject)}</li>
+					<li class="whitespace-nowrap">{$_(subject)}</li>
 				{/each}
 			</ol>
 		</div>
