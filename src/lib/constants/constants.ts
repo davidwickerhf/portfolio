@@ -148,10 +148,10 @@ export const academics: School[] = [
 
 // EXTRACURRICULARS
 export enum ActivityArea {
-	computerscience,
-	climate,
-	leadership,
-	community
+	computerscience = 'Computer Science',
+	climate = 'Climate and Sustainability',
+	leadership = 'Leadership',
+	community = 'Creativity and Community'
 }
 
 export interface Activity {
@@ -162,10 +162,56 @@ export interface Activity {
 	role: string;
 	activity: string;
 	institution: string;
-	institutionUrl: string;
+	institutionUrl?: string;
 	description: string;
-	images: string[];
-	url: string;
+	images?: string[];
+	url?: string;
 }
 
-export const activities: Activity[] = [];
+export const activities: Activity[] = [
+	{
+		id: 'stem-ai',
+		area: ActivityArea.computerscience,
+		year: 2019,
+		month: 7,
+		role: 'Student',
+		activity: 'campus STEM "Intro all\'Intelligenza Artificiale e Computer Vision"',
+		institution: 'ASSOCIAZIONE CULTURALE "SCUOLA DI FORMAZIONE SCIENTIFICA LUIGI LAGRANGE"',
+		institutionUrl: 'https://associazionelagrange.it/',
+		description: 'general.lorem-ipsum',
+		images: ['activities/tedx-1.jpg'],
+		url: ''
+	},
+	{
+		id: 'stem-ki',
+		area: ActivityArea.computerscience,
+		year: 2019,
+		month: 12,
+		role: 'Student',
+		activity: 'campus STEM "Programmieren 4.0 - Künstliche Intelligenz"',
+		institution: 'Computer Camp',
+		institutionUrl: 'https://www.computercamp.de/kurse/programmieren-40',
+		description: 'general.lorem-ipsum',
+		images: ['activities/tedx-1.jpg'],
+		url: ''
+	}
+];
+
+// CERTIFICATIONS
+export enum CertificationType {
+	language,
+	climate,
+	computerscience
+}
+
+export interface Certification {
+	id: string;
+	type: CertificationType;
+	title: string;
+	grade: string;
+	year: number;
+	month: number;
+	logo: string;
+	institution: string;
+	url: string;
+}
