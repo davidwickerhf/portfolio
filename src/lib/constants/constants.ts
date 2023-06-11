@@ -180,7 +180,7 @@ export const activities: Activity[] = [
 		institutionUrl: 'https://associazionelagrange.it/',
 		description: 'general.lorem-ipsum',
 		images: ['activities/tedx-1.jpg'],
-		url: ''
+		url: 'https://github.com/davidwickerhf'
 	},
 	{
 		id: 'stem-ki',

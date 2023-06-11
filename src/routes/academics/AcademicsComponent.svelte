@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { School } from '$lib/constants/constants';
-	import ActivityComponent from '../../components/academics/ActivityComponent.svelte';
+	import ActivityComponent from './ActivityComponent.svelte';
 	import { _ } from 'svelte-i18n';
 	import { theme } from '$lib/store/DarkThemeStore';
 

@@ -4,57 +4,76 @@
 	import { fade } from 'svelte/transition';
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import { selected, setSelected } from '$lib/store/SelectedProjectStore';
+	import TextButton from '../../components/common/TextButton.svelte';
 
 	export let activity: Activity;
 	$: open = $selected === activity.id;
 </script>
 
 <div
-	class="flex flex-col items-start @4xl/content:flex-row @4xl/content:items-center @4xl/content:gap-2"
+	class="grid gird-cols-[auto] @4xl/content:grid-cols-[auto_auto] items-center border-alabaster-three dark:border-dark-three gap-x-2"
 >
 	<!-- Date -->
-	<p class="whitespace-nowrap px-0 @4xl/content:px-9 font-medium text-dark-one">
-		{activity.year} - {activity.month < 10 ? '0' + activity.month : activity.month}
-	</p>
+	<div
+		in:fade
+		out:fade
+		class="flex px-0 @4xl/content:px-9 font-medium text-dark-one verflow-hidden flex-shrink-0 flex-grow-0"
+	>
+		<div class="whitespace-nowrap w-[74px]">
+			{activity.year} - {activity.month < 10 ? '0' + activity.month : activity.month}
+		</div>
+	</div>
 
-	<!-- Div -->
+	<!-- Button -->
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<div
-		class="flex flex-col items-center border-2 border-alabaster-three dark:border-dark-three px-8 py-8 gap-6"
-		on:click={() => {
-			if (open) setSelected('');
-			else setSelected(activity.id);
-		}}
-		on:mouseover={isHovering}
-		on:focus={isHovering}
-		on:blur={isNotHovering}
-		on:mouseout={isNotHovering}
+		class="flex items-center gap-9 w-full justify-between border-x-2 border-t-2 border-alabaster-three dark:border-dark-three p-8"
 	>
-		<!-- Button component -->
-		<div class="flex items-center gap-9">
-			<div class="flex flex-col">
-				<p>
-					<span class="font-medium text-lg">{$_(activity.role)}</span>, {$_(activity.activity)}
-				</p>
-				<a href={activity.institutionUrl} class="hover:underline text-dark-one">
-					{$_(activity.institution)}
-				</a>
-			</div>
-			<span class="material-symbols-outlined">add</span>
+		<div class="flex flex-col">
+			<p>
+				<span class="font-medium text-lg">{$_(activity.role)}</span>, {$_(activity.activity)}
+			</p>
+			<a href={activity.institutionUrl} class="hover:underline text-dark-one">
+				{$_(activity.institution)}
+			</a>
 		</div>
+		<span
+			class="material-symbols-outlined"
+			on:click={() => {
+				if (open) setSelected('');
+				else setSelected(activity.id);
+			}}
+			on:mouseover={isHovering}
+			on:focus={isHovering}
+			on:blur={isNotHovering}
+			on:mouseout={isNotHovering}>{open ? 'close' : 'add'}</span
+		>
+	</div>
 
-		<!-- Content -->
-		{#if open}
-			<div in:fade>
-				<p class="mb-4">{$_(activity.description)}</p>
-				<div class="flex flex-wrap gap-4">
-					{#if activity.images}
-						{#each activity.images as img}
-							<img class="max-h-[180px]" src="/images/{img}" alt="" />
-						{/each}
-					{/if}
+	<div />
+
+	<!-- Content -->
+	<div
+		class="px-8 border-x-2 border-b-2 border-alabaster-three dark:border-dark-three {open
+			? 'max-h-[1500px]'
+			: 'max-h-0'} overflow-hidden transition-all ease-in-out duration-200"
+	>
+		<!-- {#if open} -->
+		<div class="flex flex-col gap-4 pb-8">
+			<p class="mb-4">{$_(activity.description)}</p>
+			{#if activity.url}
+				<div class="grow-0 max-w-fit">
+					<TextButton text="Read more" url={activity.url} />
 				</div>
+			{/if}
+			<div class="flex flex-wrap gap-4">
+				{#if activity.images}
+					{#each activity.images as img}
+						<img class="max-h-[180px]" src="/images/{img}" alt="" />
+					{/each}
+				{/if}
 			</div>
-		{/if}
+		</div>
+		<!-- {/if} -->
 	</div>
 </div>

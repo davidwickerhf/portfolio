@@ -21,7 +21,7 @@
 		{#if activities.filter((a) => a.area === values[index]).length > 0}
 			<p class="text-lg font-medium lowercase">related to {values[index]}</p>
 
-			<div class="flex flex-col gap-6">
+			<div class="flex flex-col gap-6 w-full">
 				{#each activities
 					.filter((a) => a.area === values[index])
 					.sort( (a, b) => (a.year == b.year ? (a.month > b.month ? 1 : -1) : a.year > b.year ? 1 : -1) ) as activity}
