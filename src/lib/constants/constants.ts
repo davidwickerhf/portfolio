@@ -199,19 +199,34 @@ export const activities: Activity[] = [
 
 // CERTIFICATIONS
 export enum CertificationType {
-	language,
-	climate,
-	computerscience
+	language = 'Language',
+	climate = 'Climate',
+	computerscience = 'Computer Science'
 }
 
 export interface Certification {
 	id: string;
 	type: CertificationType;
+	description?: string;
 	title: string;
 	grade: string;
 	year: number;
 	month: number;
-	logo: string;
+	logo?: string;
 	institution: string;
-	url: string;
+	istitutionUrl?: string;
+	url?: string;
 }
+
+export const certifications: Certification[] = [
+	{
+		id: 'english-cae',
+		type: CertificationType.language,
+		title: 'Certificate in Advanced English',
+		grade: 'Grade A - 205/210 - Level C2',
+		institution: 'Cambridge University Press & Assessment English',
+		year: 2022,
+		month: 7,
+		logo: 'cambridge.svg'
+	}
+];
