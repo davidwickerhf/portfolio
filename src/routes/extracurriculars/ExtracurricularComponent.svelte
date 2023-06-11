@@ -56,7 +56,7 @@
 	<div
 		class="px-8 border-x-2 border-b-2 border-alabaster-three dark:border-dark-three {open
 			? 'max-h-[1500px]'
-			: 'max-h-0'} overflow-hidden transition-all ease-in-out duration-200"
+			: 'max-h-0'} overflow-hidden transition-[max-height] ease-in-out duration-200"
 	>
 		<!-- {#if open} -->
 		<div class="flex flex-col gap-4 pb-8">
