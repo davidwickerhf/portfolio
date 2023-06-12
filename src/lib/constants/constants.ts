@@ -23,8 +23,8 @@ export const socials = [
 
 export interface Photo {
 	src: string;
-	title: string;
-	description: string;
+	title?: string;
+	description?: string;
 	url?: string;
 	year?: number;
 	related?: string;
@@ -279,5 +279,42 @@ export const certifications: Certification[] = [
 		month: 7,
 		logo: 'cambridge.png',
 		institutionUrl: 'https://www.cambridgeenglish.org/exams-and-tests/advanced/'
+	}
+];
+
+// PHOTOGRAPHY PORTFOLIO
+export interface Location {
+	title: string;
+	description?: string;
+	images: Photo[];
+}
+
+export const portfolio: Location[] = [
+	{
+		title: 'Armenia',
+		description: 'general.lorem-ipsum',
+		images: [
+			{
+				src: 'yerevan-1.jpg'
+			},
+			{
+				src: 'yerevan-2.jpg'
+			},
+			{
+				src: 'yerevan-3.jpg'
+			},
+			{
+				src: 'yerevan-4.jpg'
+			},
+			{
+				src: 'yerevan-5.jpg'
+			},
+			{
+				src: 'yerevan-6.jpg'
+			},
+			{
+				src: 'yerevan-7.jpg'
+			}
+		]
 	}
 ];

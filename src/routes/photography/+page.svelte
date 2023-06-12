@@ -1,0 +1,61 @@
+<script lang="ts">
+	import { portfolio, type Photo } from '$lib/constants/constants';
+	import { _ } from 'svelte-i18n';
+
+	let windowWidth;
+
+	// returns 4 lists of x items
+	let organizeImages = (images: Photo[], cols: number) => {
+		let num = Math.ceil(images.length / cols); // number of rows per list
+
+		let lists: Photo[][] = [];
+		for (let index = 0; index < cols; index++) {
+			lists.push([]);
+		}
+
+		let temp: Photo[] = [];
+		images.forEach((image, index) => {
+			lists[index % cols].push(image);
+		});
+
+		return lists;
+	};
+
+	let getColNumber = (width: number) => {
+		if (width > 850) {
+			return 4;
+		} else if (width > 500) {
+			return 2;
+		}
+		return 1;
+	};
+</script>
+
+<div class="flex flex-col gap-6 w-full" bind:clientWidth={windowWidth}>
+	<h2>photography.</h2>
+
+	{#each portfolio as location, index}
+		<div>
+			<p class="text-2xl font-medium uppercase">{$_(location.title)}</p>
+			{#if location.description}
+				<p>{$_(location.description)}</p>
+			{/if}
+		</div>
+
+		<div class="flex gap-4 justify-start items-start">
+			{#each organizeImages(location.images, getColNumber(windowWidth)) as list, index}
+				<div class="grid gap-4 justify-start items-start">
+					{#each list as image, index}
+						<div>
+							<img
+								class="h-auto max-w-full rounded-lg"
+								src="images/photography/{image.src}"
+								alt=""
+							/>
+						</div>
+					{/each}
+				</div>
+			{/each}
+		</div>
+	{/each}
+</div>
