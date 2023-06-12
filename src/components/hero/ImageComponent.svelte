@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
+	import { _ } from 'svelte-i18n';
 
 	export let title: string;
 	export let description: string;
@@ -21,18 +22,17 @@
 	<!-- Dark Background -->
 	<div class="relative min-w-min flex-shrink-0">
 		<div
-			class="absolute left-0 w-full h-full opacity-0 hover:bg-dark-three/50 hover:opacity-100 transition-all ease-in-out duration-150 p-8 text-alabaster-three flex flex-col justify-between"
+			class="absolute left-0 w-full h-full opacity-0 hover:bg-dark-three/50 hover:opacity-100 transition-all ease-in-out duration-150 p-8 text-alabaster-three flex flex-col justify-between overflow-hidden"
 		>
 			<div class="flex flex-col gap-4">
-				<p class="font-medium text-xl">{title}</p>
-				<p class="text-sm whitespace-nowrap overflow-hidden">
-					{description}
+				<p class="text-sm overflow-hidden">
+					{$_(description)}
 				</p>
 			</div>
 
 			{#if url}
 				<div class="flex gap-4 items-center">
-					<p>click to read more</p>
+					<a href={url}>click to read more</a>
 					<span class="material-symbols-outlined">chevron_right</span>
 				</div>
 			{/if}
@@ -41,6 +41,6 @@
 	</div>
 
 	<div class="p-4 font-medium flex justify-between">
-		<p>{title}</p>
+		<p>{$_(title)}</p>
 	</div>
 </a>

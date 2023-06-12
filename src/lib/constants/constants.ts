@@ -18,6 +18,56 @@ export const socials = [
 	{ name: 'github', url: 'https://github.com/davidwickerhf' }
 ];
 
+// WELCOME PAGE
+// Photo gallery
+
+export interface Photo {
+	src: string;
+	title: string;
+	description: string;
+	url?: string;
+	year?: number;
+	related?: string;
+}
+
+export const galleryPics: Photo[] = [
+	{
+		src: 'activities/tedx-1.jpg',
+		title: 'FIRST',
+		description: 'general.lorem-ipsum'
+	},
+	{
+		src: 'activities/tedx-1.jpg',
+		title: 'TedX Youth Conference at UWC Dilijan',
+		description: 'general.lorem-ipsum'
+	},
+	{
+		src: 'activities/tedx-1.jpg',
+		title: 'TedX Youth Conference at UWC Dilijan',
+		description: 'general.lorem-ipsum'
+	},
+	{
+		src: 'activities/tedx-1.jpg',
+		title: 'TedX Youth Conference at UWC Dilijan',
+		description: 'general.lorem-ipsum'
+	},
+	{
+		src: 'activities/tedx-1.jpg',
+		title: 'TedX Youth Conference at UWC Dilijan',
+		description: 'general.lorem-ipsum'
+	},
+	{
+		src: 'activities/tedx-1.jpg',
+		title: 'TedX Youth Conference at UWC Dilijan',
+		description: 'general.lorem-ipsum'
+	},
+	{
+		src: 'activities/tedx-1.jpg',
+		title: 'LAST',
+		description: 'general.lorem-ipsum'
+	}
+];
+
 // ACADEMICS AND CURRICULAR ACTIVITIES
 export interface Project {
 	id: string;

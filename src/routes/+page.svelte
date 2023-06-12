@@ -13,11 +13,11 @@
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import { scrollRef, scrollTo } from 'svelte-scrolling';
 	import ComponentLink from '../components/common/ComponentLink.svelte';
-	import LinkButton from '../components/common/LinkButton.svelte';
 
 	import { fade } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
-	import { setScrolled, sidebar } from '$lib/store/SidebarStore';
+	import { setScrolled } from '$lib/store/SidebarStore';
+	import { galleryPics } from '$lib/constants/constants';
 
 	// Carousel
 	let carousel: HTMLElement;
@@ -28,6 +28,22 @@
 	let work: boolean;
 	let civics: boolean;
 	let gallery: boolean;
+
+	let galleryPageNumber = 4;
+	let galleryIndex = 0;
+
+	let shiftPage = (left: boolean = false) => {
+		console.log(galleryIndex);
+		if (!left) {
+			galleryIndex =
+				galleryIndex + galleryPageNumber > galleryPics.length
+					? 0
+					: galleryIndex + galleryPageNumber;
+		} else {
+			galleryIndex = galleryIndex - galleryPageNumber <= 0 ? 0 : galleryIndex - galleryPageNumber;
+		}
+		console.log(galleryIndex);
+	};
 </script>
 
 <!-- Landing Section -->
@@ -223,14 +239,14 @@
 						<!-- svelte-ignore a11y-click-events-have-key-events -->
 						<div
 							class="flex w-12 justify-center text-center h-full items-center border-r border-dark-three dark:border-alabaster-three hover:bg-dark-three hover:text-alabaster-two dark:hover:bg-alabaster-three dark:hover:text-dark-three"
-							on:click={() => carousel.scrollBy({ left: -500, behavior: 'smooth' })}
+							on:click={() => shiftPage(true)}
 						>
 							<span class="material-symbols-outlined  text-2xl">chevron_left</span>
 						</div>
 						<!-- svelte-ignore a11y-click-events-have-key-events -->
 						<div
 							class="flex w-12 justify-center text-center h-full items-center border-l border-dark-three dark:border-alabaster-three hover:bg-dark-three hover:text-alabaster-two dark:hover:bg-alabaster-three dark:hover:text-dark-three"
-							on:click={() => carousel.scrollBy({ left: 500, behavior: 'smooth' })}
+							on:click={() => shiftPage()}
 						>
 							<span class="material-symbols-outlined  text-2xl">chevron_right</span>
 						</div>
@@ -239,42 +255,16 @@
 
 				<!-- Scrolling gallery -->
 				<div class="w-full gap-6 py-6 grid grid-cols-1 @2xl/content:grid-cols-2">
-					<ImageComponent
-						src="activities/tedx-1.jpg"
-						title="tedx youth conference"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua."
-					/>
-
-					<ImageComponent
-						src="activities/tedx-1.jpg"
-						title="tedx youth conference"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua."
-					/>
-
-					<ImageComponent
-						src="activities/tedx-1.jpg"
-						title="tedx youth conference"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua."
-					/>
-
-					<ImageComponent
-						src="activities/tedx-1.jpg"
-						title="tedx youth conference"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua."
-					/>
-
-					<ImageComponent
-						src="activities/tedx-1.jpg"
-						title="tedx youth conference"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua."
-					/>
-
-					<!-- Single div -->
+					{#each galleryPics as photo, index}
+						{#if index >= galleryIndex && index < galleryIndex + galleryPageNumber}
+							<ImageComponent
+								src={photo.src}
+								title={photo.title}
+								description={photo.description}
+								url={photo.url}
+							/>
+						{/if}
+					{/each}
 				</div>
 			</div>
 		{:else}
