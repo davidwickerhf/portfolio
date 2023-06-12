@@ -15,8 +15,6 @@
 >
 	<!-- Date -->
 	<div
-		in:fade
-		out:fade
 		class="flex px-0 @4xl/content:px-9 font-medium text-dark-one verflow-hidden flex-shrink-0 flex-grow-0"
 	>
 		<div class="whitespace-nowrap w-[74px]">
@@ -32,7 +30,7 @@
 		class="flex items-center gap-9 w-full justify-start border-x-2 border-t-2 border-alabaster-three dark:border-dark-three p-8"
 	>
 		<div>
-			<img src="/logos/{certification.logo}" alt="" class="w-24" />
+			<img src="/logos/{certification.logo}" alt="" class=" w-20" />
 		</div>
 
 		<div class="flex flex-col">
@@ -40,7 +38,7 @@
 				<span class="font-medium text-lg">{$_(certification.title)}</span>
 			</p>
 			<p>{certification.grade}</p>
-			<a href={certification.url} class="hover:underline text-dark-one">
+			<a href={certification.institutionUrl} class="hover:underline text-dark-one">
 				{$_(certification.institution)}
 			</a>
 		</div>

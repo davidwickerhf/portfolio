@@ -214,7 +214,7 @@ export interface Certification {
 	month: number;
 	logo?: string;
 	institution: string;
-	istitutionUrl?: string;
+	institutionUrl?: string;
 	url?: string;
 }
 
@@ -227,6 +227,7 @@ export const certifications: Certification[] = [
 		institution: 'Cambridge University Press & Assessment English',
 		year: 2022,
 		month: 7,
-		logo: 'cambridge.svg'
+		logo: 'cambridge.png',
+		institutionUrl: 'https://www.cambridgeenglish.org/exams-and-tests/advanced/'
 	}
 ];

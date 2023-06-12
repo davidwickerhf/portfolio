@@ -15,8 +15,6 @@
 >
 	<!-- Date -->
 	<div
-		in:fade
-		out:fade
 		class="flex px-0 @4xl/content:px-9 font-medium text-dark-one verflow-hidden flex-shrink-0 flex-grow-0"
 	>
 		<div class="whitespace-nowrap w-[74px]">
