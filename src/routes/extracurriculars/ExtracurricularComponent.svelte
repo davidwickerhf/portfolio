@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n';
 	import type { Activity } from '$lib/constants/constants';
-	import { fade } from 'svelte/transition';
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import { selected, setSelected } from '$lib/store/SelectedProjectStore';
 	import TextButton from '../../components/common/TextButton.svelte';

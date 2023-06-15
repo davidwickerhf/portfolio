@@ -6,10 +6,11 @@ export const tabs = [
 	{ id: 3, name: 'tabs.extracurriculars', url: '/extracurriculars', icon: 'camping' },
 	{ id: 4, name: 'tabs.certifications', url: '/certifications', icon: 'badge' },
 	{ id: 5, name: 'tabs.work-experience', url: '/work', icon: 'apartment' },
-	{ id: 6, name: 'tabs.activism', url: '/activism', icon: 'nature' },
-	{ id: 7, name: 'tabs.publications', url: '/publications', icon: 'feed' },
-	{ id: 8, name: 'tabs.personal-projects', url: '/projects', icon: 'integration_instructions' },
-	{ id: 9, name: 'tabs.photography', url: '/photography', icon: 'photo_camera' }
+	{ id: 6, name: 'tabs.civics', url: '/civics', icon: 'public' },
+	{ id: 7, name: 'tabs.activism', url: '/activism', icon: 'nature' },
+	{ id: 8, name: 'tabs.publications', url: '/publications', icon: 'feed' },
+	{ id: 9, name: 'tabs.personal-projects', url: '/projects', icon: 'integration_instructions' },
+	{ id: 10, name: 'tabs.photography', url: '/photography', icon: 'photo_camera' }
 ];
 
 export const socials = [
@@ -334,7 +335,45 @@ export const work: WorkExperience[] = [
 	}
 ];
 
-//
+// ACTIVISM
+export interface ActivismExperience {
+	id: string;
+	title: string;
+	description: string;
+	year: number;
+	month: number;
+	day?: number;
+	location: string;
+	images?: Photo[];
+}
+
+export const activism: ActivismExperience[] = [
+	{
+		id: 'fff-turin',
+		title: 'Foundated Fridays For Future Turin',
+		description: 'general.lorem-ipsum',
+		year: 2019,
+		month: 1,
+		location: 'Turin'
+	}
+];
+
+// CIVICS ARMENIA
+export interface CivcsTopic {
+	id: string;
+	title: string;
+	description: string;
+	images?: Photo[];
+	url?: string;
+}
+
+export const civics: CivcsTopic[] = [
+	{
+		id: 'fff-turin',
+		title: 'Foundated Fridays For Future Turin',
+		description: 'general.lorem-ipsum'
+	}
+];
 
 // PERSONAL PROJECTS
 export interface Technology {
