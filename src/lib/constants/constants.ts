@@ -282,6 +282,56 @@ export const certifications: Certification[] = [
 	}
 ];
 
+// PERSONAL PROJECTS
+export interface PersonalProject {
+	id: string;
+	title: string;
+	year: number;
+	shortDescription: string;
+	longDescription?: string;
+	url?: string;
+	technologies: string[];
+	images?: string;
+	issues?: string;
+	github?: string;
+	sandbox?: string;
+}
+
+// PUBBLICATIONS
+export interface Publication {
+	id: string;
+	title: string;
+	authors: string[];
+	publisher: string;
+	year: number;
+	description: string;
+	url: string;
+	image?: string;
+}
+
+export const publications: Publication[] = [
+	{
+		id: 'revolution',
+		title: 'The revolution will not be litigated',
+		authors: ['Katie Redford', 'Mark Gevisser'],
+		publisher: 'OR Books',
+		year: 2023,
+		description: 'general.lorem-ipsum',
+		url: 'https://www.amazon.it/Revolution-Will-Not-Litigated-English-ebook/dp/B0C1W1XZLG/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ZBK1K5POZ02S&keywords=the+revolution+will+not+be+litigated&qid=1686644886&sprefix=the+revolution+will+not+be+litigated,aps,113&sr=8-1',
+		image: 'revolution.jpeg'
+	},
+	{
+		id: 'stonesoup',
+		title: 'Stone Soup for a Sustainable World: Life-Changing Stories of Young Heroes',
+		authors: ['Marianne Larned'],
+		publisher: 'Stone Soup Institute',
+		year: 2021,
+		description: 'general.lorem-ipsum',
+		url: 'https://www.amazon.it/Stone-Soup-Sustainable-World-Life-Changing/dp/0578893800/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3GHV9BVUUKJKZ&keywords=stone+soup+for+a+sustainable+world&qid=1686786824&sprefix=stone+soup+for+a+sustainabile+world,aps,91&sr=8-1',
+		image: 'stonesoup.jpeg'
+	}
+];
+
 // PHOTOGRAPHY PORTFOLIO
 export interface Location {
 	title: string;

@@ -1,9 +1,14 @@
 {
   "page": {
-    "home": {}
+    "home": {
+      "definition-of": "definizione di",
+      "maastricht": "Maastricht University: BSc in Computer Science",
+      "projects": "progetti e extracurriculari",
+      "proper-noun": "nome proprio"
+    }
   },
   "tabs": {
-    "academics": "educazione",
+    "academics": "istruzione",
     "activism": "attivismo",
     "certifications": "certificazioni",
     "extracurriculars": "extracurriculari",
