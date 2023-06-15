@@ -10,7 +10,7 @@
 	$: open = $selected === data.id;
 </script>
 
-<div class="border-2 border-dark-three px-6 py-6 flex flex-col gap-4">
+<div id={data.id} class="border-2 border-dark-three px-6 py-6 flex flex-col gap-4">
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<div
 		class="flex justify-between"

@@ -334,6 +334,8 @@ export const work: WorkExperience[] = [
 	}
 ];
 
+//
+
 // PERSONAL PROJECTS
 export interface Technology {
 	title: string;

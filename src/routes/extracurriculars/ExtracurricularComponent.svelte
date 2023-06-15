@@ -11,6 +11,7 @@
 </script>
 
 <div
+	id={activity.id}
 	class="grid gird-cols-[auto] @4xl/content:grid-cols-[auto_auto] items-center border-alabaster-three dark:border-dark-three gap-x-2"
 >
 	<!-- Date -->

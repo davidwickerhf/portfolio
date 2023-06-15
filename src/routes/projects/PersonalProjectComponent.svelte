@@ -1,11 +1,9 @@
 <script lang="ts">
-	import { projects } from '$lib/constants/constants';
 	import type { PersonalProject } from '$lib/constants/constants';
 	import { _ } from 'svelte-i18n';
 
 	import { selected, setSelected } from '$lib/store/SelectedProjectStore';
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
-	import TextButton from '../../components/common/TextButton.svelte';
 	import LinkButton from '../../components/common/LinkButton.svelte';
 	import GridComponent from '../photography/GridComponent.svelte';
 
@@ -13,7 +11,10 @@
 	$: open = $selected === project.id;
 </script>
 
-<div class="w-full border-2 border-alabaster-three dark:border-dark-three p-8 flex flex-col gap-6 ">
+<div
+	id={project.id}
+	class="w-full border-2 border-alabaster-three dark:border-dark-three p-8 flex flex-col gap-6 "
+>
 	<!-- Heading -->
 	<div class="flex flex-col @xl/content:items-start gap-8 @xl/content:flex-row">
 		<!-- Logo -->
