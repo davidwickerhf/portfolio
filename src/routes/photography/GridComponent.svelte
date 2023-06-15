@@ -39,7 +39,7 @@
 		<div class="grid gap-4 justify-start items-start">
 			{#each list as image, index}
 				<div>
-					<img class="h-auto max-w-full rounded-lg" src="images/photography/{image.src}" alt="" />
+					<img class="h-auto max-w-full rounded-lg" src="images/{image.src}" alt="" />
 				</div>
 			{/each}
 		</div>

@@ -282,6 +282,58 @@ export const certifications: Certification[] = [
 	}
 ];
 
+// WORK EXPERIENCE
+export interface WorkExperience {
+	id: string;
+	type: string;
+	year: number;
+	company: string;
+	companyUrl?: string;
+	images?: Photo[];
+	overview?: string;
+	technologies?: Technology[];
+	issues?: string[];
+	requirements?: string[];
+}
+
+export const work: WorkExperience[] = [
+	{
+		id: 'mediamente',
+		type: 'internship',
+		company: 'Mediamente Consulting',
+		companyUrl: 'https://www.mediamenteconsulting.it/',
+		year: 2023,
+		images: [
+			{
+				src: 'work/mediamente-1.png'
+			},
+			{
+				src: 'work/mediamente-2.png'
+			}
+		],
+		overview: 'general.lorem-ipsum',
+		technologies: [
+			{
+				title: 'PHP'
+			},
+			{
+				title: 'JavaScript'
+			},
+			{
+				title: 'Ajax'
+			},
+			{
+				title: 'SCSS'
+			},
+			{
+				title: 'MySQL'
+			}
+		],
+		issues: ['general.lorem-ipsum-short', 'general.lorem-ipsum-short'],
+		requirements: ['Car booking', 'Tracking number of available cars']
+	}
+];
+
 // PERSONAL PROJECTS
 export interface Technology {
 	title: string;
@@ -339,13 +391,13 @@ export const projects: PersonalProject[] = [
 		],
 		images: [
 			{
-				src: 'yerevan-1.jpg'
+				src: 'photography/yerevan-1.jpg'
 			},
 			{
-				src: 'yerevan-2.jpg'
+				src: 'photography/yerevan-2.jpg'
 			},
 			{
-				src: 'yerevan-3.jpg'
+				src: 'photography/yerevan-3.jpg'
 			}
 		],
 		issues: ['general.lorem-ipsum', 'general.lorem-ipsum'],
@@ -402,25 +454,25 @@ export const portfolio: Location[] = [
 		description: 'general.lorem-ipsum',
 		images: [
 			{
-				src: 'yerevan-1.jpg'
+				src: 'photography/yerevan-1.jpg'
 			},
 			{
-				src: 'yerevan-2.jpg'
+				src: 'photography/yerevan-2.jpg'
 			},
 			{
-				src: 'yerevan-3.jpg'
+				src: 'photography/yerevan-3.jpg'
 			},
 			{
-				src: 'yerevan-4.jpg'
+				src: 'photography/yerevan-4.jpg'
 			},
 			{
-				src: 'yerevan-5.jpg'
+				src: 'photography/yerevan-5.jpg'
 			},
 			{
-				src: 'yerevan-6.jpg'
+				src: 'photography/yerevan-6.jpg'
 			},
 			{
-				src: 'yerevan-7.jpg'
+				src: 'photography/yerevan-7.jpg'
 			}
 		]
 	}
