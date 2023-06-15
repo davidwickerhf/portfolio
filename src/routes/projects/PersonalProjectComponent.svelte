@@ -1,0 +1,144 @@
+<script lang="ts">
+	import { projects } from '$lib/constants/constants';
+	import type { PersonalProject } from '$lib/constants/constants';
+	import { _ } from 'svelte-i18n';
+
+	import { selected, setSelected } from '$lib/store/SelectedProjectStore';
+	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
+	import TextButton from '../../components/common/TextButton.svelte';
+	import LinkButton from '../../components/common/LinkButton.svelte';
+	import GridComponent from '../photography/GridComponent.svelte';
+
+	export let project: PersonalProject;
+	$: open = $selected === project.id;
+</script>
+
+<div class="w-full border-2 border-alabaster-three dark:border-dark-three p-8 flex flex-col gap-6 ">
+	<!-- Heading -->
+	<div class="flex flex-col @xl/content:items-start gap-8 @xl/content:flex-row">
+		<!-- Logo -->
+		<img alt="" src="logos/{project.logo}" class="max-h-48 @xl/content:max-h-32" />
+
+		<!-- Title -->
+		<div class="flex flex-col gap-4">
+			<div class="flex justify-between w-full items-center">
+				<div class="flex flex-col">
+					<p class="text-xl font-medium">{project.title}</p>
+					<p class="text-dark-one">({project.year}) {$_(project.subtitle)}</p>
+				</div>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<span
+					on:click={() => {
+						if (open) setSelected('');
+						else setSelected(project.id);
+					}}
+					on:mouseover={isHovering}
+					on:focus={isHovering}
+					on:blur={isNotHovering}
+					on:mouseout={isNotHovering}
+					class="material-symbols-outlined">{$selected === project.id ? 'close' : 'add'}</span
+				>
+			</div>
+			<!-- Short description -->
+			<p>{$_(project.shortDescription)}</p>
+		</div>
+	</div>
+
+	<!-- Optional Content -->
+	<div
+		class="w-full flex flex-col gap-4 {$selected === project.id
+			? 'max-h-[1500px]'
+			: ' max-h-0'} overflow-hidden transition-[max-height] ease-in-out duration-200"
+	>
+		<!-- Images  -->
+		{#if project.images}
+			<!-- Show images -->
+			<GridComponent images={project.images} />
+		{/if}
+		<!-- Long description -->
+		{#if project.longDescription}
+			<div class="w-full flex flex-col gap-2">
+				<p class="uppercase text-lg font-medium">Detailed Description</p>
+				<p>{$_(project.longDescription)}</p>
+			</div>
+		{/if}
+
+		<!-- Technologies used -->
+		{#if project.technologies}
+			<div class="w-full flex flex-col gap-2">
+				<p class="uppercase text-lg font-medium">Technologies Used</p>
+				<div class="flex w-full flex-wrap gap-4">
+					{#each project.technologies as tech}
+						<!-- Single tech div -->
+						<a
+							on:mouseover={isHovering}
+							on:focus={isHovering}
+							on:blur={isNotHovering}
+							on:mouseout={isNotHovering}
+							href={tech.url ? tech.url : '/projects'}
+							class="py-6 px-9 border-alabaster-three dark:border-dark-three border-2 hover:bg-alabaster-three dark:hover:bg-dark-three"
+						>
+							{tech.title}
+						</a>
+					{/each}
+				</div>
+			</div>
+		{/if}
+
+		<!-- Issues faced -->
+		{#if project.issues}
+			<div class="w-full flex flex-col gap-2">
+				<p class="uppercase text-lg font-medium">Issues Faced</p>
+				<ol class="ml-8 list-disc list-outside w-full gap-2 flex flex-col">
+					{#each project.issues as issue}
+						<!-- Single issue -->
+						<li>{$_(issue)}</li>
+					{/each}
+				</ol>
+			</div>
+		{/if}
+
+		<!-- Code sandbox -->
+		<!-- {#if project.sandbox}
+			<div class="w-full flex flex-col gap-2">
+				<p class="uppercase text-lg font-medium">Code sandbox</p>
+			</div>
+		{/if} -->
+	</div>
+
+	<!-- Links -->
+	<div class="flex gap-4 @2xl/content:flex-row flex-col justify-between">
+		<!-- Links -->
+		<div
+			class="flex gap-4 @xl/content:flex-row flex-col w-full justify-between @2xl/content:w-fit @2xl/content:justify-start"
+		>
+			{#if project.url}
+				<div class="@2xl/content:w-fit w-full">
+					<LinkButton url={project.url}>view project</LinkButton>
+				</div>
+			{/if}
+			{#if project.github}
+				<div class="@2xl/content:w-fit w-full">
+					<LinkButton url={project.github}>view code</LinkButton>
+				</div>
+			{/if}
+		</div>
+
+		<!-- Read more or less -->
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<div
+			class="flex text-lg align-middle items-center hover:scale-110 transition-all ease-in-out w-fit"
+			on:mouseover={isHovering}
+			on:focus={isHovering}
+			on:blur={isNotHovering}
+			on:mouseout={isNotHovering}
+			on:click={() => {
+				if (open) setSelected('');
+				else setSelected(project.id);
+			}}
+		>
+			<p>{open ? $_('general.read-less') : $_('general.read-more')}</p>
+			<span class="material-symbols-outlined"> chevron_right </span>
+		</div>
+	</div>
+</div>

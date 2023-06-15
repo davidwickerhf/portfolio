@@ -283,20 +283,77 @@ export const certifications: Certification[] = [
 ];
 
 // PERSONAL PROJECTS
+export interface Technology {
+	title: string;
+	url?: string;
+}
+
 export interface PersonalProject {
 	id: string;
 	title: string;
+	subtitle: string;
 	year: number;
 	shortDescription: string;
+	logo: string;
 	longDescription?: string;
 	url?: string;
-	technologies: string[];
-	images?: string;
-	issues?: string;
+	technologies: Technology[];
+	images?: Photo[];
+	issues?: string[];
 	github?: string;
 	sandbox?: string;
 }
 
+export const projects: PersonalProject[] = [
+	{
+		id: 'mai-checkers',
+		title: 'Mai Checkers',
+		year: 2023,
+		subtitle: 'Online checkers game',
+		shortDescription: 'general.lorem-ipsum-short',
+		longDescription: 'general.lorem-ipsum',
+		url: 'https://checkers.wicker.life/',
+		logo: 'maicheckers.svg',
+		technologies: [
+			{
+				title: 'TypeScript'
+			},
+			{
+				title: 'Next.js'
+			},
+			{
+				title: 'React.js'
+			},
+			{
+				title: 'Jotai.js'
+			},
+			{
+				title: 'Three.js'
+			},
+			{
+				title: 'Tailwind CSS'
+			},
+			{
+				title: 'Vercel'
+			}
+		],
+		images: [
+			{
+				src: 'yerevan-1.jpg'
+			},
+			{
+				src: 'yerevan-2.jpg'
+			},
+			{
+				src: 'yerevan-3.jpg'
+			}
+		],
+		issues: ['general.lorem-ipsum', 'general.lorem-ipsum'],
+		github: 'https://github.com/wickerlife/checkers',
+		sandbox:
+			'https://codesandbox.io/p/github/wickerlife/checkers/main?layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522panelType%2522%253A%2522TABS%2522%252C%2522id%2522%253A%2522cliwtfx24000b3b6mgef6pkij%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522panelType%2522%253A%2522TABS%2522%252C%2522id%2522%253A%2522cliwtfx24000d3b6mv5a0grvw%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B50%252C50%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522cliwtfx24000b3b6mgef6pkij%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522cliwtfx24000a3b6m9skoceo6%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252FREADME.md%2522%257D%255D%252C%2522id%2522%253A%2522cliwtfx24000b3b6mgef6pkij%2522%252C%2522activeTabId%2522%253A%2522cliwtfx24000a3b6m9skoceo6%2522%257D%252C%2522cliwtfx24000d3b6mv5a0grvw%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522cliwtfx24000c3b6miy7a84do%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522PROJECT_SETUP%2522%257D%255D%252C%2522id%2522%253A%2522cliwtfx24000d3b6mv5a0grvw%2522%252C%2522activeTabId%2522%253A%2522cliwtfx24000c3b6miy7a84do%2522%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D'
+	}
+];
 // PUBBLICATIONS
 export interface Publication {
 	id: string;
