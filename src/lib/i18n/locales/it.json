@@ -4,7 +4,14 @@
       "definition-of": "definizione di",
       "maastricht": "Maastricht University: BSc in Computer Science",
       "projects": "progetti e extracurriculari",
-      "proper-noun": "nome proprio"
+      "proper-noun": "nome proprio",
+      "intro": "David sta studiando scienze applicate presso l'IIS Blaise Pascal di Giaveno. È appassionato di informatica ed è attivamente coinvolto nell'attivismo climatico. David parla italiano, inglese (Cambridge C2) e tedesco (Goethe B1). Ha scelto di studiare informatica presso l'Università di Maastricht l'anno prossimo. In futuro, spera di esplorare i modi in cui l'apprendimento automatico può essere utilizzato per prevedere eventi meteorologici estremi.",
+      "pascal": "IIS Blaise Pascal: Liceo Scientifico opzione Scienze Applicate",
+      "giacomo": "scuola secondaria statale giacomo jaquerio",
+      "uwcdilijan": "UWC Dilijan College: Diploma IB",
+      "academics": "istruzione",
+      "view-my-curriculum": "scarica il mio curriculum",
+      "civics-text": "Durante il mio anno all'estero in Armenia, ho acquisito una profonda comprensione delle sfide affrontate dal popolo armeno. \nSono stato esposto alla tragica storia del genocidio armeno, perpetrato dall'impero ottomano, che, ancora oggi, manca di un pieno riconoscimento internazionale. \nInoltre, ho appreso dei conflitti e delle guerre in corso tra Armenia e Azerbaigian riguardanti la regione del Nogorno Karabakh. \nQueste esperienze fanno luce sulle lotte subite dai giovani armeni, che vivono con la costante paura di essere arruolati nell'esercito fin dalla giovane età. \nAssistere a queste difficoltà in prima persona ha risvegliato la mia empatia e rafforzato il mio impegno a difendere la giustizia e la pace. \nHa approfondito il mio apprezzamento per la resilienza e la determinazione del popolo armeno, che persiste di fronte alle avversità. \nQuesta esperienza mi ha spinto a organizzare un progetto di sensibilizzazione sulle lotte del popolo armeno nel mio liceo nel nord Italia."
     }
   },
   "tabs": {
@@ -16,9 +23,13 @@
     "photography": "fotografia",
     "publications": "pubblicazioni",
     "welcome": "benvenuti!",
-    "work-experience": "esperienza lavorativa"
+    "work-experience": "esperienza lavorativa",
+    "civics": "civica"
   },
   "general": {
-    "read-less": "vedi di meno"
+    "read-less": "vedi di meno",
+    "by": "di",
+    "read-more": "leggi di più",
+    "through": "con"
   }
 }

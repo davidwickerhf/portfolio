@@ -48,7 +48,7 @@
 	<!-- Optional Content -->
 	<div
 		class="w-full flex flex-col gap-4 {$selected === project.id
-			? 'max-h-[1500px]'
+			? 'max-h-[1500000px]'
 			: ' max-h-0'} overflow-hidden transition-[max-height] ease-in-out duration-200"
 	>
 		<!-- Images  -->

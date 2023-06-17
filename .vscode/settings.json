@@ -6,5 +6,6 @@
 			" {\n\t\tcoords1.set({ x: e.clientX, y: e.clientY });\n\t\tcoords2.set({ x: e.clientX, y: e.clientY });\n\t}}\n\ton:mousedown={(e) => {\n\t\tsize.set(30);\n\t}}\n\ton:mouseup={(e) => {\n\t\tsize.set(10);\n\t}}\n/>\n\n"
 		]
 	},
-	"i18n-ally.keystyle": "nested"
+	"i18n-ally.keystyle": "nested",
+	"i18n-ally.extract.autoDetect": true
 }

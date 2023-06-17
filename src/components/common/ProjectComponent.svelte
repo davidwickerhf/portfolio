@@ -20,7 +20,7 @@
 	<div class="px-6 py-6 flex w-full h-full flex-col gap-6 justify-between">
 		<div>
 			<p class="text-xl font-medium">{title}</p>
-			<p class="text-sm font-normal">{description}</p>
+			<p class="text-sm font-normal">{$_(description)}</p>
 		</div>
 		<!-- Button -->
 		<LinkButton {url}>read more</LinkButton>

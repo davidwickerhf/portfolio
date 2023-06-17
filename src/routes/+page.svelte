@@ -18,6 +18,7 @@
 	import { inview } from 'svelte-inview';
 	import { setScrolled } from '$lib/store/SidebarStore';
 	import { galleryPics } from '$lib/constants/constants';
+	import LinkButton from '../components/common/LinkButton.svelte';
 
 	// Carousel
 	let carousel: HTMLElement;
@@ -69,7 +70,7 @@
 
 			<!-- action btns -->
 			<div class="flex justify-between mt-4 flex-wrap-reverse gap-8">
-				<TextButton text={'view my curriculum'} url="/curriculum" />
+				<TextButton text={$_('page.home.view-my-curriculum')} url="/curriculum" />
 				<div class="flex gap-8">
 					<UnderlineLink underline url="https://instagram.com/davidwickerhf"
 						>instagram</UnderlineLink
@@ -114,7 +115,7 @@
 						use:scrollRef={'Academics'}
 						class="@lg/content:border-b-2 border-alabaster-three dark:border-dark-three"
 					>
-						academics
+						{$_('page.home.academics')}
 					</h2>
 				</span>
 
@@ -156,21 +157,21 @@
 					<!-- Single project widget -->
 					<ProjectComponent
 						title="TedX Youth"
-						description="TedX You asidjia sidjiajidjis jiajdij si th Conference organized at UWC Dilijan"
+						description="page.home.tedx-text"
 						url="/extracurriculars"
 						resource="activities/tedx-1.jpg"
 					/>
 					<ProjectComponent
-						title="TedX Youth"
-						description="TedX Youth Conference organized at UWC Dilijan"
+						title="Mai Checkers"
+						description="page.home.checkers-text"
 						url="/extracurriculars"
-						resource="activities/tedx-1.jpg"
+						resource="projects/checkers.png"
 					/>
 					<ProjectComponent
-						title="TedX Youth"
-						description="TedX Youth Conference organized at UWC Dilijan"
-						url="/extracurriculars"
-						resource="activities/tedx-1.jpg"
+						title="DEC Torino"
+						description="page.home.DEC-text"
+						url="/activism"
+						resource="projects/dec-torino.jpeg"
 					/>
 				</div>
 			</div>
@@ -187,11 +188,11 @@
 	>
 		{#if work}
 			<div in:fade class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6">
-				<h2>work experience</h2>
+				<h2>{$_('page.home.work-experience')}</h2>
 				<p>
-					{$_('general.lorem-ipsum')}
+					{$_('page.home.work')}
 				</p>
-				<ComponentLink url={'/'}>Mediamente Consulting</ComponentLink>
+				<ComponentLink url={'/work'}>Mediamente Consulting</ComponentLink>
 			</div>
 		{/if}
 	</section>
@@ -208,9 +209,13 @@
 			<div in:fade class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6">
 				<h2>civics</h2>
 				<p>
-					{$_('general.lorem-ipsum')}
+					{$_('page.home.civics-text')}
 				</p>
-				<ComponentLink url={'/'}>Project Armenia</ComponentLink>
+				<div class="w-fit">
+					<TextButton text={'page.home.genocide-link'} url="/civics" />
+				</div>
+
+				<ComponentLink url={'/civics'}>Project Armenia</ComponentLink>
 			</div>
 		{/if}
 	</section>

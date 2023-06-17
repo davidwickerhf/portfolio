@@ -4,6 +4,8 @@
 	import { _ } from 'svelte-i18n';
 	import type { Project } from '$lib/constants/constants';
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
+	import GridComponent from '../photography/GridComponent.svelte';
+	import TextButton from '../../components/common/TextButton.svelte';
 
 	export let data: Project;
 	let open = false;
@@ -30,11 +32,17 @@
 	{#if open}
 		<div in:fade>
 			<p class="mb-4">{$_(data.description)}</p>
-			<div class="flex flex-wrap gap-4">
+			<div class="flex flex-col gap-4">
+				{#if data.url}
+					<div class="w-fit">
+						<TextButton text="general.read-more" url={data.url} />
+					</div>
+				{/if}
 				{#if data.images}
-					{#each data.images as img}
+					<GridComponent images={data.images} />
+					<!-- {#each data.images as img}
 						<img class="max-h-[225px]" src="/images/{img}" alt="" />
-					{/each}
+					{/each} -->
 				{/if}
 			</div>
 		</div>

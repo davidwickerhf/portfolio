@@ -14,7 +14,7 @@ export const theme = writable(data);
 
 theme.subscribe((v) => {
 	if (browser) {
-		window.localStorage.setItem('color-theme', JSON.stringify(v));
+		window.localStorage.setItem('color-theme', v);
 		if (v === 'dark') document.documentElement.classList.add('dark');
 		else document.documentElement.classList.remove('dark');
 	}
@@ -22,11 +22,6 @@ theme.subscribe((v) => {
 
 export const toggleTheme = () => {
 	theme.update((current) => {
-		if (browser)
-			window.localStorage.setItem(
-				'color-theme',
-				JSON.stringify(current === 'dark' ? 'light' : 'dark')
-			);
 		return current === 'dark' ? 'light' : 'dark';
 	});
 };

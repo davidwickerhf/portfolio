@@ -3,12 +3,21 @@
     "home": {
       "definition-of": "definition of",
       "proper-noun": "proper noun",
-      "intro": "I am studying applied science the IIS Blaise Pascal high school in Giaveno, I’m passionate in computer science and involved in climate activism. I speak Italian, English (Cambridge C2) and German (Goethe B1). I have chosen to study computer science at Maastricht University next year and in the future I hope to explore ways machine learning can be used to predict extreme weather events.",
-      "giacomo": "public secondary school giacomo jaqueiro",
+      "intro": "David is studying applied science at the IIS Blaise Pascal high school in Giaveno. He is passionate about computer science and actively engaged in climate activism. David is fluent in Italian, English (Cambridge C2), and is learning German (Goethe B1). He has made the decision to pursue computer science at Maastricht University starting next year. In the future, he aspires to delve into the application of machine learning in predicting extreme weather events.",
+      "giacomo": "public secondary school giacomo jaquerio",
       "pascal": "IIS Blaise Pascal: Applied Sciences High School",
       "uwcdilijan": "UWC Dilijan College: IB Diploma",
       "maastricht": "Maastricht University: BSc Computer Science",
-      "projects": "projects and extracurriculars"
+      "projects": "projects and extracurriculars",
+      "academics": "academics",
+      "view-my-curriculum": "view my curriculum",
+      "work-experience": "work experience",
+      "work": "During my internship at Mediamente Consulting, a Business Intelligence company in Turin, I was tasked with developing a car booking system for managing internal employee rentals. I began by designing the website pages using Figma, and once approved, I proceeded to implement the design on the company's codebase. To bring the car booking system to life, I utilized PHP, raw JavaScript, and SCSS. I carefully developed the backend functionalities using PHP to ensure seamless communication with the company's database. With JavaScript, I added interactive elements and dynamic features to enhance the user experience.",
+      "DEC-text": "Elaborato e proposto alla giunta di Torino una mozione per la Dichiarazione di Emergenza Climatica. Con il sostegno dell'assessore all'ambiente, la mozione è stata approvata",
+      "checkers-text": "Took on a project recommended by the computer science teacher and successfully developed an online 3D checkers game using web technologies",
+      "tedx-text": "organized a TEDxYouth Conference hosted by UWC Dilijan in Dilijan, Armenia, showcasing inspiring speakers and ideas to empower and engage youth.",
+      "civics-text": "During my year abroad in Armenia, I gained a deep understanding of the challenges faced by the Armenian people. I was exposed to the tragic history of the Armenian genocide, perpetrated by the Ottoman Empire, which, even today, lacks full international recognition. Additionally, I learned about the ongoing conflicts and wars between Armenia and Azerbaijan concerning the Nogorno Karabakh region. These experiences shed light on the struggles endured by Armenian youth, who live with the constant fear of being conscripted into the army from a young age. Witnessing these hardships firsthand awakened my empathy and strengthened my commitment to advocating for justice and peace. It deepened my appreciation for the resilience and determination of the Armenian people, who persist in the face of adversity. This experience prompted me to organize a project to raise awareness about the struggles of the Armenian people in my high school in northern Italy.",
+      "genocide-link": "Learn more about the armenian genocide"
     }
   },
   "tabs": {
@@ -30,5 +39,9 @@
     "through": "through",
     "read-less": "read less",
     "read-more": "read more"
+  },
+  "home": {
+    "view-my-curriculum": "view my curriculum",
+    "academics": "academics"
   }
 }

@@ -7,6 +7,9 @@
 
 	// returns 4 lists of x items
 	let organizeImages = (images: Photo[], cols: number) => {
+		if (images.length < 2) {
+			return [[...images]];
+		}
 		let num = Math.ceil(images.length / cols); // number of rows per list
 
 		let lists: Photo[][] = [];

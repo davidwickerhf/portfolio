@@ -12,7 +12,7 @@
 
 <div
 	id={certification.id}
-	class="grid gird-cols-[auto] @4xl/content:grid-cols-[auto_auto] items-center border-alabaster-three dark:border-dark-three gap-x-2"
+	class="w-full grid gird-cols-[auto] @4xl/content:grid-cols-[auto_auto] items-center border-alabaster-three dark:border-dark-three gap-x-2"
 >
 	<!-- Date -->
 	<div
@@ -30,15 +30,17 @@
 	<div
 		class="flex items-center gap-9 w-full justify-start border-x-2 border-t-2 border-alabaster-three dark:border-dark-three p-8"
 	>
-		<div>
-			<img src="/logos/{certification.logo}" alt="" class=" w-20" />
+		<div class="shrink-0 grow-0">
+			<img src="/logos/{certification.logo}" alt="" class="max-h-20 w-20" />
 		</div>
 
 		<div class="flex flex-col">
 			<p>
 				<span class="font-medium text-lg">{$_(certification.title)}</span>
 			</p>
-			<p>{certification.grade}</p>
+			{#if certification.grade}
+				<p>{certification.grade}</p>
+			{/if}
 			<a href={certification.institutionUrl} class="hover:underline text-dark-one">
 				{$_(certification.institution)}
 			</a>
