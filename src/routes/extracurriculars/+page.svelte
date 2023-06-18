@@ -5,17 +5,25 @@
 	import { activities, ActivityArea } from '$lib/constants/constants';
 	import { onMount } from 'svelte';
 	import { setSelected } from '$lib/store/SelectedProjectStore';
+	import { page } from '$app/stores';
+	import { scrollIntoView } from '$lib/constants/functions';
 
 	const keys = Object.keys(ActivityArea);
 	const values = Object.values(ActivityArea);
 
+	const scrollId = $page.url.hash.replace('#', '');
 	onMount(() => {
 		setSelected('');
+		if (scrollId) {
+			window.requestAnimationFrame(() => scrollIntoView(scrollId));
+			history.replaceState('', '', window.location.pathname);
+			setSelected(scrollId);
+		}
 	});
 </script>
 
 <div class="flex flex-col gap-6">
-	<h2>extracurriculars.</h2>
+	<h2>{$_('page.extracurriculars.title')}</h2>
 
 	{#each keys as area, index}
 		{#if activities.filter((a) => a.area === values[index]).length > 0}

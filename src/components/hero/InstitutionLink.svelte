@@ -5,6 +5,7 @@
 	export let date: string;
 	export let current: boolean = false;
 	export let last: boolean = false;
+	export let id: string;
 </script>
 
 <div class="relative">
@@ -30,6 +31,6 @@
 		</div>
 
 		<!-- Button -->
-		<ComponentLink url={'/academics'} filled={current}><slot /></ComponentLink>
+		<ComponentLink url="/academics#{id}" filled={current}><slot /></ComponentLink>
 	</div>
 </div>

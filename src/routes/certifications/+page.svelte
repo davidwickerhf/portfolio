@@ -4,12 +4,20 @@
 	import { onMount } from 'svelte';
 	import { setSelected } from '$lib/store/SelectedProjectStore';
 	import CertificationsComponent from './CertificationComponent.svelte';
+	import { page } from '$app/stores';
+	import { scrollIntoView } from '$lib/constants/functions';
 
 	const keys = Object.keys(CertificationType);
 	const values = Object.values(CertificationType);
 
+	const scrollId = $page.url.hash.replace('#', '');
 	onMount(() => {
 		setSelected('');
+		if (scrollId) {
+			window.requestAnimationFrame(() => scrollIntoView(scrollId));
+			history.replaceState('', '', window.location.pathname);
+			setSelected(scrollId);
+		}
 	});
 </script>
 

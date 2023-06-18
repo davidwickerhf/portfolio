@@ -38,6 +38,7 @@
 		"classnames": "^2.3.2",
 		"flowbite": "^1.6.3",
 		"flowbite-svelte": "^0.30.5",
+		"scroll-into-view-if-needed": "^3.0.10",
 		"svelte-i18n": "^3.6.0",
 		"svelte-inview": "^4.0.0",
 		"svelte-lazy": "^1.2.1",

@@ -17,14 +17,14 @@
 	import { fade } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
 	import { setScrolled } from '$lib/store/SidebarStore';
-	import { galleryPics } from '$lib/constants/constants';
+	import { academics, galleryPics } from '$lib/constants/constants';
 	import LinkButton from '../components/common/LinkButton.svelte';
 
 	// Carousel
 	let carousel: HTMLElement;
 
 	// Transitions
-	let academics: boolean;
+	let academicsView: boolean;
 	let projects: boolean;
 	let work: boolean;
 	let civics: boolean;
@@ -101,20 +101,18 @@
 
 	<!-- Academics widget -->
 	<section
+		use:scrollRef={'Academics'}
 		class="w-full flex justify-center items-center"
 		use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
 		on:inview_change={(event) => {
-			academics = event.detail.inView;
+			academicsView = event.detail.inView;
 		}}
 	>
-		{#if academics}
+		{#if academicsView}
 			<div in:fade class="w-full flex max-w-4xl flex-col text-dark-three dark:text-alabaster-two">
 				<!-- Section heading -->
 				<span class="flex">
-					<h2
-						use:scrollRef={'Academics'}
-						class="@lg/content:border-b-2 border-alabaster-three dark:border-dark-three"
-					>
+					<h2 class="@lg/content:border-b-2 border-alabaster-three dark:border-dark-three">
 						{$_('page.home.academics')}
 					</h2>
 				</span>
@@ -122,17 +120,20 @@
 				<!-- Academics widget -->
 				<div class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-8" />
 				<div class="flex flex-col">
-					<InstitutionLink date="2014 - 2018">{$_('page.home.giacomo')}</InstitutionLink>
-					<div class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
-					<InstitutionLink date="2018 - 2023" current={true}
-						>{$_('page.home.pascal')}</InstitutionLink
-					>
-					<div class="@lg:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
-					<InstitutionLink date="2021 - 2022">{$_('page.home.uwcdilijan')}</InstitutionLink>
-					<div class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
-					<InstitutionLink date="2023 - 2026" last={true}
-						>{$_('page.home.maastricht')}</InstitutionLink
-					>
+					{#each academics as school, index}
+						{#if index != 0}
+							<div
+								class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-6"
+							/>
+						{/if}
+						<InstitutionLink
+							last={index === academics.length - 1}
+							id={school.id}
+							current={school.current}
+							date="{school.beginYear} - {school.endYear}"
+							>{$_(school.istitution)}: {$_(school.diploma)}</InstitutionLink
+						>
+					{/each}
 				</div>
 			</div>
 		{:else}
@@ -158,19 +159,19 @@
 					<ProjectComponent
 						title="TedX Youth"
 						description="page.home.tedx-text"
-						url="/extracurriculars"
+						url="/extracurriculars#tedx-youth"
 						resource="activities/tedx-1.jpg"
 					/>
 					<ProjectComponent
 						title="Mai Checkers"
 						description="page.home.checkers-text"
-						url="/extracurriculars"
+						url="/extracurriculars#maci-checkers"
 						resource="projects/checkers.png"
 					/>
 					<ProjectComponent
 						title="DEC Torino"
 						description="page.home.DEC-text"
-						url="/activism"
+						url="/activism#dec"
 						resource="projects/dec-torino.jpeg"
 					/>
 				</div>
@@ -192,7 +193,7 @@
 				<p>
 					{$_('page.home.work')}
 				</p>
-				<ComponentLink url={'/work'}>Mediamente Consulting</ComponentLink>
+				<ComponentLink url={'/work#mediamente'}>Mediamente Consulting</ComponentLink>
 			</div>
 		{/if}
 	</section>
@@ -215,7 +216,7 @@
 					<TextButton text={'page.home.genocide-link'} url="/civics" />
 				</div>
 
-				<ComponentLink url={'/civics'}>Project Armenia</ComponentLink>
+				<ComponentLink url={'/academics#project-armenia'}>Project Armenia</ComponentLink>
 			</div>
 		{/if}
 	</section>
@@ -233,7 +234,7 @@
 				<div
 					class="flex  justify-between items-center gap-2 transition-all ease-in-out duration-200"
 				>
-					<h2>photo gallery</h2>
+					<h2>{$_('page.home.gallery')}</h2>
 					<div
 						class="flex border-2 h-12 items-center border-dark-three dark:border-alabaster-three"
 						on:mouseover={isHovering}

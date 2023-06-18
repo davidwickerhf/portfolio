@@ -445,8 +445,7 @@ export const activities: Activity[] = [
 		institutionUrl:
 			'https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/programs/summer+school/',
 		description:
-			"Dopo un processo di selezione, ho avuto l'opportunità di partecipare come studente ai corsi di 'International Politics' e 'EU for Sustainable Development' presso la Bocconi Summer School. Sono stati due corsi molto interessanti che mi hanno permesso di approfondire la mia conoscenza su questioni politiche ed economiche internazionali, nonché sulle sfide ambientali e di sviluppo sostenibile. La Bocconi Summer School è un programma estivo organizzato dalla prestigiosa Università Bocconi di Milano, dedicato a studenti universitari provenienti da tutto il mondo che desiderano approfondire le loro conoscenze in un ambiente accademico stimolante e internazionale. Durante il programma, gli studenti hanno la possibilità di scegliere tra una vasta gamma di corsi in diverse discipline, tra cui economia, finanza, management, diritto e scienze politiche.",
-		images: [{ src: 'activities/tedx-1.jpg' }]
+			"Dopo un processo di selezione, ho avuto l'opportunità di partecipare come studente ai corsi di 'International Politics' e 'EU for Sustainable Development' presso la Bocconi Summer School. Sono stati due corsi molto interessanti che mi hanno permesso di approfondire la mia conoscenza su questioni politiche ed economiche internazionali, nonché sulle sfide ambientali e di sviluppo sostenibile. La Bocconi Summer School è un programma estivo organizzato dalla prestigiosa Università Bocconi di Milano, dedicato a studenti universitari provenienti da tutto il mondo che desiderano approfondire le loro conoscenze in un ambiente accademico stimolante e internazionale. Durante il programma, gli studenti hanno la possibilità di scegliere tra una vasta gamma di corsi in diverse discipline, tra cui economia, finanza, management, diritto e scienze politiche."
 	},
 
 	// RELATED TO LEADERSHIP
@@ -747,41 +746,93 @@ export const activism: ActivismExperience[] = [
 	// FFF Torino
 	{
 		id: 'fff-turin',
-		title: 'Founded Fridays For Future Turin',
+		title: 'Foundation of Fridays for Future Turin',
 		description: 'general.lorem-ipsum',
 		year: 2019,
 		location: 'Turin'
 	},
+
 	// FFF Italia
 	{
 		id: 'fff-italia',
-		title: 'Founded Fridays For Future Italia',
+		title: 'Foundation of Fridays For Future Italy',
+		description: 'general.lorem-ipsum',
+		year: 2019,
+		location: 'Italy'
+	},
+
+	// FFF international
+	{
+		id: 'fff-int',
+		title: 'International Fridays For Future network',
+		description: 'general.lorem-ipsum',
+		year: 2019,
+		location: 'Italy'
+	},
+
+	// EU Parliament Strasburgo
+	{
+		id: 'eu-strasbourg',
+		title: 'First international meeting at the EU Parliament in Strasburg',
+		description: 'general.lorem-ipsum',
+		year: 2019,
+		location: 'Italy'
+	},
+
+	// Global Strikes
+	{
+		id: 'global-strikes',
+		title: 'Global climate strikes',
+		description: 'general.lorem-ipsum',
+		year: 2019,
+		location: 'Italy'
+	},
+
+	// - Assemblee nazionali
+	// - 2a Assemblea FFF Italia (Napoli)
+	{
+		id: 'assemblee',
+		title: 'FFF Italy national assemblies',
+		description: 'general.lorem-ipsum',
+		year: 2019,
+		location: 'Italy'
+	},
+
+	// - Aachen central strike
+	{
+		id: 'aachen',
+		title: 'International strike in Aachen',
+		description: 'general.lorem-ipsum',
+		year: 2019,
+		location: 'Italy'
+	},
+
+	// - Occupazione parlamento europeo
+	{
+		id: 'eu-parliament',
+		title: 'Occupation of the European Parliament on election day',
+		description: 'general.lorem-ipsum',
+		year: 2019,
+		location: 'Italy'
+	},
+
+	// - Lausanne International FFF Meeting
+	{
+		id: 'smile',
+		title: 'SMILE (Summer Meeting in Lausanne, Europe)',
+		description: 'general.lorem-ipsum',
+		year: 2019,
+		location: 'Italy'
+	},
+
+	// DEC
+	{
+		id: 'dec',
+		title: 'Climate Emergency Declarations',
 		description: 'general.lorem-ipsum',
 		year: 2019,
 		location: 'Italy'
 	}
-
-	// FFF international
-
-	//EU Parliament Strasburgo
-
-	// - Elezione delegato di FFF Torino
-
-	// - 1a Assemblea FFF Italia (Milano)
-
-	// - 2a Assemblea FFF Italia (Napoli)
-
-	// - Aachen central strike
-
-	// - Berlin meeting (Luisa)
-
-	// - Occupazione parlamento europeo
-
-	// - Occupazione miniera germania
-
-	// - Lausanne International FFF Meeting
-
-	// - TOWARDS MEETING (ma poi covid)
 ];
 
 // CIVICS ARMENIA

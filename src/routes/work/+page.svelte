@@ -5,6 +5,20 @@
 	import GridComponent from '../photography/GridComponent.svelte';
 	import UnderlineLink from '../../components/common/UnderlineLink.svelte';
 	import TechComponent from '../../components/common/TechComponent.svelte';
+	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+	import { setSelected } from '$lib/store/SelectedProjectStore';
+	import { scrollIntoView } from '$lib/constants/functions';
+
+	const scrollId = $page.url.hash.replace('#', '');
+	onMount(() => {
+		setSelected('');
+		if (scrollId) {
+			window.requestAnimationFrame(() => scrollIntoView(scrollId));
+			history.replaceState('', '', window.location.pathname);
+			setSelected(scrollId);
+		}
+	});
 </script>
 
 <div class="flex w-full flex-col gap-6">
@@ -19,7 +33,7 @@
 	</div>
 
 	{#each work as experience}
-		<div>
+		<div id={experience.id}>
 			<div
 				class="absolute w-[150%] border-t-2 border-alabaster-three dark:border-dark-three left-[-20%]"
 			/>

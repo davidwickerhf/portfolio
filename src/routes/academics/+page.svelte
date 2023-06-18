@@ -7,11 +7,19 @@
 	import { theme } from '$lib/store/DarkThemeStore';
 
 	import { _ } from 'svelte-i18n';
+	import { page } from '$app/stores';
+	import { scrollIntoView } from '$lib/constants/functions';
 
 	let current = academics.find((school) => school.current);
 
+	const scrollId = $page.url.hash.replace('#', '');
 	onMount(() => {
 		setSelected('');
+		if (scrollId) {
+			window.requestAnimationFrame(() => scrollIntoView(scrollId));
+			history.replaceState('', '', window.location.pathname);
+			setSelected(scrollId);
+		}
 	});
 </script>
 
@@ -21,8 +29,7 @@
 		<!-- Hero banner -->
 		<div class="mt-4 flex w-full flex-col-reverse @5xl/content:flex-row gap-6">
 			<h2 class="">
-				internationally oriented student, aiming at employing computer science in the field of
-				climate science
+				{$_('page.academics.intro')}
 			</h2>
 			<!-- TODO Random image  -->
 			<div class="flex flex-col @5xl/content:max-w-[45%] border-2 dark:border-dark-three ">
@@ -49,7 +56,8 @@
 					/>
 				</div>
 				<p class="flex gap-2">
-					currently studying at <UnderlineLink underline url={current.url ?? '/academics'}
+					{$_('page.academics.currently')}
+					<UnderlineLink underline url={current.url ?? '/academics'}
 						>{current.istitution}</UnderlineLink
 					>
 				</p>
@@ -61,7 +69,7 @@
 	<div
 		class="relative w-full flex-col flex bg-alabaster-three text-dark-three items-center justify-center gap-6"
 	>
-		<p class="uppercase z-10 py-4 font-medium text-lg">Academic history</p>
+		<p class="uppercase z-10 py-4 font-medium text-lg">{$_('page.academics.history')}</p>
 		<div
 			class="w-full flex flex-col justify-between gap-2 z-10 pb-4 items-center @xl/content:flex-row"
 		>
@@ -69,7 +77,7 @@
 				{#if index != 0}
 					<div class="border-l-[1px] h-[200%] border-green-three/30 rotate-12" />
 				{/if}
-				<a href="/academics" class="hover:underline">{$_(school.short)}</a>
+				<a href="/academics#{school.id}" class="hover:underline">{$_(school.short)}</a>
 			{/each}
 		</div>
 		<div class="absolute bg-alabaster-three w-[300%] min-h-[120%]" />

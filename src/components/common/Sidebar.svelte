@@ -18,7 +18,7 @@
 		: 'w-0'} transition-all ease-in-out duration-300 flex-shrink-0 flex-grow-0"
 >
 	<div
-		class="flex flex-col justify-between h-[100dvh] pt-24 overflow-hidden border-r-2 border-alabaster-three dark:border-dark-three text-dark-three dark:text-alabaster-three"
+		class="flex flex-col justify-between h-[calc(100dvh-94px)] overflow-hidden border-r-2 border-alabaster-three dark:border-dark-three text-dark-three dark:text-alabaster-three"
 	>
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div class="flex w-full justify-between px-8 sm:hidden pt-2 items-center">
