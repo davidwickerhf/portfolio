@@ -13,7 +13,9 @@
 			class="w-full border-alabaster-three dark:border-dark-three border-2 justify-center flex flex-col @2xl/content:flex-row @2xl/content:justify-start"
 		>
 			<!-- Image -->
-			<div class="py-9 @2xl/content:pl-9 w-full items-center justify-center flex">
+			<div
+				class="py-9 @2xl/content:pl-9 w-full @2xl/content:w-fit items-start justify-center flex grow-0"
+			>
 				<img alt="" class="max-h-72" src="images/publications/{publication.image}" />
 			</div>
 

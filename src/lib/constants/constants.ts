@@ -196,8 +196,9 @@ export const academics: School[] = [
 		logo: 'uwcdilijan.png',
 		url: 'https://www.uwcdilijan.org/',
 		istitution: 'UWC Dilijan College',
-		diploma: 'International Baccalaureate',
-		description: 'general.lorem-ipsum',
+		diploma: 'International Baccalaureate (DP1)',
+		description:
+			'Following a rigorous selection process facilitated by the Italian UWC committee, I was awarded an academic scholarship to study at UWC Dilijan College in Armenia. Pursuing the International Baccalaureate (IB) program, I had the freedom to choose my exam subjects based on my interests and aspirations. UWC Dilijan College boasted a vibrant and multicultural environment, with students representing more than 90 different nationalities. This diversity extended to the faculty as well, with professors bringing varied backgrounds and perspectives to the classroom. However, due to unforeseen financial hardships and the resurfacing conflict between Armenia and Azerbaijan, I regrettably had to return to Italy after completing DP1 (Diploma Program Year 1). Nonetheless, the experience I gained during my time at UWC Dilijan was invaluable, exposing me to global perspectives and fostering lifelong connections with peers from around the world.',
 		examsubjects: [
 			'HL Mathematics Analysis and Approaches',
 			'HL Physics',
@@ -611,9 +612,9 @@ export const certifications: Certification[] = [
 		type: CertificationType.mooc,
 		title: 'Object Oriented PHP & MVC',
 		institution: 'Udemy',
-		year: 2021,
-		month: 8,
-		logo: 'udemy.svg',
+		year: 2022,
+		month: 6,
+		logo: 'udemy.png',
 		institutionUrl: 'https://www.udemy.com/'
 	},
 
@@ -623,9 +624,9 @@ export const certifications: Certification[] = [
 		type: CertificationType.mooc,
 		title: 'MERN Stack Front to Back: Full Stack React, Redux & Node.js',
 		institution: 'Udemy',
-		year: 2021,
-		month: 8,
-		logo: 'udemy.svg',
+		year: 2022,
+		month: 5,
+		logo: 'udemy.png',
 		institutionUrl: 'https://www.udemy.com/'
 	},
 
@@ -636,8 +637,8 @@ export const certifications: Certification[] = [
 		title: 'Flutter & Dart - The Complete Guide',
 		institution: 'Udemy',
 		year: 2021,
-		month: 8,
-		logo: 'udemy.svg',
+		month: 3,
+		logo: 'udemy.png',
 		institutionUrl: 'https://www.udemy.com/'
 	},
 
@@ -647,9 +648,9 @@ export const certifications: Certification[] = [
 		type: CertificationType.mooc,
 		title: 'Java Programming Masterclass',
 		institution: 'Udemy',
-		year: 2021,
-		month: 8,
-		logo: 'udemy.svg',
+		year: 2020,
+		month: 9,
+		logo: 'udemy.png',
 		institutionUrl: 'https://www.udemy.com/'
 	},
 
@@ -659,9 +660,9 @@ export const certifications: Certification[] = [
 		type: CertificationType.mooc,
 		title: 'Complete Python Bootcamp',
 		institution: 'Udemy',
-		year: 2021,
-		month: 8,
-		logo: 'udemy.svg',
+		year: 2019,
+		month: 2,
+		logo: 'udemy.png',
 		institutionUrl: 'https://www.udemy.com/'
 	}
 ];
@@ -857,7 +858,8 @@ export const publications: Publication[] = [
 		authors: ['Katie Redford', 'Mark Gevisser'],
 		publisher: 'OR Books',
 		year: 2023,
-		description: 'general.lorem-ipsum',
+		description:
+			"Ho avuto l'opportunità di incontrare Katie Eder, un'avvocato che si occupa di questioni ambientali e della difesa degli attivisti, dopo che ho riscontrato problematiche legali dovute alla mia partecipazione all'occupazione del parlamento europeo. Grazie al suo supporto, ho poi avuto la fortuna di partecipare ad un incontro con attivisti presso la sede della Rockefeller Foundation a Bellagio, dove ho potuto discutere con attivisti provenienti da diverse parti del mondo, impegnati in battaglie ambientali simili alla mia. I partecipanti dell'incontro includevano Ka Hsaw Wa, un attivista birmano che da una vita lotta per contrastare le lobby di Exxon Mobil, e Farhana Yamin, avvocato per Extinction Rebellion. Abbiamo avuto l'opportunità di scambiare idee e confrontarci sulla migliore strategia da adottare per combattere le cause ambientali che ci stanno a cuore. In seguito, ho partecipato ad un'intervista che è stata inclusa nel libro scritto da Katie Eder e Mark Gevisser, intitolato 'The Revolution Will Not Be Litigated'. Il libro presenta una prefazione di Jane Fonda, una recensione di Greta Thunberg e una dell'ex preside della Yale Law School.",
 		url: 'https://www.amazon.it/Revolution-Will-Not-Litigated-English-ebook/dp/B0C1W1XZLG/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ZBK1K5POZ02S&keywords=the+revolution+will+not+be+litigated&qid=1686644886&sprefix=the+revolution+will+not+be+litigated,aps,113&sr=8-1',
 		image: 'revolution.jpeg'
 	},
@@ -867,7 +869,8 @@ export const publications: Publication[] = [
 		authors: ['Marianne Larned'],
 		publisher: 'Stone Soup Institute',
 		year: 2021,
-		description: 'general.lorem-ipsum',
+		description:
+			"Sono entrato in contatto con l'autrice Marianne Larned, che stava scrivendo un libro sui cambiamenti climatici e sugli attivisti che si battono per preservare l'ambiente. Sono stato onorato di essere incluso nel libro assieme ad altri 100 attivisti per il clima. Questo libro è stato poi utilizzato come fonte di ispirazione per la realizzazione di un programma di lezioni sul cambiamento climatico e sull'attivismo nelle scuole del Massachusetts, grazie all'organizzazione non governativa \"Stone Soup for a Sustainable World\". La mia esperienza come attivista è stata utilizzata per sviluppare un curriculum educativo interattivo che ha aiutato a diffondere la consapevolezza sul cambiamento climatico e sulle azioni che possiamo intraprendere per proteggere l'ambiente. Sono stato particolarmente felice di apprendere che il libro ha ricevuto recensioni positive da personaggi come Matt Damon, Danny Glover e Jane Goodall, il che dimostra l'importanza e la rilevanza dei temi affrontati nel libro.",
 		url: 'https://www.amazon.it/Stone-Soup-Sustainable-World-Life-Changing/dp/0578893800/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3GHV9BVUUKJKZ&keywords=stone+soup+for+a+sustainable+world&qid=1686786824&sprefix=stone+soup+for+a+sustainabile+world,aps,91&sr=8-1',
 		image: 'stonesoup.jpeg'
 	}

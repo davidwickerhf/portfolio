@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { portfolio } from '$lib/constants/constants';
+	import { LazyImage } from 'svelte-lazy-image';
 	import type { Photo } from '$lib/constants/constants';
 	import { _ } from 'svelte-i18n';
 
@@ -42,7 +42,12 @@
 		<div class="grid gap-4 justify-start items-start">
 			{#each list as image, index}
 				<div>
-					<img class="h-auto max-w-full rounded-lg" src="images/{image.src}" alt="" />
+					<LazyImage
+						src="images/{image.src}"
+						placeholder="https://via.placeholder.com/250?text=placeholder"
+						alt="Lorem Ipsum"
+						class="h-auto max-w-full rounded-lg"
+					/>
 				</div>
 			{/each}
 		</div>
