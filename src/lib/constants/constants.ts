@@ -696,7 +696,8 @@ export const work: WorkExperience[] = [
 				src: 'work/mediamente-2.png'
 			}
 		],
-		overview: 'general.lorem-ipsum',
+		overview:
+			"During my PCTO (Periodo di Collaborazione Temporanea e Obbligatoria) experience, which is a mandatory requirement for the Italian final exam, I had the opportunity to work as an intern at Mediamente Consulting. Over a period of slightly over two weeks, I dedicated myself full-time to this role. My primary task was to develop a booking system to streamline the company's rental management processes. Working closely with my supervisor, I utilized my skills in PHP and JavaScript to create a robust system. Once completed, I seamlessly integrated the booking system into the company's existing website code base. This valuable hands-on experience allowed me to apply my programming knowledge in a real-world setting, honing my technical skills and problem-solving abilities. Furthermore, it provided me with a deeper understanding of the practical applications of software development within a professional environment.",
 		technologies: [
 			{
 				title: 'PHP'
@@ -704,9 +705,7 @@ export const work: WorkExperience[] = [
 			{
 				title: 'JavaScript'
 			},
-			{
-				title: 'Ajax'
-			},
+
 			{
 				title: 'SCSS'
 			},
@@ -714,8 +713,23 @@ export const work: WorkExperience[] = [
 				title: 'MySQL'
 			}
 		],
-		issues: ['general.lorem-ipsum-short', 'general.lorem-ipsum-short'],
-		requirements: ['Car booking', 'Tracking number of available cars']
+		issues: [
+			'Working with an existing code base written by another author posed challenges, especially since it was originally designed as a standalone static website and not a web app. To make the necessary modifications, I had to implement a Model-View-Controller (MVC) architecture from scratch using vanilla PHP and JavaScript. This involved understanding the existing code structure, identifying the key components, and redesigning them to fit the requirements of the booking system.',
+			'Connecting the backend and frontend proved to be a challenge due to the absence of a framework in the original code base. This meant that managing the communication and data flow between the backend and frontend had to be handled manually. To achieve this, I relied on jQuery to handle dynamic updates to the user interface (UI) and synchronize the data with the backend. It required meticulous attention to detail and careful coordination to ensure a seamless integration between the different components of the system.',
+			'One additional hurdle I faced was learning PHP on the go. Since I took on the project without prior knowledge of PHP, I had to quickly familiarize myself with the language to effectively navigate and work with the existing code base. This involved studying PHP syntax, understanding its principles, and leveraging online resources and documentation to grasp the intricacies of the language. It was a valuable learning experience that allowed me to expand my programming skills and adapt to new technologies and frameworks.'
+		],
+		requirements: [
+			'Calendar functionality to display booked dates for each car.',
+			'Widget displaying current bookings and available cars in real-time.',
+			'Table showcasing all company cars with relevant details (e.g., model, availability, location, last revision).',
+			'Ability for users to book a car, specifying desired dates and additional preferences.',
+			'User authentication and role-based access to ensure secure booking management.',
+			'Integration with a database to store and retrieve car booking information.',
+			'Search and filtering options to find specific cars based on criteria (e.g., location, features).',
+			'Reservation management system to handle conflicts, overlapping bookings, and car availability updates.',
+			'Responsive design for seamless usage across devices (desktop, mobile, tablets).',
+			'Administrative features for system maintenance, including adding/removing cars, updating car details, and generating reports.'
+		]
 	}
 ];
 

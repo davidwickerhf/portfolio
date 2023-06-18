@@ -3,14 +3,15 @@
 	import TextButton from '../../components/common/TextButton.svelte';
 	import { work } from '$lib/constants/constants';
 	import GridComponent from '../photography/GridComponent.svelte';
-	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import UnderlineLink from '../../components/common/UnderlineLink.svelte';
 	import TechComponent from '../../components/common/TechComponent.svelte';
 </script>
 
 <div class="flex w-full flex-col gap-6">
 	<h2>work experience.</h2>
-	<p>{$_('general.lorem-ipsum-short')}</p>
+	<p>
+		{$_('page.work.intro')}
+	</p>
 
 	<div class="flex w-full justify-between flex-wrap gap-6 mb-4">
 		<TextButton text="work with me" url="/contact" />
@@ -28,7 +29,7 @@
 				<!-- Title -->
 				<div class="flex-row flex gap-6 justify-between items-center">
 					<div class="font-medium text-3xl">
-						{experience.type} at <UnderlineLink underline url={experience.companyUrl ?? ''}
+						{$_(experience.type)} at <UnderlineLink underline url={experience.companyUrl ?? ''}
 							>{experience.company}</UnderlineLink
 						>
 					</div>
