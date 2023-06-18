@@ -26,6 +26,7 @@
 
 <svelte:head>
 	<title>Wicker • {$_(currentTab?.name ?? 'David Wicker')}</title>
+	<link rel="icon" type="image/svg" href="logos/wicker.svg" />
 </svelte:head>
 
 <MouseCursor />

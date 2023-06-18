@@ -231,7 +231,7 @@ export const academics: School[] = [
 				title: 'Sunstainability Committee',
 				description:
 					"Durante il mio anno all'estero, ho avuto l'onore di essere ELETTO per far parte della commissione sostenibilità della prestigiosa scuola internazionale UWC Dilijan College. In questa veste, ho avuto la possibilità di collaborare con la commissione per l'ORGANIZZAZIONE di una serie di progetti sulla sostenibilità, con l'obiettivo di rendere la scuola più ecologica e responsabile nei confronti dell'ambiente. In particolare, ho avuto modo di interloquire e di MEDIARE con l'amministrazione della scuola per l'implementazione di politiche sostenibili, come il risparmio di energia e l'installazione di pannelli solari, al fine di ridurre l'impatto ambientale della scuola. Inoltre, ho collaborato con il comune di Dilijan per l'implementazione di un sistema di riciclo per la scuola, in collaborazione con una ONG di Yerevan. Grazie alle mie conoscenze e alla mia passione per la sostenibilità, ho offerto il mio contributo per l'educazione degli studenti sulla questione ambientale, promuovendo la raccolta differenziata e il riciclo dei rifiuti, nonché l'adozione di comportamenti più sostenibili nella vita quotidiana. Inoltre, ho partecipato attivamente all’organizzazione di varie attività della commissione, dando il mio supporto al coordinamento e all'organizzazione di eventi legati alla sostenibilità.",
-				images: [{ src: 'activities/uwcd-strike-1.jpg' }],
+				images: [{ src: 'activities/sustco-1.jpg' }, { src: 'activities/sustco-2.jpg' }],
 				url: 'https://www.uwcdilijan.org/news-events/school-news/~board/school-news/post/we-brought-millions-and-millions-of-people-onto-the-streets-david-wicker-italy-uwcd23-about-the-global-climate-strike-movement'
 			},
 
@@ -241,7 +241,7 @@ export const academics: School[] = [
 				title: 'UWC Climate Panel',
 				description:
 					"Sono stato il COORDINATORE della commissione sostenibilità presso la scuola UWC Dilijan College e ho avuto l'onore di organizzare il SEMINARIO INTERNAZIONALE sul clima, chiamato 'UWC Climate Panel'. L'evento si è svolto online e ha coinvolto numerosi esperti nel campo della sostenibilità, tra cui scienziati, divulgatori e attivisti. Ho contattato personalmente ciascuno di loro per assicurarmi che fossero disponibili per parlare all'evento. L'obiettivo principale del UWC Climate Panel era di sensibilizzare la comunità internazionale sulla necessità di promuovere la sostenibilità e affrontare le problematiche globali dei cambiamenti climatici. Inoltre, si è voluto mettere in luce le difficoltà che le comunità più colpite dai cambiamenti climatici devono affrontare quotidianamente e il ruolo delle comunità indigene nella lotta per la difesa dell'ambiente e del clima. Uno degli aspetti più sfidanti dell'organizzazione del seminario è stato il coordinamento delle diverse sedi UWC sparse in tutto il mondo. Grazie a Zoom, siamo riusciti a connettere i 18 collegi UWC in modo che gli studenti potessero partecipare in tempo reale e fare domande ai relatori. Ho avuto il compito di MODERARE la discussione e di raccogliere le domande dal pubblico e dagli studenti, in modo che i relatori potessero rispondere alle loro preoccupazioni e domande.",
-				images: [{ src: 'projects/climate-panel.jpeg' }],
+				images: [{ src: 'activities/uwcd-panel-12.jpeg' }],
 				url: 'https://www.eventbrite.com/e/uwcd-climate-panel-registration-262379011687'
 			},
 
@@ -779,7 +779,7 @@ export interface PersonalProject {
 	subtitle: string;
 	year: number;
 	shortDescription: string;
-	logo: string;
+	logo?: string;
 	longDescription?: string;
 	url?: string;
 	technologies: Technology[];
@@ -789,54 +789,181 @@ export interface PersonalProject {
 	sandbox?: string;
 }
 
+export const typescript: Technology = {
+	title: 'TypeScript',
+	url: 'https://www.typescriptlang.org/'
+};
+
+export const next: Technology = {
+	title: 'Next.js',
+	url: 'https://nextjs.org/'
+};
+
+export const react: Technology = {
+	title: 'React.js',
+	url: 'https://react.dev/'
+};
+
+export const jotai: Technology = {
+	title: 'Jotai.js',
+	url: 'https://jotai.org/'
+};
+
+export const three: Technology = {
+	title: 'Three.js',
+	url: 'https://threejs.org/'
+};
+
+export const tailwind: Technology = {
+	title: 'Tailwind CSS',
+	url: 'https://tailwindcss.com/'
+};
+
+export const vercel: Technology = {
+	title: 'Vercel',
+	url: 'https://vercel.com/'
+};
+
+export const svelte: Technology = {
+	title: 'Svelte',
+	url: 'https://svelte.dev/'
+};
+
+export const sveltekit: Technology = {
+	title: 'SvelteKit',
+	url: 'https://kit.svelte.dev/'
+};
+
+export const dart: Technology = {
+	title: 'Dark',
+	url: 'https://dart.dev/'
+};
+
+export const flutter: Technology = {
+	title: 'Flutter',
+	url: 'https://flutter.dev/'
+};
+
+export const python: Technology = {
+	title: 'Python',
+	url: 'https://python.dev/'
+};
+
 export const projects: PersonalProject[] = [
+	// Portfolio
+	{
+		id: 'portfolio',
+		title: 'Portfolio',
+		year: 2023,
+		subtitle: 'Personal presentation portfolio in Svelte',
+		shortDescription:
+			'Motivated by the requirement for a personal website for my maturity exam, I embraced the challenge and developed one using the Svelte framework.',
+		longDescription:
+			"To push my boundaries, I chose to step out of my comfort zone and develop my portfolio website using Svelte and SvelteKit. Prior to implementation, I meticulously designed the website's layout and appearance using Figma. To cater to a wider audience, the website incorporates full translation capabilities between English and Italian, made possible through the integration of the i18n library. In terms of user experience, the website offers both a light and dark mode, allowing visitors to toggle between the two based on their preference. Ensuring easy maintenance and scalability, all the content on the website is dynamically rendered from a single source of truth. This setup enables hassle-free modifications to the website's content without the need to make changes to the source code itself.",
+		url: 'https://david.wicker.life/',
+		logo: 'wicker.svg',
+		technologies: [typescript, tailwind, svelte, sveltekit, vercel],
+		images: [
+			{
+				src: 'projects/wicker-1.png'
+			},
+			{
+				src: 'projects/wicker-2.png'
+			},
+			{
+				src: 'projects/wicker-3.png'
+			},
+			{
+				src: 'projects/wicker-4.png'
+			}
+		],
+		issues: [
+			"Site-wide state: Managing the state of the dark theme and language preference presented a challenge. I leveraged Svelte Stores to handle this, ensuring that user preferences were saved locally in the browser's local storage.",
+			'Loading content dynamically: Rather than hard-coding content and to enhance reusability, I sought a solution to load the website\'s content from an external source of truth. To avoid the need for a web server, I opted to utilize a "constants.ts" file. This file, structured based on TypeScript models, allowed for dynamic content rendering across the site.',
+			'Responsive design: Crafting a responsive layout that adapted seamlessly across various devices and screen sizes was a significant challenge. I employed CSS media queries and flexible grid systems to achieve a visually appealing and functional design that catered to different viewing experiences.'
+		],
+		github: 'https://github.com/davidwickerhf/portfolio'
+	},
+	// Mai Checkers
 	{
 		id: 'mai-checkers',
 		title: 'Mai Checkers',
 		year: 2023,
 		subtitle: 'Online checkers game',
-		shortDescription: 'general.lorem-ipsum-short',
-		longDescription: 'general.lorem-ipsum',
+		shortDescription:
+			'Encouraged by my computer science teacher, I developed a checkers game. Initially, I considered using Java for local development, but ultimately decided to leverage web technologies like TypeScript and Next.js',
+		longDescription:
+			"In my pursuit of challenging myself in developing the Checkers game, I decided to push the boundaries by creating a 3D interface. To accomplish this, I utilized Blender to design 3D models of the game pieces. To implement the 3D elements and render the models, I employed the open-source libraries Three.js and react-three-fiber. These powerful tools allowed me to create a dynamic and immersive 3D board for the game. To manage the application's state, I chose to utilize Jotai, as its atom-based state management system perfectly suited the requirements of the project. Its ease of use facilitated smooth integration within the game. Building upon my prior experience, I implemented the game using React and Next.js. These technologies provided a solid foundation and allowed me to leverage my existing knowledge effectively. Finally, thanks to Vercel, I was able to host the web page, making the game accessible and available for others to enjoy online.",
 		url: 'https://checkers.wicker.life/',
 		logo: 'maicheckers.svg',
-		technologies: [
-			{
-				title: 'TypeScript'
-			},
-			{
-				title: 'Next.js'
-			},
-			{
-				title: 'React.js'
-			},
-			{
-				title: 'Jotai.js'
-			},
-			{
-				title: 'Three.js'
-			},
-			{
-				title: 'Tailwind CSS'
-			},
-			{
-				title: 'Vercel'
-			}
-		],
+		technologies: [typescript, next, react, jotai, three, tailwind, vercel],
 		images: [
 			{
-				src: 'photography/yerevan-1.jpg'
+				src: 'projects/checkers-2.png'
 			},
 			{
-				src: 'photography/yerevan-2.jpg'
-			},
-			{
-				src: 'photography/yerevan-3.jpg'
+				src: 'projects/checkers.png'
 			}
 		],
-		issues: ['general.lorem-ipsum', 'general.lorem-ipsum'],
+		issues: [
+			"State management: The challenge involved refining the way the game's state was managed. I recognized the need for a more structured approach and created TypeScript models to represent different components of the state, such as BoardState, PieceState, and PlayerState.",
+			"Calculating possible moves: Implementing an algorithm to determine all possible moves a player could make posed a challenge. I developed a recursive path-finding algorithm that analyzed available moves, filtered them based on the game state, and sorted them by the number of steps the piece would take. I drew inspiration from Dijkstra's algorithm while creating this algorithm.",
+			'3D modeling and rendering: Creating 3D models of the checkers game pieces using Blender required skill and attention to detail. Additionally, implementing the rendering of these 3D models on the game board using Three.js and react-three-fiber was a technical challenge.',
+			'Integrating state management with 3D interface: Combining the state management system, Jotai, with the 3D interface created complexities that needed to be addressed. Ensuring smooth communication and synchronization between the game state and the 3D elements required careful coordination.'
+		],
 		github: 'https://github.com/wickerlife/checkers',
 		sandbox:
 			'https://codesandbox.io/p/github/wickerlife/checkers/main?layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522panelType%2522%253A%2522TABS%2522%252C%2522id%2522%253A%2522cliwtfx24000b3b6mgef6pkij%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522panelType%2522%253A%2522TABS%2522%252C%2522id%2522%253A%2522cliwtfx24000d3b6mv5a0grvw%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B50%252C50%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522cliwtfx24000b3b6mgef6pkij%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522cliwtfx24000a3b6m9skoceo6%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252FREADME.md%2522%257D%255D%252C%2522id%2522%253A%2522cliwtfx24000b3b6mgef6pkij%2522%252C%2522activeTabId%2522%253A%2522cliwtfx24000a3b6m9skoceo6%2522%257D%252C%2522cliwtfx24000d3b6mv5a0grvw%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522cliwtfx24000c3b6miy7a84do%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522PROJECT_SETUP%2522%257D%255D%252C%2522id%2522%253A%2522cliwtfx24000d3b6mv5a0grvw%2522%252C%2522activeTabId%2522%253A%2522cliwtfx24000c3b6miy7a84do%2522%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D'
+	},
+
+	// Mai Letters
+	{
+		id: 'letters',
+		title: 'Mai Letters',
+		year: 2022,
+		subtitle: 'Personal online treasure hunt for saint-valentine',
+		shortDescription:
+			"In celebration of Saint Valentine's Day and the desire to do something special for my long-distance relationship, I embarked on the creation of an online treasure hunt. This interactive experience allows the user to uncover the next letter or clue by solving a series of engaging puzzles",
+		url: 'https://nisha.wicker.life/',
+		logo: 'letters.png',
+		technologies: [typescript, tailwind, next, jotai, vercel],
+		images: [
+			{ src: 'projects/hunt-1.png' },
+			{ src: 'projects/hunt-2.png' },
+			{ src: 'projects/hunt-3.png' },
+			{ src: 'projects/hunt-4.png' }
+		],
+		github: 'https://github.com/davidwickerhf/nisha'
+	},
+
+	// Mai Choices
+	{
+		id: 'choices',
+		title: 'Mai Choices',
+		year: 2021,
+		subtitle: 'Personal online treasure hunt for saint-valentine',
+		shortDescription:
+			'Mobile application that enables students to track and categorize their decisions.',
+		longDescription:
+			'Designed for Android using Flutter, this app enables students to track and categorize their decisions, revealing correlations between past choices. By visualizing decision patterns, it promotes self-reflection and informed decision-making. With an intuitive interface, it empowers students to enhance their decision-making skills and cultivate self-awareness. Whether for academic, career, or personal choices, this app serves as a valuable tool to facilitate proactive and mindful choice management.',
+		logo: 'choices.svg',
+		technologies: [dart, flutter],
+		images: [{ src: 'projects/choices-1.png' }, { src: 'projects/choices-2.png' }],
+		github: 'https://github.com/wickerlife/mychoices'
+	},
+
+	// Insta Client
+	{
+		id: 'instaclient',
+		title: 'InstaClient Library',
+		year: 2020,
+		subtitle: 'Personal online treasure hunt for saint-valentine',
+		shortDescription:
+			'This open-source Python library enables developers to programmatically access Instagram features, providing a seamless way to integrate Instagram functionalities into their own applications and projects.',
+		longDescription:
+			"Developed in Python 3, this library utilizes Selenium and Chromedrivers to scrape Instagram and emulate user interactions. It offers programmatic access to Instagram's functionalities, including logging in, following users, liking posts, sending DMs, and posting on the feed. The library has gained significant popularity, with over 140k downloads by developers worldwide. Its ease of use and comprehensive feature set make it a valuable tool for integrating Instagram features into various projects and applications.",
+		technologies: [python],
+		github: 'https://github.com/davidwickerhf/instaclient'
 	}
 ];
 // PUBBLICATIONS

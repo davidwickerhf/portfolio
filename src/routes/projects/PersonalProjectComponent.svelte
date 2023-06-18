@@ -1,4 +1,6 @@
 <script lang="ts">
+	import TechComponent from '../../components/common/TechComponent.svelte';
+
 	import type { PersonalProject } from '$lib/constants/constants';
 	import { _ } from 'svelte-i18n';
 
@@ -18,11 +20,12 @@
 	<!-- Heading -->
 	<div class="flex flex-col @xl/content:items-start gap-8 @xl/content:flex-row">
 		<!-- Logo -->
-		<img alt="" src="logos/{project.logo}" class="max-h-48 @xl/content:max-h-32" />
-
+		{#if project.logo}
+			<img alt="" src="logos/{project.logo}" class="max-h-48 @xl/content:max-h-32" />
+		{/if}
 		<!-- Title -->
 		<div class="flex flex-col gap-4">
-			<div class="flex justify-between w-full items-center">
+			<div class="flex justify-between w-full items-center gap-4">
 				<div class="flex flex-col">
 					<p class="text-xl font-medium">{project.title}</p>
 					<p class="text-dark-one">({project.year}) {$_(project.subtitle)}</p>
@@ -54,7 +57,7 @@
 		<!-- Images  -->
 		{#if project.images}
 			<!-- Show images -->
-			<GridComponent images={project.images} />
+			<GridComponent maxcols={2} images={project.images} />
 		{/if}
 		<!-- Long description -->
 		{#if project.longDescription}
@@ -71,16 +74,7 @@
 				<div class="flex w-full flex-wrap gap-4">
 					{#each project.technologies as tech}
 						<!-- Single tech div -->
-						<a
-							on:mouseover={isHovering}
-							on:focus={isHovering}
-							on:blur={isNotHovering}
-							on:mouseout={isNotHovering}
-							href={tech.url ? tech.url : '/projects'}
-							class="py-6 px-9 border-alabaster-three dark:border-dark-three border-2 hover:bg-alabaster-three dark:hover:bg-dark-three"
-						>
-							{tech.title}
-						</a>
+						<TechComponent {tech} />
 					{/each}
 				</div>
 			</div>
@@ -89,7 +83,7 @@
 		<!-- Issues faced -->
 		{#if project.issues}
 			<div class="w-full flex flex-col gap-2">
-				<p class="uppercase text-lg font-medium">Issues Faced</p>
+				<p class="uppercase text-lg font-medium">{$_('page.projects.challenges')}</p>
 				<ol class="ml-8 list-disc list-outside w-full gap-2 flex flex-col">
 					{#each project.issues as issue}
 						<!-- Single issue -->

@@ -25,23 +25,28 @@
 		return lists;
 	};
 
-	let getColNumber = (width: number) => {
+	let getColNumber = (width: number, maxcols: number) => {
+		let temp = 0;
 		if (width > 850) {
-			return 4;
+			temp = 4;
 		} else if (width > 500) {
-			return 2;
+			temp = 2;
+		} else {
+			temp = 1;
 		}
-		return 1;
+
+		return temp <= maxcols ? temp : maxcols;
 	};
 
 	export let images: Photo[];
+	export let maxcols: number = 4;
 </script>
 
 <div class="flex gap-4 justify-start items-start" bind:clientWidth={windowWidth}>
-	{#each organizeImages(images, getColNumber(windowWidth)) as list, index}
-		<div class="grid gap-4 justify-start items-start">
+	{#each organizeImages(images, getColNumber(windowWidth, maxcols)) as list, index}
+		<div class="grid gap-4 justify-start items-start w-full">
 			{#each list as image, index}
-				<div>
+				<div class="w-full">
 					<LazyImage
 						src="images/{image.src}"
 						placeholder="https://via.placeholder.com/250?text=placeholder"

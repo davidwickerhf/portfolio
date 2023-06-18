@@ -5,6 +5,7 @@
 	import GridComponent from '../photography/GridComponent.svelte';
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import UnderlineLink from '../../components/common/UnderlineLink.svelte';
+	import TechComponent from '../../components/common/TechComponent.svelte';
 </script>
 
 <div class="flex w-full flex-col gap-6">
@@ -67,16 +68,7 @@
 						<div class="flex w-full flex-wrap gap-4">
 							{#each experience.technologies as tech}
 								<!-- Single tech div -->
-								<a
-									on:mouseover={isHovering}
-									on:focus={isHovering}
-									on:blur={isNotHovering}
-									on:mouseout={isNotHovering}
-									href={tech.url ? tech.url : '/projects'}
-									class="py-6 px-9 border-alabaster-three dark:border-dark-three border-2 hover:bg-alabaster-three dark:hover:bg-dark-three"
-								>
-									{tech.title}
-								</a>
+								<TechComponent {tech} />
 							{/each}
 						</div>
 					</div>

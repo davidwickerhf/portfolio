@@ -9,7 +9,7 @@
 	<h2>personal projects.</h2>
 
 	<div class="flex flex-col gap-4 mt-4">
-		{#each projects as project}
+		{#each projects.sort((a, b) => (a.year > b.year ? -1 : 1)) as project}
 			<!-- Project div -->
 			<ProjectComponent {project} />
 		{/each}
