@@ -7,10 +7,16 @@
 
 <div class="flex w-full flex-col gap-6">
 	<h2>genocide and war in armenia.</h2>
-	<p>{$_('general.lorem-ipsum-short')}</p>
+	<p>
+		{$_('page.civics.intro')}
+	</p>
 
 	<div class="flex w-full justify-between flex-wrap gap-6 mb-4">
 		<TextButton text="year abroad in armenia" url="/academics" />
+		<TextButton
+			text="view the slides"
+			url="https://1drv.ms/p/s!ApVJIPa1LXolhOwDPcoQ0jn5ZMf4XQ?e=taEL1W"
+		/>
 	</div>
 
 	{#each civics as event}
@@ -25,6 +31,12 @@
 			</div>
 
 			<p>{$_(event.description)}</p>
+
+			{#if event.url}
+				<div class="w-fit">
+					<TextButton text="read more" url={event.url} />
+				</div>
+			{/if}
 
 			{#if event.images}
 				<GridComponent images={event.images} />

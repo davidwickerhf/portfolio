@@ -739,29 +739,49 @@ export interface ActivismExperience {
 	title: string;
 	description: string;
 	year: number;
-	month: number;
-	day?: number;
 	location: string;
 	images?: Photo[];
 }
 
 export const activism: ActivismExperience[] = [
+	// FFF Torino
 	{
 		id: 'fff-turin',
 		title: 'Founded Fridays For Future Turin',
 		description: 'general.lorem-ipsum',
 		year: 2019,
-		month: 1,
 		location: 'Turin'
 	},
+	// FFF Italia
 	{
 		id: 'fff-italia',
 		title: 'Founded Fridays For Future Italia',
 		description: 'general.lorem-ipsum',
 		year: 2019,
-		month: 3,
 		location: 'Italy'
 	}
+
+	// FFF international
+
+	//EU Parliament Strasburgo
+
+	// - Elezione delegato di FFF Torino
+
+	// - 1a Assemblea FFF Italia (Milano)
+
+	// - 2a Assemblea FFF Italia (Napoli)
+
+	// - Aachen central strike
+
+	// - Berlin meeting (Luisa)
+
+	// - Occupazione parlamento europeo
+
+	// - Occupazione miniera germania
+
+	// - Lausanne International FFF Meeting
+
+	// - TOWARDS MEETING (ma poi covid)
 ];
 
 // CIVICS ARMENIA
@@ -774,10 +794,102 @@ export interface CivcsTopic {
 }
 
 export const civics: CivcsTopic[] = [
+	// Motvazioni
 	{
-		id: 'fff-turin',
-		title: 'Foundated Fridays For Future Turin',
-		description: 'general.lorem-ipsum'
+		id: 'motivations',
+		title: 'Motivations behind the genocide',
+		description:
+			"The motivations behind the Armenian genocide are rooted in a combination of political, ethnic, and ideological factors. During the declining years of the Ottoman Empire, a rising tide of nationalism and ethno-religious tensions fueled the desire for a homogenous Turkish state. The Armenian population, seen as a distinct ethnic and religious minority, became scapegoats for the empire's woes. The nationalist Young Turks movement, which gained power in 1908, sought to establish a Turkish-dominated empire and viewed the Armenians as a threat. With the outbreak of World War I, the Armenians were accused of collaborating with enemy forces, providing a pretext for their targeted extermination. Political and military leaders implemented a systematic campaign of deportation, mass killings, forced labor, and starvation, aiming to eradicate the Armenian presence from their historic homeland. The genocide's motivations included territorial expansion, ethno-religious nationalism, and the desire to eliminate perceived threats to the Ottoman Empire's stability."
+	},
+	// Hamidian massacre
+	{
+		id: 'hamidian-massacre',
+		title: 'Hamidian massacre',
+		description:
+			'The Hamidian Massacre, also known as the Armenian Massacres of 1894-1896, refers to a series of violent attacks against the Armenian population in the Ottoman Empire during the rule of Sultan Abdul Hamid II. The massacres were primarily motivated by religious and ethnic tensions, as well as the desire to suppress Armenian nationalist aspirations. The first major wave of massacres occurred in 1894 in the city of Sasun, followed by widespread violence targeting Armenians in various regions of the empire. The deadliest phase took place between 1895 and 1896, with massacres occurring in cities such as Istanbul, Trebizond, Van, and Diyarbakir. While specific figures are disputed, it is estimated that over 300.000 Armenians were killed during this period. The atrocities involved mass killings, forced conversions, rape, looting, and destruction of Armenian villages and churches. The Hamidian Massacre served as a prelude to the later Armenian Genocide in 1915, highlighting the persistent persecution and violence faced by the Armenian population in the Ottoman Empire. The events of the Hamidian Massacre played a significant role in shaping the Armenian national consciousness and the subsequent struggle for recognition and justice.',
+		url: 'https://www.armenian-genocide.org/hamidian.html',
+		images: [{ src: 'civics/hamidian-1.jpeg' }]
+	},
+	// Odio raziale, prima guerra mondiale
+	{
+		id: 'ww1',
+		title: '1915 Genocide',
+		description:
+			'The Armenian Genocide, also known as the Armenian Holocaust, was a systematic extermination campaign carried out by the Ottoman Empire during World War I. The genocide aimed to eliminate the Armenian population and involved mass killings, forced deportations, and death marches.  In 1915, the Ottoman government enacted the Tehcir Law, which authorized the deportation and relocation of Armenians from their ancestral lands. Under the pretext of national security, Armenians were rounded up from their homes, separated from their families, and forced to march long distances to detention centers and concentration camps. These forced deportations resulted in widespread death and suffering.  The deportations were often accompanied by extreme violence, with Armenians subjected to brutal conditions, starvation, and massacres along the way. The marches of death referred to the grueling journeys endured by the deportees, where countless Armenians perished due to exhaustion, exposure to harsh elements, and systematic killings by Ottoman forces. Estimates of the number of Armenian victims vary, but it is widely accepted that over one million Armenians lost their lives during the genocide. The atrocities included mass killings, executions, forced labor, sexual violence, and the destruction of Armenian cultural and religious heritage.',
+		url: 'https://www.armenian-genocide.org/genocide.html',
+		images: [
+			{ src: 'civics/genocide-1.jpeg' },
+			{ src: 'civics/genocide-2.jpeg' },
+			{ src: 'civics/genocide-3.jpeg' },
+			{ src: 'civics/genocide-4.jpeg' },
+			{ src: 'civics/genocide-5.webp' },
+			{ src: 'civics/genocide-6.jpeg' }
+		]
+	},
+
+	// Statistics and Genocide rememberance
+	{
+		id: 'genocide',
+		title: 'Legacy and rememberance',
+		description:
+			'The Armenian Genocide remains a contentious issue, with denial and lack of international recognition creating ongoing debates surrounding its historical and political implications. Efforts for acknowledgment, justice, and remembrance continue as part of the Armenian struggle for recognition and the prevention of future genocides. The true scale of the Armenian Genocide may never be fully known due to the deliberate destruction of evidence and ongoing denial by some parties. \n\n The recognition of the Armenian Genocide has been a complex and contentious issue. Despite overwhelming evidence and scholarly consensus, the recognition of the genocide has faced significant challenges, primarily due to political considerations and denial by the Turkish government. Several countries, including Argentina, Belgium, Canada, France, Germany, Italy, the Netherlands, Russia, Sweden, and Uruguay, have officially recognized the Armenian Genocide. The European Parliament, the Council of Europe, and the World Council of Churches have also acknowledged the genocide. However, recognition has been inconsistent, and some nations have been reluctant to use the term "genocide" for fear of straining diplomatic relations with Turkey. The Turkish government, successor to the Ottoman Empire, vehemently denies the term "genocide" and contends that the events were a result of wartime conditions. The denial of the Armenian Genocide has had lasting consequences, affecting the healing process, justice for the victims, and preventing the prevention of future genocides.  The Armenian diaspora, along with scholars, activists, and human rights organizations, continue to advocate for wider recognition and acknowledgment of the genocide. Efforts for recognition have gained momentum in recent years, with more countries, institutions, and public figures openly acknowledging the Armenian Genocide. The recognition and remembrance of the Armenian Genocide are crucial steps in confronting the past, honoring the victims, and preventing similar atrocities from occurring in the future. The Armenian Genocide was recognized by the United States of American only in 2023',
+		images: [
+			{ src: 'civics/rememberance-1.gif' },
+			{ src: 'civics/rememberance-2.jpeg' },
+			{ src: 'civics/rememberance-3.jpeg' },
+			{ src: 'civics/rememberance-4.jpeg' }
+		]
+	},
+
+	// Indipendenza Artsakh e guerra del 1988
+	{
+		id: 'artsakh',
+		title: 'Artsakh and the 1988 war with Azerbaijan',
+		description:
+			'The Artsakh (Nagorno-Karabakh) conflict and the war between Armenia and Azerbaijan in 1988 were pivotal events in the region. The conflict emerged when the Nagorno-Karabakh Autonomous Oblast, primarily inhabited by ethnic Armenians, expressed its desire to join Armenia. In 1988, the regional legislature in Nagorno-Karabakh passed a resolution requesting the transfer of administrative control from Azerbaijan to Armenia. This led to protests and demonstrations, escalating tensions between the two communities. The conflict intensified in 1991 when both Armenia and Azerbaijan declared independence following the collapse of the Soviet Union. Armed clashes erupted, resulting in a full-scale war between the two countries. The war witnessed significant military operations, including the shelling of cities, ethnic cleansing, and large-scale displacement of people. The war lasted until 1994 when a ceasefire agreement was signed, leaving Nagorno-Karabakh and several surrounding regions under the control of ethnic Armenian forces. Despite the ceasefire, the conflict remained unresolved, and sporadic clashes continued over the years, leading to casualties and tensions between Armenia and Azerbaijan.',
+		images: [{ src: 'civics/artsakh-1.jpeg' }, { src: 'civics/artsakh-2.png' }]
+	},
+
+	// 44 day war 2021
+	{
+		id: '44-war',
+		title: '44 day war of 2020',
+		description:
+			'The 44-day war in 2021 between Armenia and Azerbaijan, often referred to as the Second Nagorno-Karabakh War, was a significant escalation of the longstanding conflict over the Nagorno-Karabakh region. The war began on September 27, 2020, when intense fighting broke out along the line of contact between Armenian and Azerbaijani forces. The conflict saw heavy artillery shelling, air strikes, and ground offensives from both sides. The use of advanced weaponry, including drones, played a significant role in the hostilities. Azerbaijan made significant territorial gains during the war, recapturing several districts surrounding the Nagorno-Karabakh region that had been under Armenian control since the early 1990s. The Azerbaijani forces also advanced into parts of Nagorno-Karabakh itself, including the strategically important city of Shusha. The war resulted in a high number of casualties on both sides, including civilians, and led to the displacement of thousands of people. There were also reports of war crimes and human rights abuses committed by both Armenian and Azerbaijani forces. A ceasefire agreement brokered by Russia was signed on November 10, 2020, effectively ending the active phase of the conflict. Under the agreement, Azerbaijan retained control over the territories it had recaptured during the war, while a Russian peacekeeping contingent was deployed to oversee the ceasefire and ensure stability in the region. The war had significant political and humanitarian implications, reshaping the balance of power in the region and prompting discussions about the future status of Nagorno-Karabakh. Efforts to address the underlying issues and find a lasting peaceful solution to the conflict continue through diplomatic negotiations mediated by the OSCE Minsk Group co-chairs (Russia, France, and the United States).',
+		images: [
+			{ src: 'civics/44-1.webp' },
+			{ src: 'civics/44-2.jpeg' },
+			{ src: 'civics/44-3.jpeg' },
+			{ src: 'civics/44-4.jpeg' }
+		]
+	},
+
+	// Il conflitto continua (guerra Settembre 2022, conflitto )
+	{
+		id: 'continued-conflict',
+		title: 'Further conflicts in 2022',
+		description:
+			'In recent events, Azerbaijan has launched attacks in various directions near the borders of Armenia, specifically targeting positions in Vardenis, Goris, Kapan, and Jermuk. The province of Syunik in southern Armenia has been occupied as a result. These attacks have not been limited to specific areas but have occurred along the entire Armenia-Azerbaijan border, including near Dilijan. Additionally, in response to the escalating conflict, young men aged 18 and above have been recruited and deployed to the front lines. The situation remains tense and continues to evolve as both sides are engaged in military actions.',
+		images: [
+			{ src: 'civics/2022-1.jpeg' },
+			{ src: 'civics/2022-2.jpeg' },
+			{ src: 'civics/2022-3.jpeg' },
+			{ src: 'civics/2022-4.jpeg' }
+		]
+	},
+
+	// Artsakh blokade
+	{
+		id: 'blockade',
+		title: 'Ongoing blockade of Artsakh',
+		description:
+			'The Lachin corridor, serving as the only passage connecting inland Armenia with Artsakh, has been effectively blocked by Azeri activists, whose actions have now been succeeded by the presence of Azerbaijani soldiers. This blockade has resulted in the isolation of Artsakh for an extended period exceeding 150 days. Consequently, the region is grappling with a severe scarcity of essential supplies, including food and medicine, which have been unable to reach those in need. Despite concerted efforts to provide humanitarian assistance, the delivery of aid has been obstructed, further exacerbating the already precarious circumstances faced by the people of Artsakh. The ongoing blockade has cast a deep shadow over the region, highlighting the urgent need for a resolution and the restoration of access to vital resources and support.',
+		images: [
+			{ src: 'civics/blockade-1.jpeg' },
+			{ src: 'civics/blockade-2.jpeg' },
+			{ src: 'civics/blockade-3.jpg' },
+			{ src: 'civics/blockade-4.png' }
+		]
 	}
 ];
 
