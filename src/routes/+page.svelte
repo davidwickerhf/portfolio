@@ -18,10 +18,6 @@
 	import { inview } from 'svelte-inview';
 	import { setScrolled } from '$lib/store/SidebarStore';
 	import { academics, galleryPics } from '$lib/constants/constants';
-	import LinkButton from '../components/common/LinkButton.svelte';
-
-	// Carousel
-	let carousel: HTMLElement;
 
 	// Transitions
 	let academicsView: boolean;

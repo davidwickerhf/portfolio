@@ -12,10 +12,16 @@
 	import { afterNavigate } from '$app/navigation';
 	import { _ } from 'svelte-i18n';
 	import LinkButton from '../components/common/LinkButton.svelte';
+	import { onMount } from 'svelte';
+	import { setScrolled } from '$lib/store/SidebarStore';
 
 	$: currentTab = tabs.find((t) => t.url == $page.url.pathname);
 	$: prevTab = currentTab ? tabs.find((t) => t.id === currentTab!.id - 1) : undefined;
 	$: nextTab = currentTab ? tabs.find((t) => t.id === currentTab!.id + 1) : undefined;
+
+	onMount(() => {
+		if ($page.url.pathname != '/') setScrolled();
+	});
 
 	afterNavigate(() => {
 		document.getElementById('content')?.scrollTo(0, 0);
