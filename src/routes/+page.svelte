@@ -154,7 +154,9 @@
 				<h2>{$_('page.home.projects')}</h2>
 
 				<!-- Row of widgets -->
-				<div class="flex flex-col mt-6 gap-6 justify-between overflow-scroll @4xl/content:flex-row">
+				<div
+					class="grid grid-cols-1 mt-6 gap-6 justify-between overflow-scroll @4xl/content:grid-cols-3"
+				>
 					<!-- Single project widget -->
 					<ProjectComponent
 						title="TedX Youth"

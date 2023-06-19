@@ -1171,30 +1171,153 @@ export interface Location {
 }
 
 export const portfolio: Location[] = [
+	// DELFT
 	{
-		title: 'Armenia',
+		title: 'Delft, Netherlands',
+		images: [
+			{ src: 'photography/delft/delft-1.jpg' },
+			{ src: 'photography/delft/delft-2.jpg' },
+			{ src: 'photography/delft/delft-3.jpg' },
+			{ src: 'photography/delft/delft-4.jpg' }
+		]
+	},
+
+	// YEREVAN
+	{
+		title: 'Yerevan, Armenia',
 		images: [
 			{
-				src: 'photography/yerevan-1.jpg'
+				src: 'photography/yerevan/yerevan-1.jpg'
 			},
 			{
-				src: 'photography/yerevan-2.jpg'
+				src: 'photography/yerevan/yerevan-2.jpg'
 			},
 			{
-				src: 'photography/yerevan-3.jpg'
+				src: 'photography/yerevan/yerevan-3.jpg'
 			},
 			{
-				src: 'photography/yerevan-4.jpg'
+				src: 'photography/yerevan/yerevan-4.jpg'
 			},
 			{
-				src: 'photography/yerevan-5.jpg'
+				src: 'photography/yerevan/yerevan-5.jpg'
 			},
 			{
-				src: 'photography/yerevan-6.jpg'
+				src: 'photography/yerevan/yerevan-6.jpg'
 			},
 			{
-				src: 'photography/yerevan-7.jpg'
+				src: 'photography/yerevan/yerevan-7.jpg'
 			}
+		]
+	},
+
+	// YENOKAVAN
+	{
+		title: 'Yenokavan, Armenia',
+		images: [
+			{ src: 'photography/yenokavan/yenokan-1.jpg' },
+			{ src: 'photography/yenokavan/yenokan-2.jpg' },
+			{ src: 'photography/yenokavan/yenokan-3.jpg' },
+			{ src: 'photography/yenokavan/yenokan-4.jpg' }
+		]
+	},
+
+	// DILIJAN
+	{
+		title: 'Dilijan, Armenia',
+		images: [
+			{ src: 'photography/dilijan/dilijan-1.jpg' },
+			{ src: 'photography/dilijan/dilijan-2.jpg' },
+			{ src: 'photography/dilijan/dilijan-3.jpg' },
+			{ src: 'photography/dilijan/dilijan-4.jpg' },
+			{ src: 'photography/dilijan/dilijan-5.jpg' },
+			{ src: 'photography/dilijan/dilijan-6.jpg' }
+		]
+	},
+
+	// Firenze
+	{
+		title: 'Florence, Italy',
+		images: [
+			{ src: 'photography/firenze/firenze-1.jpg' },
+			{ src: 'photography/firenze/firenze-2.jpg' },
+			{ src: 'photography/firenze/firenze-3.jpg' },
+			{ src: 'photography/firenze/firenze-4.jpg' },
+			{ src: 'photography/firenze/firenze-5.jpg' },
+			{ src: 'photography/firenze/firenze-6.jpg' }
+		]
+	},
+
+	// Rocciamelone
+	{
+		title: 'Rocciamelone, Italy',
+		images: [
+			{ src: 'photography/rocciamelone/melone-1.jpg' },
+			{ src: 'photography/rocciamelone/melone-2.jpg' },
+			{ src: 'photography/rocciamelone/melone-3.jpg' },
+			{ src: 'photography/rocciamelone/melone-4.jpg' },
+			{ src: 'photography/rocciamelone/melone-5.jpg' },
+			{ src: 'photography/rocciamelone/melone-6.jpg' }
+		]
+	},
+
+	// SACRA
+	{
+		title: 'Sacra di San Michele, Italy',
+		images: [
+			{ src: 'photography/sacra/sacra-1.jpg' },
+			{ src: 'photography/sacra/sacra-2.jpg' },
+			{ src: 'photography/sacra/sacra-3.jpg' },
+			{ src: 'photography/sacra/sacra-4.jpg' }
+		]
+	},
+
+	// ABRUZZO
+	{
+		title: 'Abruzzo, Italy',
+		images: [
+			{ src: 'photography/abruzzo/abruzzo-1.jpg' },
+			{ src: 'photography/abruzzo/abruzzo-2.jpg' },
+			{ src: 'photography/abruzzo/abruzzo-3.jpg' },
+			{ src: 'photography/abruzzo/abruzzo-4.jpg' }
+		]
+	},
+
+	// VERONA
+	{
+		title: 'Verona, Italy',
+		images: [
+			{ src: 'photography/verona/verona-1.JPG' },
+			{ src: 'photography/verona/verona-2.JPG' },
+			{ src: 'photography/verona/verona-3.JPG' },
+			{ src: 'photography/verona/verona-4.JPG' },
+			{ src: 'photography/verona/verona-5.JPG' },
+			{ src: 'photography/verona/verona-6.JPG' },
+			{ src: 'photography/verona/verona-7.JPG' },
+			{ src: 'photography/verona/verona-8.JPG' },
+			{ src: 'photography/verona/verona-9.JPG' },
+			{ src: 'photography/verona/verona-10.JPG' }
+		]
+	},
+
+	// Photo marathon
+	{
+		title: 'Turin, Italy',
+		images: [
+			{ src: 'photography/marathon/marathon-1.jpg' },
+			{ src: 'photography/marathon/marathon-2.jpg' },
+			{ src: 'photography/marathon/marathon-3.jpg' },
+			{ src: 'photography/marathon/marathon-4.jpg' }
+		]
+	},
+
+	// Netherlands blu style
+	{
+		title: 'Netherlands',
+		images: [
+			{ src: 'photography/netherlands/netherlands-1.jpg' },
+			{ src: 'photography/netherlands/netherlands-2.jpg' },
+			{ src: 'photography/netherlands/netherlands-3.jpg' },
+			{ src: 'photography/netherlands/netherlands-4.jpg' }
 		]
 	}
 ];
