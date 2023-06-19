@@ -28,8 +28,8 @@
 	</p>
 
 	<div class="flex w-full justify-between flex-wrap gap-6 mb-4">
-		<TextButton text="work with me" url="/contact" />
-		<TextButton text="view my other projects" url="/projects" />
+		<TextButton text="page.work.work-with-me" url="/contact" />
+		<TextButton text="page.work.other" url="/projects" />
 	</div>
 
 	{#each work as experience}

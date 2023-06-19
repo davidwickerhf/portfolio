@@ -158,7 +158,7 @@ export const academics: School[] = [
 			// Repl Code Challenge
 			{
 				id: 'reply-challenge',
-				title: 'academics.pascal.projects.reply',
+				title: 'academics.pascal.projects.reply.title',
 				description: 'academics.pascal.projects.reply.desc',
 				url: '/extracurriculars#pascal-tutoring'
 			},
@@ -186,8 +186,8 @@ export const academics: School[] = [
 		logo: 'uwcdilijan.png',
 		url: 'https://www.uwcdilijan.org/',
 		istitution: 'academics.uwc.istitution',
-		diploma: ' academics.uwc.diploma',
-		description: ' academics.uwc.desc',
+		diploma: 'academics.uwc.diploma',
+		description: 'academics.uwc.desc',
 		examsubjects: [
 			'HL Mathematics Analysis and Approaches',
 			'HL Physics',

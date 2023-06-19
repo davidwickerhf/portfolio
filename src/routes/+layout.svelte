@@ -96,7 +96,7 @@
 		<footer class="bg-dark-three text-alabaster-three mt-12">
 			<div class="flex px-6 @xl/content:px-12 @2xl/content:px-16 @4xl/content:px-24 py-6 gap-12">
 				<div class="">
-					<p class="text-lg font-medium">contents</p>
+					<p class="text-lg font-medium">{$_('contents')}</p>
 					{#each tabs as tab}
 						<li class="list-none mt-2 font-thin text-sm">
 							<a href={tab.url} class="hover:underline">{$_(tab.name)}</a>

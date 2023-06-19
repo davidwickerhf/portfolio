@@ -12,9 +12,9 @@
 	</p>
 
 	<div class="flex w-full justify-between flex-wrap gap-6 mb-4">
-		<TextButton text="year abroad in armenia" url="/academics" />
+		<TextButton text="page.civics.year-abroad" url="/academics" />
 		<TextButton
-			text="view the slides"
+			text="page.civics.view-the-slides"
 			url="https://1drv.ms/p/s!ApVJIPa1LXolhOwDPcoQ0jn5ZMf4XQ?e=taEL1W"
 		/>
 	</div>
@@ -27,14 +27,14 @@
 			/>
 
 			<div class="pt-8 flex flex-col gap-2">
-				<p class="font-medium text-3xl">{event.title}</p>
+				<p class="font-medium text-3xl">{$_(event.title)}</p>
 			</div>
 
 			<p>{$_(event.description)}</p>
 
 			{#if event.url}
 				<div class="w-fit">
-					<TextButton text="read more" url={event.url} />
+					<TextButton text="general.read-more" url={event.url} />
 				</div>
 			{/if}
 

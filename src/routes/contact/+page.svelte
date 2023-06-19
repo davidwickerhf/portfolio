@@ -1,8 +1,9 @@
 <script lang="ts">
+	import { _ } from 'svelte-i18n';
 </script>
 
 <div class="flex flex-col gap-6">
-	<h2>contact me.</h2>
-	<p>You can reach out to me via social media</p>
-	<p>Our you can reach out via email: davidwickerhf@gmail.com</p>
+	<h2>{$_('page.contact.title')}</h2>
+	<p>{$_('page.contact.social')}</p>
+	<p>{$_('page.contact.email')}</p>
 </div>

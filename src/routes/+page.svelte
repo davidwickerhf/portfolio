@@ -216,7 +216,9 @@
 					<TextButton text={'page.home.genocide-link'} url="/civics" />
 				</div>
 
-				<ComponentLink url={'/academics#project-armenia'}>Project Armenia</ComponentLink>
+				<ComponentLink url={'/academics#project-armenia'}
+					>{$_('academics.pascal.projects.armenia.title')}</ComponentLink
+				>
 			</div>
 		{/if}
 	</section>

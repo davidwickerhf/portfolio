@@ -22,7 +22,9 @@
     },
     "projects": {
       "challenges": "Challenges",
-      "title": "personal projects."
+      "title": "personal projects.",
+      "view": "open project",
+      "code": "source code"
     },
     "work": {
       "intro": "Here, you'll find a collection of my work and expertise in the fields of computer science, software engineering, and tutoring. As a passionate individual in these areas, I strive to deliver exceptional solutions and share my knowledge with others. Looking ahead, my aspirations lie in merging computer engineering with climate science to address the pressing challenges of our environment. Explore my projects, tutorials, and insights as we navigate the intersection of technology and sustainability.",
@@ -30,10 +32,14 @@
       "at": "at",
       "overview": "Project Overview",
       "requirements": "Project Requirements",
-      "tech": "Technologies Used"
+      "tech": "Technologies Used",
+      "work-with-me": "work with me",
+      "other": "view my other projects"
     },
     "civics": {
-      "intro": "The Armenian Genocide refers to the systematic mass killings and forced deportations of the Armenian population by the Ottoman Empire during World War I, resulting in the loss of countless lives and cultural heritage. Today, the genocide remains a contentious issue, as it is not universally recognized. Additionally, ongoing conflicts and territorial disputes persist between Armenia and Azerbaijan, particularly concerning the Nagorno-Karabakh region."
+      "intro": "The Armenian Genocide refers to the systematic mass killings and forced deportations of the Armenian population by the Ottoman Empire during World War I, resulting in the loss of countless lives and cultural heritage. Today, the genocide remains a contentious issue, as it is not universally recognized. Additionally, ongoing conflicts and territorial disputes persist between Armenia and Azerbaijan, particularly concerning the Nagorno-Karabakh region.",
+      "year-abroad": "year abroad in armenia",
+      "view-the-slides": "view the slides"
     },
     "activism": {
       "intro": "My journey in climate activism began in 2019 when I joined the global movement Fridays for Future. Passionate about combating climate change, I took an active role in organizing and mobilizing for environmental action. As part of my dedication, I played a crucial role in establishing the Italian chapter of Fridays for Future, working alongside like-minded individuals to create a strong platform for advocacy and awareness. In addition, I was honored to serve as a delegate for FFF Italy, fostering coordination and collaboration between national chapters to amplify our collective impact",
@@ -41,7 +47,8 @@
       "readmore": "read the articles"
     },
     "publications": {
-      "title": "publications."
+      "title": "publications.",
+      "get-copy": "get a copy"
     },
     "curriculum": {
       "link": "download my curriculum"
@@ -57,6 +64,14 @@
     },
     "certifications": {
       "title": "certifications."
+    },
+    "photo": {
+      "title": "photography."
+    },
+    "contact": {
+      "title": "contact me.",
+      "social": "You can reach out to me via social media",
+      "email": "Or you can reach out via email: davidwickerhf@gmail.com"
     }
   },
   "tabs": {
@@ -350,5 +365,9 @@
       "short": "This open-source Python library enables developers to programmatically access Instagram features, providing a seamless way to integrate Instagram functionalities into their own applications and projects.",
       "long": "Developed in Python 3, this library utilizes Selenium and Chromedrivers to scrape Instagram and emulate user interactions. It offers programmatic access to Instagram's functionalities, including logging in, following users, liking posts, sending DMs, and posting on the feed. The library has gained significant popularity, with over 140k downloads by developers worldwide. Its ease of use and comprehensive feature set make it a valuable tool for integrating Instagram features into various projects and applications."
     }
+  },
+  "contents": "contents",
+  "sidebar": {
+    "contact": "contact me"
   }
 }

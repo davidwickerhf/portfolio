@@ -27,7 +27,7 @@
 		<div class="flex flex-col gap-4">
 			<div class="flex justify-between w-full items-center gap-4">
 				<div class="flex flex-col">
-					<p class="text-xl font-medium">{project.title}</p>
+					<p class="text-xl font-medium">{$_(project.title)}</p>
 					<p class="text-dark-one">({project.year}) {$_(project.subtitle)}</p>
 				</div>
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -62,7 +62,7 @@
 		<!-- Long description -->
 		{#if project.longDescription}
 			<div class="w-full flex flex-col gap-2">
-				<p class="uppercase text-lg font-medium">Detailed Description</p>
+				<p class="uppercase text-lg font-medium">{$_('page.work.overview')}</p>
 				<p>{$_(project.longDescription)}</p>
 			</div>
 		{/if}
@@ -70,7 +70,7 @@
 		<!-- Technologies used -->
 		{#if project.technologies}
 			<div class="w-full flex flex-col gap-2">
-				<p class="uppercase text-lg font-medium">Technologies Used</p>
+				<p class="uppercase text-lg font-medium">{$_('page.work.tech')}</p>
 				<div class="flex w-full flex-wrap gap-4">
 					{#each project.technologies as tech}
 						<!-- Single tech div -->
@@ -109,12 +109,12 @@
 		>
 			{#if project.url}
 				<div class="@2xl/content:w-fit w-full">
-					<LinkButton url={project.url}>view project</LinkButton>
+					<LinkButton url={project.url}>{$_('page.projects.view')}</LinkButton>
 				</div>
 			{/if}
 			{#if project.github}
 				<div class="@2xl/content:w-fit w-full">
-					<LinkButton url={project.github}>view code</LinkButton>
+					<LinkButton url={project.github}>{$_('page.projects.code')}</LinkButton>
 				</div>
 			{/if}
 		</div>

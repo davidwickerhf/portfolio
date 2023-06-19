@@ -26,7 +26,7 @@
 				<p class="text-sm font-normal">{$_(description)}</p>
 			</div>
 			<!-- Button -->
-			<LinkButton {url}>read more</LinkButton>
+			<LinkButton {url}>{$_('general.read-more')}</LinkButton>
 		</div>
 	</div>
 </Lazy>

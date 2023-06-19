@@ -58,7 +58,7 @@
 			<!-- Action button -->
 			{#if publication.url}
 				<div class="w-fit">
-					<TextButton text="Get a copy" url={publication.url} />
+					<TextButton text="page.publications.get-copy" url={publication.url} />
 				</div>
 			{/if}
 		</div>

@@ -6,7 +6,7 @@
 </script>
 
 <div class="flex flex-col gap-6 w-full">
-	<h2>photography.</h2>
+	<h2>{$_('page.photo.title')}</h2>
 
 	<div class="flex w-full gap-4 flex-col">
 		{#each portfolio as location, index}

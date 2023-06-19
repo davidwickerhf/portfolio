@@ -44,7 +44,7 @@
 		</nav>
 
 		<div class="px-8 sm:px-12 py-5 border-t-2 border-alabaster-three dark:border-dark-three">
-			<LinkButton url="/contact" green>contact me</LinkButton>
+			<LinkButton url="/contact" green>{$_('sidebar.contact')}</LinkButton>
 		</div>
 	</div>
 </div>

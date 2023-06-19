@@ -21,7 +21,9 @@
       "work-experience": "esperienza lavorativa"
     },
     "civics": {
-      "intro": "Il genocidio armeno si riferisce alle sistematiche uccisioni di massa e alle deportazioni forzate della popolazione armena da parte dell'Impero ottomano durante la prima guerra mondiale, con conseguente perdita di innumerevoli vite e patrimonio culturale. \nOggi il genocidio rimane una questione controversa, in quanto non è universalmente riconosciuto. \nInoltre, persistono conflitti in corso e controversie territoriali tra Armenia e Azerbaigian, in particolare per quanto riguarda la regione del Nagorno-Karabakh."
+      "intro": "Il genocidio armeno si riferisce alle sistematiche uccisioni di massa e alle deportazioni forzate della popolazione armena da parte dell'Impero ottomano durante la prima guerra mondiale, con conseguente perdita di innumerevoli vite e patrimonio culturale. \nOggi il genocidio rimane una questione controversa, in quanto non è universalmente riconosciuto. \nInoltre, persistono conflitti in corso e controversie territoriali tra Armenia e Azerbaigian, in particolare per quanto riguarda la regione del Nagorno-Karabakh.",
+      "view-the-slides": "scarica le slide",
+      "year-abroad": "anno all'estero in armenia"
     },
     "academics": {
       "currently": "attualmente studiando presso",
@@ -45,10 +47,13 @@
     },
     "projects": {
       "challenges": "Sfide e difficoltà",
-      "title": "progetti personali."
+      "title": "progetti personali.",
+      "code": "codice sorgente",
+      "view": "apri il progetto"
     },
     "publications": {
-      "title": "pubblicazioni."
+      "title": "pubblicazioni.",
+      "get-copy": "ottieni una copia"
     },
     "work": {
       "at": "presso",
@@ -56,7 +61,17 @@
       "overview": "Panoramica del progetto",
       "requirements": "Requisiti del progetto",
       "tech": "Tecnologie utilizzate",
-      "title": "esperienza di lavoro."
+      "title": "esperienza di lavoro.",
+      "other": "progetti personali",
+      "work-with-me": "lavora con me"
+    },
+    "photo": {
+      "title": "fotografia."
+    },
+    "contact": {
+      "email": "Oppure puoi contattarci via e-mail: davidwickerhf@gmail.com",
+      "title": "contattami.",
+      "social": "Puoi contattarmi tramite i social media"
     }
   },
   "tabs": {
@@ -348,5 +363,9 @@
         "calendar": "Funzionalità di calendario per visualizzare le date prenotate per ogni auto."
       }
     }
+  },
+  "contents": "contenuti",
+  "sidebar": {
+    "contact": "contattami"
   }
 }
