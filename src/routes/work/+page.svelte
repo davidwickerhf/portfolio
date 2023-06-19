@@ -42,7 +42,7 @@
 			<div class="pt-8 flex flex-col gap-4">
 				<!-- Title -->
 				<div class="flex-row flex gap-6 justify-between items-center">
-					<div class="font-medium text-3xl">
+					<div class="flex gap-2 font-medium text-3xl flex-wrap">
 						{$_(experience.type)}
 						{$_('page.work.at')}
 						<UnderlineLink underline url={experience.companyUrl ?? ''}
