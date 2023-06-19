@@ -163,7 +163,7 @@
 					<ProjectComponent
 						title="Mai Checkers"
 						description="page.home.checkers-text"
-						url="/extracurriculars#maci-checkers"
+						url="/projects#mai-checkers"
 						resource="projects/checkers.png"
 					/>
 					<ProjectComponent
