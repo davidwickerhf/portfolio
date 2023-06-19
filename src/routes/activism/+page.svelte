@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { _ } from 'svelte-i18n';
 	import TextButton from '../../components/common/TextButton.svelte';
 	import { activism } from '$lib/constants/constants';
 	import GridComponent from '../photography/GridComponent.svelte';
@@ -7,6 +6,9 @@
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import { setSelected } from '$lib/store/SelectedProjectStore';
+	import LinkButton from '../../components/common/LinkButton.svelte';
+
+	import { _ } from 'svelte-i18n';
 
 	const scrollId = $page.url.hash.replace('#', '');
 	onMount(() => {
@@ -39,13 +41,23 @@
 			/>
 
 			<div class="pt-8 flex flex-col gap-2">
-				<p class="font-medium text-3xl">{event.title}</p>
-				<p class="text-dark-one">
-					{event.year} • {event.location}
-				</p>
+				<p class="font-medium text-3xl">{$_(event.title)}</p>
+				{#if event.year || event.location}
+					<p class="text-dark-one">
+						{event.year ?? ''}
+						{event.year && event.location ? '•' : ''}
+						{event.location ? $_(event.location) : ''}
+					</p>
+				{/if}
 			</div>
 
 			<p>{$_(event.description)}</p>
+
+			{#if event.url}
+				<div class="w-fit">
+					<TextButton text="page.activism.press" url={event.url} />
+				</div>
+			{/if}
 
 			{#if event.images}
 				<GridComponent images={event.images} />

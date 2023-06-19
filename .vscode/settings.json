@@ -125,6 +125,8 @@
 		"Level B1",
 		"Level B1",
 		"Goethe Institute",
-		"Goethe Institute"
+		"Goethe Institute",
+		"\n\t\t\t\t\t\t{event.year ?? ''}\n\t\t\t\t\t\t{event.year ",
+		"\n\t\t\t\t\t\t{event.year ?? ''}\n\t\t\t\t\t\t{event.year "
 	]
 }
