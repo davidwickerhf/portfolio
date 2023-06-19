@@ -9,11 +9,13 @@
 	import { _ } from 'svelte-i18n';
 	import { page } from '$app/stores';
 	import { scrollIntoView } from '$lib/constants/functions';
+	import { setScrolled } from '$lib/store/SidebarStore';
 
 	let current = academics.find((school) => school.current);
 
 	const scrollId = $page.url.hash.replace('#', '');
 	onMount(() => {
+		setScrolled();
 		setSelected('');
 		if (scrollId) {
 			window.requestAnimationFrame(() => scrollIntoView(scrollId));

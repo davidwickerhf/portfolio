@@ -6,12 +6,14 @@
 	import CertificationsComponent from './CertificationComponent.svelte';
 	import { page } from '$app/stores';
 	import { scrollIntoView } from '$lib/constants/functions';
+	import { setScrolled } from '$lib/store/SidebarStore';
 
 	const keys = Object.keys(CertificationType);
 	const values = Object.values(CertificationType);
 
 	const scrollId = $page.url.hash.replace('#', '');
 	onMount(() => {
+		setScrolled();
 		setSelected('');
 		if (scrollId) {
 			window.requestAnimationFrame(() => scrollIntoView(scrollId));

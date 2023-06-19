@@ -7,9 +7,11 @@
 	import { page } from '$app/stores';
 	import { scrollIntoView } from '$lib/constants/functions';
 	import { setSelected } from '$lib/store/SelectedProjectStore';
+	import { setScrolled } from '$lib/store/SidebarStore';
 
 	const scrollId = $page.url.hash.replace('#', '');
 	onMount(() => {
+		setScrolled();
 		setSelected('');
 		if (scrollId) {
 			window.requestAnimationFrame(() => scrollIntoView(scrollId));

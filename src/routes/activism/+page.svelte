@@ -9,9 +9,11 @@
 	import LinkButton from '../../components/common/LinkButton.svelte';
 
 	import { _ } from 'svelte-i18n';
+	import { setScrolled } from '$lib/store/SidebarStore';
 
 	const scrollId = $page.url.hash.replace('#', '');
 	onMount(() => {
+		setScrolled();
 		if (scrollId) {
 			window.requestAnimationFrame(() => scrollIntoView(scrollId));
 			history.replaceState('', '', window.location.pathname);

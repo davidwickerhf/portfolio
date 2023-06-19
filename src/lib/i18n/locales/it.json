@@ -18,7 +18,8 @@
       "genocide-link": "Ulteriori informazioni sul genocidio armeno",
       "tedx-text": "Organizzato una conferenza TEDxYouth ospitata dal Collegio del Mondo Unito Dilijan a Dilijan, Armenia, presentando relatori stimolanti e idee per responsabilizzare e coinvolgere i giovani.",
       "work": "Durante il mio tirocinio presso Mediamente Consulting, società di Business Intelligence di Torino, mi è stato affidato lo sviluppo di un sistema di prenotazione auto per la gestione dei noleggi interni dei dipendenti. \nHo iniziato progettando le pagine del sito Web utilizzando Figma e, una volta approvato, ho proceduto all'implementazione del design sul codebase dell'azienda. \nPer dare vita al sistema di prenotazione auto, ho utilizzato PHP, JavaScript grezzo e SCSS. \nHo sviluppato attentamente le funzionalità di backend utilizzando PHP per garantire una comunicazione senza soluzione di continuità con il database dell'azienda. \nCon JavaScript, ho aggiunto elementi interattivi e funzionalità dinamiche per migliorare l'esperienza dell'utente.",
-      "work-experience": "esperienza lavorativa"
+      "work-experience": "esperienza lavorativa",
+      "civics": "civica"
     },
     "civics": {
       "intro": "Il genocidio armeno si riferisce alle sistematiche uccisioni di massa e alle deportazioni forzate della popolazione armena da parte dell'Impero ottomano durante la prima guerra mondiale, con conseguente perdita di innumerevoli vite e patrimonio culturale. \nOggi il genocidio rimane una questione controversa, in quanto non è universalmente riconosciuto. \nInoltre, persistono conflitti in corso e controversie territoriali tra Armenia e Azerbaigian, in particolare per quanto riguarda la regione del Nagorno-Karabakh.",

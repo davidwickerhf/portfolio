@@ -8,9 +8,11 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 	import { scrollIntoView } from '$lib/constants/functions';
+	import { setScrolled } from '$lib/store/SidebarStore';
 
 	const scrollId = $page.url.hash.replace('#', '');
 	onMount(() => {
+		setScrolled();
 		setSelected('');
 		if (scrollId) {
 			window.requestAnimationFrame(() => scrollIntoView(scrollId));

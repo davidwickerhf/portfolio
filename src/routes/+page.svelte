@@ -173,6 +173,10 @@
 						resource="projects/dec-torino.jpeg"
 					/>
 				</div>
+				<div class="flex justify-between mt-6">
+					<TextButton text="tabs.extracurriculars" url="/extracurriculars" />
+					<TextButton text="tabs.personal-projects" url="/projects" />
+				</div>
 			</div>
 		{/if}
 	</section>
@@ -206,7 +210,7 @@
 	>
 		{#if civics}
 			<div in:fade class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6">
-				<h2>civics</h2>
+				<h2>{$_('page.home.civics')}</h2>
 				<p>
 					{$_('page.home.civics-text')}
 				</p>

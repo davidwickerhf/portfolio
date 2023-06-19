@@ -1,6 +1,12 @@
 <script>
+	import { onMount } from 'svelte';
 	import TextButton from '../../components/common/TextButton.svelte';
 	import { _ } from 'svelte-i18n';
+	import { setScrolled } from '$lib/store/SidebarStore';
+
+	onMount(() => {
+		setScrolled();
+	});
 </script>
 
 <div class="flex gap-6 flex-col">

@@ -9,12 +9,14 @@
 	import { scrollIntoView } from '$lib/constants/functions';
 
 	import { locale } from 'svelte-i18n';
+	import { setScrolled } from '$lib/store/SidebarStore';
 
 	const keys = Object.keys(ActivityArea);
 	const values = Object.values(ActivityArea);
 
 	const scrollId = $page.url.hash.replace('#', '');
 	onMount(() => {
+		setScrolled();
 		setSelected('');
 		if (scrollId) {
 			window.requestAnimationFrame(() => scrollIntoView(scrollId));
