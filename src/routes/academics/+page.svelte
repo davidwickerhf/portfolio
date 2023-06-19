@@ -58,7 +58,7 @@
 				<p class="flex gap-2">
 					{$_('page.academics.currently')}
 					<UnderlineLink underline url={current.url ?? '/academics'}
-						>{current.istitution}</UnderlineLink
+						>{$_(current.istitution)}</UnderlineLink
 					>
 				</p>
 			</div>

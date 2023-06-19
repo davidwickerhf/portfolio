@@ -1136,7 +1136,6 @@ export interface Location {
 export const portfolio: Location[] = [
 	{
 		title: 'Armenia',
-		description: 'general.lorem-ipsum',
 		images: [
 			{
 				src: 'photography/yerevan-1.jpg'
