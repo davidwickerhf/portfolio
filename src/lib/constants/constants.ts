@@ -717,7 +717,7 @@ export const activism: ActivismExperience[] = [
 		year: 2019,
 		location: 'locations.turin',
 		url: 'https://www.ohga.it/climate-strike-a-torino-con-il-giovanissimo-david-wicker-vogliamo-che-il-nostro-futuro-venga-rispettato/',
-		images: []
+		images: [{ src: 'activism/torino-1.jpeg' }, { src: 'activism/torino-2.jpeg' }]
 	},
 
 	// FFF Italia
@@ -726,8 +726,7 @@ export const activism: ActivismExperience[] = [
 		title: 'activism.fffita.title',
 		description: 'activism.fffita.desc',
 		year: 2019,
-		location: 'locations.italy',
-		images: []
+		location: 'locations.italy'
 	},
 
 	// FFF international
@@ -735,9 +734,7 @@ export const activism: ActivismExperience[] = [
 		id: 'fff-int',
 		title: 'activism.fffint.title',
 		description: 'activism.fffint.desc',
-		year: 2019,
-		location: 'locations.italy',
-		images: []
+		year: 2019
 	},
 
 	// EU Parliament Strasburgo
@@ -747,7 +744,7 @@ export const activism: ActivismExperience[] = [
 		description: 'activism.eu1.desc',
 		year: 2019,
 		location: 'locations.strasbourg',
-		images: []
+		images: [{ src: 'activism/strasbourg-1.jpeg' }, { src: 'activism/strasbourg-2.jpeg' }]
 	},
 
 	// Global Strikes
@@ -756,7 +753,7 @@ export const activism: ActivismExperience[] = [
 		title: 'activism.strikes.title',
 		description: 'activism.strikes.desc',
 		url: 'https://torino.repubblica.it/cronaca/2023/03/01/news/fridays_for_future_torino_lanciano_lappello_a_scendere_in_piazza_per_lo_sciopero_globale_per_il_clima-390072834/',
-		images: []
+		images: [{ src: 'activism/strikes-1.jpeg' }, { src: 'activism/strikes-2.jpeg' }]
 	},
 
 	// - Aachen central strike
@@ -766,7 +763,12 @@ export const activism: ActivismExperience[] = [
 		description: 'activism.aachen.desc',
 		year: 2019,
 		location: 'locations.aachen',
-		images: []
+		images: [
+			{ src: 'activism/aachen-1.jpeg' },
+			{ src: 'activism/aachen-2.jpeg' },
+			{ src: 'activism/aachen-3.jpeg' },
+			{ src: 'activism/aachen-4.jpeg' }
+		]
 	},
 
 	// - Occupazione parlamento europeo
@@ -777,7 +779,12 @@ export const activism: ActivismExperience[] = [
 		year: 2019,
 		location: 'locations.bruxelles',
 		url: 'https://i404.it/attualita/cronaca/elezioni-europee-2019-fridaysforfuture-occupazione-parlamento/',
-		images: []
+		images: [
+			{ src: 'activism/bruxelles-1.jpeg' },
+			{ src: 'activism/bruxelles-2.jpeg' },
+			{ src: 'activism/bruxelles-3.jpeg' },
+			{ src: 'activism/bruxelles-4.jpeg' }
+		]
 	},
 
 	// Incontro al Senato della Repubblica
@@ -787,7 +794,12 @@ export const activism: ActivismExperience[] = [
 		description: 'activism.senato.desc',
 		year: 2019,
 		location: 'locations.rome',
-		images: []
+		images: [
+			{ src: 'activism/senato-1.jpeg' },
+			{ src: 'activism/senato-2.jpeg' },
+			{ src: 'activism/senato-3.jpeg' },
+			{ src: 'activism/senato-4.jpeg' }
+		]
 	},
 
 	// - Lausanne International FFF Meeting
@@ -798,7 +810,11 @@ export const activism: ActivismExperience[] = [
 		year: 2019,
 		location: 'locations.lausanne',
 		url: 'https://smileforfuture.eu/',
-		images: []
+		images: [
+			{ src: 'activism/smile-1.jpeg' },
+			{ src: 'activism/smile-2.jpeg' },
+			{ src: 'activism/smile-3.jpeg' }
+		]
 	},
 
 	{
@@ -808,7 +824,7 @@ export const activism: ActivismExperience[] = [
 		year: 2019,
 		location: 'locations.turin',
 		url: 'https://torino.repubblica.it/cronaca/2019/12/12/news/david_il_ragazzo_che_ha_invitato_greta_arrivera_in_treno_e_adesso_aspettiamo_in_piazza_le_istituzioni_-243248029/',
-		images: []
+		images: [{ src: 'activism/greta-1.jpeg' }, { src: 'activism/greta-2.jpeg' }]
 	},
 
 	// DEC
@@ -816,7 +832,7 @@ export const activism: ActivismExperience[] = [
 		id: 'dec',
 		title: 'activism.dec.title',
 		description: 'activism.dec.desc',
-		url: 'https://www.italiachecambia.org/2019/07/anche-torino-approva-mozione-che-dichiara-emergenza-climatica/',
+		url: 'https://www.lastampa.it/torino/2019/09/02/news/buttigliera-alta-approva-la-mozione-di-un-quattordicenne-per-diventare-piu-green-1.37406593/',
 		images: []
 	}
 ];
