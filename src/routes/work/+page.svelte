@@ -22,7 +22,7 @@
 </script>
 
 <div class="flex w-full flex-col gap-6">
-	<h2>work experience.</h2>
+	<h2>{$_('page.work.title')}</h2>
 	<p>
 		{$_('page.work.intro')}
 	</p>
@@ -43,7 +43,9 @@
 				<!-- Title -->
 				<div class="flex-row flex gap-6 justify-between items-center">
 					<div class="font-medium text-3xl">
-						{$_(experience.type)} at <UnderlineLink underline url={experience.companyUrl ?? ''}
+						{$_(experience.type)}
+						{$_('page.work.at')}
+						<UnderlineLink underline url={experience.companyUrl ?? ''}
 							>{experience.company}</UnderlineLink
 						>
 					</div>
@@ -58,7 +60,7 @@
 				<!-- Overview -->
 				{#if experience.overview}
 					<div class="w-full flex flex-col gap-2">
-						<p class="uppercase text-lg font-medium">Project Overview</p>
+						<p class="uppercase text-lg font-medium">{$_('page.work.overview')}</p>
 						<p>{$_(experience.overview)}</p>
 					</div>
 				{/if}
@@ -66,7 +68,7 @@
 				<!-- Requirements -->
 				{#if experience.requirements}
 					<div class="w-full flex flex-col gap-2">
-						<p class="uppercase text-lg font-medium">Project Requirements</p>
+						<p class="uppercase text-lg font-medium">{$_('page.work.requirements')}</p>
 						<ol class="ml-8 list-disc list-outside w-full gap-2 flex flex-col">
 							{#each experience.requirements as req}
 								<!-- Single issue -->
@@ -79,7 +81,7 @@
 				<!-- Technologies -->
 				{#if experience.technologies}
 					<div class="w-full flex flex-col gap-2">
-						<p class="uppercase text-lg font-medium">Technologies Used</p>
+						<p class="uppercase text-lg font-medium">{$_('page.work.tech')}</p>
 						<div class="flex w-full flex-wrap gap-4">
 							{#each experience.technologies as tech}
 								<!-- Single tech div -->
@@ -92,7 +94,7 @@
 				<!-- Issues -->
 				{#if experience.issues}
 					<div class="w-full flex flex-col gap-2">
-						<p class="uppercase text-lg font-medium">Challenges</p>
+						<p class="uppercase text-lg font-medium">{$_('page.projects.challenges')}</p>
 						<ol class="ml-8 list-disc list-outside w-full gap-2 flex flex-col">
 							{#each experience.issues as issue}
 								<!-- Single issue -->

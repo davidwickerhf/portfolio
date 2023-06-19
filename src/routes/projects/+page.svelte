@@ -20,7 +20,7 @@
 </script>
 
 <div class="flex flex-col gap-6 w-full">
-	<h2>personal projects.</h2>
+	<h2>{$_('page.projects.title')}</h2>
 
 	<div class="flex flex-col gap-4 mt-4">
 		{#each projects.sort((a, b) => (a.year > b.year ? -1 : 1)) as project}

@@ -34,5 +34,14 @@
     "by": "di",
     "read-more": "leggi di più",
     "through": "con"
+  },
+  "academics": {
+    "pascal": {
+      "projects": {
+        "armenia": {
+          "title": "Progetto Armenia"
+        }
+      }
+    }
   }
 }

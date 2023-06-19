@@ -8,6 +8,8 @@
 	import { page } from '$app/stores';
 	import { scrollIntoView } from '$lib/constants/functions';
 
+	import { locale } from 'svelte-i18n';
+
 	const keys = Object.keys(ActivityArea);
 	const values = Object.values(ActivityArea);
 
@@ -27,7 +29,10 @@
 
 	{#each keys as area, index}
 		{#if activities.filter((a) => a.area === values[index]).length > 0}
-			<p class="text-lg font-medium lowercase">related to {values[index]}</p>
+			<p class="text-lg font-medium lowercase">
+				{$_('page.extracurriculars.area')}
+				{values[index]}
+			</p>
 
 			<div class="flex flex-col gap-6 w-full">
 				{#each activities

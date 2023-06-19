@@ -22,11 +22,11 @@
 </script>
 
 <div class="flex flex-col gap-6">
-	<h2>certifications.</h2>
+	<h2>{$_('page.certifications.title')}</h2>
 
 	{#each keys as area, index}
 		{#if certifications.filter((a) => a.type === values[index]).length > 0}
-			<p class="text-lg font-medium lowercase">{values[index]} certifications</p>
+			<p class="text-lg font-medium lowercase">{values[index]}</p>
 
 			<div class="flex flex-col gap-6 w-full">
 				{#each certifications
