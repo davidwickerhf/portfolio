@@ -173,7 +173,7 @@
 						resource="projects/dec-torino.jpeg"
 					/>
 				</div>
-				<div class="flex justify-between mt-6">
+				<div class="flex justify-between mt-6 gap-6 flex-wrap">
 					<TextButton text="tabs.extracurriculars" url="/extracurriculars" />
 					<TextButton text="tabs.personal-projects" url="/projects" />
 				</div>

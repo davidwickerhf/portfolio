@@ -6,18 +6,14 @@
 	let windowWidth;
 
 	// returns 4 lists of x items
-	let organizeImages = (images: Photo[], cols: number) => {
-		if (images.length < 2) {
-			return [[...images]];
-		}
-		let num = Math.ceil(images.length / cols); // number of rows per list
+	let organizeImages = (images: Photo[], maxcols: number) => {
+		let cols = Math.min(maxcols, images.length);
 
 		let lists: Photo[][] = [];
 		for (let index = 0; index < cols; index++) {
 			lists.push([]);
 		}
 
-		let temp: Photo[] = [];
 		images.forEach((image, index) => {
 			lists[index % cols].push(image);
 		});

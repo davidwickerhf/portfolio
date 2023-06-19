@@ -102,7 +102,7 @@
 	</div>
 
 	<!-- Links -->
-	<div class="flex gap-4 @2xl/content:flex-row flex-col justify-between">
+	<div class="flex gap-4 @2xl/content:flex-row flex-col justify-between flex-wrap">
 		<!-- Links -->
 		<div
 			class="flex gap-4 @xl/content:flex-row flex-col w-full justify-between @2xl/content:w-fit @2xl/content:justify-start"
@@ -132,7 +132,7 @@
 				else setSelected(project.id);
 			}}
 		>
-			<p>{open ? $_('general.read-less') : $_('general.read-more')}</p>
+			<p class="whitespace-nowrap">{open ? $_('general.read-less') : $_('general.read-more')}</p>
 			<span class="material-symbols-outlined"> chevron_right </span>
 		</div>
 	</div>
