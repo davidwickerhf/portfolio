@@ -45,7 +45,7 @@
 
 <!-- Landing Section -->
 <div class="gap-48 flex flex-col">
-	<section class="min-h-screen flex justify-center items-center">
+	<section class="min-h-screen flex justify-center items-center py-6">
 		<div class="flex max-w-4xl flex-col gap-4 text-dark-three dark:text-alabaster-two">
 			<!-- definition of -->
 			<p class="text-dark-one font-medium text-lg">{$_('page.home.definition-of')}</p>
