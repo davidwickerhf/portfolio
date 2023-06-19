@@ -12,7 +12,7 @@
 </script>
 
 <div class="flex w-full flex-col gap-6">
-	<h2>genocide and war in armenia.</h2>
+	<h2>{$_('page.civics.title')}</h2>
 	<p>
 		{$_('page.civics.intro')}
 	</p>
