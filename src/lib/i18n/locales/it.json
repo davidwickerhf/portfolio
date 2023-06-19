@@ -11,10 +11,52 @@
       "uwcdilijan": "UWC Dilijan College: Diploma IB",
       "academics": "istruzione",
       "view-my-curriculum": "scarica il mio curriculum",
-      "civics-text": "Durante il mio anno all'estero in Armenia, ho acquisito una profonda comprensione delle sfide affrontate dal popolo armeno. \nSono stato esposto alla tragica storia del genocidio armeno, perpetrato dall'impero ottomano, che, ancora oggi, manca di un pieno riconoscimento internazionale. \nInoltre, ho appreso dei conflitti e delle guerre in corso tra Armenia e Azerbaigian riguardanti la regione del Nogorno Karabakh. \nQueste esperienze fanno luce sulle lotte subite dai giovani armeni, che vivono con la costante paura di essere arruolati nell'esercito fin dalla giovane età. \nAssistere a queste difficoltà in prima persona ha risvegliato la mia empatia e rafforzato il mio impegno a difendere la giustizia e la pace. \nHa approfondito il mio apprezzamento per la resilienza e la determinazione del popolo armeno, che persiste di fronte alle avversità. \nQuesta esperienza mi ha spinto a organizzare un progetto di sensibilizzazione sulle lotte del popolo armeno nel mio liceo nel nord Italia."
+      "civics-text": "Durante il mio anno all'estero in Armenia, ho acquisito una profonda comprensione delle sfide affrontate dal popolo armeno. \nSono stato esposto alla tragica storia del genocidio armeno, perpetrato dall'impero ottomano, che, ancora oggi, manca di un pieno riconoscimento internazionale. \nInoltre, ho appreso dei conflitti e delle guerre in corso tra Armenia e Azerbaigian riguardanti la regione del Nogorno Karabakh. \nQueste esperienze fanno luce sulle lotte subite dai giovani armeni, che vivono con la costante paura di essere arruolati nell'esercito fin dalla giovane età. \nAssistere a queste difficoltà in prima persona ha risvegliato la mia empatia e rafforzato il mio impegno a difendere la giustizia e la pace. \nHa approfondito il mio apprezzamento per la resilienza e la determinazione del popolo armeno, che persiste di fronte alle avversità. \nQuesta esperienza mi ha spinto a organizzare un progetto di sensibilizzazione sulle lotte del popolo armeno nel mio liceo nel nord Italia.",
+      "DEC-text": "Elaborato e proposto alla giunta di Torino una mozione per la Dichiarazione di Emergenza Climatica. Con il sostegno dell'assessore all'ambiente, la mozione è stata approvata",
+      "gallery": "Galleria fotografica",
+      "checkers-text": "Ha intrapreso un progetto consigliato dall'insegnante di informatica e ha sviluppato con successo un gioco di dama 3D online utilizzando tecnologie web",
+      "genocide-link": "Ulteriori informazioni sul genocidio armeno",
+      "tedx-text": "Organizzato una conferenza TEDxYouth ospitata dal Collegio del Mondo Unito Dilijan a Dilijan, Armenia, presentando relatori stimolanti e idee per responsabilizzare e coinvolgere i giovani.",
+      "work": "Durante il mio tirocinio presso Mediamente Consulting, società di Business Intelligence di Torino, mi è stato affidato lo sviluppo di un sistema di prenotazione auto per la gestione dei noleggi interni dei dipendenti. \nHo iniziato progettando le pagine del sito Web utilizzando Figma e, una volta approvato, ho proceduto all'implementazione del design sul codebase dell'azienda. \nPer dare vita al sistema di prenotazione auto, ho utilizzato PHP, JavaScript grezzo e SCSS. \nHo sviluppato attentamente le funzionalità di backend utilizzando PHP per garantire una comunicazione senza soluzione di continuità con il database dell'azienda. \nCon JavaScript, ho aggiunto elementi interattivi e funzionalità dinamiche per migliorare l'esperienza dell'utente.",
+      "work-experience": "esperienza lavorativa"
     },
     "civics": {
       "intro": "Il genocidio armeno si riferisce alle sistematiche uccisioni di massa e alle deportazioni forzate della popolazione armena da parte dell'Impero ottomano durante la prima guerra mondiale, con conseguente perdita di innumerevoli vite e patrimonio culturale. \nOggi il genocidio rimane una questione controversa, in quanto non è universalmente riconosciuto. \nInoltre, persistono conflitti in corso e controversie territoriali tra Armenia e Azerbaigian, in particolare per quanto riguarda la regione del Nagorno-Karabakh."
+    },
+    "academics": {
+      "currently": "attualmente studiando presso",
+      "history": "percorso academico",
+      "intro": "studente di orientamento internazionale, con l'obiettivo di impiegare l'informatica nel campo della scienza del clima"
+    },
+    "activism": {
+      "intro": "Il mio viaggio nell'attivismo per il clima è iniziato nel 2019 quando mi sono unito al movimento globale Fridays for Future. \nAppassionato di combattere il cambiamento climatico, ho assunto un ruolo attivo nell'organizzazione e nella mobilitazione per l'azione ambientale. \nCome parte della mia dedizione, ho svolto un ruolo cruciale nella creazione del capitolo italiano di Fridays for Future, lavorando a fianco di persone che la pensano allo stesso modo per creare una solida piattaforma di advocacy e consapevolezza. \nInoltre, sono stato onorato di servire come delegato per FFF Italia, promuovendo il coordinamento e la collaborazione tra capitoli nazionali per amplificare il nostro impatto collettivo",
+      "readmore": "leggi gli articoli",
+      "title": "attivismo climatico."
+    },
+    "certifications": {
+      "title": "certificazioni."
+    },
+    "curriculum": {
+      "link": "scarica il mio curriculum"
+    },
+    "extracurriculars": {
+      "area": "relativo a",
+      "title": "extracurriculari."
+    },
+    "projects": {
+      "challenges": "Sfide e difficoltà",
+      "title": "progetti personali."
+    },
+    "publications": {
+      "title": "pubblicazioni."
+    },
+    "work": {
+      "at": "presso",
+      "intro": "Qui troverai una raccolta del mio lavoro e delle mie competenze nei campi dell'informatica, dell'ingegneria del software e del tutoraggio. \nCome persona appassionata in queste aree, mi sforzo di fornire soluzioni eccezionali e condividere le mie conoscenze con gli altri. \nGuardando al futuro, le mie aspirazioni risiedono nel fondere l'ingegneria informatica con la scienza del clima per affrontare le pressanti sfide del nostro ambiente. \nEsplora i miei progetti, tutorial e approfondimenti mentre navighiamo nell'intersezione tra tecnologia e sostenibilità.",
+      "overview": "Panoramica del progetto",
+      "requirements": "Requisiti del progetto",
+      "tech": "Tecnologie utilizzate",
+      "title": "esperienza di lavoro."
     }
   },
   "tabs": {
@@ -39,8 +81,271 @@
     "pascal": {
       "projects": {
         "armenia": {
-          "title": "Progetto Armenia"
+          "title": "Progetto Armenia",
+          "desc": "Dopo l'esperienza all'estero in Armenia, ho capito che avevo la responsabilità di sensibilizzare le persone sulla situazione di guerra nel paese. Mi sono messo in contatto con una studentessa di origini armene al Pascal e insieme abbiamo lavorato per creare un calendario di seminari sull'Armenia, che potesse raggiungere tutte le classi e gli studenti della scuola. Il progetto è stato battezzato come Progetto Armenia ed è stato inserito nel programma di educazione civica di quest'anno. Inoltre, coordinando con la vicepreside, abbiamo stabilito le date dei seminari e creato il contenuto che comprendeva il contesto storico e culturale dell'Armenia e delle ragioni geopolitiche e culturali del conflitto con l'Azerbaigian. Siamo riusciti a coinvolgere un gran numero di studenti e il feedback è stato molto positivo. Il progetto ci ha permesso di educare le persone sulla situazione in Armenia e sensibilizzarle sulle tematiche geopolitiche e culturali del conflitto. Questo progetto è stato una grande opportunità per me e per la mia partner armena di promuovere la pace e la comprensione attraverso l'educazione."
+        },
+        "dama": {
+          "desc": "Incoraggiato dal mio insegnante di informatica, ho intrapreso un progetto per sviluppare un gioco per la classe CS. \nScegliendo di testare le mie capacità di programmazione, ho scelto di creare un gioco di dama. \nInizialmente, ho considerato l'utilizzo di Java per lo sviluppo locale, ma alla fine ho deciso di sfruttare tecnologie Web come TypeScript e Next.js. \nAlla ricerca di una sfida in più, ho deciso di codificare un'interfaccia 3D per il gioco. \nCon determinazione e perseveranza, ho completato con successo il progetto e l'ho pubblicato con orgoglio online per far divertire gli altri. \nQuesta esperienza mi ha permesso non solo di affinare le mie capacità di programmazione, ma anche di mostrare la mia capacità di adattarmi ed esplorare nuove tecnologie.",
+          "title": "Progetto Dama"
+        },
+        "film": {
+          "desc": "Sono stato fortunato ad avere l\\'opportunità di incontrare Ezio Maisto, un regista che stava cercando di realizzare un documentario sul movimento Fridays for Future, e sono diventato uno dei protagonisti del documentario intitolato \"Ragazzi Irresponsabili\".Per un anno intero ho partecipato attivamente alle riprese, documentando le manifestazioni e le proteste per il cambiamento climatico in cui sono stato coinvolto, insieme ad altri giovani attivisti. Grazie a questo documentario ho avuto la possibilità di condividere la mia esperienza con un pubblico più vasto, dando voce alle preoccupazioni che condivido con molti altri riguardo al futuro del nostro pianeta. Sono felice di condividere che il documentario \"Ragazzi Irresponsabili\" è stato premiato al film festival di Cinemambiente a Torino, un importante evento dedicato ai film e ai documentari che affrontano temi ambientali, nonchè alla cinquantesima edizione del Giffoni Film Festival. Il documentario è tuttora disponibile online su Infinity+ di Mediaset.",
+          "title": "Documentario \"Ragazzi Irresponsabili\""
+        },
+        "reply": {
+          "desc": "Su consiglio della professoressa Cinti, io e un altro studente dell'IIS Blaise Pascal abbiamo partecipato con successo alla competizione Reply Code Challenge, dimostrando le nostre capacità di programmazione e rappresentando orgogliosamente la nostra scuola.",
+          "title": "Reply Code Challenge"
+        },
+        "tutoring": {
+          "desc": "Ho collaborato come tutor di informatica al progetto di Tutoraggio del Pascal, avviato su iniziativa della scuola Blaise Pascal. Ho offerto ripetizioni di INFORMATICA agli studenti della scuola, sia in presenza che online durante la pandemia del COVID-19. Il mio ruolo consisteva nel potenziare gli argomenti svolti a scuola, ma anche nell'aiutare gli studenti con difficoltà specifiche nella comprensione della materia. Mi sono coordinato con la professoressa di informatica, Veronica Cinti, per organizzare le lezioni e pianificare gli argomenti da trattare. Siamo riusciti a fornire un supporto personalizzato ai ragazzi, individuando i punti deboli e offrendo lezioni mirate per affrontare le difficoltà. Sono stato molto contento di poter essere utile alla scuola e ai ragazzi e di contribuire al loro percorso formativo. Ho cercato di stimolare la loro curiosità, incoraggiandoli a esplorare argomenti più avanzati e offrendo loro spunti per approfondire gli argomenti di loro interesse.",
+          "title": "Progetto Tutoraggio"
         }
+      },
+      "desc": "Ho frequentato il Liceo Scientifico Scientifico \"IIS Blaise Pascal\" di Giaveno, spinto dalla mia passione per l'informatica. \nNel mio primo anno ho sviluppato un'app per assistere gli insegnanti nella selezione degli studenti per le prove orali. \nDurante il mio secondo e terzo anno, sono stato onorato di ricevere borse di studio per meriti accademici dalla scuola. \nDurante gli anni del liceo, ho bilanciato con successo le mie attività accademiche con la mia dedizione all'attivismo climatico. \nInfatti, ho fondato il movimento Fridays For Future Torino e ho partecipato attivamente alla promozione della consapevolezza ambientale. \nNel mio terzo anno, ho intrapreso il processo di candidatura per gli United World Colleges ed ero entusiasta di essere accettato per gli studi in Armenia. \nAl ritorno dall'Armenia, ho preso l'iniziativa di organizzare seminari e lezioni per educare gli altri sul genocidio armeno e sui conflitti in corso nella regione.",
+      "diploma": "Diploma di maturità scientifica applicata",
+      "istitution": "IIS Blaise Pascal",
+      "short": "liceo"
+    },
+    "giacomo": {
+      "desc": "Ho frequentato la scuola media di Buttigliera Alta e ho ottenuto ottimi risultati, diplomandomi con il massimo dei voti 100 e lode. \nLa mia \"mini-tesi\" di laurea si è concentrata sull'intersezione tra Intelligenza Artificiale, Macchina di Turing e considerazioni etiche nell'informatica. \nPer mostrare le mie conoscenze e abilità, ho programmato un gioco di matematica in C",
+      "diploma": "Diploma di scuola media",
+      "istitution": "Giacomo Jaqueiro",
+      "projects": {
+        "contest": {
+          "desc": "Ho avuto l'opportunità di organizzare un concorso fotografico per la scuola media Giacomo Jaqueiro, in collaborazione con la professoressa di tecnologia e il professore di italiano. Il mio compito principale è stato quello di creare un sito web per le iscrizioni al concorso, dove ho anche formulato il regolamento ufficiale del concorso. In seguito, ho deciso di estendere il concorso a tutto il paese, in collaborazione con il comune di Buttigliera Alta. Per garantire la giusta valutazione delle fotografie, ho creato un comitato di fotografi professionisti che si sono occupati della selezione dei vincitori. Insieme alla scuola, ho anche preparato dei premi per i vincitori. La fase conclusiva del concorso è stata l'annuncio dei vincitori. Ho organizzato un evento presso la scuola, dove sono stati annunciati i vincitori e si è festeggiato il loro successo. Mi sono sentito molto soddisfatto del lavoro svolto e sono rimasto molto felice di vedere la partecipazione degli studenti alla competizione.",
+          "title": "Concorso fotografico"
+        }
+      },
+      "short": "scuola media"
+    },
+    "maas": {
+      "projects": {
+        "m4c": {
+          "desc": "Sono stato accettato all'Università di Maastricht dove mi specializzerò in ingegneria informatica. Da subito, ho iniziato a cercare opportunità per connettermi con gli studenti e la realtà ambientalista della città. Durante questa ricerca, sono entrato in contatto con gli attivisti di Maastricht for Climate (M4C), una ONG no-profit guidata dagli studenti dell'università. Dato che l'organizzazione cerca nuovi membri ogni anno per coprire le cariche più importanti, ho deciso di CANDIDARMI per diventare il nuovo presidente della ONG grazie alla mia esperienza pregressa nell'ambito dell'attivismo climatico. I membri dell'ONG mi hanno votato a favore, e il mio mandato inizierà ad agosto. Attualmente, sto lavorando attivamente all'organizzazione di eventi per il mese di settembre. Uno dei primi eventi ai quali parteciperò è l'evento di accoglienza dei nuovi studenti all'università di Maastricht, dove avrò il compito di RAPPRESENTANTE l'ONG e reclutare nuovi membri. Sono entusiasta di questo nuovo incarico e mi auguro di poter svolgere un ruolo attivo nell'organizzazione di progetti che promuovano la sostenibilità e la lotta ai cambiamenti climatici nella mia comunità universitaria.",
+          "title": "Maastricht for Climate"
+        }
+      },
+      "desc": "Con un vivo interesse per l'informatica, sono stato ammesso all'Università di Maastricht per conseguire la mia laurea nel campo. \nL'ambiente dinamico e diversificato di Maastricht mi ha attirato, offrendo un'esperienza accademica arricchente. \nOltre al mio amore per l'informatica, sono anche profondamente consapevole della crisi climatica. \nAspiro a fondere la mia passione per la tecnologia con la mia preoccupazione per l'ambiente, cercando modi per sfruttare l'informatica per affrontare le sfide della scienza del clima. \nGuardando al futuro, mi immagino di completare una laurea che fornisca una solida base in informatica. \nCon queste conoscenze, ho intenzione di conseguire un Master in Machine Learning, approfondendo l'affascinante mondo dell'intelligenza artificiale e delle sue applicazioni. \nIl mio viaggio accademico a Maastricht è guidato dal desiderio di dare un contributo significativo all'intersezione tra informatica e scienza del clima. \nSono entusiasta di intraprendere questo percorso ed esplorare le vaste possibilità che ci attendono."
+    },
+    "status": {
+      "completed": "completato",
+      "dp1": "completato DP1",
+      "current": "frequentando"
+    },
+    "uwc": {
+      "desc": "A seguito di un rigoroso processo di selezione facilitato dal comitato UWC italiano, mi è stata assegnata una borsa di studio accademica per studiare presso il Collegio UWC Dilijan in Armenia. \nPerseguendo il programma International Baccalaureate (IB), ho avuto la libertà di scegliere le mie materie d'esame in base ai miei interessi e aspirazioni. \nL'UWC Dilijan College vantava un ambiente vivace e multiculturale, con studenti che rappresentavano più di 90 nazionalità diverse. \nQuesta diversità si è estesa anche alla facoltà, con professori che hanno portato in classe background e prospettive diversi. \nTuttavia, a causa di impreviste difficoltà finanziarie e del riaffiorare del conflitto tra Armenia e Azerbaigian, purtroppo sono dovuto tornare in Italia dopo aver completato il DP1 (Diploma Program Year 1). \nTuttavia, l'esperienza che ho acquisito durante la mia permanenza al Collegio del Mondo Unito Dilijan è stata preziosa, esponendomi a prospettive globali e favorendo connessioni durature con colleghi di tutto il mondo.",
+      "diploma": "International Baccalaureate (DP1)",
+      "istitution": "UWC Dilijan College",
+      "projects": {
+        "outdoor": {
+          "desc": "Sono stato SELEZIONATO come membro del comitato di Outdoor Leadership alla scuola UWC Dilijan in Armenia. Ho lavorato a stretto contatto con il nostro insegnante, un veterano della guerra dei 44 giorni tra l'Armenia e l'Azerbaigian, per COORDINARE le attività sportive della scuola. È stata un'esperienza incredibile partecipare a numerose escursioni nel territorio armeno, tra cui camminate e scalate. La più memorabile è stata una camminata di una settimana nelle montagne armene, che comprendeva anche un'introduzione all'esplorazione di grotte. Sono stato molto felice di avere la responsabilità di gestire le escursioni sciistiche invernali presso gli impianti sciistici sovietici di Tsaghkadzor e di fornire lezioni di sci ai miei compagni. Questa esperienza mi ha insegnato a lavorare in team e a gestire situazioni di emergenza in ambienti remoti e difficili. Inoltre, mi ha permesso di scoprire le bellezze naturali dell'Armenia e di apprezzare la cultura locale."
+        },
+        "panel": {
+          "desc": "Sono stato il COORDINATORE della commissione sostenibilità presso la scuola UWC Dilijan College e ho avuto l'onore di organizzare il SEMINARIO INTERNAZIONALE sul clima, chiamato 'UWC Climate Panel'. L'evento si è svolto online e ha coinvolto numerosi esperti nel campo della sostenibilità, tra cui scienziati, divulgatori e attivisti. Ho contattato personalmente ciascuno di loro per assicurarmi che fossero disponibili per parlare all'evento. L'obiettivo principale del UWC Climate Panel era di sensibilizzare la comunità internazionale sulla necessità di promuovere la sostenibilità e affrontare le problematiche globali dei cambiamenti climatici. Inoltre, si è voluto mettere in luce le difficoltà che le comunità più colpite dai cambiamenti climatici devono affrontare quotidianamente e il ruolo delle comunità indigene nella lotta per la difesa dell'ambiente e del clima. Uno degli aspetti più sfidanti dell'organizzazione del seminario è stato il coordinamento delle diverse sedi UWC sparse in tutto il mondo. Grazie a Zoom, siamo riusciti a connettere i 18 collegi UWC in modo che gli studenti potessero partecipare in tempo reale e fare domande ai relatori. Ho avuto il compito di MODERARE la discussione e di raccogliere le domande dal pubblico e dagli studenti, in modo che i relatori potessero rispondere alle loro preoccupazioni e domande.",
+          "title": "UWC Climate Panel"
+        },
+        "sustco": {
+          "desc": "Durante il mio anno all'estero, ho avuto l'onore di essere ELETTO per far parte della commissione sostenibilità della prestigiosa scuola internazionale UWC Dilijan College. In questa veste, ho avuto la possibilità di collaborare con la commissione per l'ORGANIZZAZIONE di una serie di progetti sulla sostenibilità, con l'obiettivo di rendere la scuola più ecologica e responsabile nei confronti dell'ambiente. In particolare, ho avuto modo di interloquire e di MEDIARE con l'amministrazione della scuola per l'implementazione di politiche sostenibili, come il risparmio di energia e l'installazione di pannelli solari, al fine di ridurre l'impatto ambientale della scuola. Inoltre, ho collaborato con il comune di Dilijan per l'implementazione di un sistema di riciclo per la scuola, in collaborazione con una ONG di Yerevan. Grazie alle mie conoscenze e alla mia passione per la sostenibilità, ho offerto il mio contributo per l'educazione degli studenti sulla questione ambientale, promuovendo la raccolta differenziata e il riciclo dei rifiuti, nonché l'adozione di comportamenti più sostenibili nella vita quotidiana. Inoltre, ho partecipato attivamente all’organizzazione di varie attività della commissione, dando il mio supporto al coordinamento e all'organizzazione di eventi legati alla sostenibilità.",
+          "title": "Comitato Sostenibilità"
+        },
+        "tedx": {
+          "desc": "TED (Technology, Entertainment, Design) è una conferenza annuale fondata nel 1984 che ha come obiettivo di diffondere idee e conoscenze attraverso discorsi motivazionali di massimo 18 minuti. L'evento principale si svolge a Vancouver, in Canada, ma TED ha anche organizzato eventi TEDx in tutto il mondo. TEDxYouth è una versione del formato TEDx che si concentra su giovani sotto i 18 anni e cerca di ispirarli a diffondere idee e soluzioni innovative alle sfide che la loro generazione affronta. Assieme ad altri studenti della mia scuola in Armenia, mi sono impegnato nella formazione del team organizzativo della conferenza TEDxYouth@UWCDilijan. Grazie alla mia esperienza nell'organizzazione di eventi, ho deciso di occuparmi della LOGISTICA dell'evento, distribuendo gli incarichi e COORDINANDO le attività del team.",
+          "title": "TedX Youth @ UWCDilijan"
+        },
+        "yearbook": {
+          "desc": "Durante l'anno scolastico 2021-2022 ho avuto la fortuna di entrare a far parte della commissione Annuario presso la scuola UWC Dilijan. Essendo sempre stato appassionato di fotografia, mi sono concentrato sulla raccolta di foto di eventi e momenti sociali della scuola per includerle nell'annuario. Inoltre, insieme ad un altro fotografo nella scuola, ci siamo impegnati ad ottenere i fotoritratti di tutti gli studenti e docenti della scuola, cercando di catturare la personalità di ognuno di loro. Durante la fase di progettazione dell'annuario, ho contribuito al design e alla disposizione delle pagine, cercando di creare un prodotto visivamente accattivante. Mi sono occupato anche della logistica, assicurandomi che tutte le immagini raccolte fossero di alta qualità e pronte per essere stampate.",
+          "title": "Comitato Annuario"
+        }
+      },
+      "short": "anno all'estero"
+    }
+  },
+  "certifications": {
+    "type": {
+      "climate": "Certificazioni riguardanti il clima",
+      "cs": "Certificazioni Informatiche",
+      "language": "Certificazioni linguistiche",
+      "mooc": "Certificazioni MOOC"
+    }
+  },
+  "civics": {
+    "44": {
+      "desc": "La guerra di 44 giorni nel 2021 tra Armenia e Azerbaigian, spesso indicata come la seconda guerra del Nagorno-Karabakh, è stata una significativa escalation del conflitto di lunga data sulla regione del Nagorno-Karabakh. \nLa guerra è iniziata il 27 settembre 2020, quando sono scoppiati intensi combattimenti lungo la linea di contatto tra le forze armene e azere. \nIl conflitto ha visto pesanti bombardamenti di artiglieria, attacchi aerei e offensive di terra da entrambe le parti. \nL'uso di armi avanzate, compresi i droni, ha svolto un ruolo significativo nelle ostilità. \nL'Azerbaigian ha ottenuto significativi guadagni territoriali durante la guerra, riconquistando diversi distretti che circondano la regione del Nagorno-Karabakh che era stata sotto il controllo armeno dall'inizio degli anni '90. \nLe forze azere avanzarono anche in parti dello stesso Nagorno-Karabakh, inclusa la città strategicamente importante di Shusha. \nLa guerra ha provocato un numero elevato di vittime da entrambe le parti, compresi i civili, e ha portato allo sfollamento di migliaia di persone. \nSono stati inoltre segnalati crimini di guerra e violazioni dei diritti umani commessi dalle forze armene e azere. \nIl 10 novembre 2020 è stato firmato un accordo di cessate il fuoco mediato dalla Russia, ponendo fine alla fase attiva del conflitto. \nIn base all'accordo, l'Azerbaigian ha mantenuto il controllo sui territori che aveva riconquistato durante la guerra, mentre un contingente russo di mantenimento della pace è stato dispiegato per supervisionare il cessate il fuoco e garantire la stabilità nella regione. \nLa guerra ha avuto implicazioni politiche e umanitarie significative, rimodellando l'equilibrio di potere nella regione e stimolando discussioni sul futuro status del Nagorno-Karabakh. \nGli sforzi per affrontare le questioni di fondo e trovare una soluzione pacifica duratura al conflitto continuano attraverso negoziati diplomatici mediati dai copresidenti del Gruppo di Minsk dell'OSCE (Russia, Francia e Stati Uniti).",
+      "title": "Guerra dei 44 giorni del 2020"
+    },
+    "1915": {
+      "desc": "Il genocidio armeno, noto anche come Olocausto armeno, fu una sistematica campagna di sterminio condotta dall'Impero ottomano durante la prima guerra mondiale. Il genocidio mirava a eliminare la popolazione armena e comportava uccisioni di massa, deportazioni forzate e marce della morte. \nNel 1915, il governo ottomano emanò la legge Tehcir, che autorizzava la deportazione e il trasferimento degli armeni dalle loro terre ancestrali. \nCon il pretesto della sicurezza nazionale, gli armeni furono radunati dalle loro case, separati dalle loro famiglie e costretti a marciare per lunghe distanze verso centri di detenzione e campi di concentramento. \nQueste deportazioni forzate hanno provocato morti e sofferenze diffuse. \nLe deportazioni sono state spesso accompagnate da estrema violenza, con gli armeni sottoposti a condizioni brutali, fame e massacri lungo la strada. \nLe marce della morte si riferivano ai viaggi estenuanti sopportati dai deportati, dove morirono innumerevoli armeni a causa dell'esaurimento, dell'esposizione a elementi duri e delle uccisioni sistematiche da parte delle forze ottomane. \nLe stime del numero delle vittime armene variano, ma è ampiamente accettato che oltre un milione di armeni abbiano perso la vita durante il genocidio. \nLe atrocità includevano uccisioni di massa, esecuzioni, lavori forzati, violenze sessuali e la distruzione del patrimonio culturale e religioso armeno.",
+      "title": "Genocidio del 1915"
+    },
+    "artsakh": {
+      "desc": "Il conflitto dell'Artsakh (Nagorno-Karabakh) e la guerra tra Armenia e Azerbaigian nel 1988 sono stati eventi cruciali nella regione. \nIl conflitto è emerso quando l'Oblast autonomo del Nagorno-Karabakh, abitato principalmente da armeni etnici, ha espresso il desiderio di unirsi all'Armenia. \nNel 1988, il legislatore regionale del Nagorno-Karabakh ha approvato una risoluzione che richiedeva il trasferimento del controllo amministrativo dall'Azerbaigian all'Armenia. \nCiò ha portato a proteste e manifestazioni, intensificando le tensioni tra le due comunità. \nIl conflitto si intensificò nel 1991 quando sia l'Armenia che l'Azerbaigian dichiararono l'indipendenza in seguito al crollo dell'Unione Sovietica. \nScontri armati sono scoppiati, provocando una guerra su vasta scala tra i due paesi. \nLa guerra è stata testimone di significative operazioni militari, tra cui il bombardamento di città, la pulizia etnica e lo sfollamento di persone su larga scala. \nLa guerra è durata fino al 1994, quando è stato firmato un accordo di cessate il fuoco, lasciando il Nagorno-Karabakh e diverse regioni circostanti sotto il controllo delle forze etniche armene. \nNonostante il cessate il fuoco, il conflitto è rimasto irrisolto e negli anni sono continuati sporadici scontri, che hanno provocato vittime e tensioni tra Armenia e Azerbaigian.",
+      "title": "Artsakh e la guerra del 1988 con l'Azerbaigian"
+    },
+    "blockade": {
+      "desc": "Il corridoio di Lachin, unico passaggio che collega l'Armenia interna con l'Artsakh, è stato effettivamente bloccato dagli attivisti azeri, le cui azioni sono state ora sostituite dalla presenza di soldati azeri. \nQuesto blocco ha portato all'isolamento dell'Artsakh per un periodo prolungato superiore a 150 giorni. \nDi conseguenza, la regione è alle prese con una grave scarsità di forniture essenziali, compresi cibo e medicine, che non sono state in grado di raggiungere i bisognosi. \nNonostante gli sforzi concertati per fornire assistenza umanitaria, la consegna degli aiuti è stata ostacolata, aggravando ulteriormente le condizioni già precarie affrontate dalla popolazione dell'Artsakh. \nIl blocco in corso ha gettato un'ombra profonda sulla regione, evidenziando l'urgente necessità di una risoluzione e il ripristino dell'accesso a risorse e sostegno vitali.",
+      "title": "Blocco in corso dell'Artsakh"
+    },
+    "further": {
+      "desc": "In eventi recenti, l'Azerbaigian ha lanciato attacchi in varie direzioni vicino ai confini dell'Armenia, prendendo di mira in particolare posizioni a Vardenis, Goris, Kapan e Jermuk. \nDi conseguenza, la provincia di Syunik nell'Armenia meridionale è stata occupata. \nQuesti attacchi non si sono limitati ad aree specifiche, ma si sono verificati lungo l'intero confine tra Armenia e Azerbaigian, anche vicino a Dilijan. \nInoltre, in risposta all'escalation del conflitto, giovani di età pari o superiore a 18 anni sono stati reclutati e schierati in prima linea. \nLa situazione rimane tesa e continua ad evolversi poiché entrambe le parti sono impegnate in azioni militari.",
+      "title": "Ulteriori conflitti nel 2022"
+    },
+    "hamidian": {
+      "desc": "Il massacro di Hamidian, noto anche come i massacri armeni del 1894-1896, si riferisce a una serie di violenti attacchi contro la popolazione armena nell'impero ottomano durante il regno del sultano Abdul Hamid II. \nI massacri sono stati principalmente motivati ​​da tensioni religiose ed etniche, nonché dal desiderio di sopprimere le aspirazioni nazionaliste armene. \nLa prima grande ondata di massacri avvenne nel 1894 nella città di Sasun, seguita da violenze diffuse contro gli armeni in varie regioni dell'impero. \nLa fase più mortale ebbe luogo tra il 1895 e il 1896, con massacri avvenuti in città come Istanbul, Trebisonda, Van e Diyarbakir. \nSebbene le cifre specifiche siano contestate, si stima che durante questo periodo siano stati uccisi oltre 300.000 armeni. \nLe atrocità hanno comportato uccisioni di massa, conversioni forzate, stupri, saccheggi e distruzione di villaggi e chiese armeni. \nIl massacro di Hamidian servì da preludio al successivo genocidio armeno nel 1915, evidenziando la persistente persecuzione e la violenza affrontate dalla popolazione armena nell'impero ottomano. \nGli eventi del massacro di Hamidian hanno svolto un ruolo significativo nel plasmare la coscienza nazionale armena e la successiva lotta per il riconoscimento e la giustizia.",
+      "title": "Massacri Hamidiani"
+    },
+    "motivations": {
+      "title": "Le motivazioni del genocidio",
+      "desc": "Le motivazioni alla base del genocidio armeno sono radicate in una combinazione di fattori politici, etnici e ideologici. \nDurante gli anni del declino dell'Impero ottomano, un'ondata crescente di nazionalismo e tensioni etnico-religiose alimentarono il desiderio di uno stato turco omogeneo. \nLa popolazione armena, vista come una distinta minoranza etnica e religiosa, divenne il capro espiatorio dei mali dell'impero. \nIl movimento nazionalista dei Giovani Turchi, che prese il potere nel 1908, cercò di stabilire un impero dominato dai turchi e considerava gli armeni una minaccia. \nCon lo scoppio della prima guerra mondiale, gli armeni furono accusati di collaborare con le forze nemiche, fornendo un pretesto per il loro mirato sterminio. \nI leader politici e militari hanno attuato una sistematica campagna di deportazione, uccisioni di massa, lavoro forzato e fame, con l'obiettivo di sradicare la presenza armena dalla loro patria storica. \nLe motivazioni del genocidio includevano l'espansione territoriale, il nazionalismo etnico-religioso e il desiderio di eliminare le minacce percepite alla stabilità dell'Impero Ottomano."
+    },
+    "rememberance": {
+      "desc": "Il genocidio armeno rimane una questione controversa, con la negazione e la mancanza di riconoscimento internazionale che creano dibattiti in corso sulle sue implicazioni storiche e politiche. \nGli sforzi per il riconoscimento, la giustizia e il ricordo continuano come parte della lotta armena per il riconoscimento e la prevenzione di futuri genocidi. \nLa vera portata del genocidio armeno potrebbe non essere mai completamente nota a causa della deliberata distruzione di prove e della continua negazione da parte di alcune parti. \n\\n\\n Il riconoscimento del genocidio armeno è stata una questione complessa e controversa. \nNonostante le prove schiaccianti e il consenso degli studiosi, il riconoscimento del genocidio ha dovuto affrontare sfide significative, principalmente a causa di considerazioni politiche e negazione da parte del governo turco. \nDiversi paesi, tra cui Argentina, Belgio, Canada, Francia, Germania, Italia, Paesi Bassi, Russia, Svezia e Uruguay, hanno ufficialmente riconosciuto il genocidio armeno. \nAnche il Parlamento europeo, il Consiglio d'Europa e il Consiglio ecumenico delle Chiese hanno riconosciuto il genocidio. \nTuttavia, il riconoscimento è stato incoerente e alcune nazioni sono state riluttanti a usare il termine \"genocidio\" per paura di mettere a dura prova le relazioni diplomatiche con la Turchia. \nIl governo turco, successore dell'Impero ottomano, nega con veemenza il termine \"genocidio\" e sostiene che gli eventi siano stati il ​​risultato delle condizioni di guerra. \nLa negazione del genocidio armeno ha avuto conseguenze durature, influenzando il processo di guarigione, la giustizia per le vittime e impedendo la prevenzione di futuri genocidi. \nLa diaspora armena, insieme a studiosi, attivisti e organizzazioni per i diritti umani, continua a sostenere un più ampio riconoscimento e riconoscimento del genocidio. \nGli sforzi per il riconoscimento hanno guadagnato slancio negli ultimi anni, con più paesi, istituzioni e personaggi pubblici che riconoscono apertamente il genocidio armeno. \nIl riconoscimento e il ricordo del genocidio armeno sono passi cruciali per affrontare il passato, onorare le vittime e impedire che simili atrocità si ripetano in futuro. \nIl genocidio armeno è stato riconosciuto dagli Stati Uniti d'America solo nel 2023",
+      "title": "Eredità e memoria"
+    }
+  },
+  "extracurriculars": {
+    "area": {
+      "climate": "relative al clima e alla sostenibilità",
+      "community": "relativi a Creatività e Comunità",
+      "cs": "relativi all'informatica",
+      "leadership": "legati alla Leadership"
+    },
+    "bocconi": {
+      "desc": "Dopo un processo di selezione, ho avuto l'opportunità di partecipare come studente ai corsi di 'International Politics' e 'EU for Sustainable Development' presso la Bocconi Summer School. \nSono stati due corsi molto interessanti che mi hanno permesso di approfondire la mia conoscenza su questioni politiche ed economiche internazionali, nonché sulle sfide ambientali e di sviluppo sostenibile. \nLa Bocconi Summer School è un programma estivo organizzato dalla prestigiosa Università Bocconi di Milano, dedicato a studenti universitari provenienti da tutto il mondo che desiderano approfondire le loro conoscenze in un ambiente accademico stimolante e internazionale. \nDurante il programma, gli studenti hanno la possibilità di scegliere tra una vasta gamma di corsi in diverse discipline, tra cui economia, finanza, management, diritto e scienze politiche.",
+      "institution": "Università Bocconi"
+    },
+    "docu": {
+      "activity": "Documentario \"Ragazzi Irresponsabili\"",
+      "desc": "Sono stato fortunato ad avere l\\'opportunità di incontrare Ezio Maisto, un regista che stava cercando di realizzare un documentario sul movimento Fridays for Future, e sono diventato uno dei protagonisti del documentario intitolato \"Ragazzi Irresponsabili\". Per un anno intero ho partecipato attivamente alle riprese, documentando le manifestazioni e le proteste per il cambiamento climatico in cui sono stato coinvolto, insieme ad altri giovani attivisti. Grazie a questo documentario ho avuto la possibilità di condividere la mia esperienza con un pubblico più vasto, dando voce alle preoccupazioni che condivido con molti altri riguardo al futuro del nostro pianeta. Sono felice di condividere che il documentario \"Ragazzi Irresponsabili\" è stato premiato al film festival di Cinemambiente a Torino, un importante evento dedicato ai film e ai documentari che affrontano temi ambientali, nonchè alla cinquantesima edizione del Giffoni Film Festival Il documentario è tuttora disponibile online su Infinity+ di Mediaset"
+    },
+    "imun": {
+      "desc": "Ho partecipato per due anni consecutivi all'Italian Model United Nations di Torino, un evento che simula le sessioni delle Nazioni Unite in cui studenti di tutto il mondo si riuniscono per discutere questioni globali e cercare soluzioni. Ho trovato questa esperienza estremamente stimolante e gratificante, poiché mi ha dato l'opportunità di migliorare le mie abilità di comunicazione, di lavoro di squadra e di problem-solving. Ho partecipato a diverse commissioni, tra cui la Commissione Diritti Umani e la Commissione per lo Sviluppo Sostenibile, e ho dovuto negoziare con altri delegati, prendere decisioni importanti e cercare di trovare compromessi per risolvere le questioni in esame. Inoltre, ho coinvolto anche alcuni dei miei compagni di classe in questa esperienza, aiutandoli a prepararsi per il Model United Nations e fornendo loro supporto durante l'evento. Sono stato premiato con l'HONORABLE MENTION nel mio primo anno e ho vinto il premio di BEST DELEGATE nel mio secondo anno, un riconoscimento che mi ha fatto sentire molto orgoglioso del lavoro svolto."
+    },
+    "osocc": {
+      "desc": "Ho avuto la fortuna di partecipare al corso intensivo \"Oxford Climate School\" organizzato dalla Oxford Climate Society. Il corso ha offerto una panoramica completa e approfondita sui temi del cambiamento climatico e delle politiche ambientali, con un focus particolare sui modelli di sviluppo sostenibile. Gli esperti del settore hanno fornito una serie di lezioni sulle questioni ambientali e sui cambiamenti climatici, analizzando le loro cause e le possibili soluzioni. Inoltre, abbiamo avuto l\\'opportunità di partecipare a discussioni e attività pratiche, mettendo in pratica ciò che avevamo appreso."
+    },
+    "role": {
+      "coordinator": "Coordinatore",
+      "delegate": "Delegato",
+      "organizer": "Organizzatore",
+      "member": "Membro",
+      "president": "Presidente",
+      "protagonist": "Protagonista",
+      "speaker": "Relatore",
+      "student": "Alunno",
+      "tutor": "Tutor di Informatica"
+    },
+    "stemai": {
+      "activity": "campus STEM \"Intro all\\'Intelligenza Artificiale e Computer Vision\"",
+      "desc": "Sono stato uno studente del Campus STEM presso la Scuola di Formazione Scientifica Luigi Lagrange, dove ho partecipato al corso “Intro all’Intelligenza Artificiale e Computer Vision”. La mia esperienza è stata estremamente formativa, e ho imparato molte nozioni fondamentali per la mia crescita professionale. Durante il corso ho avuto l'opportunità di apprendere come utilizzare algoritmi di machine learning per guidare i movimenti di un modellino di macchina, attraverso l'uso di sensori e una serie di programmi di codifica."
+    },
+    "stemki": {
+      "activity": "campus STEM \"Programmieren 4.0 - Künstliche Intelligenz\"",
+      "desc": "Sono stato uno studente al campus PROGRAMMIEREN 4.0 KÜNSTLICHE INTELLIGENZ presso il ComputerCamp di Föckinghausen. Durante il corso, ho avuto l'opportunità di approfondire le mie conoscenze di programmazione e apprendere le basi di C# e Python, due linguaggi di programmazione essenziali per lo sviluppo di software e applicazioni. Quello che mi ha affascinato di più è stato imparare a sviluppare algoritmi di machine learning per la guida autonoma nei videogiochi. Grazie alle lezioni e alle attività pratiche, ho imparato a utilizzare gli strumenti giusti per creare algoritmi che potessero imparare dai dati e migliorare nel tempo."
+    },
+    "tedc": {
+      "desc": "Sono stato invitato a RAPPRESENTARE Fridays For Future al TED Countdown Summit 2022 ad Edimburgo, un evento che mira a porre attenzione sulla lotta al cambiamento climatico. Ho partecipato alla conferenza incontrando numerosi attivisti da diversi paesi, tra cui Alexandria Villaseñor e Ayisha Siddiqa, con cui ho collaborato nella realizzazione di seminari sull'importanza dell'attivismo nella lotta per il clima. Durante il summit, ho MEDIATO tra il team organizzativo di TED e il gruppo di attivisti invitati nella gestione di un panel con il CEO di Shell, Ben van Beurden. Tuttavia, insieme ad un gruppo di attivisti, abbiamo deciso di BOICOTTARE il discorso di Ben van Beurden, invitando il pubblico a lasciare la sala in luce delle attività di Shell che danneggiano l'ambiente. Ho anche avuto l'opportunità di incontrare numerose personalità attivamente impegnate nella battaglia per il clima, tra cui il VICEPRESIDENTE AL GORE, la segretaria del UNFCCC PATRICIA ESPINOSA e CHRISTIANA FIGUERES, nonchè Emma Watson."
+    },
+    "sustco": {
+      "activity": "Commissione Sostenibilità"
+    },
+    "tutor": {
+      "desc": "Ho collaborato come tutor di informatica al progetto di Tutoraggio del Pascal, avviato su iniziativa della scuola Blaise Pascal. Ho offerto ripetizioni di informatica agli studenti della scuola, sia in presenza che online durante la pandemia del COVID-19. Il mio ruolo consisteva nel potenziare gli argomenti svolti a scuola, ma anche nell'aiutare gli studenti con difficoltà specifiche nella comprensione della materia. Mi sono coordinato con la professoressa di informatica, Veronica Cinti, per organizzare le lezioni e pianificare gli argomenti da trattare. Siamo riusciti a fornire un supporto personalizzato ai ragazzi, individuando i punti deboli e offrendo lezioni mirate per affrontare le difficoltà."
+    }
+  },
+  "gallery": {
+    "barcelona": {
+      "title": "Gita scolastica a Barcellona"
+    },
+    "gyumri": {
+      "text": "Escursione a Gyumri, una delle più grandi città dell'Armenia situata vicino al confine turco.",
+      "title": "Viaggio a Gyumri, Armenia"
+    },
+    "lastday": {
+      "title": "Ultimo giorno di scuola (2021)"
+    },
+    "owe": {
+      "text": "Giornate di introduzione ai Collegi UWC a Roma, Italia",
+      "title": "OWE di UWC Italia"
+    },
+    "tedx": {
+      "title": "TedX Youth Conference presso l'UWC Dilijan"
+    },
+    "sustco": {
+      "title": "Sciopero per la giustizia climatica a Dilijan"
+    },
+    "uwc": {
+      "text": "Giornata internazionale della pace e Giornata mondiale dei college uniti. \nIn tali occasioni, gli studenti dei diversi college sono invitati a riunirsi e mostrare le loro culture",
+      "title": "Giornata Internazionale UWC"
+    }
+  },
+  "projects": {
+    "checkers": {
+      "issues": {
+        "3d": "Modellazione e rendering 3D: la creazione di modelli 3D dei pezzi del gioco della dama utilizzando Blender ha richiesto abilità e attenzione ai dettagli. \nInoltre, implementare il rendering di questi modelli 3D sul tabellone di gioco utilizzando Three.js e react-three-fiber è stata una sfida tecnica.",
+        "3dstate": "Integrazione della gestione dello stato con l'interfaccia 3D: la combinazione del sistema di gestione dello stato, Jotai, con l'interfaccia 3D ha creato complessità che dovevano essere affrontate. \nGarantire una comunicazione e una sincronizzazione fluide tra lo stato del gioco e gli elementi 3D richiedeva un attento coordinamento.",
+        "moves": "Calcolo delle possibili mosse: l'implementazione di un algoritmo per determinare tutte le possibili mosse che un giocatore potrebbe fare rappresentava una sfida. \nHo sviluppato un algoritmo ricorsivo per la ricerca del percorso che analizzava le mosse disponibili, le filtrava in base allo stato del gioco e le ordinava in base al numero di passaggi che il pezzo avrebbe compiuto. \nHo tratto ispirazione dall'algoritmo di Dijkstra durante la creazione di questo algoritmo.",
+        "state": "Gestione dello stato: la sfida consisteva nel perfezionare il modo in cui veniva gestito lo stato del gioco. \nHo riconosciuto la necessità di un approccio più strutturato e ho creato modelli TypeScript per rappresentare diversi componenti dello stato, come BoardState, PieceState e PlayerState."
+      },
+      "long": "Nella mia ricerca di sfidare me stesso nello sviluppo del gioco Dama, ho deciso di spingermi oltre i limiti creando un'interfaccia 3D. \nPer raggiungere questo obiettivo, ho utilizzato Blender per progettare modelli 3D dei pezzi del gioco. \nPer implementare gli elementi 3D e renderizzare i modelli, ho utilizzato le librerie open source Three.js e react-three-fiber. \nQuesti potenti strumenti mi hanno permesso di creare una tavola 3D dinamica e coinvolgente per il gioco. \nPer gestire lo stato dell'applicazione, ho scelto di utilizzare Jotai, poiché il suo sistema di gestione dello stato basato su atomi si adattava perfettamente ai requisiti del progetto. \nLa sua facilità d'uso ha facilitato un'integrazione fluida all'interno del gioco. \nSulla base della mia precedente esperienza, ho implementato il gioco utilizzando React e Next.js. \nQueste tecnologie hanno fornito una solida base e mi hanno permesso di sfruttare efficacemente le mie conoscenze esistenti. \nFinalmente, grazie a Vercel, sono stato in grado di ospitare la pagina web, rendendo il gioco accessibile e disponibile per gli altri utenti online.",
+      "short": "Incoraggiato dal mio insegnante di informatica, ho sviluppato un gioco di dama. \nInizialmente, ho considerato l'utilizzo di Java per lo sviluppo locale, ma alla fine ho deciso di sfruttare tecnologie Web come TypeScript e Next.js",
+      "subtitle": "Gioco di dama online"
+    },
+    "choices": {
+      "long": "Progettata per Android utilizzando Flutter, questa app consente agli studenti di tenere traccia e classificare le proprie decisioni, rivelando le correlazioni tra le scelte passate. \nVisualizzando i modelli decisionali, promuove l'autoriflessione e il processo decisionale informato. \nCon un'interfaccia intuitiva, consente agli studenti di migliorare le proprie capacità decisionali e coltivare la consapevolezza di sé. \nChe si tratti di scelte accademiche, professionali o personali, questa app funge da strumento prezioso per facilitare la gestione delle scelte proattiva e consapevole.",
+      "short": "Applicazione mobile che consente agli studenti di monitorare e classificare le loro decisioni.",
+      "subtitle": "Applicazione mobile per il monitoraggio delle decisioni"
+    },
+    "instaclient": {
+      "long": "Sviluppata in Python 3, questa libreria utilizza Selenium e Chromedriver per raschiare Instagram ed emulare le interazioni degli utenti. \nOffre l'accesso programmatico alle funzionalità di Instagram, tra cui l'accesso, il seguire gli utenti, il gradimento dei post, l'invio di DM e la pubblicazione sul feed. \nLa libreria ha guadagnato una notevole popolarità, con oltre 140.000 download da parte di sviluppatori in tutto il mondo. \nLa sua facilità d'uso e il set completo di funzionalità lo rendono uno strumento prezioso per integrare le funzionalità di Instagram in vari progetti e applicazioni.",
+      "short": "Questa libreria Python open source consente agli sviluppatori di accedere in modo programmatico alle funzionalità di Instagram, fornendo un modo semplice per integrare le funzionalità di Instagram nelle proprie applicazioni e progetti."
+    },
+    "letters": {
+      "short": "Per celebrare San Valentino e il desiderio di fare qualcosa di speciale per la mia relazione a distanza, mi sono imbarcato nella creazione di una caccia al tesoro online. \nQuesta esperienza interattiva consente all'utente di scoprire la lettera o l'indizio successivo risolvendo una serie di avvincenti enigmi",
+      "subtitle": "Caccia al tesoro online personale per San Valentino"
+    },
+    "portfolio": {
+      "issues": {
+        "dynamic": "Caricamento dinamico dei contenuti: anziché codificare i contenuti e migliorare la riusabilità, ho cercato una soluzione per caricare i contenuti del sito Web da una fonte esterna di verità. \nPer evitare la necessità di un server web, ho scelto di utilizzare un file \"constant.ts\". \nQuesto file, strutturato sulla base di modelli TypeScript, consentiva il rendering dinamico del contenuto in tutto il sito.",
+        "responsive": "Design reattivo: la creazione di un layout reattivo che si adattasse perfettamente a vari dispositivi e dimensioni dello schermo è stata una sfida significativa. \nHo utilizzato query multimediali CSS e sistemi di griglia flessibili per ottenere un design visivamente accattivante e funzionale che si adattasse a diverse esperienze visive.",
+        "state": "Stato a livello di sito: la gestione dello stato del tema oscuro e della preferenza della lingua rappresentava una sfida. \nHo sfruttato Svelte Stores per gestirlo, assicurandomi che le preferenze dell'utente fossero salvate localmente nella memoria locale del browser."
+      },
+      "long": "Per spingere i miei limiti, ho scelto di uscire dalla mia zona di comfort e sviluppare il mio sito Web portfolio utilizzando Svelte e SvelteKit. \nPrima dell'implementazione, ho progettato meticolosamente il layout e l'aspetto del sito Web utilizzando Figma. \nPer soddisfare un pubblico più ampio, il sito Web incorpora funzionalità complete di traduzione tra inglese e italiano, rese possibili dall'integrazione della libreria i18n. \nIn termini di esperienza utente, il sito Web offre sia una modalità chiara che una modalità oscura, consentendo ai visitatori di alternare tra le due in base alle proprie preferenze. \nGarantendo una facile manutenzione e scalabilità, tutto il contenuto del sito Web viene reso dinamicamente da un'unica fonte di verità. \nQuesta configurazione consente modifiche senza problemi al contenuto del sito Web senza la necessità di apportare modifiche al codice sorgente stesso.",
+      "short": "Motivato dall'esigenza di un sito web personale per il mio esame di maturità, ho accettato la sfida e ne ho sviluppato uno utilizzando il framework Svelte.",
+      "subtitle": "Portfolio di presentazione personale in Svelte",
+      "title": "Portfolio"
+    }
+  },
+  "publications": {
+    "revolution": {
+      "desc": "Ho avuto l'opportunità di incontrare Katie Eder, un'avvocato che si occupa di questioni ambientali e della difesa degli attivisti, dopo che ho riscontrato problematiche legali dovute alla mia partecipazione all'occupazione del parlamento europeo. Grazie al suo supporto, ho poi avuto la fortuna di partecipare ad un incontro con attivisti presso la sede della Rockefeller Foundation a Bellagio, dove ho potuto discutere con attivisti provenienti da diverse parti del mondo, impegnati in battaglie ambientali simili alla mia. I partecipanti dell'incontro includevano Ka Hsaw Wa, un attivista birmano che da una vita lotta per contrastare le lobby di Exxon Mobil, e Farhana Yamin, avvocato per Extinction Rebellion. Abbiamo avuto l'opportunità di scambiare idee e confrontarci sulla migliore strategia da adottare per combattere le cause ambientali che ci stanno a cuore. In seguito, ho partecipato ad un'intervista che è stata inclusa nel libro scritto da Katie Eder e Mark Gevisser, intitolato 'The Revolution Will Not Be Litigated'. Il libro presenta una prefazione di Jane Fonda, una recensione di Greta Thunberg e una dell'ex preside della Yale Law School."
+    },
+    "stonesoup": {
+      "desc": "Sono entrato in contatto con l'autrice Marianne Larned, che stava scrivendo un libro sui cambiamenti climatici e sugli attivisti che si battono per preservare l'ambiente. Sono stato onorato di essere incluso nel libro assieme ad altri 100 attivisti per il clima. Questo libro è stato poi utilizzato come fonte di ispirazione per la realizzazione di un programma di lezioni sul cambiamento climatico e sull'attivismo nelle scuole del Massachusetts, grazie all'organizzazione non governativa \\\"Stone Soup for a Sustainable World\\\". La mia esperienza come attivista è stata utilizzata per sviluppare un curriculum educativo interattivo che ha aiutato a diffondere la consapevolezza sul cambiamento climatico e sulle azioni che possiamo intraprendere per proteggere l'ambiente. Sono stato particolarmente felice di apprendere che il libro ha ricevuto recensioni positive da personaggi come Matt Damon, Danny Glover e Jane Goodall, il che dimostra l'importanza e la rilevanza dei temi affrontati nel libro."
+    }
+  },
+  "work": {
+    "mediamemte": {
+      "req": {
+        "admin": "Funzionalità amministrative per la manutenzione del sistema, inclusa l'aggiunta/rimozione di auto, l'aggiornamento dei dettagli dell'auto e la generazione di rapporti.",
+        "auth": "Autenticazione utente e accesso basato sui ruoli per garantire una gestione sicura delle prenotazioni.",
+        "booking": "Possibilità per gli utenti di prenotare un'auto, specificando le date desiderate e le preferenze aggiuntive.",
+        "db": "Integrazione con un database per archiviare e recuperare le informazioni sulla prenotazione dell'auto.",
+        "reservations": "Sistema di gestione delle prenotazioni per gestire conflitti, prenotazioni sovrapposte e aggiornamenti sulla disponibilità delle auto.",
+        "responsive": "Design reattivo per un utilizzo senza interruzioni su tutti i dispositivi (desktop, dispositivi mobili, tablet).",
+        "search": "Opzioni di ricerca e filtraggio per trovare auto specifiche in base a criteri (ad es. posizione, caratteristiche).",
+        "table": "Tabella che mostra tutte le auto aziendali con i relativi dettagli (ad es. modello, disponibilità, posizione, ultima revisione).",
+        "widget": "Widget che mostra le prenotazioni in corso e le auto disponibili in tempo reale."
+      }
+    },
+    "mediamente": {
+      "issues": {
+        "1": "Lavorare con una base di codice esistente scritta da un altro autore poneva delle sfide, soprattutto perché originariamente era stato progettato come sito Web statico autonomo e non come app Web. \nPer apportare le modifiche necessarie, ho dovuto implementare da zero un'architettura Model-View-Controller (MVC) utilizzando PHP vanilla e JavaScript. \nCiò ha comportato la comprensione della struttura del codice esistente, l'identificazione dei componenti chiave e la loro riprogettazione per soddisfare i requisiti del sistema di prenotazione.",
+        "2": "Collegare il backend e il frontend si è rivelato una sfida a causa dell'assenza di un framework nella base di codice originale. \nCiò significava che la gestione della comunicazione e del flusso di dati tra il backend e il frontend doveva essere gestita manualmente. \nPer raggiungere questo obiettivo, mi sono affidato a jQuery per gestire gli aggiornamenti dinamici dell'interfaccia utente (UI) e sincronizzare i dati con il back-end. \nHa richiesto una meticolosa attenzione ai dettagli e un attento coordinamento per garantire una perfetta integrazione tra i diversi componenti del sistema.",
+        "3": "Un ulteriore ostacolo che ho dovuto affrontare è stato l'apprendimento di PHP in movimento. \nPoiché ho intrapreso il progetto senza una conoscenza preliminare di PHP, ho dovuto familiarizzare rapidamente con il linguaggio per navigare e lavorare in modo efficace con la base di codice esistente. \nCiò ha comportato lo studio della sintassi PHP, la comprensione dei suoi principi e l'utilizzo di risorse e documentazione online per cogliere le complessità del linguaggio. \nÈ stata una preziosa esperienza di apprendimento che mi ha permesso di espandere le mie capacità di programmazione e adattarmi a nuove tecnologie e framework."
+      },
+      "overview": "Durante la mia esperienza PCTO (Periodo di Collaborazione Temporanea e Obbligatoria), requisito obbligatorio per l'esame finale di italiano, ho avuto l'opportunità di lavorare come stagista presso Mediamente Consulting. \nPer un periodo di poco più di due settimane, mi sono dedicato a tempo pieno a questo ruolo. \nIl mio compito principale era sviluppare un sistema di prenotazione per semplificare i processi di gestione degli affitti dell'azienda. \nLavorando a stretto contatto con il mio supervisore, ho utilizzato le mie competenze in PHP e JavaScript per creare un sistema robusto. \nUna volta completato, ho integrato perfettamente il sistema di prenotazione nel codice base del sito Web esistente dell'azienda. \nQuesta preziosa esperienza pratica mi ha permesso di applicare le mie conoscenze di programmazione in un ambiente reale, affinando le mie capacità tecniche e di risoluzione dei problemi. \nInoltre, mi ha fornito una comprensione più profonda delle applicazioni pratiche dello sviluppo software all'interno di un ambiente professionale.",
+      "req": {
+        "calendar": "Funzionalità di calendario per visualizzare le date prenotate per ogni auto."
       }
     }
   }

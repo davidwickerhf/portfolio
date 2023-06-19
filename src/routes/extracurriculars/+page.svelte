@@ -30,8 +30,7 @@
 	{#each keys as area, index}
 		{#if activities.filter((a) => a.area === values[index]).length > 0}
 			<p class="text-lg font-medium lowercase">
-				{$_('page.extracurriculars.area')}
-				{values[index]}
+				{$_(values[index])}
 			</p>
 
 			<div class="flex flex-col gap-6 w-full">
