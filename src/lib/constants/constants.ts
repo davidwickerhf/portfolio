@@ -713,110 +713,111 @@ export const activism: ActivismExperience[] = [
 	{
 		id: 'fff-turin',
 		title: 'activism.fffto.title',
-		description: 'general.lorem-ipsum',
+		description: 'activism.fffto.desc',
 		year: 2019,
 		location: 'locations.turin',
-		url: 'https://www.ohga.it/climate-strike-a-torino-con-il-giovanissimo-david-wicker-vogliamo-che-il-nostro-futuro-venga-rispettato/'
+		url: 'https://www.ohga.it/climate-strike-a-torino-con-il-giovanissimo-david-wicker-vogliamo-che-il-nostro-futuro-venga-rispettato/',
+		images: []
 	},
 
 	// FFF Italia
 	{
 		id: 'fff-italia',
 		title: 'activism.fffita.title',
-		description: 'general.lorem-ipsum',
+		description: 'activism.fffita.desc',
 		year: 2019,
-		location: 'locations.italy'
+		location: 'locations.italy',
+		images: []
 	},
 
 	// FFF international
 	{
 		id: 'fff-int',
 		title: 'activism.fffint.title',
-		description: 'general.lorem-ipsum',
+		description: 'activism.fffint.desc',
 		year: 2019,
-		location: 'locations.italy'
+		location: 'locations.italy',
+		images: []
 	},
 
 	// EU Parliament Strasburgo
 	{
 		id: 'eu-strasbourg',
 		title: 'activism.eu1.title',
-		description: 'general.lorem-ipsum',
+		description: 'activism.eu1.desc',
 		year: 2019,
-		location: 'locations.strasbourg'
+		location: 'locations.strasbourg',
+		images: []
 	},
 
 	// Global Strikes
 	{
 		id: 'global-strikes',
 		title: 'activism.strikes.title',
-		description: 'general.lorem-ipsum',
-		url: 'https://torino.repubblica.it/cronaca/2023/03/01/news/fridays_for_future_torino_lanciano_lappello_a_scendere_in_piazza_per_lo_sciopero_globale_per_il_clima-390072834/'
-	},
-
-	// - Assemblee nazionali
-	// - 2a Assemblea FFF Italia (Napoli)
-	{
-		id: 'assemblee',
-		title: 'activism.assemblee.title',
-		description: 'general.lorem-ipsum',
-		location: 'locations.italy',
-		url: 'https://www.ansa.it/canale_ambiente/notizie/clima/2019/04/12/la-prima-assemblea-di-fridays-for-future-domani-a-milano_9af58d7a-1874-41c1-8d03-21a683a75e8a.html'
+		description: 'activism.strikes.desc',
+		url: 'https://torino.repubblica.it/cronaca/2023/03/01/news/fridays_for_future_torino_lanciano_lappello_a_scendere_in_piazza_per_lo_sciopero_globale_per_il_clima-390072834/',
+		images: []
 	},
 
 	// - Aachen central strike
 	{
 		id: 'aachen',
 		title: 'activism.aachen.title',
-		description: 'general.lorem-ipsum',
+		description: 'activism.aachen.desc',
 		year: 2019,
-		location: 'locations.aachen'
+		location: 'locations.aachen',
+		images: []
 	},
 
 	// - Occupazione parlamento europeo
 	{
 		id: 'eu-parliament',
 		title: 'activism.bruxelles.title',
-		description: 'general.lorem-ipsum',
+		description: 'activism.bruxelles.desc',
 		year: 2019,
 		location: 'locations.bruxelles',
-		url: 'https://i404.it/attualita/cronaca/elezioni-europee-2019-fridaysforfuture-occupazione-parlamento/'
-	},
-
-	// - Lausanne International FFF Meeting
-	{
-		id: 'smile',
-		title: 'activism.smile.title',
-		description: 'general.lorem-ipsum',
-		year: 2019,
-		location: 'locations.lausanne',
-		url: 'https://smileforfuture.eu/'
+		url: 'https://i404.it/attualita/cronaca/elezioni-europee-2019-fridaysforfuture-occupazione-parlamento/',
+		images: []
 	},
 
 	// Incontro al Senato della Repubblica
 	{
 		id: 'senato',
 		title: 'activism.senato.title',
-		description: 'general.lorem-ipsum',
+		description: 'activism.senato.desc',
 		year: 2019,
-		location: 'locations.rome'
+		location: 'locations.rome',
+		images: []
+	},
+
+	// - Lausanne International FFF Meeting
+	{
+		id: 'smile',
+		title: 'activism.smile.title',
+		description: 'activism.smile.desc',
+		year: 2019,
+		location: 'locations.lausanne',
+		url: 'https://smileforfuture.eu/',
+		images: []
 	},
 
 	{
 		id: 'greta',
 		title: 'activism.greta.title',
-		description: 'general.lorem-ipsum',
+		description: 'activism.greta.desc',
 		year: 2019,
 		location: 'locations.turin',
-		url: 'https://torino.repubblica.it/cronaca/2019/12/12/news/david_il_ragazzo_che_ha_invitato_greta_arrivera_in_treno_e_adesso_aspettiamo_in_piazza_le_istituzioni_-243248029/'
+		url: 'https://torino.repubblica.it/cronaca/2019/12/12/news/david_il_ragazzo_che_ha_invitato_greta_arrivera_in_treno_e_adesso_aspettiamo_in_piazza_le_istituzioni_-243248029/',
+		images: []
 	},
 
 	// DEC
 	{
 		id: 'dec',
 		title: 'activism.dec.title',
-		description: 'general.lorem-ipsum',
-		url: 'https://www.italiachecambia.org/2019/07/anche-torino-approva-mozione-che-dichiara-emergenza-climatica/'
+		description: 'activism.dec.desc',
+		url: 'https://www.italiachecambia.org/2019/07/anche-torino-approva-mozione-che-dichiara-emergenza-climatica/',
+		images: []
 	}
 ];
 
