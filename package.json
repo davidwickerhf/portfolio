@@ -4,13 +4,12 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && npm run package && npm run gen:images",
+		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write .",
-		"gen:images": "bimgc -c bimgc.config.cjs"
+		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
@@ -45,7 +44,6 @@
 		"scroll-into-view-if-needed": "^3.0.10",
 		"svelte-aio": "^0.2.1",
 		"svelte-i18n": "^3.6.0",
-		"svelte-image": "^0.2.9",
 		"svelte-inview": "^4.0.0",
 		"svelte-scrolling": "^1.2.2"
 	}
