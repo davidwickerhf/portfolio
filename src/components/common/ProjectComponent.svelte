@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Lazy from 'svelte-lazy';
 	import LinkButton from './LinkButton.svelte';
 
 	import { _ } from 'svelte-i18n';
