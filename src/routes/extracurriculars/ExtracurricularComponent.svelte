@@ -4,7 +4,7 @@
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import { selected, setSelected } from '$lib/store/SelectedProjectStore';
 	import TextButton from '../../components/common/TextButton.svelte';
-	import GridComponent from '../photography/GridComponent.svelte';
+	import GridComponent from '../../components/common/GridComponent.svelte';
 
 	export let activity: Activity;
 	$: open = $selected === activity.id;

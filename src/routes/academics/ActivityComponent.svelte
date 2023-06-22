@@ -4,7 +4,7 @@
 	import { _ } from 'svelte-i18n';
 	import type { Project } from '$lib/constants/constants';
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
-	import GridComponent from '../photography/GridComponent.svelte';
+	import GridComponent from '../../components/common/GridComponent.svelte';
 	import TextButton from '../../components/common/TextButton.svelte';
 
 	export let data: Project;

@@ -7,7 +7,7 @@
 	import { selected, setSelected } from '$lib/store/SelectedProjectStore';
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import LinkButton from '../../components/common/LinkButton.svelte';
-	import GridComponent from '../photography/GridComponent.svelte';
+	import GridComponent from '../../components/common/GridComponent.svelte';
 
 	export let project: PersonalProject;
 	$: open = $selected === project.id;

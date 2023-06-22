@@ -1,7 +1,7 @@
 <script lang="ts">
 	import TextButton from '../../components/common/TextButton.svelte';
 	import { activism } from '$lib/constants/constants';
-	import GridComponent from '../photography/GridComponent.svelte';
+	import GridComponent from '../../components/common/GridComponent.svelte';
 	import { scrollIntoView } from '$lib/constants/functions';
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import LinkButton from './LinkButton.svelte';
+	import { Image } from '@unpic/svelte';
 
 	import { _ } from 'svelte-i18n';
 
@@ -14,7 +15,13 @@
 >
 	<!-- Image -->
 	<div class="flex @2xl/content:max-w-[240px] @4xl/content:max-w-none">
-		<img src="/images/{resource}" alt="" class="w-auto h-auto object-cover" />
+		<Image
+			width={400}
+			height={400}
+			src="/images/{resource}"
+			alt=""
+			class="w-auto h-auto object-cover"
+		/>
 	</div>
 
 	<!-- Conttent + Button -->

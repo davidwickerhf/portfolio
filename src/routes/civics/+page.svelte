@@ -2,7 +2,7 @@
 	import { _ } from 'svelte-i18n';
 	import TextButton from '../../components/common/TextButton.svelte';
 	import { civics } from '$lib/constants/constants';
-	import GridComponent from '../photography/GridComponent.svelte';
+	import GridComponent from '../../components/common/GridComponent.svelte';
 	import { onMount } from 'svelte';
 	import { setScrolled } from '$lib/store/SidebarStore';
 

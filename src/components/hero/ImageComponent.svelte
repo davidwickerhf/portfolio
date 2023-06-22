@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
 	import { _ } from 'svelte-i18n';
+	import { Image } from '@unpic/svelte';
 
 	export let title: string | undefined;
 	export let description: string | undefined;
@@ -39,7 +40,7 @@
 				</div>
 			{/if}
 		</div>
-		<img src="/images/{src}" alt="" />
+		<Image width={800} height={800} src="/images/{src}" alt="" />
 	</div>
 
 	{#if title}

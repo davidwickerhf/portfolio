@@ -2,7 +2,7 @@
 	import { _ } from 'svelte-i18n';
 	import TextButton from '../../components/common/TextButton.svelte';
 	import { work } from '$lib/constants/constants';
-	import GridComponent from '../photography/GridComponent.svelte';
+	import GridComponent from '../../components/common/GridComponent.svelte';
 	import UnderlineLink from '../../components/common/UnderlineLink.svelte';
 	import TechComponent from '../../components/common/TechComponent.svelte';
 	import { page } from '$app/stores';

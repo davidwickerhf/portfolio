@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { LazyImage } from 'svelte-lazy-image';
 	import type { Photo } from '$lib/constants/constants';
 	import { _ } from 'svelte-i18n';
+	import { Image } from '@unpic/svelte';
 
 	let windowWidth;
 
@@ -43,8 +43,10 @@
 		<div class="grid gap-4 justify-start items-start w-full">
 			{#each list as image, index}
 				<div class="w-full">
-					<LazyImage
-						src="images/{image.src}"
+					<Image
+						width={800}
+						height={800}
+						src="images/{image.src}?w=400&h=300&format=webp"
 						placeholder="https://via.placeholder.com/250?text=placeholder"
 						alt="Lorem Ipsum"
 						class="h-auto max-w-full rounded-lg"

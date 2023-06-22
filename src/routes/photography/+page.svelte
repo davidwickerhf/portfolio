@@ -1,5 +1,5 @@
 <script lang="ts">
-	import GridComponent from './GridComponent.svelte';
+	import GridComponent from '../../components/common/GridComponent.svelte';
 
 	import { portfolio, type Photo } from '$lib/constants/constants';
 	import { _ } from 'svelte-i18n';
