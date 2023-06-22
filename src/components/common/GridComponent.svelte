@@ -2,6 +2,7 @@
 	import type { Photo } from '$lib/constants/constants';
 	import { _ } from 'svelte-i18n';
 	import { Image } from '@unpic/svelte';
+	//import Image from 'svelte-image';
 
 	let windowWidth;
 
@@ -43,13 +44,19 @@
 		<div class="grid gap-4 justify-start items-start w-full">
 			{#each list as image, index}
 				<div class="w-full">
-					<Image
-						width={800}
-						height={800}
-						src="images/{image.src}?w=400&h=300&format=webp"
+					<!-- <Image
+						layout="fullWidth"
+						src="https://ik.imagekit.io/davidwickerhf/portfolio/images/tr:w-0.3/{image.src}"
 						placeholder="https://via.placeholder.com/250?text=placeholder"
 						alt="Lorem Ipsum"
 						class="h-auto max-w-full rounded-lg"
+					/> -->
+					<!-- Original image at 400x300 -->
+					<Image
+						layout="fullWidth"
+						class="lazy rounded-lg"
+						alt="Portfolio"
+						src="https://ik.imagekit.io/davidwickerhf/portfolio/images/{image.src}?tr=w-400,h-300"
 					/>
 				</div>
 			{/each}

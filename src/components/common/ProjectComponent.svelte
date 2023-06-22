@@ -16,11 +16,10 @@
 	<!-- Image -->
 	<div class="flex @2xl/content:max-w-[240px] @4xl/content:max-w-none">
 		<Image
-			width={400}
-			height={400}
-			src="/images/{resource}"
-			alt=""
-			class="w-auto h-auto object-cover"
+			layout="fullWidth"
+			class="lazy rounded-lg"
+			alt="Portfolio"
+			src="https://ik.imagekit.io/davidwickerhf/portfolio/images/{resource}?tr=w-400,h-300"
 		/>
 	</div>
 

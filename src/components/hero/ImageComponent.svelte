@@ -40,7 +40,12 @@
 				</div>
 			{/if}
 		</div>
-		<Image width={800} height={800} src="/images/{src}" alt="" />
+		<Image
+			layout="fullWidth"
+			class="lazy rounded-lg w-full"
+			alt="Portfolio"
+			src="https://ik.imagekit.io/davidwickerhf/portfolio/images/{src}?tr=w-600,h-400"
+		/>
 	</div>
 
 	{#if title}

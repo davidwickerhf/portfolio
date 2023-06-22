@@ -45,6 +45,7 @@
 		"scroll-into-view-if-needed": "^3.0.10",
 		"svelte-aio": "^0.2.1",
 		"svelte-i18n": "^3.6.0",
+		"svelte-image": "^0.2.9",
 		"svelte-inview": "^4.0.0",
 		"svelte-scrolling": "^1.2.2"
 	}
