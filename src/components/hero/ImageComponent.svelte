@@ -42,7 +42,7 @@
 		</div>
 		<Image
 			layout="fullWidth"
-			class="lazy rounded-lg w-full"
+			class="lazy w-full"
 			alt="Portfolio"
 			src="https://ik.imagekit.io/davidwickerhf/portfolio/images/{src}?tr=w-600,h-400"
 		/>

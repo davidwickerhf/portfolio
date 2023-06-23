@@ -5,7 +5,7 @@ const data = browser
 	? window.localStorage.getItem('sidebar-state')
 		? JSON.parse(window.localStorage.getItem('sidebar-state')!)
 		: { scrolled: false, open: false, expanded: true }
-	: { scrolled: false, open: false, expanded: true };
+	: { scrolled: true, open: false, expanded: true };
 
 export const sidebar = writable(data);
 

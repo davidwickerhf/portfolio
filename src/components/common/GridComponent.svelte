@@ -5,10 +5,12 @@
 	//import Image from 'svelte-image';
 
 	let windowWidth;
+	let colsState = 4;
 
 	// returns 4 lists of x items
 	let organizeImages = (images: Photo[], maxcols: number) => {
 		let cols = Math.min(maxcols, images.length);
+		colsState = cols;
 
 		let lists: Photo[][] = [];
 		for (let index = 0; index < cols; index++) {
@@ -43,20 +45,14 @@
 	{#each organizeImages(images, getColNumber(windowWidth, maxcols)) as list, index}
 		<div class="grid gap-4 justify-start items-start w-full">
 			{#each list as image, index}
-				<div class="w-full">
-					<!-- <Image
-						layout="fullWidth"
-						src="https://ik.imagekit.io/davidwickerhf/portfolio/images/tr:w-0.3/{image.src}"
-						placeholder="https://via.placeholder.com/250?text=placeholder"
-						alt="Lorem Ipsum"
-						class="h-auto max-w-full rounded-lg"
-					/> -->
-					<!-- Original image at 400x300 -->
+				<div class="flex w-full">
 					<Image
 						layout="fullWidth"
-						class="lazy rounded-lg"
+						class="lazy rounded-lg w-full"
 						alt="Portfolio"
-						src="https://ik.imagekit.io/davidwickerhf/portfolio/images/{image.src}?tr=w-400,h-300"
+						src="https://ik.imagekit.io/davidwickerhf/portfolio/images/{image.src}?tr={colsState < 3
+							? 'w-600,h-400'
+							: 'w-400,h-300'}"
 					/>
 				</div>
 			{/each}

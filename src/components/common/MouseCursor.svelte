@@ -1,7 +1,26 @@
-<script>
+<script lang="ts">
 	import { theme } from '../../lib/store/DarkThemeStore';
 	import { hovering } from '../../lib/store/CursorHoverStore';
 	import { spring } from 'svelte/motion';
+
+	let cursorVisible: boolean = true;
+
+	switch (screen.orientation.type) {
+		case 'landscape-primary':
+			cursorVisible = true;
+			break;
+		case 'landscape-secondary':
+			cursorVisible = true;
+			break;
+		case 'portrait-secondary':
+			cursorVisible = false;
+		case 'portrait-primary':
+			cursorVisible = false;
+			break;
+		default:
+			cursorVisible = true;
+			console.log("The orientation API isn't supported in this browser :(");
+	}
 
 	let coords1 = spring(
 		{ x: 0, y: 0 },
@@ -36,7 +55,10 @@
 	}}
 />
 
-<svg id="cursor" class="fixed w-screen h-screen mix-blend-difference z-40">
+<svg
+	id="cursor"
+	class="fixed w-screen h-screen mix-blend-difference z-40 {cursorVisible ? '' : 'hidden'}"
+>
 	<circle
 		cx={$coords1.x}
 		cy={$coords1.y}
@@ -58,17 +80,6 @@
 <style>
 	:global(body) {
 		cursor: none;
-	}
-
-	@media (any-pointer: coarse) {
-		/* do your own styles */
-		:global(body) {
-			cursor: none;
-		}
-
-		#cursor {
-			display: none;
-		}
 	}
 
 	svg {

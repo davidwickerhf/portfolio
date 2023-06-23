@@ -17,7 +17,7 @@
 	<div class="flex @2xl/content:max-w-[240px] @4xl/content:max-w-none">
 		<Image
 			layout="fullWidth"
-			class="lazy rounded-lg"
+			class="lazy"
 			alt="Portfolio"
 			src="https://ik.imagekit.io/davidwickerhf/portfolio/images/{resource}?tr=w-400,h-300"
 		/>
