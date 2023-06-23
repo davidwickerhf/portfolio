@@ -2,25 +2,16 @@
 	import { theme } from '../../lib/store/DarkThemeStore';
 	import { hovering } from '../../lib/store/CursorHoverStore';
 	import { spring } from 'svelte/motion';
+	// import { browser } from '$app/environment';
 
 	let cursorVisible: boolean = true;
 
-	switch (screen.orientation.type) {
-		case 'landscape-primary':
-			cursorVisible = true;
-			break;
-		case 'landscape-secondary':
-			cursorVisible = true;
-			break;
-		case 'portrait-secondary':
-			cursorVisible = false;
-		case 'portrait-primary':
-			cursorVisible = false;
-			break;
-		default:
-			cursorVisible = true;
-			console.log("The orientation API isn't supported in this browser :(");
-	}
+	// $: cursorVisible = browser
+	// 	? screen.orientation.type == 'portrait-secondary' ||
+	// 	  screen.orientation.type == 'portrait-primary'
+	// 		? false
+	// 		: true
+	// 	: true;
 
 	let coords1 = spring(
 		{ x: 0, y: 0 },
@@ -39,7 +30,6 @@
 	);
 
 	let size = spring(10);
-	$: themeData = $theme;
 </script>
 
 <svelte:window
