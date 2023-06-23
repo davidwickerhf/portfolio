@@ -12,6 +12,7 @@
 	import { afterNavigate } from '$app/navigation';
 	import { _ } from 'svelte-i18n';
 	import LinkButton from '../components/common/LinkButton.svelte';
+	import FullScreenImage from '../components/common/FullScreenImage.svelte';
 
 	$: currentTab = tabs.find((t) => t.url == $page.url.pathname);
 	$: prevTab = currentTab ? tabs.find((t) => t.id === currentTab!.id - 1) : undefined;
@@ -33,7 +34,10 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
 </svelte:head>
 
+<!-- Full Screen Image Component -->
+
 <MouseCursor />
+<FullScreenImage />
 <Navbar />
 <div class="fixed flex h-full overflow-hidden w-screen">
 	<!-- Sidebar -->

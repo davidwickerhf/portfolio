@@ -2,6 +2,8 @@
 	import type { Photo } from '$lib/constants/constants';
 	import { _ } from 'svelte-i18n';
 	import { Image } from '@unpic/svelte';
+	import { isHovering, isNotHovering } from '$lib/store/CursorHoverStore';
+	import { setSelectedImage } from '$lib/store/FullScreenStore';
 	//import Image from 'svelte-image';
 
 	let windowWidth;
@@ -45,10 +47,18 @@
 	{#each organizeImages(images, getColNumber(windowWidth, maxcols)) as list, index}
 		<div class="grid gap-4 justify-start items-start w-full">
 			{#each list as image, index}
-				<div class="flex w-full">
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<div
+					class="flex w-full"
+					on:mouseover={isHovering}
+					on:focus={isHovering}
+					on:blur={isNotHovering}
+					on:mouseout={isNotHovering}
+					on:click={() => setSelectedImage(image)}
+				>
 					<Image
 						layout="fullWidth"
-						class="lazy rounded-lg w-full"
+						class="lazy rounded-lg w-full hover:scale-105 transition-all ease-in-out duration-150"
 						alt="Portfolio"
 						src="https://ik.imagekit.io/davidwickerhf/portfolio/images/{image.src}?tr={colsState < 3
 							? 'w-600,h-400'
