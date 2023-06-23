@@ -2,16 +2,16 @@
 	import { theme } from '../../lib/store/DarkThemeStore';
 	import { hovering } from '../../lib/store/CursorHoverStore';
 	import { spring } from 'svelte/motion';
-	// import { browser } from '$app/environment';
+	import { browser } from '$app/environment';
 
 	let cursorVisible: boolean = true;
 
-	// $: cursorVisible = browser
-	// 	? screen.orientation.type == 'portrait-secondary' ||
-	// 	  screen.orientation.type == 'portrait-primary'
-	// 		? false
-	// 		: true
-	// 	: true;
+	$: cursorVisible = browser
+		? screen.orientation.type == 'portrait-secondary' ||
+		  screen.orientation.type == 'portrait-primary'
+			? false
+			: true
+		: true;
 
 	let coords1 = spring(
 		{ x: 0, y: 0 },
