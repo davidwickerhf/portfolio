@@ -84,10 +84,10 @@
 		{#if project.issues}
 			<div class="w-full flex flex-col gap-2">
 				<p class="uppercase text-lg font-medium">{$_('page.projects.challenges')}</p>
-				<ol class="ml-8 list-disc list-outside w-full gap-2 flex flex-col">
+				<ol class="ml-8 list-disc list-outside gap-2 flex flex-col">
 					{#each project.issues as issue}
 						<!-- Single issue -->
-						<li>{$_(issue)}</li>
+						<li>{@html $_(issue)}</li>
 					{/each}
 				</ol>
 			</div>

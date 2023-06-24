@@ -62,7 +62,7 @@
 			</div>
 
 			<!-- content -->
-			<p>{$_('page.home.intro')}</p>
+			<p>{@html $_('page.home.intro')}</p>
 
 			<!-- action btns -->
 			<div class="flex justify-between mt-4 flex-wrap-reverse gap-8">
