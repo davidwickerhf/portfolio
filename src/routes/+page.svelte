@@ -104,37 +104,36 @@
 			academicsView = event.detail.inView;
 		}}
 	>
-		{#if academicsView}
-			<div in:fade class="w-full flex max-w-4xl flex-col text-dark-three dark:text-alabaster-two">
-				<!-- Section heading -->
-				<span class="flex">
-					<h2 class="@lg/content:border-b-2 border-alabaster-three dark:border-dark-three">
-						{$_('page.home.academics')}
-					</h2>
-				</span>
+		<div
+			in:fade
+			class="w-full flex max-w-4xl flex-col text-dark-three dark:text-alabaster-two {academicsView
+				? 'opacity-100'
+				: 'opacity-0'} transition-opacity ease-in-out duration-1000"
+		>
+			<!-- Section heading -->
+			<span class="flex">
+				<h2 class="@lg/content:border-b-2 border-alabaster-three dark:border-dark-three">
+					{$_('page.home.academics')}
+				</h2>
+			</span>
 
-				<!-- Academics widget -->
-				<div class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-8" />
-				<div class="flex flex-col">
-					{#each academics as school, index}
-						{#if index != 0}
-							<div
-								class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-6"
-							/>
-						{/if}
-						<InstitutionLink
-							last={index === academics.length - 1}
-							id={school.id}
-							current={school.current}
-							date="{school.beginYear} - {school.endYear}"
-							>{$_(school.istitution)}: {$_(school.diploma)}</InstitutionLink
-						>
-					{/each}
-				</div>
+			<!-- Academics widget -->
+			<div class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-8" />
+			<div class="flex flex-col">
+				{#each academics as school, index}
+					{#if index != 0}
+						<div class="@lg/content:border-l-2 border-alabaster-three dark:border-dark-three h-6" />
+					{/if}
+					<InstitutionLink
+						last={index === academics.length - 1}
+						id={school.id}
+						current={school.current}
+						date="{school.beginYear} - {school.endYear}"
+						>{$_(school.istitution)}: {$_(school.diploma)}</InstitutionLink
+					>
+				{/each}
 			</div>
-		{:else}
-			<div use:scrollRef={'Academics'} class="h-screen" />
-		{/if}
+		</div>
 	</section>
 
 	<!-- Projects widget -->
@@ -145,40 +144,43 @@
 			projects = event.detail.inView;
 		}}
 	>
-		{#if projects}
-			<div in:fade class="w-full flex max-w-4xl flex-col text-dark-three dark:text-alabaster-two">
-				<h2>{$_('page.home.projects')}</h2>
+		<div
+			in:fade
+			class="w-full flex max-w-4xl flex-col text-dark-three dark:text-alabaster-two {academicsView
+				? 'opacity-100'
+				: 'opacity-0'} transition-opacity ease-in-out duration-1000"
+		>
+			<h2>{$_('page.home.projects')}</h2>
 
-				<!-- Row of widgets -->
-				<div
-					class="grid grid-cols-1 mt-6 gap-6 justify-between overflow-scroll @4xl/content:grid-cols-3"
-				>
-					<!-- Single project widget -->
-					<ProjectComponent
-						title="TedX Youth"
-						description="page.home.tedx-text"
-						url="/extracurriculars#tedx-youth"
-						resource="activities/tedx-1.jpg"
-					/>
-					<ProjectComponent
-						title="Mai Checkers"
-						description="page.home.checkers-text"
-						url="/projects#mai-checkers"
-						resource="projects/checkers.png"
-					/>
-					<ProjectComponent
-						title="DEC Torino"
-						description="page.home.DEC-text"
-						url="/activism#dec"
-						resource="projects/dec-torino.jpeg"
-					/>
-				</div>
-				<div class="flex justify-between mt-6 gap-6 flex-wrap">
-					<TextButton text="tabs.extracurriculars" url="/extracurriculars" />
-					<TextButton text="tabs.personal-projects" url="/projects" />
-				</div>
+			<!-- Row of widgets -->
+			<div
+				class="grid grid-cols-1 mt-6 gap-6 justify-between overflow-scroll @4xl/content:grid-cols-3"
+			>
+				<!-- Single project widget -->
+				<ProjectComponent
+					title="TedX Youth"
+					description="page.home.tedx-text"
+					url="/extracurriculars#tedx-youth"
+					resource="activities/tedx-1.jpg"
+				/>
+				<ProjectComponent
+					title="Mai Checkers"
+					description="page.home.checkers-text"
+					url="/projects#mai-checkers"
+					resource="projects/checkers.png"
+				/>
+				<ProjectComponent
+					title="DEC Torino"
+					description="page.home.DEC-text"
+					url="/activism#dec"
+					resource="projects/dec-torino.jpeg"
+				/>
 			</div>
-		{/if}
+			<div class="flex justify-between mt-6 gap-6 flex-wrap">
+				<TextButton text="tabs.extracurriculars" url="/extracurriculars" />
+				<TextButton text="tabs.personal-projects" url="/projects" />
+			</div>
+		</div>
 	</section>
 
 	<!-- Work Experience -->
@@ -189,15 +191,18 @@
 			work = event.detail.inView;
 		}}
 	>
-		{#if work}
-			<div in:fade class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6">
-				<h2>{$_('page.home.work-experience')}</h2>
-				<p>
-					{$_('page.home.work')}
-				</p>
-				<ComponentLink url={'/work#mediamente'}>Mediamente Consulting</ComponentLink>
-			</div>
-		{/if}
+		<div
+			in:fade
+			class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6 {academicsView
+				? 'opacity-100'
+				: 'opacity-0'} transition-opacity ease-in-out duration-1000"
+		>
+			<h2>{$_('page.home.work-experience')}</h2>
+			<p>
+				{$_('page.home.work')}
+			</p>
+			<ComponentLink url={'/work#mediamente'}>Mediamente Consulting</ComponentLink>
+		</div>
 	</section>
 
 	<!-- Civics -->
@@ -208,21 +213,24 @@
 			civics = event.detail.inView;
 		}}
 	>
-		{#if civics}
-			<div in:fade class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6">
-				<h2>{$_('page.home.civics')}</h2>
-				<p>
-					{$_('page.home.civics-text')}
-				</p>
-				<div class="w-fit">
-					<TextButton text={'page.home.genocide-link'} url="/civics" />
-				</div>
-
-				<ComponentLink url={'/academics#project-armenia'}
-					>{$_('academics.pascal.projects.armenia.title')}</ComponentLink
-				>
+		<div
+			in:fade
+			class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6 {academicsView
+				? 'opacity-100'
+				: 'opacity-0'} transition-opacity ease-in-out duration-1000"
+		>
+			<h2>{$_('page.home.civics')}</h2>
+			<p>
+				{$_('page.home.civics-text')}
+			</p>
+			<div class="w-fit">
+				<TextButton text={'page.home.genocide-link'} url="/civics" />
 			</div>
-		{/if}
+
+			<ComponentLink url={'/academics#project-armenia'}
+				>{$_('academics.pascal.projects.armenia.title')}</ComponentLink
+			>
+		</div>
 	</section>
 
 	<!-- Gallery -->
@@ -233,53 +241,52 @@
 			gallery = event.detail.inView;
 		}}
 	>
-		{#if gallery}
-			<div in:fade class="w-full flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two">
+		<div
+			in:fade
+			class="w-full flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two {academicsView
+				? 'opacity-100'
+				: 'opacity-0'} transition-opacity ease-in-out duration-1000"
+		>
+			<div class="flex  justify-between items-center gap-2 transition-all ease-in-out duration-200">
+				<h2>{$_('page.home.gallery')}</h2>
 				<div
-					class="flex  justify-between items-center gap-2 transition-all ease-in-out duration-200"
+					class="flex border-2 h-12 items-center border-dark-three dark:border-alabaster-three"
+					on:mouseover={isHovering}
+					on:focus={isHovering}
+					on:blur={isNotHovering}
+					on:mouseout={isNotHovering}
 				>
-					<h2>{$_('page.home.gallery')}</h2>
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<div
-						class="flex border-2 h-12 items-center border-dark-three dark:border-alabaster-three"
-						on:mouseover={isHovering}
-						on:focus={isHovering}
-						on:blur={isNotHovering}
-						on:mouseout={isNotHovering}
+						class="flex w-12 justify-center text-center h-full items-center border-r border-dark-three dark:border-alabaster-three hover:bg-dark-three hover:text-alabaster-two dark:hover:bg-alabaster-three dark:hover:text-dark-three"
+						on:click={() => shiftPage(true)}
 					>
-						<!-- svelte-ignore a11y-click-events-have-key-events -->
-						<div
-							class="flex w-12 justify-center text-center h-full items-center border-r border-dark-three dark:border-alabaster-three hover:bg-dark-three hover:text-alabaster-two dark:hover:bg-alabaster-three dark:hover:text-dark-three"
-							on:click={() => shiftPage(true)}
-						>
-							<span class="material-symbols-outlined  text-2xl">chevron_left</span>
-						</div>
-						<!-- svelte-ignore a11y-click-events-have-key-events -->
-						<div
-							class="flex w-12 justify-center text-center h-full items-center border-l border-dark-three dark:border-alabaster-three hover:bg-dark-three hover:text-alabaster-two dark:hover:bg-alabaster-three dark:hover:text-dark-three"
-							on:click={() => shiftPage()}
-						>
-							<span class="material-symbols-outlined  text-2xl">chevron_right</span>
-						</div>
+						<span class="material-symbols-outlined  text-2xl">chevron_left</span>
+					</div>
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<div
+						class="flex w-12 justify-center text-center h-full items-center border-l border-dark-three dark:border-alabaster-three hover:bg-dark-three hover:text-alabaster-two dark:hover:bg-alabaster-three dark:hover:text-dark-three"
+						on:click={() => shiftPage()}
+					>
+						<span class="material-symbols-outlined  text-2xl">chevron_right</span>
 					</div>
 				</div>
-
-				<!-- Scrolling gallery -->
-				<div class="w-full gap-6 py-6 grid grid-cols-1 @2xl/content:grid-cols-2">
-					{#each galleryPics as photo, index}
-						{#if index >= galleryIndex && index < galleryIndex + galleryPageNumber}
-							<ImageComponent
-								src={photo.src}
-								title={photo.title}
-								description={photo.description}
-								url={photo.url}
-							/>
-						{/if}
-					{/each}
-				</div>
 			</div>
-		{:else}
-			<div class="h-screen" />
-		{/if}
+
+			<!-- Scrolling gallery -->
+			<div class="w-full gap-6 py-6 grid grid-cols-1 @2xl/content:grid-cols-2">
+				{#each galleryPics as photo, index}
+					{#if index >= galleryIndex && index < galleryIndex + galleryPageNumber}
+						<ImageComponent
+							src={photo.src}
+							title={photo.title}
+							description={photo.description}
+							url={photo.url}
+						/>
+					{/if}
+				{/each}
+			</div>
+		</div>
 	</section>
 </div>
 <div

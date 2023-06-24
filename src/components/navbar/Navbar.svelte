@@ -40,4 +40,4 @@
 		</div>
 	</div>
 </div>
-<div class="h-[94px]" />
+<div class="h-[74px] sm:h-[94px]" />

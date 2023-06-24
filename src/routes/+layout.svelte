@@ -27,12 +27,7 @@
 	let scrolledPixels = 0;
 	let totHeight: number = 0;
 	let totWidth: number = 0;
-	$: if (totHeight) console.log(totHeight);
-	$: console.log(totWidth);
-
-	$: console.log(scrolledPixels);
-	$: barWidth = (totWidth * scrolledPixels) / totHeight ?? 0;
-	$: console.log(barWidth);
+	$: barWidth = totWidth ? (totWidth * scrolledPixels) / (totHeight - 600) : 0;
 </script>
 
 <!-- style="background-image: url(/{$theme}noise.svg)" -->
@@ -58,7 +53,7 @@
 	<div class="flex flex-col w-full">
 		<!--  PROGRESS BAR -->
 		<div class="fixed w-full  shrink-0 z-30">
-			<div class="h-[3px] bg-green-three/80" style="width: {barWidth}px;" />
+			<div class="h-1 bg-green-three/80" style="width: {barWidth}px;" />
 		</div>
 		<!-- CONTENT (+ FOOTER) -->
 		<div
@@ -70,8 +65,8 @@
 			<!-- ACTUAL CONTENT -->
 			<div
 				class="px-6 @xl/content:px-12 @2xl/content:px-16 @4xl/content:px-24 z-0 bg-fixed bg-ghost dark:bg-dark-five flex flex-col gap-4"
-				bind:clientHeight={totHeight}
 				bind:clientWidth={totWidth}
+				bind:clientHeight={totHeight}
 			>
 				<!-- Navigation (back and forth) -->
 				{#if currentTab?.id != 1}
