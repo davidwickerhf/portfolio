@@ -146,7 +146,7 @@
 	>
 		<div
 			in:fade
-			class="w-full flex max-w-4xl flex-col text-dark-three dark:text-alabaster-two {academicsView
+			class="w-full flex max-w-4xl flex-col text-dark-three dark:text-alabaster-two {projects
 				? 'opacity-100'
 				: 'opacity-0'} transition-opacity ease-in-out duration-1000"
 		>
@@ -193,7 +193,7 @@
 	>
 		<div
 			in:fade
-			class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6 {academicsView
+			class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6 {work
 				? 'opacity-100'
 				: 'opacity-0'} transition-opacity ease-in-out duration-1000"
 		>
@@ -215,7 +215,7 @@
 	>
 		<div
 			in:fade
-			class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6 {academicsView
+			class=" flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two gap-6 {civics
 				? 'opacity-100'
 				: 'opacity-0'} transition-opacity ease-in-out duration-1000"
 		>
@@ -243,7 +243,7 @@
 	>
 		<div
 			in:fade
-			class="w-full flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two {academicsView
+			class="w-full flex flex-col max-w-4xl text-dark-three dark:text-alabaster-two {gallery
 				? 'opacity-100'
 				: 'opacity-0'} transition-opacity ease-in-out duration-1000"
 		>
