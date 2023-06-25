@@ -1090,7 +1090,7 @@ export const projects: PersonalProject[] = [
 		year: 2022,
 		subtitle: 'projects.letters.subtitle',
 		shortDescription: 'projects.letters.short',
-		url: 'https://nisha.wicker.life/',
+		url: 'https://nisha.wickerdevs.com/',
 		logo: 'letters.png',
 		technologies: [typescript, tailwind, next, jotai, vercel],
 		images: [

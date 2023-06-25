@@ -315,7 +315,8 @@
     },
     "instaclient": {
       "long": "Sviluppata in Python 3, questa libreria utilizza Selenium e Chromedriver per raschiare Instagram ed emulare le interazioni degli utenti. \nOffre l'accesso programmatico alle funzionalità di Instagram, tra cui l'accesso, il seguire gli utenti, il gradimento dei post, l'invio di DM e la pubblicazione sul feed. \nLa libreria ha guadagnato una notevole popolarità, con oltre 140.000 download da parte di sviluppatori in tutto il mondo. \nLa sua facilità d'uso e il set completo di funzionalità lo rendono uno strumento prezioso per integrare le funzionalità di Instagram in vari progetti e applicazioni.",
-      "short": "Questa libreria Python open source consente agli sviluppatori di accedere in modo programmatico alle funzionalità di Instagram, fornendo un modo semplice per integrare le funzionalità di Instagram nelle proprie applicazioni e progetti."
+      "short": "Questa libreria Python open source consente agli sviluppatori di accedere in modo programmatico alle funzionalità di Instagram, fornendo un modo semplice per integrare le funzionalità di Instagram nelle proprie applicazioni e progetti.",
+      "subtitle": "Libreria open source in Python"
     },
     "letters": {
       "short": "Per celebrare San Valentino e il desiderio di fare qualcosa di speciale per la mia relazione a distanza, mi sono imbarcato nella creazione di una caccia al tesoro online. \nQuesta esperienza interattiva consente all'utente di scoprire la lettera o l'indizio successivo risolvendo una serie di avvincenti enigmi",

@@ -1,434 +1,435 @@
 {
-	"page": {
-		"home": {
-			"definition-of": "definition of",
-			"proper-noun": "proper noun",
-			"intro": "David is studying applied science at the IIS Blaise Pascal high school in Giaveno. He is passionate about computer science and actively engaged in climate activism. David is fluent in Italian, English (Cambridge C2), and is learning German (Goethe B1). He has made the decision to pursue computer science at Maastricht University starting next year. In the future, he aspires to delve into the application of machine learning in predicting extreme weather events.",
-			"giacomo": "public secondary school giacomo jaquerio",
-			"pascal": "IIS Blaise Pascal: Applied Sciences High School",
-			"uwcdilijan": "UWC Dilijan College: IB Diploma",
-			"maastricht": "Maastricht University: BSc Computer Science",
-			"projects": "projects and extracurriculars",
-			"academics": "academics",
-			"view-my-curriculum": "view my curriculum",
-			"work-experience": "work experience",
-			"work": "During my internship at Mediamente Consulting, a Business Intelligence company in Turin, I was tasked with developing a car booking system for managing internal employee rentals. I began by designing the website pages using Figma, and once approved, I proceeded to implement the design on the company's codebase. To bring the car booking system to life, I utilized PHP, raw JavaScript, and SCSS. I carefully developed the backend functionalities using PHP to ensure seamless communication with the company's database. With JavaScript, I added interactive elements and dynamic features to enhance the user experience.",
-			"DEC-text": "I drafted and proposed a motion for the Declaration of Climate Emergency to the City Council of Turin. With the support of the environmental councilor, the motion was approved.",
-			"checkers-text": "Took on a project recommended by the computer science teacher and successfully developed an online 3D checkers game using web technologies",
-			"tedx-text": "organized a TEDxYouth Conference hosted by UWC Dilijan in Dilijan, Armenia, showcasing inspiring speakers and ideas to empower and engage youth.",
-			"civics-text": "During my year abroad in Armenia, I gained a deep understanding of the challenges faced by the Armenian people. I was exposed to the tragic history of the Armenian genocide, perpetrated by the Ottoman Empire, which, even today, lacks full international recognition. Additionally, I learned about the ongoing conflicts and wars between Armenia and Azerbaijan concerning the Nogorno Karabakh region. These experiences shed light on the struggles endured by Armenian youth, who live with the constant fear of being conscripted into the army from a young age. Witnessing these hardships firsthand awakened my empathy and strengthened my commitment to advocating for justice and peace. It deepened my appreciation for the resilience and determination of the Armenian people, who persist in the face of adversity. This experience prompted me to organize a project to raise awareness about the struggles of the Armenian people in my high school in northern Italy.",
-			"genocide-link": "Learn more about the armenian genocide",
-			"gallery": "photo gallery",
-			"civics": "civics"
-		},
-		"projects": {
-			"challenges": "Challenges",
-			"title": "personal projects.",
-			"view": "open project",
-			"code": "source code"
-		},
-		"work": {
-			"intro": "Here, you'll find a collection of my work and expertise in the fields of computer science, software engineering, and tutoring. As a passionate individual in these areas, I strive to deliver exceptional solutions and share my knowledge with others. Looking ahead, my aspirations lie in merging computer engineering with climate science to address the pressing challenges of our environment. Explore my projects, tutorials, and insights as we navigate the intersection of technology and sustainability.",
-			"title": "work experience.",
-			"at": "at",
-			"overview": "Project Overview",
-			"requirements": "Project Requirements",
-			"tech": "Technologies Used",
-			"work-with-me": "work with me",
-			"other": "view my other projects"
-		},
-		"civics": {
-			"intro": "The Armenian Genocide refers to the systematic mass killings and forced deportations of the Armenian population by the Ottoman Empire during World War I, resulting in the loss of countless lives and cultural heritage. Today, the genocide remains a contentious issue, as it is not universally recognized. Additionally, ongoing conflicts and territorial disputes persist between Armenia and Azerbaijan, particularly concerning the Nagorno-Karabakh region.",
-			"year-abroad": "year abroad in armenia",
-			"view-the-slides": "view the slides",
-			"title": "genocide and war in armenia."
-		},
-		"activism": {
-			"intro": "My journey in climate activism began in 2019 when I joined the global movement Fridays for Future. Passionate about combating climate change, I took an active role in organizing and mobilizing for environmental action. As part of my dedication, I played a crucial role in establishing the Italian chapter of Fridays for Future, working alongside like-minded individuals to create a strong platform for advocacy and awareness. In addition, I was honored to serve as a delegate for FFF Italy, fostering coordination and collaboration between national chapters to amplify our collective impact",
-			"title": "climate activism.",
-			"readmore": "read the articles",
-			"press": "read in the press"
-		},
-		"publications": {
-			"title": "publications.",
-			"get-copy": "get a copy"
-		},
-		"curriculum": {
-			"link": "download my curriculum"
-		},
-		"academics": {
-			"intro": "internationally oriented student, aiming at employing computer science in the field of climate science",
-			"currently": "currently studying at",
-			"history": "Academic history"
-		},
-		"extracurriculars": {
-			"title": "extracurriculars.",
-			"area": "related to"
-		},
-		"certifications": {
-			"title": "certifications."
-		},
-		"photo": {
-			"title": "photography."
-		},
-		"contact": {
-			"title": "contact me.",
-			"social": "You can reach out to me via social media",
-			"email": "Or you can reach out via email: davidwickerhf@gmail.com"
-		}
-	},
-	"tabs": {
-		"personal-projects": "personal projects",
-		"welcome": "welcome!",
-		"academics": "academics",
-		"extracurriculars": "extracurriculars",
-		"certifications": "certifications",
-		"work-experience": "work experience",
-		"activism": "activism",
-		"publications": "publications",
-		"photography": "photography",
-		"civics": "civics"
-	},
-	"general": {
-		"lorem-ipsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"lorem-ipsum-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-		"by": "by",
-		"through": "through",
-		"read-less": "read less",
-		"read-more": "read more"
-	},
-	"gallery": {
-		"uwc": {
-			"title": "UWC Day",
-			"text": "International peace day and United World Colleges Day. On such occasions, students in the different colleges are asked to come together and showcase their cultures"
-		},
-		"gyumri": {
-			"title": "Trip to Gyumri, Armenia",
-			"text": "Excursion to Gyumri, one of the largest cities of Armenia located near the Turkish border."
-		},
-		"sustco": {
-			"title": "Climate Justice Strike in UWC Dilijan"
-		},
-		"tedx": {
-			"title": "TedX Youth Conference at UWC Dilijan"
-		},
-		"lastday": {
-			"title": "Last school day (2021)"
-		},
-		"barcelona": {
-			"title": "High School trip to Barcelona"
-		},
-		"owe": {
-			"title": "UWC Italy OWE",
-			"text": "Introduction days to the UWC Colleges in Rome, Italy"
-		}
-	},
-	"academics": {
-		"giacomo": {
-			"short": "junior high school",
-			"istitution": "Giacomo Jaqueiro",
-			"diploma": "Junior High School Diploma",
-			"desc": "I attended the junior high school in Buttigliera Alta and achieved outstanding results, graduating with a top grade of 100 cum laude. My graduation \"mini-thesis\" focused on the intersection of Artificial Intelligence, Turing\\'s Machine, and ethical considerations in computing. To showcase my knowledge and skills, I programmed a math game in C# for the final oral exam and even challenged my professors to play.",
-			"projects": {
-				"contest": {
-					"desc": "I had the opportunity to organize a photography competition for Giacomo Jaqueiro Middle School in collaboration with the technology teacher and the Italian teacher. My main task was to create a website for the competition registrations, where I also formulated the official competition rules. Later on, I decided to extend the competition to the whole country, in collaboration with the municipality of Buttigliera Alta. To ensure the proper evaluation of the photographs, I formed a committee of professional photographers who were responsible for selecting the winners. Together with the school, I also prepared prizes for the winners. The final phase of the competition was the announcement of the winners. I organized an event at the school where the winners were announced, and their success was celebrated. I felt very satisfied with the work done and was delighted to see the students' participation in the competition.",
-					"title": "Photography contest"
-				}
-			}
-		},
-		"status": {
-			"completed": "completed",
-			"current": "currently attending",
-			"dp1": "completed DP1"
-		},
-		"pascal": {
-			"short": "high school",
-			"diploma": "Applied sciences high school diploma",
-			"desc": "I attended the \"IIS Blaise Pascal\" Applied Sciences high school in Giaveno, driven by my passion for computer science. In my first year, I developed an app to assist teachers in selecting students for oral tests. Throughout my second and third years, I was honored to receive academic merit scholarships from the school. During my high school years, I successfully balanced my academic pursuits with my dedication to climate activism. In fact, I founded the Fridays For Future Turin movement and actively participated in promoting environmental awareness. In my third year, I embarked on the application process for the United World Colleges, and I was elated to be accepted for studies in Armenia. Upon returning from Armenia, I took the initiative to organize seminars and lessons to educate others about the Armenian genocide and the ongoing conflicts in the region.",
-			"projects": {
-				"armenia": {
-					"title": "Project Armenia",
-					"desc": "After my experience abroad in Armenia, I realized that I had a responsibility to raise awareness among people about the war situation in the country. I got in touch with a student of Armenian origin at Pascal School, and together we worked to create a series of seminars about Armenia that could reach all the classes and students in the school. The project was named the Armenia Project and was included in this year's civic education program. Furthermore, in coordination with the vice principal, we established the seminar dates and created the content, which covered the historical and cultural context of Armenia, as well as the geopolitical and cultural reasons behind the conflict with Azerbaijan. We managed to engage a large number of students, and the feedback was very positive. The project allowed us to educate people about the situation in Armenia and raise awareness about the geopolitical and cultural aspects of the conflict. This project was a great opportunity for me and my Armenian partner to promote peace and understanding through education."
-				},
-				"dama": {
-					"title": "Checkers Project",
-					"desc": "Encouraged by my computer science teacher, I embarked on a project to develop a game for the CS class. Opting to test my coding abilities, I chose to create a checkers game. Initially, I considered using Java for local development, but ultimately decided to leverage web technologies like TypeScript and Next.js. Seeking an extra challenge, I set out to code a 3D interface for the game. With determination and perseverance, I successfully completed the project and proudly published it online for others to enjoy. This experience allowed me to not only sharpen my coding skills but also showcase my ability to adapt and explore new technologies."
-				},
-				"tutoring": {
-					"title": "Tutoring Project",
-					"desc": "I collaborated as a computer science tutor in the Tutoring Project at Pascal, initiated by Blaise Pascal School. I provided computer science tutoring to students at the school, both in-person and online during the COVID-19 pandemic. My role involved reinforcing the topics covered in school and assisting students with specific difficulties in understanding the subject matter. I coordinated with the computer science teacher, Veronica Cinti, to organize the lessons and plan the topics to be covered. We were able to provide personalized support to the students by identifying their weaknesses and offering targeted lessons to address their difficulties. I was very pleased to be able to be helpful to the school and the students and contribute to their educational journey. I tried to stimulate their curiosity by encouraging them to explore more advanced topics and providing them with insights to delve deeper into subjects of their interest."
-				},
-				"reply": {
-					"title": "Reply Code Challenge",
-					"desc": "Upon the advice of Professor Cinti, another student from IIS Blaise Pascal and I successfully participated in the Reply Code Challenge competition, showcasing our programming skills and proudly representing our school."
-				},
-				"film": {
-					"title": "Documentary \"Irresponsible Children\"",
-					"desc": "I was fortunate to have the opportunity to meet Ezio Maisto, a director who was looking to make a documentary about the Fridays for Future movement, and I became one of the main characters in the documentary titled \"Irresponsible Youth.\" For a whole year, I actively participated in the filming, documenting the climate change demonstrations and protests in which I was involved, alongside other young activists. Thanks to this documentary, I had the chance to share my experience with a broader audience, giving voice to the concerns that I share with many others regarding the future of our planet. I am happy to share that the documentary \"Irresponsible Youth\" was awarded at the Cinemambiente film festival in Turin, an important event dedicated to films and documentaries addressing environmental issues, as well as at the fiftieth edition of the Giffoni Film Festival. The documentary is still available online on Mediaset's Infinity+ platform."
-				}
-			},
-			"istitution": "IIS Blaise Pascal"
-		},
-		"uwc": {
-			"short": "year abroad",
-			"istitution": "UWC Dilijan College",
-			"diploma": "International Baccalaureate (DP1)",
-			"desc": "Following a rigorous selection process facilitated by the Italian UWC committee, I was awarded an academic scholarship to study at UWC Dilijan College in Armenia. Pursuing the International Baccalaureate (IB) program, I had the freedom to choose my exam subjects based on my interests and aspirations. UWC Dilijan College boasted a vibrant and multicultural environment, with students representing more than 90 different nationalities. This diversity extended to the faculty as well, with professors bringing varied backgrounds and perspectives to the classroom. However, due to the resurfacing conflict between Armenia and Azerbaijan, I regrettably had to return to Italy after successfully completing DP1 (Diploma Program Year 1). Nonetheless, the experience I gained during my time at UWC Dilijan was invaluable, exposing me to global perspectives and fostering lifelong connections with peers from around the world.",
-			"projects": {
-				"tedx": {
-					"title": "TedX Youth @ UWCDilijan",
-					"desc": "TED (Technology, Entertainment, Design) is an annual conference founded in 1984 with the goal of spreading ideas and knowledge through motivational speeches of maximum 18 minutes. The main event takes place in Vancouver, Canada, but TED has also organized TEDx events worldwide. TEDxYouth is a version of the TEDx format that focuses on young people under 18 years old and aims to inspire them to spread ideas and innovative solutions to the challenges their generation faces. Along with other students from my school in Armenia, I was involved in forming the organizing team for the TEDxYouth@UWCDilijan conference. With my experience in event organization, I took on the responsibility of handling the event LOGISTICS, assigning tasks, and COORDINATING the team's activities."
-				},
-				"yearbook": {
-					"title": "Yearbook Committee",
-					"desc": "During the 2021-2022 school year, I had the fortunate opportunity to join the Yearbook Committee at UWC Dilijan School. Being passionate about photography, my focus was on collecting photos of school events and social moments to include in the yearbook. Additionally, together with another photographer at the school, we worked hard to capture portraits of all the students and teachers, aiming to capture each individual's personality. \n\nDuring the yearbook's design phase, I contributed to the layout and arrangement of the pages, striving to create a visually appealing product. I also handled logistics, ensuring that all the collected images were of high quality and ready for printing."
-				},
-				"sustco": {
-					"title": "Sunstainability Committee",
-					"desc": "During my year abroad, I had the honor of being ELECTED to be part of the Sustainability Committee at the prestigious international school, UWC Dilijan College. In this role, I had the opportunity to collaborate with the committee in ORGANIZING a series of sustainability projects aimed at making the school more environmentally friendly and responsible. Specifically, I had the opportunity to engage and MEDIATE with the school administration for the implementation of sustainable policies such as energy conservation and the installation of solar panels to reduce the school's environmental impact. Additionally, I worked with the municipality of Dilijan and an NGO in Yerevan to establish a recycling system for the school. With my knowledge and passion for sustainability, I contributed to educating students about environmental issues, promoting waste segregation and recycling, as well as advocating for more sustainable behaviors in their daily lives. Furthermore, I actively participated in organizing various committee activities, providing support in coordinating and organizing sustainability-related events."
-				},
-				"panel": {
-					"title": "UWC Climate Panel",
-					"desc": "I served as a SUSTAINABILITY COORDINATOR at UWC Dilijan College and had the honor of organizing the INTERNATIONAL CLIMATE SEMINAR called 'UWC Climate Panel'. The event took place online and involved numerous experts in the field of sustainability, including scientists, communicators, and activists. I personally contacted each of them to ensure their availability to speak at the event. The main objective of the UWC Climate Panel was to raise awareness among the international community about the need to promote sustainability and address the global challenges of climate change. Additionally, we aimed to highlight the difficulties faced by communities most affected by climate change on a daily basis and the role of indigenous communities in the fight for environmental and climate defense. One of the most challenging aspects of organizing the seminar was coordinating the various UWC campuses scattered around the world. Thanks to Zoom, we were able to connect the 18 UWC colleges so that students could participate in real-time and ask questions to the speakers. I had the responsibility of MODERATING the discussion and collecting questions from the audience and students so that the speakers could address their concerns and inquiries."
-				},
-				"outdoor": {
-					"desc": "I was SELECTED as a member of the Outdoor Leadership Committee at UWC Dilijan School in Armenia. I worked closely with our teacher, a veteran of the 44-day war between Armenia and Azerbaijan, to COORDINATE the school's sports activities. It was an incredible experience to participate in numerous excursions across Armenian territory, including hiking and climbing. The most memorable one was a week-long trek in the Armenian mountains, which also included an introduction to cave exploration. I was thrilled to have the responsibility of managing winter ski trips to the Soviet-era ski resorts in Tsaghkadzor and providing skiing lessons to my peers. This experience taught me how to work in teams and handle emergency situations in remote and challenging environments. Additionally, it allowed me to discover the natural beauty of Armenia and appreciate the local culture."
-				}
-			}
-		},
-		"maas": {
-			"desc": "With a keen interest in computer science, I have been accepted into Maastricht University to pursue my bachelor's degree in the field. Maastricht's dynamic and diverse environment drew me in, offering an enriching academic experience. Beyond my love for computer science, I am also deeply aware of the climate crisis. I aspire to merge my passion for technology with my concern for the environment, seeking ways to leverage computer science to address climate science challenges. Looking ahead, I envision myself completing a bachelor's degree that provides a strong foundation in computer science. With this knowledge, I plan to pursue a Master's degree in Machine Learning, delving deeper into the fascinating world of artificial intelligence and its applications. My academic journey in Maastricht is driven by a desire to make a meaningful contribution to the intersection of computer science and climate science. I am excited to embark on this path and explore the vast possibilities that lie ahead.",
-			"projects": {
-				"m4c": {
-					"title": "Maastricht for Climate",
-					"desc": "I have been accepted at Maastricht University, where I will specialize in computer engineering. From the beginning, I started looking for opportunities to connect with the students and the environmental reality of the city. During this search, I got in touch with the activists from Maastricht for Climate (M4C), a non-profit NGO led by university students. Since the organization looks for new members every year to fill important positions, I decided to APPLY to become the new president of the NGO based on my previous experience in climate activism. The members of the NGO voted in favor of me, and my term will begin in August. Currently, I am actively working on organizing events for the month of September. One of the first events I will attend is the welcoming event for new students at Maastricht University, where my task will be to REPRESENT the NGO and recruit new members. I am excited about this new role and hope to play an active part in organizing projects that promote sustainability and the fight against climate change in my university community."
-				}
-			}
-		}
-	},
-	"extracurriculars": {
-		"area": {
-			"cs": "related to Computer Science",
-			"climate": "related to Climate and Sustainability",
-			"leadership": "related to Leadership",
-			"community": "related to Creativity and Community"
-		},
-		"role": {
-			"student": "Student",
-			"coordinator": "Coordinator",
-			"protagonist": "Protagonist",
-			"organizer": "Organizer",
-			"speaker": "Speaker",
-			"president": "President",
-			"delegate": "Delegate",
-			"tutor": "Computer Science Tutor",
-			"member": "Member"
-		},
-		"stemai": {
-			"activity": "STEM campus \"Intro to Artificial Intelligence and Computer Vision\"",
-			"desc": "I was a student at the STEM Campus at the Luigi Lagrange School of Scientific Education, where I participated in the course \"Introduction to Artificial Intelligence and Computer Vision.\" My experience was highly educational, and I learned many fundamental concepts for my professional growth. During the course, I had the opportunity to learn how to use machine learning algorithms to control the movements of a toy car using sensors and a series of coding programs."
-		},
-		"stemki": {
-			"activity": "STEM campus \"Programmieren 4.0 - Künstliche Intelligenz\"",
-			"desc": "I was a student at the PROGRAMMIEREN 4.0 KÜNSTLICHE INTELLIGENZ campus at ComputerCamp in Föckinghausen. During the course, I had the opportunity to deepen my programming knowledge and learn the basics of C# and Python, two essential programming languages for software and application development. What fascinated me the most was learning to develop machine learning algorithms for autonomous driving in video games. Through lessons and hands-on activities, I learned how to use the right tools to create algorithms that could learn from data and improve over time."
-		},
-		"sustco": {
-			"activity": "Sustainability Committee"
-		},
-		"docu": {
-			"activity": "Documentary \"Ragazzi Irresponsabili\"",
-			"desc": "I was fortunate to have the opportunity to meet Ezio Maisto, a director who was working on a documentary about the Fridays for Future movement, and I became one of the main characters in the documentary titled \"Irresponsible Youth.\" For a whole year, I actively participated in the filming, documenting the climate change demonstrations and protests in which I was involved, alongside other young activists. Thanks to this documentary, I had the chance to share my experience with a broader audience, giving voice to the concerns that I share with many others regarding the future of our planet. I am happy to share that the documentary \"Irresponsible Youth\" was awarded at the Cinemambiente Film Festival in Turin, a significant event dedicated to films and documentaries addressing environmental issues, as well as at the fiftieth edition of the Giffoni Film Festival. The documentary is still available online on Infinity+ by Mediaset."
-		},
-		"tedc": {
-			"desc": "I was invited to REPRESENT Fridays For Future at the TED Countdown Summit 2022 in Edinburgh, an event that aims to bring attention to the fight against climate change. I attended the conference, where I met numerous activists from different countries, including Alexandria Villaseñor and Ayisha Siddiqa, with whom I collaborated in conducting seminars on the importance of activism in the climate fight. During the summit, I MEDIATED between the TED organizing team and the group of invited activists in managing a panel with Shell CEO, Ben van Beurden. However, together with a group of activists, we decided to BOYCOTT Ben van Beurden's speech, urging the audience to leave the room in light of Shell's environmentally damaging activities. I also had the opportunity to meet several prominent figures actively engaged in the climate battle, including VICE PRESIDENT AL GORE, UNFCCC Secretary Patricia Espinosa, Christiana Figueres, and Emma Watson."
-		},
-		"osocc": {
-			"desc": "I was fortunate to participate in the intensive course \"Oxford Climate School\" organized by the Oxford Climate Society. The course provided a comprehensive and in-depth overview of climate change and environmental policies, with a particular focus on sustainable development models. Experts in the field delivered a series of lectures on environmental issues and climate change, analyzing their causes and possible solutions. Additionally, we had the opportunity to engage in discussions and practical activities, applying what we had learned."
-		},
-		"bocconi": {
-			"institution": "Bocconi University",
-			"desc": "After a selection process, I had the opportunity to participate as a student in the \"International Politics\" and \"EU for Sustainable Development\" courses at the Bocconi Summer School. These were two very interesting courses that allowed me to deepen my knowledge of international political and economic issues, as well as environmental challenges and sustainable development. \n\nThe Bocconi Summer School is a summer program organized by the prestigious Bocconi University in Milan, dedicated to university students from around the world who want to enhance their knowledge in a stimulating and international academic environment. \n\nDuring the program, students have the opportunity to choose from a wide range of courses in various disciplines, including economics, finance, management, law, and political science."
-		},
-		"imun": {
-			"desc": "I participated in the Italian Model United Nations in Turin for two consecutive years, an event that simulates United Nations sessions where students from around the world come together to discuss global issues and seek solutions. I found this experience extremely stimulating and rewarding as it provided me with the opportunity to improve my communication, teamwork, and problem-solving skills. I participated in various committees, including the Human Rights Committee and the Sustainable Development Committee, where I had to negotiate with other delegates, make important decisions, and strive to find compromises to address the issues at hand. Additionally, I involved some of my classmates in this experience, helping them prepare for the Model United Nations and providing support during the event. I was awarded an Honorable Mention in my first year and won the Best Delegate award in my second year, which made me feel very proud of the work I had done."
-		},
-		"tutor": {
-			"desc": "I collaborated as a computer science tutor in the Pascal Tutoring project, initiated by Blaise Pascal School. I provided computer science lessons to students at the school, both in-person and online during the COVID-19 pandemic. My role involved reinforcing the topics covered in school and assisting students with specific difficulties in understanding the subject matter. I coordinated with the computer science teacher, Veronica Cinti, to organize the lessons and plan the topics to be covered. We were able to provide personalized support to the students by identifying their weaknesses and offering targeted lessons to address their difficulties."
-		}
-	},
-	"certifications": {
-		"type": {
-			"language": "Language certifications",
-			"climate": "Climate certifications",
-			"cs": "Computer Science certifications",
-			"mooc": "MOOC certifications"
-		}
-	},
-	"work": {
-		"mediamente": {
-			"overview": "During my PCTO (Periodo di Collaborazione Temporanea e Obbligatoria) experience, which is a mandatory requirement for the Italian final exam, I had the opportunity to work as an intern at Mediamente Consulting. Over a period of slightly over two weeks, I dedicated myself full-time to this role. My primary task was to develop a booking system to streamline the company's rental management processes. Working closely with my supervisor, I utilized my skills in PHP and JavaScript to create a robust system. Once completed, I seamlessly integrated the booking system into the company's existing website code base. This valuable hands-on experience allowed me to apply my programming knowledge in a real-world setting, honing my technical skills and problem-solving abilities. Furthermore, it provided me with a deeper understanding of the practical applications of software development within a professional environment.",
-			"issues": {
-				"1": "Working with an existing code base written by another author posed challenges, especially since it was originally designed as a standalone static website and not a web app. To make the necessary modifications, I had to implement a Model-View-Controller (MVC) architecture from scratch using vanilla PHP and JavaScript. This involved understanding the existing code structure, identifying the key components, and redesigning them to fit the requirements of the booking system.",
-				"2": "Connecting the backend and frontend proved to be a challenge due to the absence of a framework in the original code base. This meant that managing the communication and data flow between the backend and frontend had to be handled manually. To achieve this, I relied on jQuery to handle dynamic updates to the user interface (UI) and synchronize the data with the backend. It required meticulous attention to detail and careful coordination to ensure a seamless integration between the different components of the system.",
-				"3": "One additional hurdle I faced was learning PHP on the go. Since I took on the project without prior knowledge of PHP, I had to quickly familiarize myself with the language to effectively navigate and work with the existing code base. This involved studying PHP syntax, understanding its principles, and leveraging online resources and documentation to grasp the intricacies of the language. It was a valuable learning experience that allowed me to expand my programming skills and adapt to new technologies and frameworks."
-			},
-			"req": {
-				"calendar": "Calendar functionality to display booked dates for each car."
-			}
-		},
-		"mediamemte": {
-			"req": {
-				"widget": "Widget displaying current bookings and available cars in real-time.",
-				"table": "Table showcasing all company cars with relevant details (e.g., model, availability, location, last revision).",
-				"booking": "Ability for users to book a car, specifying desired dates and additional preferences.",
-				"auth": "User authentication and role-based access to ensure secure booking management.",
-				"db": "Integration with a database to store and retrieve car booking information.",
-				"search": "Search and filtering options to find specific cars based on criteria (e.g., location, features).",
-				"reservations": "Reservation management system to handle conflicts, overlapping bookings, and car availability updates.",
-				"responsive": "Responsive design for seamless usage across devices (desktop, mobile, tablets).",
-				"admin": "Administrative features for system maintenance, including adding/removing cars, updating car details, and generating reports."
-			}
-		}
-	},
-	"publications": {
-		"revolution": {
-			"desc": "I had the opportunity to meet Katie Redford, a lawyer specializing in environmental issues and the defense of activists, after encountering legal issues related to my participation in the occupation of the European Parliament. With her support, I was fortunate enough to attend a meeting with activists at the Rockefeller Foundation headquarters in Bellagio, where I was able to engage in discussions with activists from different parts of the world who were involved in similar environmental battles. The participants in the meeting included Ka Hsaw Wa, a Burmese activist who has been fighting against Exxon Mobil's lobbying efforts his whole life, and Farhana Yamin, a lawyer for Extinction Rebellion. We had the opportunity to exchange ideas and discuss the best strategies to combat the environmental causes that are important to us. Later on, I participated in an interview that was included in the book written by Katie Eder and Mark Gevisser, titled 'The Revolution Will Not Be Litigated.' The book features a foreword by Jane Fonda, a review by Greta Thunberg, and a review by the former dean of Yale Law School."
-		},
-		"stonesoup": {
-			"desc": "I came into contact with author Marianne Larned, who was writing a book about climate change and the activists fighting to preserve the environment. I was honored to be included in the book alongside 100 other climate activists. This book was later used as inspiration for developing a climate change and activism curriculum in schools across Massachusetts, through the non-governmental organization \"Stone Soup for a Sustainable World.\" My experience as an activist was utilized to create an interactive educational curriculum that helped raise awareness about climate change and the actions we can take to protect the environment. I was particularly thrilled to learn that the book received positive reviews from figures such as Matt Damon, Danny Glover, and Jane Goodall, which demonstrates the importance and relevance of the themes addressed in the book."
-		}
-	},
-	"civics": {
-		"44": {
-			"title": "44 day war of 2020",
-			"desc": "The 44-day war in 2021 between Armenia and Azerbaijan, often referred to as the Second Nagorno-Karabakh War, was a significant escalation of the longstanding conflict over the Nagorno-Karabakh region. The war began on September 27, 2020, when intense fighting broke out along the line of contact between Armenian and Azerbaijani forces. The conflict saw heavy artillery shelling, air strikes, and ground offensives from both sides. The use of advanced weaponry, including drones, played a significant role in the hostilities. Azerbaijan made significant territorial gains during the war, recapturing several districts surrounding the Nagorno-Karabakh region that had been under Armenian control since the early 1990s. The Azerbaijani forces also advanced into parts of Nagorno-Karabakh itself, including the strategically important city of Shusha. The war resulted in a high number of casualties on both sides, including civilians, and led to the displacement of thousands of people. There were also reports of war crimes and human rights abuses committed by both Armenian and Azerbaijani forces. A ceasefire agreement brokered by Russia was signed on November 10, 2020, effectively ending the active phase of the conflict. Under the agreement, Azerbaijan retained control over the territories it had recaptured during the war, while a Russian peacekeeping contingent was deployed to oversee the ceasefire and ensure stability in the region. The war had significant political and humanitarian implications, reshaping the balance of power in the region and prompting discussions about the future status of Nagorno-Karabakh. Efforts to address the underlying issues and find a lasting peaceful solution to the conflict continue through diplomatic negotiations mediated by the OSCE Minsk Group co-chairs (Russia, France, and the United States)."
-		},
-		"1915": {
-			"title": "1915 Genocide",
-			"desc": "The Armenian Genocide, also known as the Armenian Holocaust, was a systematic extermination campaign carried out by the Ottoman Empire during World War I. The genocide aimed to eliminate the Armenian population and involved mass killings, forced deportations, and death marches.  In 1915, the Ottoman government enacted the Tehcir Law, which authorized the deportation and relocation of Armenians from their ancestral lands. Under the pretext of national security, Armenians were rounded up from their homes, separated from their families, and forced to march long distances to detention centers and concentration camps. These forced deportations resulted in widespread death and suffering.  The deportations were often accompanied by extreme violence, with Armenians subjected to brutal conditions, starvation, and massacres along the way. The marches of death referred to the grueling journeys endured by the deportees, where countless Armenians perished due to exhaustion, exposure to harsh elements, and systematic killings by Ottoman forces. Estimates of the number of Armenian victims vary, but it is widely accepted that over one million Armenians lost their lives during the genocide. The atrocities included mass killings, executions, forced labor, sexual violence, and the destruction of Armenian cultural and religious heritage."
-		},
-		"motivations": {
-			"title": "Motivations behind the genocide",
-			"desc": "The motivations behind the Armenian genocide are rooted in a combination of political, ethnic, and ideological factors. During the declining years of the Ottoman Empire, a rising tide of nationalism and ethno-religious tensions fueled the desire for a homogenous Turkish state. The Armenian population, seen as a distinct ethnic and religious minority, became scapegoats for the empire's woes. The nationalist Young Turks movement, which gained power in 1908, sought to establish a Turkish-dominated empire and viewed the Armenians as a threat. With the outbreak of World War I, the Armenians were accused of collaborating with enemy forces, providing a pretext for their targeted extermination. Political and military leaders implemented a systematic campaign of deportation, mass killings, forced labor, and starvation, aiming to eradicate the Armenian presence from their historic homeland. The genocide's motivations included territorial expansion, ethno-religious nationalism, and the desire to eliminate perceived threats to the Ottoman Empire's stability."
-		},
-		"hamidian": {
-			"title": "Hamidian massacre",
-			"desc": "The Hamidian Massacre, also known as the Armenian Massacres of 1894-1896, refers to a series of violent attacks against the Armenian population in the Ottoman Empire during the rule of Sultan Abdul Hamid II. The massacres were primarily motivated by religious and ethnic tensions, as well as the desire to suppress Armenian nationalist aspirations. The first major wave of massacres occurred in 1894 in the city of Sasun, followed by widespread violence targeting Armenians in various regions of the empire. The deadliest phase took place between 1895 and 1896, with massacres occurring in cities such as Istanbul, Trebizond, Van, and Diyarbakir. While specific figures are disputed, it is estimated that over 300.000 Armenians were killed during this period. The atrocities involved mass killings, forced conversions, rape, looting, and destruction of Armenian villages and churches. The Hamidian Massacre served as a prelude to the later Armenian Genocide in 1915, highlighting the persistent persecution and violence faced by the Armenian population in the Ottoman Empire. The events of the Hamidian Massacre played a significant role in shaping the Armenian national consciousness and the subsequent struggle for recognition and justice."
-		},
-		"rememberance": {
-			"title": "Legacy and rememberance",
-			"desc": "The Armenian Genocide remains a contentious issue, with denial and lack of international recognition creating ongoing debates surrounding its historical and political implications. Efforts for acknowledgment, justice, and remembrance continue as part of the Armenian struggle for recognition and the prevention of future genocides. The true scale of the Armenian Genocide may never be fully known due to the deliberate destruction of evidence and ongoing denial by some parties. \\n\\n The recognition of the Armenian Genocide has been a complex and contentious issue. Despite overwhelming evidence and scholarly consensus, the recognition of the genocide has faced significant challenges, primarily due to political considerations and denial by the Turkish government. Several countries, including Argentina, Belgium, Canada, France, Germany, Italy, the Netherlands, Russia, Sweden, and Uruguay, have officially recognized the Armenian Genocide. The European Parliament, the Council of Europe, and the World Council of Churches have also acknowledged the genocide. However, recognition has been inconsistent, and some nations have been reluctant to use the term \"genocide\" for fear of straining diplomatic relations with Turkey. The Turkish government, successor to the Ottoman Empire, vehemently denies the term \"genocide\" and contends that the events were a result of wartime conditions. The denial of the Armenian Genocide has had lasting consequences, affecting the healing process, justice for the victims, and preventing the prevention of future genocides.  The Armenian diaspora, along with scholars, activists, and human rights organizations, continue to advocate for wider recognition and acknowledgment of the genocide. Efforts for recognition have gained momentum in recent years, with more countries, institutions, and public figures openly acknowledging the Armenian Genocide. The recognition and remembrance of the Armenian Genocide are crucial steps in confronting the past, honoring the victims, and preventing similar atrocities from occurring in the future. The Armenian Genocide was recognized by the United States of American only in 2023"
-		},
-		"artsakh": {
-			"title": "Artsakh and the 1988 war with Azerbaijan",
-			"desc": "The Artsakh (Nagorno-Karabakh) conflict and the war between Armenia and Azerbaijan in 1988 were pivotal events in the region. The conflict emerged when the Nagorno-Karabakh Autonomous Oblast, primarily inhabited by ethnic Armenians, expressed its desire to join Armenia. In 1988, the regional legislature in Nagorno-Karabakh passed a resolution requesting the transfer of administrative control from Azerbaijan to Armenia. This led to protests and demonstrations, escalating tensions between the two communities. The conflict intensified in 1991 when both Armenia and Azerbaijan declared independence following the collapse of the Soviet Union. Armed clashes erupted, resulting in a full-scale war between the two countries. The war witnessed significant military operations, including the shelling of cities, ethnic cleansing, and large-scale displacement of people. The war lasted until 1994 when a ceasefire agreement was signed, leaving Nagorno-Karabakh and several surrounding regions under the control of ethnic Armenian forces. Despite the ceasefire, the conflict remained unresolved, and sporadic clashes continued over the years, leading to casualties and tensions between Armenia and Azerbaijan."
-		},
-		"further": {
-			"title": "Further conflicts in 2022",
-			"desc": "In recent events, Azerbaijan has launched attacks in various directions near the borders of Armenia, specifically targeting positions in Vardenis, Goris, Kapan, and Jermuk. The province of Syunik in southern Armenia has been occupied as a result. These attacks have not been limited to specific areas but have occurred along the entire Armenia-Azerbaijan border, including near Dilijan. Additionally, in response to the escalating conflict, young men aged 18 and above have been recruited and deployed to the front lines. The situation remains tense and continues to evolve as both sides are engaged in military actions."
-		},
-		"blockade": {
-			"title": "Ongoing blockade of Artsakh",
-			"desc": "The Lachin corridor, serving as the only passage connecting inland Armenia with Artsakh, has been effectively blocked by Azeri activists, whose actions have now been succeeded by the presence of Azerbaijani soldiers. This blockade has resulted in the isolation of Artsakh for an extended period exceeding 150 days. Consequently, the region is grappling with a severe scarcity of essential supplies, including food and medicine, which have been unable to reach those in need. Despite concerted efforts to provide humanitarian assistance, the delivery of aid has been obstructed, further exacerbating the already precarious circumstances faced by the people of Artsakh. The ongoing blockade has cast a deep shadow over the region, highlighting the urgent need for a resolution and the restoration of access to vital resources and support."
-		}
-	},
-	"projects": {
-		"portfolio": {
-			"title": "Portfolio",
-			"subtitle": "Personal presentation portfolio in Svelte",
-			"short": "Motivated by the requirement for a personal website for my maturity exam, I embraced the challenge and developed one using the Svelte framework.",
-			"long": "To push my boundaries, I chose to step out of my comfort zone and develop my portfolio website using Svelte and SvelteKit. Prior to implementation, I meticulously designed the website's layout and appearance using Figma. To cater to a wider audience, the website incorporates full translation capabilities between English and Italian, made possible through the integration of the i18n library. In terms of user experience, the website offers both a light and dark mode, allowing visitors to toggle between the two based on their preference. Ensuring easy maintenance and scalability, all the content on the website is dynamically rendered from a single source of truth. This setup enables hassle-free modifications to the website's content without the need to make changes to the source code itself.",
-			"issues": {
-				"state": "<b>Site-wide state:</b> Managing the state of the dark theme and language preference presented a challenge. I leveraged Svelte Stores to handle this, ensuring that user preferences were saved locally in the browser's local storage.",
-				"dynamic": "<b>Loading content dynamically:</b> Rather than hard-coding content and to enhance reusability, I sought a solution to load the website's content from an external source of truth. To avoid the need for a web server, I opted to utilize a \"constants.ts\" file. This file, structured based on TypeScript models, allowed for dynamic content rendering across the site.",
-				"responsive": "<b>Responsive design:</b> Crafting a responsive layout that adapted seamlessly across various devices and screen sizes was a significant challenge. I employed CSS media queries and flexible grid systems to achieve a visually appealing and functional design that catered to different viewing experiences."
-			}
-		},
-		"checkers": {
-			"subtitle": "Online checkers game",
-			"short": "Encouraged by my computer science teacher, I developed a checkers game. Initially, I considered using Java for local development, but ultimately decided to leverage web technologies like TypeScript and Next.js",
-			"long": "In my pursuit of challenging myself in developing the Checkers game, I decided to push the boundaries by creating a 3D interface. To accomplish this, I utilized Blender to design 3D models of the game pieces. To implement the 3D elements and render the models, I employed the open-source libraries Three.js and react-three-fiber. These powerful tools allowed me to create a dynamic and immersive 3D board for the game. To manage the application's state, I chose to utilize Jotai, as its atom-based state management system perfectly suited the requirements of the project. Its ease of use facilitated smooth integration within the game. Building upon my prior experience, I implemented the game using React and Next.js. These technologies provided a solid foundation and allowed me to leverage my existing knowledge effectively. Finally, thanks to Vercel, I was able to host the web page, making the game accessible and available for others to enjoy online.",
-			"issues": {
-				"state": "<b>State management:</b> The challenge involved refining the way the game's state was managed. I recognized the need for a more structured approach and created TypeScript models to represent different components of the state, such as BoardState, PieceState, and PlayerState.",
-				"moves": "<b>Calculating possible moves:</b> Implementing an algorithm to determine all possible moves a player could make posed a challenge. I developed a recursive path-finding algorithm that analyzed available moves, filtered them based on the game state, and sorted them by the number of steps the piece would take. I drew inspiration from Dijkstra's algorithm while creating this algorithm.",
-				"3d": "<b>3D modeling and rendering:</b> Creating 3D models of the checkers game pieces using Blender required skill and attention to detail. Additionally, implementing the rendering of these 3D models on the game board using Three.js and react-three-fiber was a technical challenge.",
-				"3dstate": "<b>Integrating state management with 3D interface:</b> Combining the state management system, Jotai, with the 3D interface created complexities that needed to be addressed. Ensuring smooth communication and synchronization between the game state and the 3D elements required careful coordination."
-			}
-		},
-		"letters": {
-			"subtitle": "Personal online treasure hunt for saint-valentine",
-			"short": "In celebration of Saint Valentine's Day and the desire to do something special for my long-distance relationship, I embarked on the creation of an online treasure hunt. This interactive experience allows the user to uncover the next letter or clue by solving a series of engaging puzzles"
-		},
-		"choices": {
-			"subtitle": "Decision tracking mobile application",
-			"short": "Mobile application that enables students to track and categorize their decisions.",
-			"long": "Designed for Android using Flutter, this app enables students to track and categorize their decisions, revealing correlations between past choices. By visualizing decision patterns, it promotes self-reflection and informed decision-making. With an intuitive interface, it empowers students to enhance their decision-making skills and cultivate self-awareness. Whether for academic, career, or personal choices, this app serves as a valuable tool to facilitate proactive and mindful choice management."
-		},
-		"instaclient": {
-			"short": "This open-source Python library enables developers to programmatically access Instagram features, providing a seamless way to integrate Instagram functionalities into their own applications and projects.",
-			"long": "Developed in Python 3, this library utilizes Selenium and Chromedrivers to scrape Instagram and emulate user interactions. It offers programmatic access to Instagram's functionalities, including logging in, following users, liking posts, sending DMs, and posting on the feed. The library has gained significant popularity, with over 140k downloads by developers worldwide. Its ease of use and comprehensive feature set make it a valuable tool for integrating Instagram features into various projects and applications."
-		}
-	},
-	"contents": "contents",
-	"sidebar": {
-		"contact": "contact me"
-	},
-	"activism": {
-		"fffto": {
-			"title": "Foundation of Fridays for Future Turin",
-			"desc": "In January 2019, I, along with a group of university students from Turin, took the initiative to establish the local chapter of Fridays For Future Turin. Inspired by the global movement led by Greta Thunberg, our aim was to raise awareness about the urgency of addressing climate change. I started participating in weekly strikes every Friday, which gradually gained momentum and attracted more participants. As my involvement grew, I acquired my first megaphone and created my first banner to amplify our message during the strikes. I also began engaging with newspapers, sharing our cause and mobilizing individuals to join us in the streets. One of the significant milestones in my activism journey was the coordination of the organization for the first global strike in Turin, which took place on March 15th, 2019. This event aimed to unite people from different backgrounds in demanding immediate action to combat climate change. By working closely with fellow activists and local communities, we successfully organized and mobilized a large number of participants to raise their voices and contribute to the global movement. Through these efforts, we aimed to draw attention to the pressing need for climate action, urging governments and society to prioritize sustainability and protect our planet for future generations."
-		},
-		"fffita": {
-			"title": "Foundation of Fridays For Future Italy",
-			"desc": "Following the establishment of Fridays For Future Turin, I recognized the importance of connecting with activists from various regions in Italy who were also beginning to organize strikes. To facilitate collaboration and support the growing movement, we formed a coordination group. Our primary objective was to establish effective communication channels, disseminate information, and provide necessary materials to the newly formed local chapters. As part of this coordination effort, I actively participated in the development of the first Fridays For Future Italia website, which served as a central platform for sharing resources, event updates, and educational materials. Additionally, I played a role in managing the organization's social media accounts, helping to amplify our message and reach a broader audience. As our movement expanded, I recognized the need for a more inclusive and democratic decision-making process within the coordination group. To ensure representation from all local chapters, I reached out to existing Fridays For Future groups throughout Italy, requesting the contact information of two democratically elected delegates from each chapter. This inclusive approach led to the formation of the first coordination groups, composed of delegates representing each local chapter. These coordination groups became instrumental in organizing the first national assemblies, where activists from across the country could come together, exchange ideas, and strategize for collective action. By fostering collaboration, inclusivity, and effective communication, our coordination efforts played a vital role in uniting the diverse Fridays For Future groups across Italy and laying the foundation for a strong and cohesive national movement."
-		},
-		"fffint": {
-			"title": "International Fridays For Future network",
-			"desc": "In addition to my involvement in the local and national Fridays For Future (FFF) movements, I actively engaged with activists from Sweden and embarked on a mission to establish an international network of Fridays For Future. Collaborating with fellow activists from Sweden, we started reaching out to like-minded individuals and groups across the globe, aiming to connect and unite the growing FFF movement worldwide. By fostering international collaboration and sharing resources, we laid the groundwork for the formation of the first international network of Fridays For Future. As part of this global initiative, I took on responsibilities in managing the International Fridays For Future website. This platform served as a central hub for information sharing, event coordination, and resource dissemination for activists from various countries. Recognizing the importance of effective communication within the global FFF network, I played a role in fostering dialogue and interaction between activists worldwide. This involved monitoring and facilitating communication across various platforms to ensure that messages, updates, and discussions were disseminated efficiently among the international FFF community. Given my active involvement and dedication, I had the privilege of representing Fridays For Future Italy on the international stage. As a representative, I frequently attended international meetings and gatherings, where I had the opportunity to exchange ideas, collaborate with fellow activists, and contribute to the global FFF movement. Through these endeavors, we succeeded in establishing a strong international network of Fridays For Future, enabling activists from different countries to unite their voices and efforts in the fight for climate action and a sustainable future."
-		},
-		"eu1": {
-			"title": "First international meeting at the EU Parliament in Strasbourg",
-			"desc": "Prior to the momentous global climate strike on March 15th, 2019, I had the unique opportunity to visit the European Parliament in Strasbourg, France, where I participated in a meeting with members of the Green party. This meeting served as a platform for activists from various European countries to come together and discuss the urgent issue of climate change. Representing Italy, I joined forces with fellow activists Miriam Martinelli and Vincenzo Mautone to advocate for climate action and express the concerns and demands of the Fridays For Future movement. Together, we collaborated with activists from across Europe to draft a charter of objectives and values that would serve as a guiding framework for the burgeoning international movement. During this pivotal gathering, we not only discussed the pressing need for immediate action to combat climate change but also shared plans and strategies for the upcoming global strike. With the global strike serving as a significant milestone in our movement, we emphasized the importance of solidarity, mobilization, and raising awareness about the urgent need for climate justice. By participating in this meeting and contributing to the discussions and planning, we aimed to strengthen the international collaboration among Fridays For Future activists, laying the foundation for a unified global movement fighting for a sustainable future. The experience at the European Parliament provided a valuable platform for dialogue and coordination, enabling us to synchronize efforts and amplify our message on a global scale. The charter and plans formulated during this meeting served as a roadmap for the impactful global strike that followed, demonstrating the collective strength and determination of the Fridays For Future movement."
-		},
-		"strikes": {
-			"title": "Global climate strikes",
-			"desc": "The global climate movement reached a pivotal moment on March 15th, 2019, with the first global strike organized by Fridays For Future. As a member of the international committee responsible for coordinating this historic event, I played a significant role in shaping its trajectory. In my local community of Turin, Italy, I took on the task of organizing the strike, which garnered remarkable participation. Over 30,000 individuals from diverse backgrounds united in Turin to raise their voices for climate action, sending a powerful message to policymakers and society at large. Following the success of the initial global strike, we recognized the importance of sustaining the momentum. Consequently, we established a bi-monthly rhythm for global climate strikes, selecting dates strategically to coincide with significant events or meetings such as the United Nations Conference of Parties (COP). By aligning our strikes with these key moments, we aimed to exert maximum pressure and amplify the urgency of addressing the climate crisis. In September 2019, Turin witnessed an awe-inspiring display of solidarity as more than 100,000 people united in a resounding call for climate justice. This remarkable turnout showcased the growing awareness and determination of individuals worldwide, with millions of others joining the strikes in various locations across the globe. These global climate strikes, including the momentous gathering in Turin, served as a clear testament to the widespread demand for immediate action on climate change. Through our collective efforts, we aimed to galvanize public support, raise awareness, and compel governments and institutions to prioritize the urgent need for sustainable solutions. The impact of these strikes reverberated globally, generating significant media coverage, fostering public discourse, and inspiring further activism. They symbolized the unwavering dedication of individuals from all walks of life who were united in their determination to protect our planet's future. The collective strength and magnitude of the global climate strikes demonstrated that addressing the climate crisis is a matter of utmost importance to people worldwide. It underscored the undeniable power of grassroots movements to effect meaningful change and sent a clear message to world leaders and policymakers that climate action must be a top priority. The global climate strikes continue to inspire and mobilize individuals around the world, serving as a constant reminder of the collective power we hold in shaping a sustainable future."
-		},
-		"aachen": {
-			"title": "International strike in Aachen",
-			"desc": "In June 2019, an exciting milestone was reached in the global climate movement as we organized the first international joint strike in Aachen. This event marked a significant step forward in our efforts to unite activists from different countries and amplify our collective voice for climate action. As part of the organizing team, I took on the responsibility of guiding the Italian delegation, which consisted of 30 passionate individuals dedicated to driving change. Our mission was to ensure that the Italian contingent made its presence felt at the strike and contributed to the overall impact of the event. To facilitate the participation of activists from various regions in Italy, I organized buses that traveled from different parts of the country to Basel. From there, we joined forces with Swiss and German activists, creating a united front for the journey to Aachen."
-		},
-		"assemblee": {
-			"title": "FFF Italy national assemblies"
-		},
-		"bruxelles": {
-			"title": "Occupation of the European Parliament on election day",
-			"desc": "In a significant turn of events, I had the honor of being invited by Anuna de Waver, the prominent figure of the Belgian Fridays For Future movement, to represent Italy at an international strike in Brussels. The timing of the strike held great significance as it coincided with the upcoming European elections, offering an opportune moment to raise awareness about the urgent need for climate action. Following the impactful strike, our determination to make an even stronger statement led us to undertake a symbolic act of occupying the Parliament building. In a display of peaceful protest, we set up tents at the entrance of the Parliament, intending to draw attention to the pressing climate crisis and to demand greater political commitment to environmental sustainability. During the occupation, some of us were unfortunately arrested for our peaceful actions. However, the indomitable spirit of the movement persevered, with Luisa Neubauer, the renowned face of the German Fridays For Future movement, stepping forward to mediate with Members of Parliament and the police authorities. This mediation aimed to foster understanding and emphasize the urgency of the climate crisis, highlighting the need for bold and immediate action. This act of occupation was a testament to the commitment and dedication of activists who were willing to take a stand for the future of our planet. By occupying the Parliament, we sought to bring attention to the pressing need for lawmakers to prioritize climate issues and work towards effective solutions. The occupation and subsequent dialogue with authorities served as a powerful reminder of the strength and determination of the Fridays For Future movement. It showcased our unwavering resolve to hold those in power accountable for their actions, demanding tangible efforts to combat the climate crisis."
-		},
-		"smile": {
-			"title": "SMILE (Summer Meeting in Lausanne, Europe)",
-			"desc": "During the summer of 2019, I had the privilege of being part of the Italian delegation at the Second International Fridays For Future meeting, known as the SMILE (Summer Meeting in Lausanne, Europe). This gathering provided an invaluable opportunity for activists from different countries to come together and exchange ideas, strategies, and experiences in the fight against the climate crisis. As an active participant in the organization of the meeting, I played a significant role in shaping its overall structure and direction. One notable contribution was coining the name \\\"SMILE\\\" for the event, which symbolized our collective determination to bring positivity and hope to our shared mission. In addition to my involvement in the event's organization, I also took on the responsibility of overseeing the selection process for the Italian delegation attending the meeting. This involved reviewing applications, conducting interviews, and ultimately assembling a diverse and passionate group of Italian activists who would represent our country at the SMILE. During the meeting, intense discussions were held on various topics, including the movement's goals, objectives, values, and plans for the future. These conversations were crucial in aligning our collective vision and establishing a common framework to guide our actions moving forward. By sharing our insights and learning from each other's experiences, we were able to foster a sense of solidarity and unity within the international Fridays For Future community."
-		},
-		"senato": {
-			"title": "Meeting at the Italian Senate of the Republic",
-			"desc": "During Greta Thunberg's visit to the Italian Senate of the Republic, I had the privilege of being part of a small delegation representing the Italian Fridays For Future movement. This was an extraordinary opportunity to engage with prominent figures and contribute to the dialogue surrounding climate change. Working closely with the Roman chapter of Fridays For Future, we organized a momentous strike in Piazza del Popolo. The strike attracted an impressive turnout, with over 50,000 individuals joining us to demand immediate action to address the climate crisis. This mass mobilization showcased the growing awareness and support for climate activism in Italy. At the Italian Senate, a significant meeting took place where I had the honor of meeting and engaging in discussions with President Casellati and Greta Thunberg herself. This meeting provided a vital platform to express our concerns, share our perspectives, and advocate for more ambitious climate policies and measures."
-		},
-		"dec": {
-			"title": "Climate Emergency Declarations",
-			"desc": "During the SMILE meeting, one of the agreed-upon initiatives was the call for local institutions to declare a Climate Emergency. I actively participated in the process of drafting and securing approval for two Climate Emergency Declaration motions. The first motion was organized in my hometown of Buttigliera Alta. Together with Erika Trulla, we wrote the motion and submitted it to the local council. After careful consideration, the motion was successfully approved, attracting attention and making headlines in the valley. Additionally, I contributed to the drafting of the Climate Emergency Declaration motion for the city of Turin. Collaborating closely with the city's councilor on environment, we worked to incorporate concrete proposals into the motion. Through our collective efforts, the motion was passed, signifying the city's commitment to addressing the climate crisis. Furthermore, I helped in development of the Climate Emergency Declaration motion for the regional government of Piedmont. Unfortunately, despite our collaborative work, the motion was ultimately voted down. By actively engaging with local institutions and advocating for Climate Emergency Declarations, we aimed to raise awareness and encourage action on the pressing issue of climate change at various levels of governance."
-		},
-		"greta": {
-			"title": "Greta's climate strike in Turin",
-			"desc": "When Greta Thunberg was returning from the COP25 in Madrid in 2019, she made planned stops along the way to engage with local activists. On a Wednesday evening, I received a call from Luisa Neubauer, the prominent face of Fridays For Future Germany, informing me of Greta's intention to stop in Turin for the weekly strike on Friday. Without wasting any time, I immediately rallied my local group and we swiftly organized the event. Recognizing the need for a stage, I reached out to the NoTAV movement, who graciously provided us with one on short notice. To ensure the event's success, I also contacted local community centers in Turin, who assisted us in gathering necessary materials for an audio system. Taking on the responsibility of security, I maintained constant communication with the Digos (police) to ensure a safe and orderly gathering. Given the significance of the occasion, we invited the press to cover the event. Managing the overwhelming response, we diligently processed over 500 media requests and issued the necessary accreditations. The strike in Turin attracted approximately 10,000 participants who eagerly gathered to hear Greta Thunberg deliver a powerful speech."
-		}
-	},
-	"locations": {
-		"turin": "Turin",
-		"italy": "Italy",
-		"strasbourg": "Strasbourg, France",
-		"aachen": "Aachen, Germany",
-		"bruxelles": "Bruxelles, Belgium",
-		"lausanne": "Lausanne, Switzerland",
-		"rome": "Rome, Italy"
-	}
+  "page": {
+    "home": {
+      "definition-of": "definition of",
+      "proper-noun": "proper noun",
+      "intro": "David is studying applied science at the IIS Blaise Pascal high school in Giaveno. He is passionate about computer science and actively engaged in climate activism. David is fluent in Italian, English (Cambridge C2), and is learning German (Goethe B1). He has made the decision to pursue computer science at Maastricht University starting next year. In the future, he aspires to delve into the application of machine learning in predicting extreme weather events.",
+      "giacomo": "public secondary school giacomo jaquerio",
+      "pascal": "IIS Blaise Pascal: Applied Sciences High School",
+      "uwcdilijan": "UWC Dilijan College: IB Diploma",
+      "maastricht": "Maastricht University: BSc Computer Science",
+      "projects": "projects and extracurriculars",
+      "academics": "academics",
+      "view-my-curriculum": "view my curriculum",
+      "work-experience": "work experience",
+      "work": "During my internship at Mediamente Consulting, a Business Intelligence company in Turin, I was tasked with developing a car booking system for managing internal employee rentals. I began by designing the website pages using Figma, and once approved, I proceeded to implement the design on the company's codebase. To bring the car booking system to life, I utilized PHP, raw JavaScript, and SCSS. I carefully developed the backend functionalities using PHP to ensure seamless communication with the company's database. With JavaScript, I added interactive elements and dynamic features to enhance the user experience.",
+      "DEC-text": "I drafted and proposed a motion for the Declaration of Climate Emergency to the City Council of Turin. With the support of the environmental councilor, the motion was approved.",
+      "checkers-text": "Took on a project recommended by the computer science teacher and successfully developed an online 3D checkers game using web technologies",
+      "tedx-text": "organized a TEDxYouth Conference hosted by UWC Dilijan in Dilijan, Armenia, showcasing inspiring speakers and ideas to empower and engage youth.",
+      "civics-text": "During my year abroad in Armenia, I gained a deep understanding of the challenges faced by the Armenian people. I was exposed to the tragic history of the Armenian genocide, perpetrated by the Ottoman Empire, which, even today, lacks full international recognition. Additionally, I learned about the ongoing conflicts and wars between Armenia and Azerbaijan concerning the Nogorno Karabakh region. These experiences shed light on the struggles endured by Armenian youth, who live with the constant fear of being conscripted into the army from a young age. Witnessing these hardships firsthand awakened my empathy and strengthened my commitment to advocating for justice and peace. It deepened my appreciation for the resilience and determination of the Armenian people, who persist in the face of adversity. This experience prompted me to organize a project to raise awareness about the struggles of the Armenian people in my high school in northern Italy.",
+      "genocide-link": "Learn more about the armenian genocide",
+      "gallery": "photo gallery",
+      "civics": "civics"
+    },
+    "projects": {
+      "challenges": "Challenges",
+      "title": "personal projects.",
+      "view": "open project",
+      "code": "source code"
+    },
+    "work": {
+      "intro": "Here, you'll find a collection of my work and expertise in the fields of computer science, software engineering, and tutoring. As a passionate individual in these areas, I strive to deliver exceptional solutions and share my knowledge with others. Looking ahead, my aspirations lie in merging computer engineering with climate science to address the pressing challenges of our environment. Explore my projects, tutorials, and insights as we navigate the intersection of technology and sustainability.",
+      "title": "work experience.",
+      "at": "at",
+      "overview": "Project Overview",
+      "requirements": "Project Requirements",
+      "tech": "Technologies Used",
+      "work-with-me": "work with me",
+      "other": "view my other projects"
+    },
+    "civics": {
+      "intro": "The Armenian Genocide refers to the systematic mass killings and forced deportations of the Armenian population by the Ottoman Empire during World War I, resulting in the loss of countless lives and cultural heritage. Today, the genocide remains a contentious issue, as it is not universally recognized. Additionally, ongoing conflicts and territorial disputes persist between Armenia and Azerbaijan, particularly concerning the Nagorno-Karabakh region.",
+      "year-abroad": "year abroad in armenia",
+      "view-the-slides": "view the slides",
+      "title": "genocide and war in armenia."
+    },
+    "activism": {
+      "intro": "My journey in climate activism began in 2019 when I joined the global movement Fridays for Future. Passionate about combating climate change, I took an active role in organizing and mobilizing for environmental action. As part of my dedication, I played a crucial role in establishing the Italian chapter of Fridays for Future, working alongside like-minded individuals to create a strong platform for advocacy and awareness. In addition, I was honored to serve as a delegate for FFF Italy, fostering coordination and collaboration between national chapters to amplify our collective impact",
+      "title": "climate activism.",
+      "readmore": "read the articles",
+      "press": "read in the press"
+    },
+    "publications": {
+      "title": "publications.",
+      "get-copy": "get a copy"
+    },
+    "curriculum": {
+      "link": "download my curriculum"
+    },
+    "academics": {
+      "intro": "internationally oriented student, aiming at employing computer science in the field of climate science",
+      "currently": "currently studying at",
+      "history": "Academic history"
+    },
+    "extracurriculars": {
+      "title": "extracurriculars.",
+      "area": "related to"
+    },
+    "certifications": {
+      "title": "certifications."
+    },
+    "photo": {
+      "title": "photography."
+    },
+    "contact": {
+      "title": "contact me.",
+      "social": "You can reach out to me via social media",
+      "email": "Or you can reach out via email: davidwickerhf@gmail.com"
+    }
+  },
+  "tabs": {
+    "personal-projects": "personal projects",
+    "welcome": "welcome!",
+    "academics": "academics",
+    "extracurriculars": "extracurriculars",
+    "certifications": "certifications",
+    "work-experience": "work experience",
+    "activism": "activism",
+    "publications": "publications",
+    "photography": "photography",
+    "civics": "civics"
+  },
+  "general": {
+    "lorem-ipsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "lorem-ipsum-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    "by": "by",
+    "through": "through",
+    "read-less": "read less",
+    "read-more": "read more"
+  },
+  "gallery": {
+    "uwc": {
+      "title": "UWC Day",
+      "text": "International peace day and United World Colleges Day. On such occasions, students in the different colleges are asked to come together and showcase their cultures"
+    },
+    "gyumri": {
+      "title": "Trip to Gyumri, Armenia",
+      "text": "Excursion to Gyumri, one of the largest cities of Armenia located near the Turkish border."
+    },
+    "sustco": {
+      "title": "Climate Justice Strike in UWC Dilijan"
+    },
+    "tedx": {
+      "title": "TedX Youth Conference at UWC Dilijan"
+    },
+    "lastday": {
+      "title": "Last school day (2021)"
+    },
+    "barcelona": {
+      "title": "High School trip to Barcelona"
+    },
+    "owe": {
+      "title": "UWC Italy OWE",
+      "text": "Introduction days to the UWC Colleges in Rome, Italy"
+    }
+  },
+  "academics": {
+    "giacomo": {
+      "short": "junior high school",
+      "istitution": "Giacomo Jaqueiro",
+      "diploma": "Junior High School Diploma",
+      "desc": "I attended the junior high school in Buttigliera Alta and achieved outstanding results, graduating with a top grade of 100 cum laude. My graduation \"mini-thesis\" focused on the intersection of Artificial Intelligence, Turing\\'s Machine, and ethical considerations in computing. To showcase my knowledge and skills, I programmed a math game in C# for the final oral exam and even challenged my professors to play.",
+      "projects": {
+        "contest": {
+          "desc": "I had the opportunity to organize a photography competition for Giacomo Jaqueiro Middle School in collaboration with the technology teacher and the Italian teacher. My main task was to create a website for the competition registrations, where I also formulated the official competition rules. Later on, I decided to extend the competition to the whole country, in collaboration with the municipality of Buttigliera Alta. To ensure the proper evaluation of the photographs, I formed a committee of professional photographers who were responsible for selecting the winners. Together with the school, I also prepared prizes for the winners. The final phase of the competition was the announcement of the winners. I organized an event at the school where the winners were announced, and their success was celebrated. I felt very satisfied with the work done and was delighted to see the students' participation in the competition.",
+          "title": "Photography contest"
+        }
+      }
+    },
+    "status": {
+      "completed": "completed",
+      "current": "currently attending",
+      "dp1": "completed DP1"
+    },
+    "pascal": {
+      "short": "high school",
+      "diploma": "Applied sciences high school diploma",
+      "desc": "I attended the \"IIS Blaise Pascal\" Applied Sciences high school in Giaveno, driven by my passion for computer science. In my first year, I developed an app to assist teachers in selecting students for oral tests. Throughout my second and third years, I was honored to receive academic merit scholarships from the school. During my high school years, I successfully balanced my academic pursuits with my dedication to climate activism. In fact, I founded the Fridays For Future Turin movement and actively participated in promoting environmental awareness. In my third year, I embarked on the application process for the United World Colleges, and I was elated to be accepted for studies in Armenia. Upon returning from Armenia, I took the initiative to organize seminars and lessons to educate others about the Armenian genocide and the ongoing conflicts in the region.",
+      "projects": {
+        "armenia": {
+          "title": "Project Armenia",
+          "desc": "After my experience abroad in Armenia, I realized that I had a responsibility to raise awareness among people about the war situation in the country. I got in touch with a student of Armenian origin at Pascal School, and together we worked to create a series of seminars about Armenia that could reach all the classes and students in the school. The project was named the Armenia Project and was included in this year's civic education program. Furthermore, in coordination with the vice principal, we established the seminar dates and created the content, which covered the historical and cultural context of Armenia, as well as the geopolitical and cultural reasons behind the conflict with Azerbaijan. We managed to engage a large number of students, and the feedback was very positive. The project allowed us to educate people about the situation in Armenia and raise awareness about the geopolitical and cultural aspects of the conflict. This project was a great opportunity for me and my Armenian partner to promote peace and understanding through education."
+        },
+        "dama": {
+          "title": "Checkers Project",
+          "desc": "Encouraged by my computer science teacher, I embarked on a project to develop a game for the CS class. Opting to test my coding abilities, I chose to create a checkers game. Initially, I considered using Java for local development, but ultimately decided to leverage web technologies like TypeScript and Next.js. Seeking an extra challenge, I set out to code a 3D interface for the game. With determination and perseverance, I successfully completed the project and proudly published it online for others to enjoy. This experience allowed me to not only sharpen my coding skills but also showcase my ability to adapt and explore new technologies."
+        },
+        "tutoring": {
+          "title": "Tutoring Project",
+          "desc": "I collaborated as a computer science tutor in the Tutoring Project at Pascal, initiated by Blaise Pascal School. I provided computer science tutoring to students at the school, both in-person and online during the COVID-19 pandemic. My role involved reinforcing the topics covered in school and assisting students with specific difficulties in understanding the subject matter. I coordinated with the computer science teacher, Veronica Cinti, to organize the lessons and plan the topics to be covered. We were able to provide personalized support to the students by identifying their weaknesses and offering targeted lessons to address their difficulties. I was very pleased to be able to be helpful to the school and the students and contribute to their educational journey. I tried to stimulate their curiosity by encouraging them to explore more advanced topics and providing them with insights to delve deeper into subjects of their interest."
+        },
+        "reply": {
+          "title": "Reply Code Challenge",
+          "desc": "Upon the advice of Professor Cinti, another student from IIS Blaise Pascal and I successfully participated in the Reply Code Challenge competition, showcasing our programming skills and proudly representing our school."
+        },
+        "film": {
+          "title": "Documentary \"Irresponsible Children\"",
+          "desc": "I was fortunate to have the opportunity to meet Ezio Maisto, a director who was looking to make a documentary about the Fridays for Future movement, and I became one of the main characters in the documentary titled \"Irresponsible Youth.\" For a whole year, I actively participated in the filming, documenting the climate change demonstrations and protests in which I was involved, alongside other young activists. Thanks to this documentary, I had the chance to share my experience with a broader audience, giving voice to the concerns that I share with many others regarding the future of our planet. I am happy to share that the documentary \"Irresponsible Youth\" was awarded at the Cinemambiente film festival in Turin, an important event dedicated to films and documentaries addressing environmental issues, as well as at the fiftieth edition of the Giffoni Film Festival. The documentary is still available online on Mediaset's Infinity+ platform."
+        }
+      },
+      "istitution": "IIS Blaise Pascal"
+    },
+    "uwc": {
+      "short": "year abroad",
+      "istitution": "UWC Dilijan College",
+      "diploma": "International Baccalaureate (DP1)",
+      "desc": "Following a rigorous selection process facilitated by the Italian UWC committee, I was awarded an academic scholarship to study at UWC Dilijan College in Armenia. Pursuing the International Baccalaureate (IB) program, I had the freedom to choose my exam subjects based on my interests and aspirations. UWC Dilijan College boasted a vibrant and multicultural environment, with students representing more than 90 different nationalities. This diversity extended to the faculty as well, with professors bringing varied backgrounds and perspectives to the classroom. However, due to the resurfacing conflict between Armenia and Azerbaijan, I regrettably had to return to Italy after successfully completing DP1 (Diploma Program Year 1). Nonetheless, the experience I gained during my time at UWC Dilijan was invaluable, exposing me to global perspectives and fostering lifelong connections with peers from around the world.",
+      "projects": {
+        "tedx": {
+          "title": "TedX Youth @ UWCDilijan",
+          "desc": "TED (Technology, Entertainment, Design) is an annual conference founded in 1984 with the goal of spreading ideas and knowledge through motivational speeches of maximum 18 minutes. The main event takes place in Vancouver, Canada, but TED has also organized TEDx events worldwide. TEDxYouth is a version of the TEDx format that focuses on young people under 18 years old and aims to inspire them to spread ideas and innovative solutions to the challenges their generation faces. Along with other students from my school in Armenia, I was involved in forming the organizing team for the TEDxYouth@UWCDilijan conference. With my experience in event organization, I took on the responsibility of handling the event LOGISTICS, assigning tasks, and COORDINATING the team's activities."
+        },
+        "yearbook": {
+          "title": "Yearbook Committee",
+          "desc": "During the 2021-2022 school year, I had the fortunate opportunity to join the Yearbook Committee at UWC Dilijan School. Being passionate about photography, my focus was on collecting photos of school events and social moments to include in the yearbook. Additionally, together with another photographer at the school, we worked hard to capture portraits of all the students and teachers, aiming to capture each individual's personality. \n\nDuring the yearbook's design phase, I contributed to the layout and arrangement of the pages, striving to create a visually appealing product. I also handled logistics, ensuring that all the collected images were of high quality and ready for printing."
+        },
+        "sustco": {
+          "title": "Sunstainability Committee",
+          "desc": "During my year abroad, I had the honor of being ELECTED to be part of the Sustainability Committee at the prestigious international school, UWC Dilijan College. In this role, I had the opportunity to collaborate with the committee in ORGANIZING a series of sustainability projects aimed at making the school more environmentally friendly and responsible. Specifically, I had the opportunity to engage and MEDIATE with the school administration for the implementation of sustainable policies such as energy conservation and the installation of solar panels to reduce the school's environmental impact. Additionally, I worked with the municipality of Dilijan and an NGO in Yerevan to establish a recycling system for the school. With my knowledge and passion for sustainability, I contributed to educating students about environmental issues, promoting waste segregation and recycling, as well as advocating for more sustainable behaviors in their daily lives. Furthermore, I actively participated in organizing various committee activities, providing support in coordinating and organizing sustainability-related events."
+        },
+        "panel": {
+          "title": "UWC Climate Panel",
+          "desc": "I served as a SUSTAINABILITY COORDINATOR at UWC Dilijan College and had the honor of organizing the INTERNATIONAL CLIMATE SEMINAR called 'UWC Climate Panel'. The event took place online and involved numerous experts in the field of sustainability, including scientists, communicators, and activists. I personally contacted each of them to ensure their availability to speak at the event. The main objective of the UWC Climate Panel was to raise awareness among the international community about the need to promote sustainability and address the global challenges of climate change. Additionally, we aimed to highlight the difficulties faced by communities most affected by climate change on a daily basis and the role of indigenous communities in the fight for environmental and climate defense. One of the most challenging aspects of organizing the seminar was coordinating the various UWC campuses scattered around the world. Thanks to Zoom, we were able to connect the 18 UWC colleges so that students could participate in real-time and ask questions to the speakers. I had the responsibility of MODERATING the discussion and collecting questions from the audience and students so that the speakers could address their concerns and inquiries."
+        },
+        "outdoor": {
+          "desc": "I was SELECTED as a member of the Outdoor Leadership Committee at UWC Dilijan School in Armenia. I worked closely with our teacher, a veteran of the 44-day war between Armenia and Azerbaijan, to COORDINATE the school's sports activities. It was an incredible experience to participate in numerous excursions across Armenian territory, including hiking and climbing. The most memorable one was a week-long trek in the Armenian mountains, which also included an introduction to cave exploration. I was thrilled to have the responsibility of managing winter ski trips to the Soviet-era ski resorts in Tsaghkadzor and providing skiing lessons to my peers. This experience taught me how to work in teams and handle emergency situations in remote and challenging environments. Additionally, it allowed me to discover the natural beauty of Armenia and appreciate the local culture."
+        }
+      }
+    },
+    "maas": {
+      "desc": "With a keen interest in computer science, I have been accepted into Maastricht University to pursue my bachelor's degree in the field. Maastricht's dynamic and diverse environment drew me in, offering an enriching academic experience. Beyond my love for computer science, I am also deeply aware of the climate crisis. I aspire to merge my passion for technology with my concern for the environment, seeking ways to leverage computer science to address climate science challenges. Looking ahead, I envision myself completing a bachelor's degree that provides a strong foundation in computer science. With this knowledge, I plan to pursue a Master's degree in Machine Learning, delving deeper into the fascinating world of artificial intelligence and its applications. My academic journey in Maastricht is driven by a desire to make a meaningful contribution to the intersection of computer science and climate science. I am excited to embark on this path and explore the vast possibilities that lie ahead.",
+      "projects": {
+        "m4c": {
+          "title": "Maastricht for Climate",
+          "desc": "I have been accepted at Maastricht University, where I will specialize in computer engineering. From the beginning, I started looking for opportunities to connect with the students and the environmental reality of the city. During this search, I got in touch with the activists from Maastricht for Climate (M4C), a non-profit NGO led by university students. Since the organization looks for new members every year to fill important positions, I decided to APPLY to become the new president of the NGO based on my previous experience in climate activism. The members of the NGO voted in favor of me, and my term will begin in August. Currently, I am actively working on organizing events for the month of September. One of the first events I will attend is the welcoming event for new students at Maastricht University, where my task will be to REPRESENT the NGO and recruit new members. I am excited about this new role and hope to play an active part in organizing projects that promote sustainability and the fight against climate change in my university community."
+        }
+      }
+    }
+  },
+  "extracurriculars": {
+    "area": {
+      "cs": "related to Computer Science",
+      "climate": "related to Climate and Sustainability",
+      "leadership": "related to Leadership",
+      "community": "related to Creativity and Community"
+    },
+    "role": {
+      "student": "Student",
+      "coordinator": "Coordinator",
+      "protagonist": "Protagonist",
+      "organizer": "Organizer",
+      "speaker": "Speaker",
+      "president": "President",
+      "delegate": "Delegate",
+      "tutor": "Computer Science Tutor",
+      "member": "Member"
+    },
+    "stemai": {
+      "activity": "STEM campus \"Intro to Artificial Intelligence and Computer Vision\"",
+      "desc": "I was a student at the STEM Campus at the Luigi Lagrange School of Scientific Education, where I participated in the course \"Introduction to Artificial Intelligence and Computer Vision.\" My experience was highly educational, and I learned many fundamental concepts for my professional growth. During the course, I had the opportunity to learn how to use machine learning algorithms to control the movements of a toy car using sensors and a series of coding programs."
+    },
+    "stemki": {
+      "activity": "STEM campus \"Programmieren 4.0 - Künstliche Intelligenz\"",
+      "desc": "I was a student at the PROGRAMMIEREN 4.0 KÜNSTLICHE INTELLIGENZ campus at ComputerCamp in Föckinghausen. During the course, I had the opportunity to deepen my programming knowledge and learn the basics of C# and Python, two essential programming languages for software and application development. What fascinated me the most was learning to develop machine learning algorithms for autonomous driving in video games. Through lessons and hands-on activities, I learned how to use the right tools to create algorithms that could learn from data and improve over time."
+    },
+    "sustco": {
+      "activity": "Sustainability Committee"
+    },
+    "docu": {
+      "activity": "Documentary \"Ragazzi Irresponsabili\"",
+      "desc": "I was fortunate to have the opportunity to meet Ezio Maisto, a director who was working on a documentary about the Fridays for Future movement, and I became one of the main characters in the documentary titled \"Irresponsible Youth.\" For a whole year, I actively participated in the filming, documenting the climate change demonstrations and protests in which I was involved, alongside other young activists. Thanks to this documentary, I had the chance to share my experience with a broader audience, giving voice to the concerns that I share with many others regarding the future of our planet. I am happy to share that the documentary \"Irresponsible Youth\" was awarded at the Cinemambiente Film Festival in Turin, a significant event dedicated to films and documentaries addressing environmental issues, as well as at the fiftieth edition of the Giffoni Film Festival. The documentary is still available online on Infinity+ by Mediaset."
+    },
+    "tedc": {
+      "desc": "I was invited to REPRESENT Fridays For Future at the TED Countdown Summit 2022 in Edinburgh, an event that aims to bring attention to the fight against climate change. I attended the conference, where I met numerous activists from different countries, including Alexandria Villaseñor and Ayisha Siddiqa, with whom I collaborated in conducting seminars on the importance of activism in the climate fight. During the summit, I MEDIATED between the TED organizing team and the group of invited activists in managing a panel with Shell CEO, Ben van Beurden. However, together with a group of activists, we decided to BOYCOTT Ben van Beurden's speech, urging the audience to leave the room in light of Shell's environmentally damaging activities. I also had the opportunity to meet several prominent figures actively engaged in the climate battle, including VICE PRESIDENT AL GORE, UNFCCC Secretary Patricia Espinosa, Christiana Figueres, and Emma Watson."
+    },
+    "osocc": {
+      "desc": "I was fortunate to participate in the intensive course \"Oxford Climate School\" organized by the Oxford Climate Society. The course provided a comprehensive and in-depth overview of climate change and environmental policies, with a particular focus on sustainable development models. Experts in the field delivered a series of lectures on environmental issues and climate change, analyzing their causes and possible solutions. Additionally, we had the opportunity to engage in discussions and practical activities, applying what we had learned."
+    },
+    "bocconi": {
+      "institution": "Bocconi University",
+      "desc": "After a selection process, I had the opportunity to participate as a student in the \"International Politics\" and \"EU for Sustainable Development\" courses at the Bocconi Summer School. These were two very interesting courses that allowed me to deepen my knowledge of international political and economic issues, as well as environmental challenges and sustainable development. \n\nThe Bocconi Summer School is a summer program organized by the prestigious Bocconi University in Milan, dedicated to university students from around the world who want to enhance their knowledge in a stimulating and international academic environment. \n\nDuring the program, students have the opportunity to choose from a wide range of courses in various disciplines, including economics, finance, management, law, and political science."
+    },
+    "imun": {
+      "desc": "I participated in the Italian Model United Nations in Turin for two consecutive years, an event that simulates United Nations sessions where students from around the world come together to discuss global issues and seek solutions. I found this experience extremely stimulating and rewarding as it provided me with the opportunity to improve my communication, teamwork, and problem-solving skills. I participated in various committees, including the Human Rights Committee and the Sustainable Development Committee, where I had to negotiate with other delegates, make important decisions, and strive to find compromises to address the issues at hand. Additionally, I involved some of my classmates in this experience, helping them prepare for the Model United Nations and providing support during the event. I was awarded an Honorable Mention in my first year and won the Best Delegate award in my second year, which made me feel very proud of the work I had done."
+    },
+    "tutor": {
+      "desc": "I collaborated as a computer science tutor in the Pascal Tutoring project, initiated by Blaise Pascal School. I provided computer science lessons to students at the school, both in-person and online during the COVID-19 pandemic. My role involved reinforcing the topics covered in school and assisting students with specific difficulties in understanding the subject matter. I coordinated with the computer science teacher, Veronica Cinti, to organize the lessons and plan the topics to be covered. We were able to provide personalized support to the students by identifying their weaknesses and offering targeted lessons to address their difficulties."
+    }
+  },
+  "certifications": {
+    "type": {
+      "language": "Language certifications",
+      "climate": "Climate certifications",
+      "cs": "Computer Science certifications",
+      "mooc": "MOOC certifications"
+    }
+  },
+  "work": {
+    "mediamente": {
+      "overview": "During my PCTO (Periodo di Collaborazione Temporanea e Obbligatoria) experience, which is a mandatory requirement for the Italian final exam, I had the opportunity to work as an intern at Mediamente Consulting. Over a period of slightly over two weeks, I dedicated myself full-time to this role. My primary task was to develop a booking system to streamline the company's rental management processes. Working closely with my supervisor, I utilized my skills in PHP and JavaScript to create a robust system. Once completed, I seamlessly integrated the booking system into the company's existing website code base. This valuable hands-on experience allowed me to apply my programming knowledge in a real-world setting, honing my technical skills and problem-solving abilities. Furthermore, it provided me with a deeper understanding of the practical applications of software development within a professional environment.",
+      "issues": {
+        "1": "Working with an existing code base written by another author posed challenges, especially since it was originally designed as a standalone static website and not a web app. To make the necessary modifications, I had to implement a Model-View-Controller (MVC) architecture from scratch using vanilla PHP and JavaScript. This involved understanding the existing code structure, identifying the key components, and redesigning them to fit the requirements of the booking system.",
+        "2": "Connecting the backend and frontend proved to be a challenge due to the absence of a framework in the original code base. This meant that managing the communication and data flow between the backend and frontend had to be handled manually. To achieve this, I relied on jQuery to handle dynamic updates to the user interface (UI) and synchronize the data with the backend. It required meticulous attention to detail and careful coordination to ensure a seamless integration between the different components of the system.",
+        "3": "One additional hurdle I faced was learning PHP on the go. Since I took on the project without prior knowledge of PHP, I had to quickly familiarize myself with the language to effectively navigate and work with the existing code base. This involved studying PHP syntax, understanding its principles, and leveraging online resources and documentation to grasp the intricacies of the language. It was a valuable learning experience that allowed me to expand my programming skills and adapt to new technologies and frameworks."
+      },
+      "req": {
+        "calendar": "Calendar functionality to display booked dates for each car."
+      }
+    },
+    "mediamemte": {
+      "req": {
+        "widget": "Widget displaying current bookings and available cars in real-time.",
+        "table": "Table showcasing all company cars with relevant details (e.g., model, availability, location, last revision).",
+        "booking": "Ability for users to book a car, specifying desired dates and additional preferences.",
+        "auth": "User authentication and role-based access to ensure secure booking management.",
+        "db": "Integration with a database to store and retrieve car booking information.",
+        "search": "Search and filtering options to find specific cars based on criteria (e.g., location, features).",
+        "reservations": "Reservation management system to handle conflicts, overlapping bookings, and car availability updates.",
+        "responsive": "Responsive design for seamless usage across devices (desktop, mobile, tablets).",
+        "admin": "Administrative features for system maintenance, including adding/removing cars, updating car details, and generating reports."
+      }
+    }
+  },
+  "publications": {
+    "revolution": {
+      "desc": "I had the opportunity to meet Katie Redford, a lawyer specializing in environmental issues and the defense of activists, after encountering legal issues related to my participation in the occupation of the European Parliament. With her support, I was fortunate enough to attend a meeting with activists at the Rockefeller Foundation headquarters in Bellagio, where I was able to engage in discussions with activists from different parts of the world who were involved in similar environmental battles. The participants in the meeting included Ka Hsaw Wa, a Burmese activist who has been fighting against Exxon Mobil's lobbying efforts his whole life, and Farhana Yamin, a lawyer for Extinction Rebellion. We had the opportunity to exchange ideas and discuss the best strategies to combat the environmental causes that are important to us. Later on, I participated in an interview that was included in the book written by Katie Eder and Mark Gevisser, titled 'The Revolution Will Not Be Litigated.' The book features a foreword by Jane Fonda, a review by Greta Thunberg, and a review by the former dean of Yale Law School."
+    },
+    "stonesoup": {
+      "desc": "I came into contact with author Marianne Larned, who was writing a book about climate change and the activists fighting to preserve the environment. I was honored to be included in the book alongside 100 other climate activists. This book was later used as inspiration for developing a climate change and activism curriculum in schools across Massachusetts, through the non-governmental organization \"Stone Soup for a Sustainable World.\" My experience as an activist was utilized to create an interactive educational curriculum that helped raise awareness about climate change and the actions we can take to protect the environment. I was particularly thrilled to learn that the book received positive reviews from figures such as Matt Damon, Danny Glover, and Jane Goodall, which demonstrates the importance and relevance of the themes addressed in the book."
+    }
+  },
+  "civics": {
+    "44": {
+      "title": "44 day war of 2020",
+      "desc": "The 44-day war in 2021 between Armenia and Azerbaijan, often referred to as the Second Nagorno-Karabakh War, was a significant escalation of the longstanding conflict over the Nagorno-Karabakh region. The war began on September 27, 2020, when intense fighting broke out along the line of contact between Armenian and Azerbaijani forces. The conflict saw heavy artillery shelling, air strikes, and ground offensives from both sides. The use of advanced weaponry, including drones, played a significant role in the hostilities. Azerbaijan made significant territorial gains during the war, recapturing several districts surrounding the Nagorno-Karabakh region that had been under Armenian control since the early 1990s. The Azerbaijani forces also advanced into parts of Nagorno-Karabakh itself, including the strategically important city of Shusha. The war resulted in a high number of casualties on both sides, including civilians, and led to the displacement of thousands of people. There were also reports of war crimes and human rights abuses committed by both Armenian and Azerbaijani forces. A ceasefire agreement brokered by Russia was signed on November 10, 2020, effectively ending the active phase of the conflict. Under the agreement, Azerbaijan retained control over the territories it had recaptured during the war, while a Russian peacekeeping contingent was deployed to oversee the ceasefire and ensure stability in the region. The war had significant political and humanitarian implications, reshaping the balance of power in the region and prompting discussions about the future status of Nagorno-Karabakh. Efforts to address the underlying issues and find a lasting peaceful solution to the conflict continue through diplomatic negotiations mediated by the OSCE Minsk Group co-chairs (Russia, France, and the United States)."
+    },
+    "1915": {
+      "title": "1915 Genocide",
+      "desc": "The Armenian Genocide, also known as the Armenian Holocaust, was a systematic extermination campaign carried out by the Ottoman Empire during World War I. The genocide aimed to eliminate the Armenian population and involved mass killings, forced deportations, and death marches.  In 1915, the Ottoman government enacted the Tehcir Law, which authorized the deportation and relocation of Armenians from their ancestral lands. Under the pretext of national security, Armenians were rounded up from their homes, separated from their families, and forced to march long distances to detention centers and concentration camps. These forced deportations resulted in widespread death and suffering.  The deportations were often accompanied by extreme violence, with Armenians subjected to brutal conditions, starvation, and massacres along the way. The marches of death referred to the grueling journeys endured by the deportees, where countless Armenians perished due to exhaustion, exposure to harsh elements, and systematic killings by Ottoman forces. Estimates of the number of Armenian victims vary, but it is widely accepted that over one million Armenians lost their lives during the genocide. The atrocities included mass killings, executions, forced labor, sexual violence, and the destruction of Armenian cultural and religious heritage."
+    },
+    "motivations": {
+      "title": "Motivations behind the genocide",
+      "desc": "The motivations behind the Armenian genocide are rooted in a combination of political, ethnic, and ideological factors. During the declining years of the Ottoman Empire, a rising tide of nationalism and ethno-religious tensions fueled the desire for a homogenous Turkish state. The Armenian population, seen as a distinct ethnic and religious minority, became scapegoats for the empire's woes. The nationalist Young Turks movement, which gained power in 1908, sought to establish a Turkish-dominated empire and viewed the Armenians as a threat. With the outbreak of World War I, the Armenians were accused of collaborating with enemy forces, providing a pretext for their targeted extermination. Political and military leaders implemented a systematic campaign of deportation, mass killings, forced labor, and starvation, aiming to eradicate the Armenian presence from their historic homeland. The genocide's motivations included territorial expansion, ethno-religious nationalism, and the desire to eliminate perceived threats to the Ottoman Empire's stability."
+    },
+    "hamidian": {
+      "title": "Hamidian massacre",
+      "desc": "The Hamidian Massacre, also known as the Armenian Massacres of 1894-1896, refers to a series of violent attacks against the Armenian population in the Ottoman Empire during the rule of Sultan Abdul Hamid II. The massacres were primarily motivated by religious and ethnic tensions, as well as the desire to suppress Armenian nationalist aspirations. The first major wave of massacres occurred in 1894 in the city of Sasun, followed by widespread violence targeting Armenians in various regions of the empire. The deadliest phase took place between 1895 and 1896, with massacres occurring in cities such as Istanbul, Trebizond, Van, and Diyarbakir. While specific figures are disputed, it is estimated that over 300.000 Armenians were killed during this period. The atrocities involved mass killings, forced conversions, rape, looting, and destruction of Armenian villages and churches. The Hamidian Massacre served as a prelude to the later Armenian Genocide in 1915, highlighting the persistent persecution and violence faced by the Armenian population in the Ottoman Empire. The events of the Hamidian Massacre played a significant role in shaping the Armenian national consciousness and the subsequent struggle for recognition and justice."
+    },
+    "rememberance": {
+      "title": "Legacy and rememberance",
+      "desc": "The Armenian Genocide remains a contentious issue, with denial and lack of international recognition creating ongoing debates surrounding its historical and political implications. Efforts for acknowledgment, justice, and remembrance continue as part of the Armenian struggle for recognition and the prevention of future genocides. The true scale of the Armenian Genocide may never be fully known due to the deliberate destruction of evidence and ongoing denial by some parties. \\n\\n The recognition of the Armenian Genocide has been a complex and contentious issue. Despite overwhelming evidence and scholarly consensus, the recognition of the genocide has faced significant challenges, primarily due to political considerations and denial by the Turkish government. Several countries, including Argentina, Belgium, Canada, France, Germany, Italy, the Netherlands, Russia, Sweden, and Uruguay, have officially recognized the Armenian Genocide. The European Parliament, the Council of Europe, and the World Council of Churches have also acknowledged the genocide. However, recognition has been inconsistent, and some nations have been reluctant to use the term \"genocide\" for fear of straining diplomatic relations with Turkey. The Turkish government, successor to the Ottoman Empire, vehemently denies the term \"genocide\" and contends that the events were a result of wartime conditions. The denial of the Armenian Genocide has had lasting consequences, affecting the healing process, justice for the victims, and preventing the prevention of future genocides.  The Armenian diaspora, along with scholars, activists, and human rights organizations, continue to advocate for wider recognition and acknowledgment of the genocide. Efforts for recognition have gained momentum in recent years, with more countries, institutions, and public figures openly acknowledging the Armenian Genocide. The recognition and remembrance of the Armenian Genocide are crucial steps in confronting the past, honoring the victims, and preventing similar atrocities from occurring in the future. The Armenian Genocide was recognized by the United States of American only in 2023"
+    },
+    "artsakh": {
+      "title": "Artsakh and the 1988 war with Azerbaijan",
+      "desc": "The Artsakh (Nagorno-Karabakh) conflict and the war between Armenia and Azerbaijan in 1988 were pivotal events in the region. The conflict emerged when the Nagorno-Karabakh Autonomous Oblast, primarily inhabited by ethnic Armenians, expressed its desire to join Armenia. In 1988, the regional legislature in Nagorno-Karabakh passed a resolution requesting the transfer of administrative control from Azerbaijan to Armenia. This led to protests and demonstrations, escalating tensions between the two communities. The conflict intensified in 1991 when both Armenia and Azerbaijan declared independence following the collapse of the Soviet Union. Armed clashes erupted, resulting in a full-scale war between the two countries. The war witnessed significant military operations, including the shelling of cities, ethnic cleansing, and large-scale displacement of people. The war lasted until 1994 when a ceasefire agreement was signed, leaving Nagorno-Karabakh and several surrounding regions under the control of ethnic Armenian forces. Despite the ceasefire, the conflict remained unresolved, and sporadic clashes continued over the years, leading to casualties and tensions between Armenia and Azerbaijan."
+    },
+    "further": {
+      "title": "Further conflicts in 2022",
+      "desc": "In recent events, Azerbaijan has launched attacks in various directions near the borders of Armenia, specifically targeting positions in Vardenis, Goris, Kapan, and Jermuk. The province of Syunik in southern Armenia has been occupied as a result. These attacks have not been limited to specific areas but have occurred along the entire Armenia-Azerbaijan border, including near Dilijan. Additionally, in response to the escalating conflict, young men aged 18 and above have been recruited and deployed to the front lines. The situation remains tense and continues to evolve as both sides are engaged in military actions."
+    },
+    "blockade": {
+      "title": "Ongoing blockade of Artsakh",
+      "desc": "The Lachin corridor, serving as the only passage connecting inland Armenia with Artsakh, has been effectively blocked by Azeri activists, whose actions have now been succeeded by the presence of Azerbaijani soldiers. This blockade has resulted in the isolation of Artsakh for an extended period exceeding 150 days. Consequently, the region is grappling with a severe scarcity of essential supplies, including food and medicine, which have been unable to reach those in need. Despite concerted efforts to provide humanitarian assistance, the delivery of aid has been obstructed, further exacerbating the already precarious circumstances faced by the people of Artsakh. The ongoing blockade has cast a deep shadow over the region, highlighting the urgent need for a resolution and the restoration of access to vital resources and support."
+    }
+  },
+  "projects": {
+    "portfolio": {
+      "title": "Portfolio",
+      "subtitle": "Personal presentation portfolio in Svelte",
+      "short": "Motivated by the requirement for a personal website for my maturity exam, I embraced the challenge and developed one using the Svelte framework.",
+      "long": "To push my boundaries, I chose to step out of my comfort zone and develop my portfolio website using Svelte and SvelteKit. Prior to implementation, I meticulously designed the website's layout and appearance using Figma. To cater to a wider audience, the website incorporates full translation capabilities between English and Italian, made possible through the integration of the i18n library. In terms of user experience, the website offers both a light and dark mode, allowing visitors to toggle between the two based on their preference. Ensuring easy maintenance and scalability, all the content on the website is dynamically rendered from a single source of truth. This setup enables hassle-free modifications to the website's content without the need to make changes to the source code itself.",
+      "issues": {
+        "state": "<b>Site-wide state:</b> Managing the state of the dark theme and language preference presented a challenge. I leveraged Svelte Stores to handle this, ensuring that user preferences were saved locally in the browser's local storage.",
+        "dynamic": "<b>Loading content dynamically:</b> Rather than hard-coding content and to enhance reusability, I sought a solution to load the website's content from an external source of truth. To avoid the need for a web server, I opted to utilize a \"constants.ts\" file. This file, structured based on TypeScript models, allowed for dynamic content rendering across the site.",
+        "responsive": "<b>Responsive design:</b> Crafting a responsive layout that adapted seamlessly across various devices and screen sizes was a significant challenge. I employed CSS media queries and flexible grid systems to achieve a visually appealing and functional design that catered to different viewing experiences."
+      }
+    },
+    "checkers": {
+      "subtitle": "Online checkers game",
+      "short": "Encouraged by my computer science teacher, I developed a checkers game. Initially, I considered using Java for local development, but ultimately decided to leverage web technologies like TypeScript and Next.js",
+      "long": "In my pursuit of challenging myself in developing the Checkers game, I decided to push the boundaries by creating a 3D interface. To accomplish this, I utilized Blender to design 3D models of the game pieces. To implement the 3D elements and render the models, I employed the open-source libraries Three.js and react-three-fiber. These powerful tools allowed me to create a dynamic and immersive 3D board for the game. To manage the application's state, I chose to utilize Jotai, as its atom-based state management system perfectly suited the requirements of the project. Its ease of use facilitated smooth integration within the game. Building upon my prior experience, I implemented the game using React and Next.js. These technologies provided a solid foundation and allowed me to leverage my existing knowledge effectively. Finally, thanks to Vercel, I was able to host the web page, making the game accessible and available for others to enjoy online.",
+      "issues": {
+        "state": "<b>State management:</b> The challenge involved refining the way the game's state was managed. I recognized the need for a more structured approach and created TypeScript models to represent different components of the state, such as BoardState, PieceState, and PlayerState.",
+        "moves": "<b>Calculating possible moves:</b> Implementing an algorithm to determine all possible moves a player could make posed a challenge. I developed a recursive path-finding algorithm that analyzed available moves, filtered them based on the game state, and sorted them by the number of steps the piece would take. I drew inspiration from Dijkstra's algorithm while creating this algorithm.",
+        "3d": "<b>3D modeling and rendering:</b> Creating 3D models of the checkers game pieces using Blender required skill and attention to detail. Additionally, implementing the rendering of these 3D models on the game board using Three.js and react-three-fiber was a technical challenge.",
+        "3dstate": "<b>Integrating state management with 3D interface:</b> Combining the state management system, Jotai, with the 3D interface created complexities that needed to be addressed. Ensuring smooth communication and synchronization between the game state and the 3D elements required careful coordination."
+      }
+    },
+    "letters": {
+      "subtitle": "Personal online treasure hunt for saint-valentine",
+      "short": "In celebration of Saint Valentine's Day and the desire to do something special for my long-distance relationship, I embarked on the creation of an online treasure hunt. This interactive experience allows the user to uncover the next letter or clue by solving a series of engaging puzzles"
+    },
+    "choices": {
+      "subtitle": "Decision tracking mobile application",
+      "short": "Mobile application that enables students to track and categorize their decisions.",
+      "long": "Designed for Android using Flutter, this app enables students to track and categorize their decisions, revealing correlations between past choices. By visualizing decision patterns, it promotes self-reflection and informed decision-making. With an intuitive interface, it empowers students to enhance their decision-making skills and cultivate self-awareness. Whether for academic, career, or personal choices, this app serves as a valuable tool to facilitate proactive and mindful choice management."
+    },
+    "instaclient": {
+      "short": "This open-source Python library enables developers to programmatically access Instagram features, providing a seamless way to integrate Instagram functionalities into their own applications and projects.",
+      "long": "Developed in Python 3, this library utilizes Selenium and Chromedrivers to scrape Instagram and emulate user interactions. It offers programmatic access to Instagram's functionalities, including logging in, following users, liking posts, sending DMs, and posting on the feed. The library has gained significant popularity, with over 140k downloads by developers worldwide. Its ease of use and comprehensive feature set make it a valuable tool for integrating Instagram features into various projects and applications.",
+      "subtitle": "Python open source library"
+    }
+  },
+  "contents": "contents",
+  "sidebar": {
+    "contact": "contact me"
+  },
+  "activism": {
+    "fffto": {
+      "title": "Foundation of Fridays for Future Turin",
+      "desc": "In January 2019, I, along with a group of university students from Turin, took the initiative to establish the local chapter of Fridays For Future Turin. Inspired by the global movement led by Greta Thunberg, our aim was to raise awareness about the urgency of addressing climate change. I started participating in weekly strikes every Friday, which gradually gained momentum and attracted more participants. As my involvement grew, I acquired my first megaphone and created my first banner to amplify our message during the strikes. I also began engaging with newspapers, sharing our cause and mobilizing individuals to join us in the streets. One of the significant milestones in my activism journey was the coordination of the organization for the first global strike in Turin, which took place on March 15th, 2019. This event aimed to unite people from different backgrounds in demanding immediate action to combat climate change. By working closely with fellow activists and local communities, we successfully organized and mobilized a large number of participants to raise their voices and contribute to the global movement. Through these efforts, we aimed to draw attention to the pressing need for climate action, urging governments and society to prioritize sustainability and protect our planet for future generations."
+    },
+    "fffita": {
+      "title": "Foundation of Fridays For Future Italy",
+      "desc": "Following the establishment of Fridays For Future Turin, I recognized the importance of connecting with activists from various regions in Italy who were also beginning to organize strikes. To facilitate collaboration and support the growing movement, we formed a coordination group. Our primary objective was to establish effective communication channels, disseminate information, and provide necessary materials to the newly formed local chapters. As part of this coordination effort, I actively participated in the development of the first Fridays For Future Italia website, which served as a central platform for sharing resources, event updates, and educational materials. Additionally, I played a role in managing the organization's social media accounts, helping to amplify our message and reach a broader audience. As our movement expanded, I recognized the need for a more inclusive and democratic decision-making process within the coordination group. To ensure representation from all local chapters, I reached out to existing Fridays For Future groups throughout Italy, requesting the contact information of two democratically elected delegates from each chapter. This inclusive approach led to the formation of the first coordination groups, composed of delegates representing each local chapter. These coordination groups became instrumental in organizing the first national assemblies, where activists from across the country could come together, exchange ideas, and strategize for collective action. By fostering collaboration, inclusivity, and effective communication, our coordination efforts played a vital role in uniting the diverse Fridays For Future groups across Italy and laying the foundation for a strong and cohesive national movement."
+    },
+    "fffint": {
+      "title": "International Fridays For Future network",
+      "desc": "In addition to my involvement in the local and national Fridays For Future (FFF) movements, I actively engaged with activists from Sweden and embarked on a mission to establish an international network of Fridays For Future. Collaborating with fellow activists from Sweden, we started reaching out to like-minded individuals and groups across the globe, aiming to connect and unite the growing FFF movement worldwide. By fostering international collaboration and sharing resources, we laid the groundwork for the formation of the first international network of Fridays For Future. As part of this global initiative, I took on responsibilities in managing the International Fridays For Future website. This platform served as a central hub for information sharing, event coordination, and resource dissemination for activists from various countries. Recognizing the importance of effective communication within the global FFF network, I played a role in fostering dialogue and interaction between activists worldwide. This involved monitoring and facilitating communication across various platforms to ensure that messages, updates, and discussions were disseminated efficiently among the international FFF community. Given my active involvement and dedication, I had the privilege of representing Fridays For Future Italy on the international stage. As a representative, I frequently attended international meetings and gatherings, where I had the opportunity to exchange ideas, collaborate with fellow activists, and contribute to the global FFF movement. Through these endeavors, we succeeded in establishing a strong international network of Fridays For Future, enabling activists from different countries to unite their voices and efforts in the fight for climate action and a sustainable future."
+    },
+    "eu1": {
+      "title": "First international meeting at the EU Parliament in Strasbourg",
+      "desc": "Prior to the momentous global climate strike on March 15th, 2019, I had the unique opportunity to visit the European Parliament in Strasbourg, France, where I participated in a meeting with members of the Green party. This meeting served as a platform for activists from various European countries to come together and discuss the urgent issue of climate change. Representing Italy, I joined forces with fellow activists Miriam Martinelli and Vincenzo Mautone to advocate for climate action and express the concerns and demands of the Fridays For Future movement. Together, we collaborated with activists from across Europe to draft a charter of objectives and values that would serve as a guiding framework for the burgeoning international movement. During this pivotal gathering, we not only discussed the pressing need for immediate action to combat climate change but also shared plans and strategies for the upcoming global strike. With the global strike serving as a significant milestone in our movement, we emphasized the importance of solidarity, mobilization, and raising awareness about the urgent need for climate justice. By participating in this meeting and contributing to the discussions and planning, we aimed to strengthen the international collaboration among Fridays For Future activists, laying the foundation for a unified global movement fighting for a sustainable future. The experience at the European Parliament provided a valuable platform for dialogue and coordination, enabling us to synchronize efforts and amplify our message on a global scale. The charter and plans formulated during this meeting served as a roadmap for the impactful global strike that followed, demonstrating the collective strength and determination of the Fridays For Future movement."
+    },
+    "strikes": {
+      "title": "Global climate strikes",
+      "desc": "The global climate movement reached a pivotal moment on March 15th, 2019, with the first global strike organized by Fridays For Future. As a member of the international committee responsible for coordinating this historic event, I played a significant role in shaping its trajectory. In my local community of Turin, Italy, I took on the task of organizing the strike, which garnered remarkable participation. Over 30,000 individuals from diverse backgrounds united in Turin to raise their voices for climate action, sending a powerful message to policymakers and society at large. Following the success of the initial global strike, we recognized the importance of sustaining the momentum. Consequently, we established a bi-monthly rhythm for global climate strikes, selecting dates strategically to coincide with significant events or meetings such as the United Nations Conference of Parties (COP). By aligning our strikes with these key moments, we aimed to exert maximum pressure and amplify the urgency of addressing the climate crisis. In September 2019, Turin witnessed an awe-inspiring display of solidarity as more than 100,000 people united in a resounding call for climate justice. This remarkable turnout showcased the growing awareness and determination of individuals worldwide, with millions of others joining the strikes in various locations across the globe. These global climate strikes, including the momentous gathering in Turin, served as a clear testament to the widespread demand for immediate action on climate change. Through our collective efforts, we aimed to galvanize public support, raise awareness, and compel governments and institutions to prioritize the urgent need for sustainable solutions. The impact of these strikes reverberated globally, generating significant media coverage, fostering public discourse, and inspiring further activism. They symbolized the unwavering dedication of individuals from all walks of life who were united in their determination to protect our planet's future. The collective strength and magnitude of the global climate strikes demonstrated that addressing the climate crisis is a matter of utmost importance to people worldwide. It underscored the undeniable power of grassroots movements to effect meaningful change and sent a clear message to world leaders and policymakers that climate action must be a top priority. The global climate strikes continue to inspire and mobilize individuals around the world, serving as a constant reminder of the collective power we hold in shaping a sustainable future."
+    },
+    "aachen": {
+      "title": "International strike in Aachen",
+      "desc": "In June 2019, an exciting milestone was reached in the global climate movement as we organized the first international joint strike in Aachen. This event marked a significant step forward in our efforts to unite activists from different countries and amplify our collective voice for climate action. As part of the organizing team, I took on the responsibility of guiding the Italian delegation, which consisted of 30 passionate individuals dedicated to driving change. Our mission was to ensure that the Italian contingent made its presence felt at the strike and contributed to the overall impact of the event. To facilitate the participation of activists from various regions in Italy, I organized buses that traveled from different parts of the country to Basel. From there, we joined forces with Swiss and German activists, creating a united front for the journey to Aachen."
+    },
+    "assemblee": {
+      "title": "FFF Italy national assemblies"
+    },
+    "bruxelles": {
+      "title": "Occupation of the European Parliament on election day",
+      "desc": "In a significant turn of events, I had the honor of being invited by Anuna de Waver, the prominent figure of the Belgian Fridays For Future movement, to represent Italy at an international strike in Brussels. The timing of the strike held great significance as it coincided with the upcoming European elections, offering an opportune moment to raise awareness about the urgent need for climate action. Following the impactful strike, our determination to make an even stronger statement led us to undertake a symbolic act of occupying the Parliament building. In a display of peaceful protest, we set up tents at the entrance of the Parliament, intending to draw attention to the pressing climate crisis and to demand greater political commitment to environmental sustainability. During the occupation, some of us were unfortunately arrested for our peaceful actions. However, the indomitable spirit of the movement persevered, with Luisa Neubauer, the renowned face of the German Fridays For Future movement, stepping forward to mediate with Members of Parliament and the police authorities. This mediation aimed to foster understanding and emphasize the urgency of the climate crisis, highlighting the need for bold and immediate action. This act of occupation was a testament to the commitment and dedication of activists who were willing to take a stand for the future of our planet. By occupying the Parliament, we sought to bring attention to the pressing need for lawmakers to prioritize climate issues and work towards effective solutions. The occupation and subsequent dialogue with authorities served as a powerful reminder of the strength and determination of the Fridays For Future movement. It showcased our unwavering resolve to hold those in power accountable for their actions, demanding tangible efforts to combat the climate crisis."
+    },
+    "smile": {
+      "title": "SMILE (Summer Meeting in Lausanne, Europe)",
+      "desc": "During the summer of 2019, I had the privilege of being part of the Italian delegation at the Second International Fridays For Future meeting, known as the SMILE (Summer Meeting in Lausanne, Europe). This gathering provided an invaluable opportunity for activists from different countries to come together and exchange ideas, strategies, and experiences in the fight against the climate crisis. As an active participant in the organization of the meeting, I played a significant role in shaping its overall structure and direction. One notable contribution was coining the name \\\"SMILE\\\" for the event, which symbolized our collective determination to bring positivity and hope to our shared mission. In addition to my involvement in the event's organization, I also took on the responsibility of overseeing the selection process for the Italian delegation attending the meeting. This involved reviewing applications, conducting interviews, and ultimately assembling a diverse and passionate group of Italian activists who would represent our country at the SMILE. During the meeting, intense discussions were held on various topics, including the movement's goals, objectives, values, and plans for the future. These conversations were crucial in aligning our collective vision and establishing a common framework to guide our actions moving forward. By sharing our insights and learning from each other's experiences, we were able to foster a sense of solidarity and unity within the international Fridays For Future community."
+    },
+    "senato": {
+      "title": "Meeting at the Italian Senate of the Republic",
+      "desc": "During Greta Thunberg's visit to the Italian Senate of the Republic, I had the privilege of being part of a small delegation representing the Italian Fridays For Future movement. This was an extraordinary opportunity to engage with prominent figures and contribute to the dialogue surrounding climate change. Working closely with the Roman chapter of Fridays For Future, we organized a momentous strike in Piazza del Popolo. The strike attracted an impressive turnout, with over 50,000 individuals joining us to demand immediate action to address the climate crisis. This mass mobilization showcased the growing awareness and support for climate activism in Italy. At the Italian Senate, a significant meeting took place where I had the honor of meeting and engaging in discussions with President Casellati and Greta Thunberg herself. This meeting provided a vital platform to express our concerns, share our perspectives, and advocate for more ambitious climate policies and measures."
+    },
+    "dec": {
+      "title": "Climate Emergency Declarations",
+      "desc": "During the SMILE meeting, one of the agreed-upon initiatives was the call for local institutions to declare a Climate Emergency. I actively participated in the process of drafting and securing approval for two Climate Emergency Declaration motions. The first motion was organized in my hometown of Buttigliera Alta. Together with Erika Trulla, we wrote the motion and submitted it to the local council. After careful consideration, the motion was successfully approved, attracting attention and making headlines in the valley. Additionally, I contributed to the drafting of the Climate Emergency Declaration motion for the city of Turin. Collaborating closely with the city's councilor on environment, we worked to incorporate concrete proposals into the motion. Through our collective efforts, the motion was passed, signifying the city's commitment to addressing the climate crisis. Furthermore, I helped in development of the Climate Emergency Declaration motion for the regional government of Piedmont. Unfortunately, despite our collaborative work, the motion was ultimately voted down. By actively engaging with local institutions and advocating for Climate Emergency Declarations, we aimed to raise awareness and encourage action on the pressing issue of climate change at various levels of governance."
+    },
+    "greta": {
+      "title": "Greta's climate strike in Turin",
+      "desc": "When Greta Thunberg was returning from the COP25 in Madrid in 2019, she made planned stops along the way to engage with local activists. On a Wednesday evening, I received a call from Luisa Neubauer, the prominent face of Fridays For Future Germany, informing me of Greta's intention to stop in Turin for the weekly strike on Friday. Without wasting any time, I immediately rallied my local group and we swiftly organized the event. Recognizing the need for a stage, I reached out to the NoTAV movement, who graciously provided us with one on short notice. To ensure the event's success, I also contacted local community centers in Turin, who assisted us in gathering necessary materials for an audio system. Taking on the responsibility of security, I maintained constant communication with the Digos (police) to ensure a safe and orderly gathering. Given the significance of the occasion, we invited the press to cover the event. Managing the overwhelming response, we diligently processed over 500 media requests and issued the necessary accreditations. The strike in Turin attracted approximately 10,000 participants who eagerly gathered to hear Greta Thunberg deliver a powerful speech."
+    }
+  },
+  "locations": {
+    "turin": "Turin",
+    "italy": "Italy",
+    "strasbourg": "Strasbourg, France",
+    "aachen": "Aachen, Germany",
+    "bruxelles": "Bruxelles, Belgium",
+    "lausanne": "Lausanne, Switzerland",
+    "rome": "Rome, Italy"
+  }
 }
