@@ -97,27 +97,27 @@ export interface School {
 
 // { id: 1,id: 1,beginYear: 2014, endYear: 2018, status: '', istitution: '', diploma: '', description: '', examsubjects: [], projects: [{title: '', description: '', images: [], url: ''}] }
 export const academics: School[] = [
-	{
-		id: 'giacomo-jaqueiro',
-		beginYear: 2014,
-		endYear: 2018,
-		status: 'academics.status.completed',
-		current: false,
-		short: 'academics.giacomo.short',
-		istitution: 'academics.giacomo.istitution',
-		diploma: 'academics.giacomo.diploma',
-		description: 'academics.giacomo.desc',
-		examsubjects: [],
-		projects: [
-			{
-				id: 'photo-contest',
-				title: 'academics.giacomo.projects.contest.title',
-				description: 'academics.giacomo.projects.contest.desc',
-				images: [{ src: 'projects/photo-contest.jpeg' }],
-				url: 'https://concorsofotograficogiacomojaquerio.wordpress.com/'
-			}
-		]
-	},
+	// {
+	// 	id: 'giacomo-jaqueiro',
+	// 	beginYear: 2014,
+	// 	endYear: 2018,
+	// 	status: 'academics.status.completed',
+	// 	current: false,
+	// 	short: 'academics.giacomo.short',
+	// 	istitution: 'academics.giacomo.istitution',
+	// 	diploma: 'academics.giacomo.diploma',
+	// 	description: 'academics.giacomo.desc',
+	// 	examsubjects: [],
+	// 	projects: [
+	// 		{
+	// 			id: 'photo-contest',
+	// 			title: 'academics.giacomo.projects.contest.title',
+	// 			description: 'academics.giacomo.projects.contest.desc',
+	// 			images: [{ src: 'projects/photo-contest.jpeg' }],
+	// 			url: 'https://concorsofotograficogiacomojaquerio.wordpress.com/'
+	// 		}
+	// 	]
+	// },
 	{
 		id: 'pascal',
 		beginYear: 2018,
