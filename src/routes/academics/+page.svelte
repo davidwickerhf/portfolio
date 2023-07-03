@@ -75,7 +75,7 @@
 		<div
 			class="w-full flex flex-col justify-between gap-2 z-10 pb-4 items-center @xl/content:flex-row"
 		>
-			{#each academics as school, index}
+			{#each academics.sort((a, b) => (a.beginYear > b.beginYear ? -1 : 1)) as school, index}
 				{#if index != 0}
 					<div class="border-l-[1px] h-[200%] border-green-three/30 rotate-12" />
 				{/if}

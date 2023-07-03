@@ -206,7 +206,7 @@
 	</section>
 
 	<!-- Civics -->
-	<section
+	<!-- <section
 		class="w-full flex justify-center items-center"
 		use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
 		on:inview_change={(event) => {
@@ -231,7 +231,7 @@
 				>{$_('academics.pascal.projects.armenia.title')}</ComponentLink
 			>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- Gallery -->
 	<section

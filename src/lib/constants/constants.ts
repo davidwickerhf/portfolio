@@ -3,13 +3,15 @@
 export const tabs = [
 	{ id: 1, name: 'tabs.welcome', url: '/', icon: 'home' },
 	{ id: 2, name: 'tabs.academics', url: '/academics', icon: 'school' },
-	{ id: 3, name: 'tabs.extracurriculars', url: '/extracurriculars', icon: 'camping' },
-	{ id: 4, name: 'tabs.certifications', url: '/certifications', icon: 'badge' },
 	{ id: 5, name: 'tabs.work-experience', url: '/work', icon: 'apartment' },
-	{ id: 6, name: 'tabs.civics', url: '/civics', icon: 'public' },
+	{ id: 9, name: 'tabs.personal-projects', url: '/projects', icon: 'integration_instructions' },
+	{ id: 4, name: 'tabs.certifications', url: '/certifications', icon: 'badge' },
+
+	{ id: 3, name: 'tabs.extracurriculars', url: '/extracurriculars', icon: 'camping' },
+	// { id: 6, name: 'tabs.civics', url: '/civics', icon: 'public' },
 	{ id: 7, name: 'tabs.activism', url: '/activism', icon: 'nature' },
 	{ id: 8, name: 'tabs.publications', url: '/publications', icon: 'feed' },
-	{ id: 9, name: 'tabs.personal-projects', url: '/projects', icon: 'integration_instructions' },
+
 	{ id: 10, name: 'tabs.photography', url: '/photography', icon: 'photo_camera' }
 ];
 
@@ -262,12 +264,12 @@ export const academics: School[] = [
 		description: 'academics.maas.desc',
 		examsubjects: [],
 		projects: [
-			{
-				id: 'maas-4-climate',
-				title: 'academics.maas.projects.m4c.title',
-				description: 'academics.maas.projects.m4c.desc',
-				url: 'https://www.maastrichtforclimate.nl/'
-			}
+			// {
+			// 	id: 'maas-4-climate',
+			// 	title: 'academics.maas.projects.m4c.title',
+			// 	description: 'academics.maas.projects.m4c.desc',
+			// 	url: 'https://www.maastrichtforclimate.nl/'
+			// }
 		]
 	}
 ];
@@ -397,17 +399,17 @@ export const activities: Activity[] = [
 		description: 'extracurriculars.osocc.desc',
 		url: 'https://www.oxfordclimatesociety.com/the-oxford-school-of-climate-change.html'
 	},
-	{
-		id: 'maastricht-for-climate',
-		area: ActivityArea.climate,
-		year: 2023,
-		month: 5,
-		role: 'extracurriculars.role.president',
-		activity: 'Maastricht for Climate',
-		institution: 'Maastricht for Climate',
-		institutionUrl: 'https://www.maastrichtforclimate.nl/',
-		description: 'academics.maas.projects.m4c.desc'
-	},
+	// {
+	// 	id: 'maastricht-for-climate',
+	// 	area: ActivityArea.climate,
+	// 	year: 2023,
+	// 	month: 5,
+	// 	role: 'extracurriculars.role.president',
+	// 	activity: 'Maastricht for Climate',
+	// 	institution: 'Maastricht for Climate',
+	// 	institutionUrl: 'https://www.maastrichtforclimate.nl/',
+	// 	description: 'academics.maas.projects.m4c.desc'
+	// },
 	{
 		id: 'bocconi-school',
 		area: ActivityArea.climate,
