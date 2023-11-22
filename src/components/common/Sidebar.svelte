@@ -13,9 +13,9 @@
 </script>
 
 <div
-	class="{$sidebar.scrolled && $sidebar.open ? 'w-full' : 'w-0'} {$sidebar.scrolled
-		? 'md:w-[304px]'
-		: 'w-0'} transition-all ease-in-out duration-300 flex-shrink-0 flex-grow-0"
+	class="{$sidebar.open
+		? 'w-full'
+		: 'w-0'} md:w-[304px] transition-all ease-in-out duration-300 flex-shrink-0 flex-grow-0"
 >
 	<div
 		class="flex flex-col justify-between h-[calc(100dvh-94px)] overflow-hidden border-r-2 border-alabaster-three dark:border-dark-three text-dark-three dark:text-alabaster-three"

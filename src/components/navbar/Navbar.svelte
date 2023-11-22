@@ -32,9 +32,7 @@
 			on:blur={isNotHovering}
 			on:mouseout={isNotHovering}
 			on:click={() => toggleSidebar()}
-			class="w-12 h-12 flex items-center justify-center   border-2 border-dark-three dark:border-alabaster-three hover:bg-dark-three hover:text-alabaster-three dark:text-alabaster-three dark:hover:bg-alabaster-three dark:hover:text-dark-three md:hidden {$sidebar.scrolled
-				? ''
-				: 'hidden'}"
+			class="w-12 h-12 flex items-center justify-center   border-2 border-dark-three dark:border-alabaster-three hover:bg-dark-three hover:text-alabaster-three dark:text-alabaster-three dark:hover:bg-alabaster-three dark:hover:text-dark-three md:hidden"
 		>
 			<span class="material-symbols-outlined text-lg">menu</span>
 		</div>
