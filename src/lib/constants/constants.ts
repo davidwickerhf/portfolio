@@ -3,16 +3,14 @@
 export const tabs = [
 	{ id: 1, name: 'tabs.welcome', url: '/', icon: 'home' },
 	{ id: 2, name: 'tabs.academics', url: '/academics', icon: 'school' },
-	{ id: 5, name: 'tabs.work-experience', url: '/work', icon: 'apartment' },
-	{ id: 9, name: 'tabs.personal-projects', url: '/projects', icon: 'integration_instructions' },
-	{ id: 4, name: 'tabs.certifications', url: '/certifications', icon: 'badge' },
-
-	{ id: 3, name: 'tabs.extracurriculars', url: '/extracurriculars', icon: 'camping' },
+	{ id: 3, name: 'tabs.work-experience', url: '/work', icon: 'apartment' },
+	{ id: 4, name: 'tabs.personal-projects', url: '/projects', icon: 'integration_instructions' },
+	{ id: 5, name: 'tabs.certifications', url: '/certifications', icon: 'badge' },
+	{ id: 6, name: 'tabs.extracurriculars', url: '/extracurriculars', icon: 'camping' },
 	// { id: 6, name: 'tabs.civics', url: '/civics', icon: 'public' },
 	{ id: 7, name: 'tabs.activism', url: '/activism', icon: 'nature' },
 	{ id: 8, name: 'tabs.publications', url: '/publications', icon: 'feed' },
-
-	{ id: 10, name: 'tabs.photography', url: '/photography', icon: 'photo_camera' }
+	{ id: 9, name: 'tabs.photography', url: '/photography', icon: 'photo_camera' }
 ];
 
 export const socials = [
