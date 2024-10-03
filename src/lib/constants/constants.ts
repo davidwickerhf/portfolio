@@ -268,6 +268,8 @@ export const academics: School[] = [
 			// 	description: 'academics.maas.projects.m4c.desc',
 			// 	url: 'https://www.maastrichtforclimate.nl/'
 			// }
+
+
 		]
 	}
 ];
