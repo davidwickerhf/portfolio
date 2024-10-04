@@ -269,7 +269,19 @@ export const academics: School[] = [
 			// 	url: 'https://www.maastrichtforclimate.nl/'
 			// }
 
+			// Student Ambassador
+			{
+				id: 'maas-ambassador',
+				title: 'Computer Science Student Ambassador',
+				description: ''
+			},
 
+			// Student Assistant Researcher
+			{
+				id: 'maas-researcher',
+				title: 'Student Assistant Researcher',
+				description: ''
+			}
 		]
 	}
 ];

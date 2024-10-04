@@ -14,7 +14,7 @@
 	<div class="w-fit">
 		<TextButton
 			text={$_('page.curriculum.link')}
-			url="https://drive.google.com/file/d/10lw__z7ov6mQLLrZp4P9bKCIN7doQQqC/view?usp=sharing"
+			url="https://drive.google.com/file/d/111xERcjKmdRECgvy9N8hRW-kHOxM69MX/view?usp=sharing"
 		/>
 	</div>
 </div>
